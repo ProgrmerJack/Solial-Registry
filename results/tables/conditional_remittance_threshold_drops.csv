@@ -1,0 +1,5 @@
+interpretation,country_group,drop_at_comparison_threshold_monthly_soum,drop_per_person_four_members_soum
+monthly,listed_countries,1360000,340000
+monthly,other_countries,0,0
+three_month_total,listed_countries,9520000/3,2380000/3
+three_month_total,other_countries,5440000/3,1360000/3

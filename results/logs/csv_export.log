@@ -1,0 +1,16 @@
+{
+  "csv_rows": {
+    "income_boundaries": 10,
+    "land_original_cases": 9,
+    "self_employment": 4,
+    "land_integer_grid": 4105,
+    "land_grid_summary": 4,
+    "hardship_boundary_cases": 12,
+    "conditional_remittance_cases": 16,
+    "conditional_remittance_threshold_drops": 4,
+    "tax_floor_cases": 24,
+    "informal_income_cases": 8,
+    "goat_cases": 6
+  },
+  "validation": "all exported cells and row counts round-trip exactly"
+}

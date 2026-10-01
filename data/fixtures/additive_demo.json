@@ -1,0 +1,85 @@
+{
+  "kind": "synthetic",
+  "config": {
+    "version": "SYNTHETIC-NOT-UZBEK-POLICY",
+    "variables": [
+      {
+        "name": "test_a",
+        "weight": "1",
+        "min": "0",
+        "max": "30"
+      },
+      {
+        "name": "test_b",
+        "weight": "-1/2",
+        "min": "0",
+        "max": "4"
+      }
+    ],
+    "thresholds": [
+      "10",
+      "20"
+    ],
+    "labels": [
+      "test_category_0",
+      "test_category_1",
+      "test_category_2"
+    ]
+  },
+  "records": [
+    {
+      "id": "s1",
+      "values": {
+        "test_a": "9",
+        "test_b": "0"
+      },
+      "reference_category": "test_category_0"
+    },
+    {
+      "id": "s2",
+      "values": {
+        "test_a": "10",
+        "test_b": "0"
+      },
+      "reference_category": "test_category_1"
+    },
+    {
+      "id": "s3",
+      "values": {
+        "test_a": "20",
+        "test_b": "0"
+      },
+      "reference_category": "test_category_2"
+    },
+    {
+      "id": "s4",
+      "values": {
+        "test_a": "21",
+        "test_b": "4"
+      },
+      "reference_category": "test_category_1"
+    },
+    {
+      "id": "s5",
+      "values": {
+        "test_a": "11",
+        "test_b": null
+      },
+      "reference_category": "test_category_1"
+    },
+    {
+      "id": "s6",
+      "values": {
+        "test_a": null,
+        "test_b": "0"
+      }
+    },
+    {
+      "id": "s7",
+      "values": {
+        "test_a": "0",
+        "test_b": "0"
+      }
+    }
+  ]
+}

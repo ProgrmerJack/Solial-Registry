@@ -1,0 +1,5 @@
+region_class,male_coefficient,female_coefficient,male_monthly_normative_income_soum,female_monthly_normative_income_soum,monthly_difference_soum,per_person_monthly_contribution_difference_four_members_soum
+Tashkent,2.7,2.3,3672000,3128000,544000,136000
+Nukus_and_regional_centres,2.4,2,3264000,2720000,544000,136000
+other_cities,2.1,1.7,2856000,2312000,544000,136000
+other_administrative_units,1.8,1.4,2448000,1904000,544000,136000

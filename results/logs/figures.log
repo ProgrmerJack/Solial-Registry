@@ -1,0 +1,8 @@
+{
+  "figures": [
+    "results/figures/01_hardship.png",
+    "results/figures/02_land.png",
+    "results/figures/03_remittances.png"
+  ],
+  "format": "monochrome PDF vectors and PNG previews"
+}

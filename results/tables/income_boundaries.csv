@@ -1,0 +1,11 @@
+boundary_multiple,offset_soum,income_soum,former_primary,predicates.paragraph_33a_primary_income_refusal,predicates.paragraph_32_primary_recognition_when_no_other_refusal,predicates.paragraph_39b_primary_income_condition,predicates.paragraph_39v_former_primary_borderline_condition,predicates.paragraph_33_registry_income_refusal,predicates.primary_recognition_and_category_predicates_disagree
+1,-1,714999,False,False,True,True,False,False,False
+1,0,715000,False,False,True,False,False,False,True
+1,1,715001,False,True,False,False,False,False,False
+3/2,-1,1072499,False,True,False,False,False,False,False
+3/2,0,1072500,False,True,False,False,False,False,False
+3/2,1,1072501,False,True,False,False,False,False,False
+2,-1,1429999,False,True,False,False,False,False,False
+2,0,1430000,False,True,False,False,False,False,False
+2,1,1430001,False,True,False,False,False,True,False
+1,0,715000,True,False,True,False,True,False,True

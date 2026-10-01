@@ -1,0 +1,259 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./explanatory_note_uz.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/extsizes/size14.clo)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.out)
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.out)
+Underfull \hbox (badness 4072) in paragraph at lines 43--44
+\TU/LiberationSerif(0)/m/n/14.05249 Ushbu qism hisoblash talablarini tushuntiru
+vchi ishchi texnik materialdir.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\TU/LiberationSerif(0)/m/n/14.05249 Tasdiqlangan qoida umumiy holda \TU/Liber
+ationMono(0)/m/n/14.05249 C =
+
+Underfull \hbox (badness 1968) in paragraph at lines 59--60
+[]\TU/LiberationSerif(0)/m/n/14.05249 Ishchi dasturda sinov uchun \TU/Liberatio
+nMono(0)/m/n/14.05249 C(S) = |{t: t $[]$ S}| \TU/LiberationSerif(0)/m/n/14.0524
+9 ishlatiladi, ya’ni
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[]\TU/LiberationSerif(0)/m/n/14.05249 Takror hisoblash nomuvofiqligi: \TU/Liber
+ationMono(0)/m/n/14.05249 R = nomuvofiq toifalar soni /
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\TU/LiberationMono(0)/m/n/14.05249 / ssenariyda ikkala toifasi aniqlangan holat
+lar soni\TU/LiberationSerif(0)/m/n/14.05249 . Hisobotda
+
+Underfull \hbox (badness 1472) in paragraph at lines 65--66
+\TU/LiberationSerif(0)/m/n/14.05249 oraliqlar, chegaraga tenglik va nazorat toi
+fasi bilan solishtirishni namoyish
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\TU/LiberationMono(0)/m/n/10 6 480 000 / 5 /
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]|\TU/LiberationSerif(0)/m/n/10 Misol
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\TU/LiberationSerif(0)/m/n/10 may–iyul davri saqlangan;
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\TU/LiberationMono(0)/m/n/10 P =
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\TU/LiberationSerif(0)/m/n/10 avvalgi asosiy
+
+Underfull \hbox (badness 4569) in paragraph at lines 78--79
+\TU/LiberationSerif(0)/m/n/10 toifadan chiqarilmagan va og‘ir
+
+Underfull \hbox (badness 2809) in paragraph at lines 78--79
+\TU/LiberationSerif(0)/m/n/10 tutadi, 39-band esa mos toifani
+
+Underfull \hbox (badness 4752) in paragraph at lines 78--79
+\TU/LiberationSerif(0)/m/n/10 bermaydi. Operatsion qarorlar
+
+Underfull \hbox (badness 2573) in paragraph at lines 78--79
+\TU/LiberationSerif(0)/m/n/10 tekshirilmagan. PF-258 3-band
+
+Underfull \hbox (badness 1584) in paragraph at lines 79--79
+[]|\TU/LiberationSerif(0)/m/n/10 27-band yer formulasi: tuzilgan
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\TU/LiberationMono(0)/m/n/10 100 − 90 − min(20, 200) =
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]|\TU/LiberationMono(0)/m/n/10 0 $[]$ QM $[]$ UM \TU/LiberationSerif(0)/m/n/10
+ algebraik
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\TU/LiberationSerif(0)/m/n/10 bunday holat mavjudligi yoki
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\TU/LiberationSerif(0)/m/n/10 Shu yer holatining bir oylik
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\TU/LiberationMono(0)/m/n/10 −10 / 100 $[]$ 0,035 $[]$ 1 360
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]|\TU/LiberationMono(0)/m/n/10 M = 1 360
+
+Underfull \hbox (badness 2050) in paragraph at lines 80--81
+\TU/LiberationSerif(0)/m/n/10 qiymat; mahalla koeffitsiyenti \TU/LiberationMono
+(0)/m/n/10 1
+
+Underfull \hbox (badness 6559) in paragraph at lines 80--81
+\TU/LiberationSerif(0)/m/n/10 farazi. Taklif etilayotgan nol
+
+Underfull \hbox (badness 6477) in paragraph at lines 80--81
+\TU/LiberationSerif(0)/m/n/10 amaldagi formula natijasi bilan
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\TU/LiberationSerif(0)/m/n/10 23-banddagi erkak/ayol
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\TU/LiberationMono(0)/m/n/10 0,4M = 544 000
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+\TU/LiberationSerif(0)/m/n/10 yoki noto‘g‘ri yordam
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+\TU/LiberationSerif(0)/m/n/10 tayinlashning o‘lchovi emas.
+
+Underfull \hbox (badness 2096) in paragraph at lines 82--82
+[]|\TU/LiberationSerif(0)/m/n/10 Yer formulasining kengaytirilgan
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\TU/LiberationMono(0)/m/n/10 UM = 100, 1000, 1001,
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[]|\TU/LiberationSerif(0)/m/n/10 Bu tuzilgan holatlar soni,
+
+Underfull \hbox (badness 1931) in paragraph at lines 83--83
+[]|\TU/LiberationSerif(0)/m/n/10 Og‘ir vaziyat yo‘lining daromad
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\TU/LiberationSerif(0)/m/n/10 34–35-bandlarning daromad
+
+Underfull \hbox (badness 2512) in paragraph at lines 83--84
+\TU/LiberationSerif(0)/m/n/10 kamaytirilgan \TU/LiberationMono(0)/m/n/10 0,75D 
+\TU/LiberationSerif(0)/m/n/10 ni umumiy
+
+Underfull \hbox (badness 1424) in paragraph at lines 83--84
+\TU/LiberationMono(0)/m/n/10 [P; 1,5P] \TU/LiberationSerif(0)/m/n/10 oralig‘iga
+ qo‘yish bu
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\TU/LiberationSerif(0)/m/n/10 shartli
+ [2]
+Underfull \hbox (badness 2302) in paragraph at lines 90--91
+[]\TU/LiberationSerif(0)/m/n/14.05249 Muhokama uchun, tenglikni asosiy toifaga 
+kiritish varianti tanlansa,
+
+Underfull \hbox (badness 2277) in paragraph at lines 96--99
+\TU/LiberationSerif(0)/m/n/14.05249 hisoblanganda, minimal iste’mol xarajatlari
+ miqdoridan yuqori,
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
+\TU/LiberationSerif(0)/m/n/14.05249 «mahalla yettiligi»ning
+
+Underfull \hbox (badness 1102) in paragraph at lines 96--99
+\TU/LiberationSerif(0)/m/n/14.05249 tekshiriladi; kamaytirilgan daromad minimal
+ iste’mol xarajatlari
+
+Underfull \hbox (badness 3701) in paragraph at lines 96--99
+\TU/LiberationSerif(0)/m/n/14.05249 belgilangan miqdor va qayta baholashga doir
+ qonunchilikdagi
+
+Underfull \hbox (badness 2142) in paragraph at lines 101--102
+\TU/LiberationSerif(0)/m/n/14.05249 va 25 foiz kamaytirilgan daromad bir xil qi
+ymat sifatida taqqoslanmaydi.
+[3]
+Underfull \hbox (badness 3557) in paragraph at lines 103--104
+[]\TU/LiberationSerif(0)/b/n/14.05249 Taqrizdan keyingi qo‘shimcha nazorat hola
+ti (dastlabki holatlar
+
+Underfull \hbox (badness 1735) in paragraph at lines 103--104
+\TU/LiberationSerif(0)/m/n/14.05249 oilaning uch oylik daromadi \TU/LiberationM
+ono(0)/m/n/14.05249 8 580 000 \TU/LiberationSerif(0)/m/n/14.05249 so‘m bo‘lsin.
+ Oddiy daromad \TU/LiberationMono(0)/m/n/14.05249 8
+
+Underfull \hbox (badness 1454) in paragraph at lines 109--111
+\TU/LiberationSerif(0)/m/n/14.05249 Bunda \TU/LiberationMono(0)/m/n/14.05249 mi
+n \TU/LiberationSerif(0)/m/n/14.05249 qavs ichidagi qiymatlarning eng kichigini
+, \TU/LiberationMono(0)/m/n/14.05249 max \TU/LiberationSerif(0)/m/n/14.05249 es
+a
+
+Underfull \hbox (badness 1205) in paragraph at lines 109--111
+\TU/LiberationSerif(0)/m/n/14.05249 eng kattasini bildiradi. TEM qiymati manfiy
+ bo‘lishi mumkin
+
+Underfull \hbox (badness 1019) in paragraph at lines 109--111
+\TU/LiberationSerif(0)/m/n/14.05249 qiymatidan katta bo‘lganda, ushbu ma’lumot 
+vakolatli manbada
+
+Underfull \hbox (badness 7869) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/m/n/14.05249 borligi tasdiqlanmagan. Yer solig‘i koeffit
+siyentini olish va normativ
+
+Underfull \hbox (badness 1478) in paragraph at lines 117--118
+[]\TU/LiberationSerif(0)/m/n/14.05249 Kengaytirilgan audit ikki \TU/LiberationS
+erif(0)/b/n/14.05249 shartli \TU/LiberationSerif(0)/m/n/14.05249 talqinni alohi
+da hisoblaydi; ulardan
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+[]\TU/LiberationSerif(0)/m/n/14.05249 Ushbu natijalar koeffitsiyentlarni bekor 
+qilish,
+[5]
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux) )
+(see the transcript file for additional information)
+Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
+ry_note_uz.pdf (5 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/expla
+natory_note_uz.log.

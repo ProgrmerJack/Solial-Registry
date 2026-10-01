@@ -1,0 +1,10 @@
+total_m2,buildings_m2,deduction_m2,literal_area_m2,literal_monthly_normative_income_soum,negative_literal_area,proposed_zero_floor_area_m2,proposed_zero_floor_monthly_income_soum
+0,0,0,0,0,False,0,0
+100,0,20,80,38080,False,80,38080
+100,80,20,0,0,False,0,0
+100,90,20,-10,-4760,True,0,0
+1000,800,200,0,0,False,0,0
+1000,801,200,-1,-476,True,0,0
+1001,801,200,0,0,False,0,0
+2000,1801,200,-1,-476,True,0,0
+2000,0,200,1800,856800,False,1800,856800

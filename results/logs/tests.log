@@ -1,0 +1,36 @@
+test_real_output_replays (test_provenance.ProvenanceTests.test_real_output_replays) ... ok
+test_stale_code_hash_rejected (test_provenance.ProvenanceTests.test_stale_code_hash_rejected) ... ok
+test_stale_input_hash_rejected (test_provenance.ProvenanceTests.test_stale_input_hash_rejected) ... ok
+test_tampered_result_rejected (test_provenance.ProvenanceTests.test_tampered_result_rejected) ... ok
+test_area_cap_boundary (test_scoring.VerificationTests.test_area_cap_boundary) ... ok
+test_bad_geometry_and_parameters_rejected (test_scoring.VerificationTests.test_bad_geometry_and_parameters_rejected) ... ok
+test_complete_land_grid_and_independent_negative_count (test_scoring.VerificationTests.test_complete_land_grid_and_independent_negative_count) ... ok
+test_conditional_remittance_discontinuities (test_scoring.VerificationTests.test_conditional_remittance_discontinuities) ... ok
+test_degenerate_missing_range_still_requires_review (test_scoring.VerificationTests.test_degenerate_missing_range_still_requires_review) ... ok
+test_duplicate_ids_and_unknown_reference_rejected (test_scoring.VerificationTests.test_duplicate_ids_and_unknown_reference_rejected) ... ok
+test_empty_records_rejected (test_scoring.VerificationTests.test_empty_records_rejected) ... ok
+test_exact_decimal_arithmetic (test_scoring.VerificationTests.test_exact_decimal_arithmetic) ... ok
+test_former_category_control_and_refusal_boundary (test_scoring.VerificationTests.test_former_category_control_and_refusal_boundary) ... ok
+test_goat_fractional_exemption (test_scoring.VerificationTests.test_goat_fractional_exemption) ... ok
+test_hand_derived_demo_counts (test_scoring.VerificationTests.test_hand_derived_demo_counts) ... ok
+test_hardship_exact_intervals (test_scoring.VerificationTests.test_hardship_exact_intervals) ... ok
+test_invalid_config_rejected (test_scoring.VerificationTests.test_invalid_config_rejected) ... ok
+test_invalid_divisors_rejected (test_scoring.VerificationTests.test_invalid_divisors_rejected) ... ok
+test_invalid_numbers_rejected (test_scoring.VerificationTests.test_invalid_numbers_rejected) ... ok
+test_invalid_rows_rejected (test_scoring.VerificationTests.test_invalid_rows_rejected) ... ok
+test_legal_audit_scope_and_coefficient_units (test_scoring.VerificationTests.test_legal_audit_scope_and_coefficient_units) ... ok
+test_literal_negative_land_separate_from_proposal (test_scoring.VerificationTests.test_literal_negative_land_separate_from_proposal) ... ok
+test_missing_is_not_zero (test_scoring.VerificationTests.test_missing_is_not_zero) ... ok
+test_negative_weight_interval (test_scoring.VerificationTests.test_negative_weight_interval) ... ok
+test_no_comparable_reference_has_no_rate (test_scoring.VerificationTests.test_no_comparable_reference_has_no_rate) ... ok
+test_official_income_equality_gap (test_scoring.VerificationTests.test_official_income_equality_gap) ... ok
+test_official_published_income_example (test_scoring.VerificationTests.test_official_published_income_example) ... ok
+test_review_hardship_counterexample (test_scoring.VerificationTests.test_review_hardship_counterexample) ... ok
+test_tax_floor_and_monotonicity (test_scoring.VerificationTests.test_tax_floor_and_monotonicity) ... ok
+test_threshold_equality_and_both_sides (test_scoring.VerificationTests.test_threshold_equality_and_both_sides) ... ok
+test_wrong_reference_is_detected (test_scoring.VerificationTests.test_wrong_reference_is_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.185s
+
+OK

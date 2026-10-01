@@ -1,0 +1,13 @@
+ordinary_income_soum,adjusted_income_soum,special_route_income_conditions,general_interval_using_ordinary_income,general_interval_using_adjusted_income,special_route_excluded_by_ordinary_interval,special_route_excluded_by_adjusted_interval,boundary_multiple,offset_soum
+714999,2144997/4,False,False,False,False,False,1,-1
+715000,536250,False,True,False,False,False,1,0
+715001,2145003/4,True,True,False,False,True,1,1
+2859997/3,2859997/4,True,True,False,False,True,4/3,-1
+2860000/3,715000,True,True,True,False,False,4/3,0
+2860003/3,2860003/4,True,True,True,False,False,4/3,1
+1072499,3217497/4,True,True,True,False,False,3/2,-1
+1072500,804375,True,True,True,False,False,3/2,0
+1072501,3217503/4,True,False,True,True,False,3/2,1
+1429999,4289997/4,True,False,True,True,False,2,-1
+1430000,1072500,True,False,True,True,False,2,0
+1430001,4290003/4,False,False,False,False,False,2,1

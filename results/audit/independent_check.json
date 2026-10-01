@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "method": "Independent piecewise and integer inequalities; no imported rule functions",
+  "frozen_case_inventory_verified": true,
+  "income_cases_checked": 10,
+  "land_cases_checked": 4105,
+  "negative_land_cases_by_plot": {
+    "100": 20,
+    "1000": 200,
+    "1001": 200,
+    "2000": 200
+  },
+  "hardship_cases_checked": 12,
+  "tax_cases_checked": 24,
+  "conditional_remittance_cases_checked": 16,
+  "goat_cases_checked": 6,
+  "audit_sha256": "bb40834809fc237ed312d41c6ae16415823d91d760686c710c86e67a38f040ae",
+  "input_mode": "saved report bytes",
+  "verifier_sha256": "6c7c562083d3c8536769b99c735988220ed5ec7e2d17015a0f52e189fda69938",
+  "command": "python scripts/verify_results.py"
+}

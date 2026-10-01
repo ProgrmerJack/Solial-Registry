@@ -1,0 +1,157 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./research_paper.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
+[1] [2] [3] [4] [5] (../results/tables/land_summary.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]|\TU/LiberationSerif(0)/m/n/10 Maximum
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+\TU/LiberationSerif(0)/m/n/10 floor change
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\TU/LiberationSerif(0)/m/n/10 Total constructed
+) [6] (../results/tables/remittance_summary.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]|\TU/LiberationSerif(0)/m/n/10 Monthly contribution
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]|\TU/LiberationSerif(0)/m/n/10 Per-person drop, four
+[7]) (../results/tables/coefficient_summary.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\TU/LiberationSerif(0)/m/n/10 Nukus / regional
+[8])
+Underfull \hbox (badness 2573) in paragraph at lines 188--188
+[]|\TU/LiberationSerif(0)/m/n/10 Existing rules requiring
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\TU/LiberationSerif(0)/m/n/10 Equality and hardship
+
+Underfull \hbox (badness 4927) in paragraph at lines 191--191
+[]|\TU/LiberationSerif(0)/m/n/10 PF-258 §3 and Annex
+
+Underfull \hbox (badness 2103) in paragraph at lines 191--191
+\TU/LiberationSerif(0)/m/n/10 1 notes; Resolution 35
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+[]|\TU/LiberationSerif(0)/m/n/10 Coordinated category
+
+Underfull \hbox (badness 1199) in paragraph at lines 191--192
+\TU/LiberationSerif(0)/m/n/10 amendment and explicit
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §27;
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+[]|\TU/LiberationSerif(0)/m/n/10 Formula amendment
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+\TU/LiberationSerif(0)/m/n/10 plus geometry/source
+
+Underfull \hbox (badness 1360) in paragraph at lines 193--193
+[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §§18–19,
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §48;
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\TU/LiberationSerif(0)/m/n/10 information-exchange
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+[]|\TU/LiberationSerif(0)/m/n/10 Traceable emergency
+
+Underfull \hbox (badness 3919) in paragraph at lines 194--195
+\TU/LiberationSerif(0)/m/n/10 version and subsequent
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\TU/LiberationSerif(0)/m/n/10 Independent recalcu-
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\TU/LiberationSerif(0)/m/n/10 lation and unresolved
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\TU/LiberationSerif(0)/m/n/10 Registry, reassessment
+
+Underfull \hbox (badness 2799) in paragraph at lines 195--196
+[]|\TU/LiberationSerif(0)/m/n/10 Prespecified verification
+
+Underfull \hbox (badness 2150) in paragraph at lines 196--197
+\TU/LiberationSerif(0)/m/n/10 sis through lawful pro-
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]|\TU/LiberationSerif(0)/m/n/10 Protected research and
+[9] [10] [11] [12] [13] (./references.tex [14]) [15] [16]
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux) )
+(see the transcript file for additional information)
+Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
+paper.pdf (16 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/resea
+rch_paper.log.

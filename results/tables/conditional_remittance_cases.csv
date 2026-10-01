@@ -1,0 +1,17 @@
+reported_comparison_value_soum,comparison_period_interpretation,imputation_applied,monthly_contribution_soum,country_group,offset_soum
+2719999,monthly,True,4080000,listed_countries,-1
+2720000,monthly,False,2720000,listed_countries,0
+2720001,monthly,False,2720001,listed_countries,1
+,monthly,True,4080000,listed_countries,
+2719999,monthly,True,2720000,other_countries,-1
+2720000,monthly,False,2720000,other_countries,0
+2720001,monthly,False,2720001,other_countries,1
+,monthly,True,2720000,other_countries,
+2719999,three_month_total,True,4080000,listed_countries,-1
+2720000,three_month_total,False,2720000/3,listed_countries,0
+2720001,three_month_total,False,906667,listed_countries,1
+,three_month_total,True,4080000,listed_countries,
+2719999,three_month_total,True,2720000,other_countries,-1
+2720000,three_month_total,False,2720000/3,other_countries,0
+2720001,three_month_total,False,906667,other_countries,1
+,three_month_total,True,2720000,other_countries,
