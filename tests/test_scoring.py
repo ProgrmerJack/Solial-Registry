@@ -5,7 +5,7 @@ import json,unittest
 from pathlib import Path
 from social_registry.numeric import number
 from social_registry.additive import config,calculate,evaluate
-from social_registry.rules import (monthly_per_person,income_predicates,land_calculation,legal_audit,hardship_review_check,extended_audit,hardship_predicates,remittance_monthly,tax_normative_monthly,goat_normative_monthly)
+from social_registry.rules import (monthly_per_person,income_predicates,land_calculation,legal_audit,hardship_review_check,extended_audit,hardship_predicates,remittance_monthly,remittance_monthly_proposed,tax_normative_monthly,goat_normative_monthly)
 DEMO=json.loads((Path(__file__).resolve().parents[1]/"data/fixtures/additive_demo.json").read_text())
 
 class VerificationTests(unittest.TestCase):
@@ -199,6 +199,29 @@ class VerificationTests(unittest.TestCase):
             self.assertFalse(at["imputation_applied"])
             self.assertEqual(number(before["monthly_contribution_soum"])-number(at["monthly_contribution_soum"]), expected)
             self.assertTrue(remittance_monthly(None, m, multiple, period)["imputation_applied"])
+
+    def test_proposed_remittance_rule_is_monotone(self):
+        m = 1360000
+        for multiple in (2, 3):
+            self.assertEqual(remittance_monthly_proposed(None, m, multiple), multiple*m)
+            self.assertEqual(remittance_monthly_proposed(multiple*m-1, m, multiple), multiple*m)
+            self.assertEqual(remittance_monthly_proposed(multiple*m+1, m, multiple), multiple*m+1)
+            vals = [remittance_monthly_proposed(q, m, multiple) for q in range(0, 4*m+1, 1000)]
+            self.assertEqual(vals, sorted(vals))
+        # The current monthly reading is not monotone for listed countries: more remittance, less income.
+        current = [number(remittance_monthly(q, m, 3, "monthly")["monthly_contribution_soum"])
+                   for q in range(0, 4*m+1, 1000)]
+        self.assertNotEqual(current, sorted(current))
+        with self.assertRaises(ValueError):
+            remittance_monthly_proposed(-1, m, 3)
+
+    def test_hardship_route_conflicts_under_both_interval_readings(self):
+        # Paragraphs 34-35 admit D=1.2P and D=1.8P; paragraph 39(v) excludes one under each reading.
+        p = 715000
+        ordinary_excluded = hardship_predicates("1287000", str(p))
+        adjusted_excluded = hardship_predicates("858000", str(p))
+        self.assertTrue(ordinary_excluded["special_route_excluded_by_ordinary_interval"])
+        self.assertTrue(adjusted_excluded["special_route_excluded_by_adjusted_interval"])
 
     def test_tax_floor_and_monotonicity(self):
         # Independent crossover: with base 100, 120 of tax over three months.

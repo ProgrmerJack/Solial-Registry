@@ -95,6 +95,18 @@ def remittance_monthly(reported, remuneration, imputation_multiple, interpretati
             "imputation_applied": imputed, "monthly_contribution_soum": str(monthly)}
 
 
+def remittance_monthly_proposed(monthly_average, remuneration, imputation_multiple):
+    """Proposed paragraph 26: normative income applies when the monthly average is unknown or below it."""
+    wage = number(remuneration)
+    require(wage > 0 and imputation_multiple in (2, 3), "invalid remittance parameters")
+    normative = imputation_multiple * wage
+    if monthly_average is None:
+        return normative
+    value = number(monthly_average)
+    require(value >= 0, "negative remittance")
+    return max(value, normative)
+
+
 def tax_normative_monthly(tax_total_three_months, base_monthly):
     total, base = number(tax_total_three_months), number(base_monthly)
     require(total >= 0 and base > 0, "invalid tax parameters")

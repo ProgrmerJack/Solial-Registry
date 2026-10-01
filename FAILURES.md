@@ -135,3 +135,8 @@ Prevention: require dated workload, time, contract and funding evidence before a
 Cause: differing Russian prefixes stopped the first batch after its English save; later selector prechecks prevented further partial saves.
 Correction: inspect exact maintained lines, validate all selectors and complete bounded replacements in each language.
 Prevention: retain a recoverable edit command and validate exact language-specific anchors before mutation.
+
+2026-10-01 — Could not query the national draft-consultation portal programmatically.
+Cause: regulation.gov.uz search ignores filters and its listing needs login; /uz/d/ IDs 115000–117200 are local drafts only; regulation.adliya.uz API paths guessed from its JS bundle return 404.
+Correction: stopped after three distinct approaches; relied on web search (no PF-193 implementing draft found as of 2026-10-01).
+Prevention: check the portal manually in a browser (or ask the user) before claiming a draft is or is not published.
