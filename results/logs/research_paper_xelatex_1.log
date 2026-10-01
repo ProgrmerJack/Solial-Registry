@@ -40,7 +40,142 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
 (/usr/share/texmf-dist/tex/latex/tools/array.sty)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
-(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+ (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
+oader.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+ext.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
+x)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
+.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-xetex.def
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-dvipdfmx.def))))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathmorphing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathreplacing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathreplacing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
+.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+plotmarks.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex))
+)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots
+.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex)) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
@@ -68,90 +203,240 @@ For additional information on amsmath, use the `?' option.
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
+
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
-[1] [2] [3] [4] [5] (../results/tables/land_summary.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[]|\TU/LiberationSerif(0)/m/n/10 Maximum
+[1]
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-\TU/LiberationSerif(0)/m/n/10 floor change
+LaTeX Warning: Citation `ref28' on page 2 undefined on input line 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\TU/LiberationSerif(0)/m/n/10 Total constructed
-) [6] (../results/tables/remittance_summary.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-[]|\TU/LiberationSerif(0)/m/n/10 Monthly contribution
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[]|\TU/LiberationSerif(0)/m/n/10 Per-person drop, four
-[7]) (../results/tables/coefficient_summary.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\TU/LiberationSerif(0)/m/n/10 Nukus / regional
-[8])
-Underfull \hbox (badness 2573) in paragraph at lines 188--188
-[]|\TU/LiberationSerif(0)/m/n/10 Existing rules requiring
+LaTeX Warning: Citation `ref29' on page 2 undefined on input line 73.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\TU/LiberationSerif(0)/m/n/10 Equality and hardship
 
-Underfull \hbox (badness 4927) in paragraph at lines 191--191
-[]|\TU/LiberationSerif(0)/m/n/10 PF-258 §3 and Annex
+LaTeX Warning: Citation `ref30' on page 2 undefined on input line 73.
 
-Underfull \hbox (badness 2103) in paragraph at lines 191--191
-\TU/LiberationSerif(0)/m/n/10 1 notes; Resolution 35
+[2] [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Maximum
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-[]|\TU/LiberationSerif(0)/m/n/10 Coordinated category
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+\TU/LiberationSerif(0)/m/n/11.04124 floor change
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Monthly contribution
 
-Underfull \hbox (badness 1199) in paragraph at lines 191--192
-\TU/LiberationSerif(0)/m/n/10 amendment and explicit
+Underfull \hbox (badness 1286) in paragraph at lines 205--206
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Per-person drop, four
+[8] [9]
+Underfull \hbox (badness 4779) in paragraph at lines 279--279
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Audit finding or re-
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §27;
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Proposed annex
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-[]|\TU/LiberationSerif(0)/m/n/10 Formula amendment
+Underfull \hbox (badness 2617) in paragraph at lines 279--279
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Existing rules requir-
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-\TU/LiberationSerif(0)/m/n/10 plus geometry/source
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Optional coordinated
 
-Underfull \hbox (badness 1360) in paragraph at lines 193--193
-[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §§18–19,
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+\TU/LiberationSerif(0)/m/n/11.04124 category amendment;
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\TU/LiberationSerif(0)/m/n/10 Resolution 35 §48;
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Resolution 35 §27;
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\TU/LiberationSerif(0)/m/n/10 information-exchange
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Optional formula
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-[]|\TU/LiberationSerif(0)/m/n/10 Traceable emergency
+Underfull \hbox (badness 5119) in paragraph at lines 283--284
+\TU/LiberationSerif(0)/m/n/11.04124 amendment; required
 
-Underfull \hbox (badness 3919) in paragraph at lines 194--195
-\TU/LiberationSerif(0)/m/n/10 version and subsequent
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+\TU/LiberationSerif(0)/m/n/11.04124 geometry/source
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/LiberationSerif(0)/m/n/10 Independent recalcu-
+Underfull \hbox (badness 1924) in paragraph at lines 284--284
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Reference period and
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-\TU/LiberationSerif(0)/m/n/10 lation and unresolved
+Underfull \hbox (badness 4467) in paragraph at lines 284--284
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Resolution 35 §§18–
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/LiberationSerif(0)/m/n/10 Registry, reassessment
+Underfull \hbox (badness 7649) in paragraph at lines 284--285
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Explicit unit, period
 
-Underfull \hbox (badness 2799) in paragraph at lines 195--196
-[]|\TU/LiberationSerif(0)/m/n/10 Prespecified verification
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Resolution 35 §48;
 
-Underfull \hbox (badness 2150) in paragraph at lines 196--197
-\TU/LiberationSerif(0)/m/n/10 sis through lawful pro-
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+\TU/LiberationSerif(0)/m/n/11.04124 information-exchange
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
-[]|\TU/LiberationSerif(0)/m/n/10 Protected research and
-[9] [10] [11] [12] [13] (./references.tex [14]) [15] [16]
-(/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux) )
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Traceable emergency
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Independent recalcu-
+
+Underfull \hbox (badness 1466) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 lation and unresolved
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Prespecified verifi-
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\TU/LiberationSerif(0)/m/n/11.04124 cation with separate
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Reasons, corrections
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/LiberationSerif(0)/m/n/11.04124 SMS/reassessment
+
+Underfull \hbox (badness 2426) in paragraph at lines 287--288
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Access to calculation
+
+Underfull \hbox (badness 7504) in paragraph at lines 287--288
+\TU/LiberationSerif(0)/m/n/11.04124 basis through lawful
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Approved method-
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+\TU/LiberationSerif(0)/m/n/11.04124 ology, dated legal
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+\TU/LiberationSerif(0)/m/n/11.04124 parameters, payment
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+\TU/LiberationSerif(0)/m/n/11.04124 and data-retention
+
+Underfull \hbox (badness 4316) in paragraph at lines 289--290
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Written technical ac-
+ [10] [11]
+
+LaTeX Warning: Citation `ref21' on page 12 undefined on input line 314.
+
+
+LaTeX Warning: Citation `ref22' on page 12 undefined on input line 314.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\TU/LiberationSerif(0)/m/n/11.04124 10 constructed rows; one
+
+Underfull \hbox (badness 7081) in paragraph at lines 325--325
+\TU/LiberationSerif(0)/m/n/11.04124 former-category control; de-
+
+Underfull \hbox (badness 4429) in paragraph at lines 325--325
+\TU/LiberationSerif(0)/m/n/11.04124 clared able-to-work applicant
+
+Underfull \hbox (badness 5331) in paragraph at lines 325--326
+\TU/LiberationSerif(0)/m/n/11.04124 dates and complete recogni-
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Qualifying circumstances,
+
+Underfull \hbox (badness 1648) in paragraph at lines 326--327
+\TU/LiberationSerif(0)/m/n/11.04124 valid recommendation, quota,
+
+Underfull \hbox (badness 3612) in paragraph at lines 326--327
+\TU/LiberationSerif(0)/m/n/11.04124 reassessment and interactions
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+\TU/LiberationSerif(0)/m/n/11.04124 with primary/former-category
+
+Underfull \hbox (badness 2359) in paragraph at lines 327--328
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Authoritative same-parcel ge-
+
+Underfull \hbox (badness 1270) in paragraph at lines 327--328
+\TU/LiberationSerif(0)/m/n/11.04124 ometry, valid noninteger area
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Meaning and completeness
+
+Underfull \hbox (badness 1817) in paragraph at lines 329--330
+[]|\TU/LiberationSerif(0)/m/n/11.04124 One lawfully settled compar-
+
+Underfull \hbox (badness 3482) in paragraph at lines 329--330
+\TU/LiberationSerif(0)/m/n/11.04124 ison period, sender aggrega-
+
+Underfull \hbox (badness 1571) in paragraph at lines 329--330
+\TU/LiberationSerif(0)/m/n/11.04124 tion, duplicate handling, cur-
+
+Underfull \hbox (badness 1436) in paragraph at lines 329--330
+\TU/LiberationSerif(0)/m/n/11.04124 rency conversion and source-
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Other species, mixed hold-
+
+Underfull \hbox (badness 1721) in paragraph at lines 330--331
+\TU/LiberationSerif(0)/m/n/11.04124 ings, exemptions, period and
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+\TU/LiberationSerif(0)/m/n/11.04124 authorized rounding; not
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Official formula, do-
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+\TU/LiberationSerif(0)/m/n/11.04124 stration cannot validate an
+[12] [13] [14] [15] [16]
+
+LaTeX Warning: Citation `ref23' on page 17 undefined on input line 386.
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 386--387
+[]\TU/LiberationSerif(0)/m/n/12 OECD/JRC recommends examining how composite out
+puts depend on variable
+[17]
+
+LaTeX Warning: Citation `ref20' on page 18 undefined on input line 405.
+
+
+LaTeX Warning: Citation `ref19' on page 18 undefined on input line 410.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 412--413
+\TU/LiberationSerif(0)/m/n/12 and channels: legal reconciliation, independent e
+xpected-answer cases, affected integra-
+
+LaTeX Warning: Citation `ref24' on page 18 undefined on input line 423.
+
+
+LaTeX Warning: Citation `ref25' on page 18 undefined on input line 423.
+
+[18]
+
+LaTeX Warning: Citation `ref31' on page 19 undefined on input line 431.
+
+[19]
+
+LaTeX Warning: Citation `ref26' on page 20 undefined on input line 440.
+
+
+LaTeX Warning: Citation `ref27' on page 20 undefined on input line 440.
+
+[20] [21] [22]
+Underfull \hbox (badness 2173) in paragraph at lines 520--521
+[]\TU/LiberationSerif(0)/m/n/12 Government portal. \TU/LiberationSerif(0)/b/n/1
+2 Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar
+[23] [24]
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `research_paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
-paper.pdf (16 pages).
+paper.pdf (24 pages).
 Transcript written on /home/xola/GitHub/Solial Registry/results/documents/resea
 rch_paper.log.

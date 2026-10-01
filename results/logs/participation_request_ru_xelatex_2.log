@@ -1,0 +1,250 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./participation_request_ru.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/extsizes/size14.clo)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/home/xola/GitHub/Solial Registry/results/documents/participation_request_ru.a
+ux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(/home/xola/GitHub/Solial Registry/results/documents/participation_request_ru.o
+ut)
+(/home/xola/GitHub/Solial Registry/results/documents/participation_request_ru.o
+ut)
+Underfull \hbox (badness 4060) in paragraph at lines 42--43
+[]\TU/LiberationSerif(0)/m/n/14.05249 В Национальное агентство социальной защит
+ы при Президенте
+
+Underfull \hbox (badness 1019) in paragraph at lines 48--49
+[]\TU/LiberationSerif(0)/m/n/14.05249 Место жительства: город Ташкент, Юнусабад
+ский район, массив
+
+Underfull \hbox (badness 2635) in paragraph at lines 53--54
+\TU/LiberationSerif(0)/m/n/14.05249 Представляю авторские положения о проверке 
+многомерных расчётов,
+
+Underfull \hbox (badness 1024) in paragraph at lines 53--54
+\TU/LiberationSerif(0)/m/n/14.05249 включения в проект, разрабатываемый по пунк
+там 13–14 PF-193 от 11
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/14.05249 законными
+
+Underfull \hbox (badness 1337) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/14.05249 задача законно выполнима в пределах имеющих
+ся полномочий, прошу
+
+Underfull \hbox (badness 5908) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/14.05249 прежде всего — краткую альтернативу из пяти
+ пунктов либо
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\TU/LiberationSerif(0)/m/n/14.05249 Рассмотреть организацию научно-техническо
+го обсуждения с
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[]\TU/LiberationSerif(0)/m/n/14.05249 Рассмотреть предоставление текущего
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+\TU/LiberationSerif(0)/m/n/14.05249 записи
+
+Underfull \hbox (badness 3439) in paragraph at lines 62--63
+\TU/LiberationSerif(0)/m/n/14.05249 повторной работы. Для непокрытой задачи про
+шу определить
+
+Underfull \hbox (badness 1215) in paragraph at lines 62--63
+\TU/LiberationSerif(0)/m/n/14.05249 счётчик не предлагается как оценка мощности
+. Записи семей и
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\TU/LiberationSerif(0)/m/n/14.05249 По каждому предложению указать включённую
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\TU/LiberationSerif(0)/m/n/14.05249 разработкой соответствующих проверочных нор
+м
+
+Underfull \hbox (badness 1152) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 внутренней проверки. Прошу прежде всего рас
+смотреть пять кратких
+
+Underfull \hbox (badness 1237) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 альтернативных пунктов материала 1 в основн
+ом проекте PF-193 либо
+
+Underfull \hbox (badness 5231) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 — вариант объединения, не дополнительное со
+вокупное требование.
+
+Underfull \hbox (badness 1577) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 то же обязательное последствие. Охват случа
+ев тестами не заменяет
+
+Underfull \hbox (badness 1127) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 отсутствующий правовой критерий. Авторитетн
+ое ограничение входов
+
+Underfull \hbox (badness 1454) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 указании источника, области и даты; новый к
+ритерий толкованием не
+
+Underfull \hbox (badness 1043) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 право или освобождение от долга. Дополнител
+ьные часы, договорное
+
+Underfull \hbox (badness 1755) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 покрытие, мощность и средства не подтвержде
+ны; предметом расчёта
+[2]
+Underfull \hbox (badness 7558) in paragraph at lines 71--72
+[]\TU/LiberationSerif(0)/m/n/14.05249 Прошу зарегистрировать обращение по стать
+е 23 Закона «Об
+
+Underfull \hbox (badness 1622) in paragraph at lines 71--72
+\TU/LiberationSerif(0)/m/n/14.05249 вопрос не относится к полномочиям получател
+я, прошу по закону об
+
+Underfull \hbox (badness 1776) in paragraph at lines 71--72
+\TU/LiberationSerif(0)/m/n/14.05249 обращениях направить его компетентному орга
+ну в пятидневный срок
+
+Underfull \hbox (badness 2012) in paragraph at lines 71--72
+\TU/LiberationSerif(0)/m/n/14.05249 и письменно либо электронно уведомить меня.
+ Вопросы нескольких
+
+Underfull \hbox (badness 1205) in paragraph at lines 73--74
+\TU/LiberationSerif(0)/m/n/14.05249 дополнительного изучения; об этом заявитель
+ письменно уведомляется
+
+Underfull \hbox (badness 3428) in paragraph at lines 73--74
+\TU/LiberationSerif(0)/m/n/14.05249 отдельном рассмотрении прошу указать примен
+ённый вид обращения
+
+Underfull \hbox (badness 4673) in paragraph at lines 73--74
+\TU/LiberationSerif(0)/m/n/14.05249 и срок; срок предложения не навязывается об
+ращению иного вида.
+
+Underfull \hbox (badness 1237) in paragraph at lines 73--74
+\TU/LiberationSerif(0)/m/n/14.05249 При непринятии предложения или просьбы прош
+у разъяснить порядок
+[3]
+Underfull \hbox (badness 3039) in paragraph at lines 77--78
+\TU/LiberationSerif(0)/m/n/14.05249 с законным основанием и обезличиванием. Син
+тетические примеры
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\TU/LiberationSerif(0)/m/n/14.05249 или нуждаемости. Аудит опубликованных
+
+Underfull \hbox (badness 2065) in paragraph at lines 77--78
+\TU/LiberationSerif(0)/m/n/14.05249 контроль равенства дохода минимальным потре
+бительским расходам и
+
+Underfull \hbox (badness 1087) in paragraph at lines 83--84
+\TU/LiberationSerif(0)/m/n/14.05249 28 пунктов для интеграции с действующим зак
+онным контролем.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\TU/LiberationSerif(0)/m/n/14.05249 норм, обоснование исполнения
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\TU/LiberationSerif(0)/m/n/14.05249 Материал 3 — «Научное и правовое обоснова
+ние»:
+
+Underfull \hbox (badness 2401) in paragraph at lines 87--88
+\TU/LiberationSerif(0)/m/n/14.05249 Три материала и вычислительное дополнение п
+редоставляются вместе
+
+Underfull \hbox (badness 3942) in paragraph at lines 87--88
+\TU/LiberationSerif(0)/m/n/14.05249 с обращением. Их содержание и расчётные выв
+оды доступны для
+
+Underfull \hbox (badness 2608) in paragraph at lines 87--88
+\TU/LiberationSerif(0)/m/n/14.05249 что допускается статьёй 6 закона об обращен
+иях. Узбекская версия
+
+Underfull \hbox (badness 5696) in paragraph at lines 89--90
+\TU/LiberationSerif(0)/m/n/14.05249 Подготовлены точные рациональные расчёты де
+йствующих открытых
+
+Underfull \hbox (badness 3449) in paragraph at lines 89--90
+\TU/LiberationSerif(0)/m/n/14.05249 формул, независимая арифметическая проверка
+ и автоматизированные
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\TU/LiberationSerif(0)/m/n/14.05249 Электронное вычислительное дополнение сод
+ержит порядок
+
+Underfull \hbox (badness 1194) in paragraph at lines 91--92
+\TU/LiberationSerif(0)/m/n/14.05249 выполнения, точные входы, ожидаемые ответы,
+ независимую проверку
+[5]
+(/home/xola/GitHub/Solial Registry/results/documents/participation_request_ru.a
+ux) )
+(see the transcript file for additional information)
+Output written on /home/xola/GitHub/Solial Registry/results/documents/participa
+tion_request_ru.pdf (5 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/parti
+cipation_request_ru.log.

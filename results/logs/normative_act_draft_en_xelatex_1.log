@@ -1,0 +1,166 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./normative_act_draft_en.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/extsizes/size14.clo)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+No file normative_act_draft_en.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 49--49
+\TU/LiberationSerif(0)/m/n/14.05249 with registry assessment, category assignme
+nt, assistance, complaints and
+[1]
+Underfull \hbox (badness 1112) in paragraph at lines 50--50
+\TU/LiberationSerif(0)/m/n/14.05249 evidence; duplicate controls and procuremen
+ts shall not be required. The
+[2]
+Underfull \hbox (badness 1117) in paragraph at lines 57--57
+\TU/LiberationSerif(0)/m/n/14.05249 “Inson” social services centres (hereinafte
+r, Inson centres). The following
+
+Underfull \hbox (badness 2158) in paragraph at lines 64--65
+[]\TU/LiberationSerif(0)/b/n/14.05249 unresolved data \TU/LiberationSerif(0)/m/
+n/14.05249 means data not received, not confirmed, mutually
+[1]
+Underfull \hbox (badness 1286) in paragraph at lines 73--73
+\TU/LiberationSerif(0)/m/n/14.05249 into a second report. Protected parts remai
+n available only to authorized
+[2]
+Underfull \hbox (badness 1052) in paragraph at lines 78--78
+\TU/LiberationSerif(0)/m/n/14.05249 The temporary record links affected sources
+, calculations and versions and
+
+Underfull \hbox (badness 1199) in paragraph at lines 80--80
+| \TU/LiberationSerif(0)/m/n/14.05249 12. Before deployment or a change capable
+ of affecting the score,
+
+Underfull \hbox (badness 2547) in paragraph at lines 80--80
+\TU/LiberationSerif(0)/m/n/14.05249 category or decision ground, the implementa
+tion shall be compared with
+
+Underfull \hbox (badness 1412) in paragraph at lines 82--82
+\TU/LiberationSerif(0)/m/n/14.05249 shall state the number of cases changing ca
+tegory because of the data or
+[3]
+Underfull \hbox (badness 2189) in paragraph at lines 85--85
+| \TU/LiberationSerif(0)/m/n/14.05249 17. Where calculations contrary to the ap
+proved methodology are
+
+Underfull \hbox (badness 1184) in paragraph at lines 85--85
+\TU/LiberationSerif(0)/m/n/14.05249 paths are retested; if the impact domain ca
+nnot be determined, the whole
+[4] [5]
+Underfull \hbox (badness 3547) in paragraph at lines 93--93
+| \TU/LiberationSerif(0)/m/n/14.05249 23. The verification protocol shall be ma
+intained internally with
+
+Underfull \hbox (badness 1735) in paragraph at lines 93--93
+\TU/LiberationSerif(0)/m/n/14.05249 the existing release and oversight records.
+ It shall identify the rule and
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+| \TU/LiberationSerif(0)/m/n/14.05249 25. The Agency head or a
+
+Underfull \hbox (badness 2495) in paragraph at lines 97--97
+| \TU/LiberationSerif(0)/m/n/14.05249 26. A calculation release with a demonstr
+ated score, category or
+
+Underfull \hbox (badness 1052) in paragraph at lines 97--97
+\TU/LiberationSerif(0)/m/n/14.05249 outage power applies only within its statut
+ory subject matter. No manual
+[6]
+Underfull \hbox (badness 1248) in paragraph at lines 99--99
+| \TU/LiberationSerif(0)/m/n/14.05249 28. The Agency shall determine record cat
+egories, lawful retention
+
+Underfull \hbox (badness 1968) in paragraph at lines 99--99
+\TU/LiberationSerif(0)/m/n/14.05249 period and basis, access powers, correction
+ history and anonymisation or
+[7]
+Underfull \hbox (badness 4266) in paragraph at lines 104--105
+\TU/LiberationSerif(0)/m/n/14.05249 equality, exception precedence, units and p
+eriods, normative imputation,
+
+Underfull \hbox (badness 1931) in paragraph at lines 106--107
+[]\TU/LiberationSerif(0)/m/n/14.05249 2. The Agency shall ensure conformity to 
+the lawfully applicable
+[8] [9]
+(/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_en.aux
+)
+
+Package rerunfilecheck Warning: File `normative_act_draft_en.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
+_act_draft_en.pdf (11 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/norma
+tive_act_draft_en.log.

@@ -1,4 +1,2 @@
 matplotlib==3.11.2
-Markdown==3.11
-beautifulsoup4==4.15.0
 pypdf==6.19.0

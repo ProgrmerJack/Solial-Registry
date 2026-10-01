@@ -1,0 +1,702 @@
+%%
+%% This is file `russianb.ldf',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% russianb.dtx  (with options: `code')
+%% ----------------------------------------------------------------
+%% Russian Language Support for the Babel package
+%% 
+%% Released under the LaTeX Project Public License v1.3c or later
+%% See http://www.latex-project.org/lppl.txt
+%% 
+%% Current version 1.3m dated by 2021-01-10
+%% 
+%% Submit feature request at https://github.com/kia999/babel-russian
+%% ----------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesFile{russianb.ldf}[2021/01/10 1.3m Russian support for the Babel system]
+\ProvidesLanguage{russian}
+    [2020/09/09 1.3k Russian support for the Babel system]
+\LdfInit{russian}{captionsrussian}
+\ifdefined\if@uni@ode
+  \PackageError{babel}{if@uni@ode already defined.\MessageBreak
+    Please contact author of russianb.ldf}
+  \relax
+\fi
+\newif\if@uni@ode
+\ifdefined\luatexversion \@uni@odetrue \else
+\ifdefined\XeTeXrevision \@uni@odetrue \fi\fi
+\ifx\l@russian\@undefined
+  \@nopatterns{Russian}
+  \adddialect\l@russian0
+\fi
+\def\@setcyrillicencoding{%
+  \def\sce@a##1##2{%
+    \edef\sce@b{##1}%
+    \edef\sce@c{##2}%
+    \ifx\sce@b\sce@c
+      \let\cyrillicencoding\sce@c
+    \fi}%
+  \def\cdp@elt##1##2##3##4{%
+    \sce@a{##1}{OT2}%
+    \sce@a{##1}{LCY}%
+    \sce@a{##1}{X2}%
+    \sce@a{##1}{T2C}%
+    \sce@a{##1}{T2B}%
+    \sce@a{##1}{T2A}%
+    \if@uni@ode
+      %\sce@a{##1}{EU1}%
+      %\sce@a{##1}{EU2}%
+      \sce@a{##1}{TU}%
+    \fi}%
+  \cdp@list
+}
+\ifx\cyrillicencoding\undefined
+  \@setcyrillicencoding
+\fi
+\@onlypreamble\@setcyrillicencoding
+\@onlypreamble\sce@a
+\@onlypreamble\sce@b
+\@onlypreamble\sce@c
+\ifx\cyrillicencoding\undefined
+  \if@uni@ode
+    %\ifdefined\XeTeXrevision
+    %  \edef\cyrillicencoding{EU1}
+    %\else\ifdefined\luatexversion
+    %  \edef\cyrillicencoding{EU2}
+    %\fi\fi
+    \edef\cyrillicencoding{TU}
+  \else
+    \edef\cyrillicencoding{T2A}
+  \fi
+  \PackageWarning{babel}%
+    {No Cyrillic font encoding has been loaded so far.\MessageBreak
+     A font encoding should be declared before babel.\MessageBreak
+     Default `\cyrillicencoding' encoding will be loaded
+    }%
+  \lowercase\expandafter{\expandafter\input\cyrillicencoding enc.def\relax}%
+  \AtBeginDocument{\@setcyrillicencoding}
+\fi
+\DeclareRobustCommand{\Russian}{\selectlanguage{russian}}
+\DeclareRobustCommand{\cyrillictext}{%
+  \fontencoding\cyrillicencoding\selectfont
+  \let\encodingdefault\cyrillicencoding
+  \expandafter\set@hyphenmins\russianhyphenmins
+  \language\l@russian}%
+\let\cyr\cyrillictext
+%%\DeclareRobustCommand{\English}{%
+%%  \fontencoding\latinencoding\selectfont
+%%  \let\encodingdefault\latinencoding
+%%  \expandafter\set@hyphenmins\englishhyphenmins
+%%  \language\l@english}%
+%%\let\Eng\English
+%%\DeclareRobustCommand{\latintext}{%
+%%  \fontencoding{\latinencoding}\selectfont
+%%  \def\encodingdefault{\latinencoding}}
+%%\let\lat\latintext
+\DeclareTextFontCommand{\textcyrillic}{\cyrillictext}
+%%\expandafter\ifx\csname T@X2\endcsname\relax\else
+%%  \DeclareTextSymbolDefault{\AA}{OT1}
+%%  \DeclareTextSymbolDefault{\aa}{OT1}
+%%  \DeclareTextCommand{\aa}{OT1}{\r a}
+%%  \DeclareTextCommand{\AA}{OT1}{\r A}
+%%\fi
+%%\@ifpackageloaded{inputenc}{%
+%%% \if@uni@ode
+%%%   \PackageWarning{babel}{inputenc should not be used with LuaTeX or XeTeX}
+%%% \fi
+%% \ifdefined\luatexversion
+%%   \PackageWarning{babel}{inputenc should not be used with LuaTeX}
+%% \fi}{%
+%%  %\def\reserved@a{LWN}%
+%%  %\ifx\reserved@a\cyrillicencoding\else
+%%    \def\reserved@a{OT2}%
+%%    \ifx\reserved@a\cyrillicencoding\else
+%%       \def\reserved@a{TU}%
+%%       \ifx\reserved@a\cyrillicencoding\else
+%%         \PackageWarning{babel}%
+%%           {No input encoding specified for Russian language}
+%%    \fi\fi
+%%  %\fi
+%%}
+\initiate@active@char{"}
+%%\def\mdqon{\bbl@activate{"}}
+%%\def\mdqoff{\bbl@deactivate{"}}
+\begingroup \catcode`\"12
+\def\reserved@a{\endgroup
+  \def\@SS{\mathchar"7019 }
+  \def\dq{"}}
+\reserved@a
+\declare@shorthand{russian}{"`}{\quotedblbase}
+\declare@shorthand{russian}{"'}{\textquotedblleft}
+\declare@shorthand{russian}{"<}{\guillemotleft}
+\declare@shorthand{russian}{">}{\guillemotright}
+\providecommand\texorpdfstring[2]{#1}
+\declare@shorthand{russian}{""}{\hskip\z@skip}
+\declare@shorthand{russian}{"~}{\texorpdfstring{\textormath{\leavevmode\hbox{-}}{-}}{-}}
+\declare@shorthand{russian}{"=}{\nobreak-\hskip\z@skip}
+\declare@shorthand{russian}{"|}{%
+  \texorpdfstring{%
+   \textormath{\nobreak\discretionary{-}{}{\kern.03em}\allowhyphens}{}}{}}
+\declare@shorthand{russian}{"-}{%
+  \texorpdfstring{\def\russian@sh@tmp{%
+    \if\russian@sh@next-\expandafter\russian@sh@emdash
+    \else\expandafter\russian@sh@hyphen\fi}%
+  \futurelet\russian@sh@next\russian@sh@tmp}{-}}
+\def\russian@sh@hyphen{\nobreak\-\bbl@allowhyphens}
+\def\russian@sh@emdash#1#2{\cdash-#1#2}
+\def\cdash#1#2#3{\def\tempx@{#3}%
+\def\tempa@{-}\def\tempb@{~}\def\tempc@{*}%
+ \ifx\tempx@\tempa@\@Acdash\else
+  \ifx\tempx@\tempb@\@Bcdash\else
+   \ifx\tempx@\tempc@\@Ccdash\else
+    \errmessage{Wrong usage of cdash}\fi\fi\fi}
+\def\@Acdash{\ifdim\lastskip>\z@\unskip\nobreak\hskip.2em\fi
+  \cyrdash\hskip.2em\ignorespaces}%
+\def\@Bcdash{\leavevmode\ifdim\lastskip>\z@\unskip\fi
+ \nobreak\cyrdash\penalty\exhyphenpenalty\hskip\z@skip\ignorespaces}%
+\def\@Ccdash{\leavevmode
+ \nobreak\cyrdash\nobreak\hskip.35em\ignorespaces}%
+\declare@shorthand{russian}{",}{\nobreak\hskip.2em\ignorespaces}
+\PackageInfo{babel}{Default for \string\cyrdash\space is provided}
+%%\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}%
+%%  {\hbox to.8em{--\hss--}}{\textemdash}}
+\ProvideTextCommandDefault{\cyrdash}{\textemdash}
+\if@uni@ode
+  %\captionsrussian@modern
+  \addto\captionsrussian{%
+    \def\prefacename{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^b8^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b8^^d0^^b5}%   [babel]
+    \def\refname{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^bb^^d0^^b8^^d1^^82^^d0^^b5^^d1^^80^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}% [only article]
+    \def\abstractname{^^d0^^90^^d0^^bd^^d0^^bd^^d0^^be^^d1^^82^^d0^^b0^^d1^^86^^d0^^b8^^d1^^8f}%    [only article, report]
+    \def\bibname{^^d0^^9b^^d0^^b8^^d1^^82^^d0^^b5^^d1^^80^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d0^^b0}%        [only book, report]
+    \def\chaptername{^^d0^^93^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^b0}%         [only book, report]
+    \def\appendixname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}%
+    \@ifundefined{thechapter}
+      {\def\contentsname{^^d0^^a1^^d0^^be^^d0^^b4^^d0^^b5^^d1^^80^^d0^^b6^^d0^^b0^^d0^^bd^^d0^^b8^^d0^^b5}}%
+      {\def\contentsname{^^d0^^9e^^d0^^b3^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}}%
+    \let\tocname=\contentsname
+    \def\listfigurename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d0^^b8^^d0^^b9}%
+    \def\listtablename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86}%
+    \def\indexname{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d0^^b5^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\authorname{^^d0^^98^^d0^^bc^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^be^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\figurename{^^d0^^a0^^d0^^b8^^d1^^81.}%
+    \def\tablename{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d0^^b0}%
+    \def\partname{^^d0^^a7^^d0^^b0^^d1^^81^^d1^^82^^d1^^8c}%
+    \def\enclname{^^d0^^b2^^d0^^ba^^d0^^bb.}%
+    \def\ccname{^^d0^^b8^^d1^^81^^d1^^85.}%
+    \def\headtoname{^^d0^^b2^^d1^^85.}%
+    \def\pagename{^^d1^^81.}%               [letter]
+    \def\seename{^^d1^^81^^d0^^bc.}%
+    \def\alsoname{^^d1^^81^^d0^^bc.\ ^^d1^^82^^d0^^b0^^d0^^ba^^d0^^b6^^d0^^b5}%
+    \def\proofname{^^d0^^94^^d0^^be^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c^^d1^^81^^d1^^82^^d0^^b2^^d0^^be}%  [amsthm]
+    \def\glossaryname{^^d0^^a1^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8c ^^d1^^82^^d0^^b5^^d1^^80^^d0^^bc^^d0^^b8^^d0^^bd^^d0^^be^^d0^^b2}%
+    \def\acronymname{^^d0^^90^^d0^^b1^^d0^^b1^^d1^^80^^d0^^b5^^d0^^b2^^d0^^b8^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}%  [glossaries] {Acronyms}
+    \def\lstlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3}%    [listings]  (the environment) {Listing}
+    \def\lstlistlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3^^d0^^b8}% [listings]  (the "List of") {Listings}
+    \def\notesname{^^d0^^97^^d0^^b0^^d0^^bc^^d0^^b5^^d1^^82^^d0^^ba^^d0^^b8}%         [endnotes] {Notes}
+  }%
+  %% =========================================
+  %% nomencl
+  \ifdefined\nomname
+    \addto\captionsrussian{%
+        \def\nomname{^^d0^^9e^^d0^^b1^^d0^^be^^d0^^b7^^d0^^bd^^d0^^b0^^d1^^87^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%
+        \def\eqdeclaration#1{, ^^d1^^81^^d0^^bc.\nobreakspace(#1)}%
+        \def\pagedeclaration#1{, ^^d1^^81^^d1^^82^^d1^^80.\nobreakspace#1}%
+    }%
+  \fi
+  %% =========================================
+  %% RevTeX4 & RevTeX4-1
+  %%\@ifclassloaded{revtex4-1}
+  %%{<true code>}
+  %%{<false coode>}%
+  %\@ifclassloaded{revtex4-1}
+  %{%
+  \ifnum\@ifclassloaded{revtex4}{1}{\@ifclassloaded{revtex4-1}{1}{0}}>0
+    \addto\captionsrussian{%
+    \def\lofname{\listfigurename}
+    \def\lotname{\listtablename}
+    \def\figuresname{^^d0^^a0^^d0^^b8^^d1^^81^^d1^^83^^d0^^bd^^d0^^ba^^d0^^b8}%{Figures}%
+    \def\tablesname{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8b}%{Tables}%
+    \def\appendixesname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%{Appendixes}%
+    \def\acknowledgmentsname{^^d0^^91^^d0^^bb^^d0^^b0^^d0^^b3^^d0^^be^^d0^^b4^^d0^^b0^^d1^^80^^d0^^bd^^d0^^be^^d1^^81^^d1^^82^^d0^^b8}%{Acknowledgments}
+    \def\andname{^^d0^^b8}%{and}
+    \def\@pacs@name{PACS ^^d0^^ba^^d0^^be^^d0^^b4^^d1^^8b: }%{PACS numbers: }%
+    \def\@keys@name{^^d0^^9a^^d0^^bb^^d1^^8e^^d1^^87^^d0^^b5^^d0^^b2^^d1^^8b^^d0^^b5 ^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0: }%{Keywords: }%
+    \def\Dated@name{^^d0^^94^^d0^^b0^^d1^^82^^d0^^b0: }%{Dated: }%
+    \def\Received@name{^^d0^^9f^^d0^^be^^d0^^bb^^d1^^83^^d1^^87^^d0^^b5^^d0^^bd^^d0^^be }%{Received }%
+    \def\Revised@name{^^d0^^98^^d1^^81^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^8f }%{Revised }%
+    \def\Accepted@name{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bd^^d1^^8f^^d1^^82^^d0^^be }%{Accepted }%
+    \def\Published@name{^^d0^^9e^^d0^^bf^^d1^^83^^d0^^b1^^d0^^bb^^d0^^b8^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d0^^bd^^d0^^be }%{Published }%
+    }%
+  %}{}%
+  \fi
+  \addto\captionsrussian@ancient{%
+    \def\prefacename{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^b8^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d1^^96^^d0^^b5}%
+    \def\refname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bc^^d1^^a3^^d1^^87^^d0^^b0^^d0^^bd^^d1^^96^^d1^^8f}%
+    \def\abstractname{^^d0^^90^^d0^^bd^^d0^^bd^^d0^^be^^d1^^82^^d0^^b0^^d1^^86^^d1^^96^^d1^^8f}%
+    \def\bibname{^^d0^^91^^d0^^b8^^d0^^b1^^d0^^bb^^d1^^96^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0^^d1^^84^^d1^^96^^d1^^8f}%
+    \def\chaptername{^^d0^^93^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^b0}%
+    \def\appendixname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d1^^96^^d0^^b5}%
+    \@ifundefined{thechapter}
+      {\def\contentsname{^^d0^^a1^^d0^^be^^d0^^b4^^d0^^b5^^d1^^80^^d0^^b6^^d0^^b0^^d0^^bd^^d1^^96^^d0^^b5}}%
+      {\def\contentsname{^^d0^^9e^^d0^^b3^^d0^^bb^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d1^^96^^d0^^b5}}%
+    \let\tocname=\contentsname
+    \def\listfigurename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d1^^96^^d0^^b9}%
+    \def\listtablename{^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8a}%
+    \def\indexname{^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d1^^a3^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\authorname{^^d0^^98^^d0^^bc^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^be^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c}%
+    \def\figurename{^^d0^^a0^^d0^^b8^^d1^^81.}%
+    \def\tablename{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d0^^b0}%
+    \def\partname{^^d0^^a7^^d0^^b0^^d1^^81^^d1^^82^^d1^^8c}%
+    \def\enclname{^^d0^^b2^^d0^^ba^^d0^^bb.}%
+    \def\ccname{^^d0^^b8^^d1^^81^^d1^^85.}%
+    \def\headtoname{^^d0^^b2^^d1^^85.}%
+    \def\pagename{^^d1^^81.}%
+    \def\seename{^^d1^^81^^d0^^bc.}%
+    \def\alsoname{^^d1^^81^^d0^^bc.~^^d1^^82^^d0^^b0^^d0^^ba^^d0^^b6^^d0^^b5}%
+    \def\proofname{^^d0^^94^^d0^^be^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c^^d1^^81^^d1^^82^^d0^^b2^^d0^^be}%
+    \def\glossaryname{^^d0^^a1^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8c ^^d1^^82^^d0^^b5^^d1^^80^^d0^^bc^^d0^^b8^^d0^^bd^^d0^^be^^d0^^b2}%
+    \def\acronymname{^^d0^^90^^d0^^b1^^d0^^b1^^d1^^80^^d0^^b5^^d0^^b2^^d0^^b8^^d0^^b0^^d1^^82^^d1^^83^^d1^^80^^d1^^8b}%
+    \def\lstlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3}%
+    \def\lstlistlistingname{^^d0^^9b^^d0^^b8^^d1^^81^^d1^^82^^d0^^b8^^d0^^bd^^d0^^b3^^d0^^b8}%
+    %\ifdefined\nomname
+    % see http://old_russian.academic.ru/8433/%D0%BE%D0%B1%D1%8A%CB%AB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%A5
+      \def\nomname{^^d0^^9e^^d0^^b1^^d0^^be^^d0^^b7^^d0^^bd^^d0^^b0^^d1^^87^^d0^^b5^^d0^^bd^^d1^^96^^d1^^8f}%{^^d0^^9e^^d0^^b1^^d1^^8a^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^a5}% <-- #0465
+    %\fi
+    \def\notesname{^^d0^^97^^d0^^b0^^d0^^bc^^d0^^b5^^d1^^82^^d0^^ba^^d0^^b8}%
+  }
+  %% =========================================
+  %% RevTeX4 & RevTeX4-1
+  %\@ifclassloaded{revtex4-1}
+  %{%
+  \ifnum\@ifclassloaded{revtex4}{1}{\@ifclassloaded{revtex4-1}{1}{0}}>0
+    \addto\captionsrussian@ancient{%
+    \def\lofname{\listfigurename}
+    \def\lotname{\listtablename}
+    \def\figuresname{^^d0^^a0^^d0^^b8^^d1^^81^^d1^^83^^d0^^bd^^d0^^ba^^d0^^b8}%{Figures}%
+    \def\tablesname{^^d0^^a2^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8b}%{Tables}%
+    \def\appendixesname{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bb^^d0^^be^^d0^^b6^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f}%{Appendixes}%
+    \def\acknowledgmentsname{^^d0^^91^^d0^^bb^^d0^^b0^^d0^^b3^^d0^^be^^d0^^b4^^d0^^b0^^d1^^80^^d0^^bd^^d0^^be^^d1^^81^^d1^^82^^d0^^b8}%{Acknowledgments}
+    \def\andname{^^d0^^b8}%{and}
+    \def\@pacs@name{PACS ^^d0^^ba^^d0^^be^^d0^^b4^^d1^^8b: }%{PACS numbers: }%
+    \def\@keys@name{^^d0^^9a^^d0^^bb^^d1^^8e^^d1^^87^^d0^^b5^^d0^^b2^^d1^^8b^^d0^^b5 ^^d1^^81^^d0^^bb^^d0^^be^^d0^^b2^^d0^^b0: }%{Keywords: }%
+    \def\Dated@name{^^d0^^94^^d0^^b0^^d1^^82^^d0^^b0: }%{Dated: }%
+    \def\Received@name{^^d0^^9f^^d0^^be^^d0^^bb^^d1^^83^^d1^^87^^d0^^b5^^d0^^bd^^d0^^be }%{Received }%
+    \def\Revised@name{^^d0^^98^^d1^^81^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^bd^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^8f }%{Revised }%
+    \def\Accepted@name{^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bd^^d1^^8f^^d1^^82^^d0^^be }%{Accepted }%
+    \def\Published@name{^^d0^^9e^^d0^^bf^^d1^^83^^d0^^b1^^d0^^bb^^d0^^b8^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d0^^bd^^d0^^be }%{Published }%
+    }%
+  %}{}%
+  \fi
+  %% =========================================
+\else
+  %\def\captionsrussian@modern{%
+  \addto\captionsrussian{%
+    \def\prefacename{%
+      {\cyr\CYRP\cyrr\cyre\cyrd\cyri\cyrs\cyrl\cyro\cyrv\cyri\cyre}}%
+    \def\refname{%
+      {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\
+      \cyrl\cyri\cyrt\cyre\cyrr\cyra\cyrt\cyru\cyrr\cyrery}}%
+    \def\abstractname{%
+      {\cyr\CYRA\cyrn\cyrn\cyro\cyrt\cyra\cyrc\cyri\cyrya}}%
+      \def\bibname{%
+        {\cyr\CYRL\cyri\cyrt\cyre\cyrr\cyra\cyrt\cyru\cyrr\cyra}}%
+    \def\chaptername{{\cyr\CYRG\cyrl\cyra\cyrv\cyra}}%
+    \def\appendixname{%
+      {\cyr\CYRP\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyri\cyre}}%
+    \@ifundefined{thechapter}%
+      {\def\contentsname{%
+        {\cyr\CYRS\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre}}}%
+      {\def\contentsname{%
+        {\cyr\CYRO\cyrg\cyrl\cyra\cyrv\cyrl\cyre\cyrn\cyri\cyre}}}%
+    \let\tocname=\contentsname
+    \def\listfigurename{%
+      {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk
+        \ \cyri\cyrl\cyrl\cyryu\cyrs\cyrt\cyrr\cyra\cyrc\cyri\cyrishrt}}%
+    \def\listtablename{%
+      {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk
+        \ \cyrt\cyra\cyrb\cyrl\cyri\cyrc}}%
+    \def\indexname{%
+      {\cyr\CYRP\cyrr\cyre\cyrd\cyrm\cyre\cyrt\cyrn\cyrery\cyrishrt
+        \ \cyru\cyrk\cyra\cyrz\cyra\cyrt\cyre\cyrl\cyrsftsn}}%
+    \def\authorname{%
+      {\cyr\CYRI\cyrm\cyre\cyrn\cyrn\cyro\cyrishrt
+        \ \cyru\cyrk\cyra\cyrz\cyra\cyrt\cyre\cyrl\cyrsftsn}}%
+    \def\figurename{{\cyr\CYRR\cyri\cyrs.}}%
+    \def\tablename{{\cyr\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyra}}%
+    \def\partname{{\cyr\CYRCH\cyra\cyrs\cyrt\cyrsftsn}}%
+    \def\enclname{{\cyr\cyrv\cyrk\cyrl.}}%
+    \def\ccname{{\cyr\cyri\cyrs\cyrh.}}%
+    \def\headtoname{{\cyr\cyrv\cyrh.}}%
+    \def\pagename{{\cyr\cyrs.}}%
+    \def\seename{{\cyr\cyrs\cyrm.}}%
+    \def\alsoname{{\cyr\cyrs\cyrm.\ \cyrt\cyra\cyrk\cyrzh\cyre}}%
+    \def\proofname{{\cyr\CYRD\cyro\cyrk\cyra\cyrz\cyra\cyrt
+       \cyre\cyrl\cyrsftsn\cyrs\cyrt\cyrv\cyro}}%
+    \def\glossaryname{{\cyr\CYRS\cyrl\cyro\cyrv\cyra\cyrr\cyrsftsn\
+       \cyrt\cyre\cyrr\cyrm\cyri\cyrn\cyro\cyrv}}%
+    \def\acronymname{\CYRA\cyrb\cyrb\cyrr\cyre\cyrv\cyri\cyra\cyrt\cyru\cyrr\cyrery}%
+    \def\lstlistingname{\CYRL\cyri\cyrs\cyrt\cyri\cyrn\cyrg}%
+    \def\lstlistlistingname{\CYRL\cyri\cyrs\cyrt\cyri\cyrn\cyrg\cyri}%
+    \def\nomname{\CYRO\cyrb\cyro\cyrz\cyrn\cyra\cyrch\cyre\cyrn\cyri\cyrya}%
+    \def\notesname{\CYRZ\cyra\cyrm\cyre\cyrt\cyrk\cyri}%
+  }%
+  %% =========================================
+  %% RevTeX4 & RevTeX4-1
+  \ifnum \@ifclassloaded{revtex4}{1}{\@ifclassloaded{revtex4-1}{1}{0}}>0
+    \addto\captionsrussian{%
+    \def\lofname{\listfigurename}
+    \def\lotname{\listtablename}
+    \def\figuresname{\CYRR\cyri\cyrs\cyru\cyrn\cyrk\cyri}%{Figures}%
+    \def\tablesname{\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyrery}%{Tables}%
+    \def\appendixesname{\CYRP\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyri\cyrya}%{Appendixes}%
+    \def\acknowledgmentsname{\CYRB\cyrl\cyra\cyrg\cyro\cyrd\cyra\cyrr\cyrn\cyro\cyrs\cyrt\cyri}%{Acknowledgments}
+    \def\andname{\cyri}%{and}
+    \def\@pacs@name{PACS \cyrk\cyro\cyrd\cyrery: }%{PACS numbers: }%
+    \def\@keys@name{\CYRK\cyrl\cyryu\cyrch\cyre\cyrv\cyrery\cyre \cyrs\cyrl\cyro\cyrv\cyra: }%{Keywords: }%
+    \def\Dated@name{\CYRD\cyra\cyrt\cyra: }%{Dated: }%
+    \def\Received@name{\CYRP\cyro\cyrl\cyru\cyrch\cyre\cyrn\cyro }%{Received }%
+    \def\Revised@name{\CYRI\cyrs\cyrp\cyrr\cyra\cyrv\cyrl\cyre\cyrn\cyrn\cyra\cyrya \cyrv\cyre\cyrr\cyrs\cyri\cyrya }%{Revised }%
+    \def\Accepted@name{\CYRP\cyrr\cyri\cyrn\cyrya\cyrt\cyro }%{Accepted }%
+    \def\Published@name{\CYRO\cyrp\cyru\cyrb\cyrl\cyri\cyrk\cyro\cyrv\cyra\cyrn\cyro }%{Published }%
+    }%
+  \fi
+  %% =========================================
+  \addto\captionsrussian@ancient{%
+    \def\prefacename{%
+      {\cyr\CYRP\cyrr\cyre\cyrd\cyri\cyrs\cyrl\cyro\cyrv\cyrii\cyre}}%
+    \def\refname{%
+      {\cyr\CYRP\cyrr\cyri\cyrm\cyryat\cyrch\cyra\cyrn\cyrii\cyrya}}%          <-- ^^d0^^9f^^d1^^80^^d0^^b8^^d0^^bc^^d1^^a3^^d1^^87^^d0^^b0^^d0^^bd^^d1^^96^^d1^^8f, ^^d0^^bd^^d0^^b5^^d1^^82 \cyryat ^^d0^^b2 ^^d0^^ba^^d0^^be^^d0^^b4^^d0^^b8^^d1^^80^^d0^^be^^d0^^b2^^d0^^ba^^d0^^b5 T2*
+    \def\abstractname{%
+      {\cyr\CYRA\cyrn\cyrn\cyro\cyrt\cyra\cyrc\cyrii\cyrya}}%
+    \def\bibname{%
+      {\cyr\CYRB\cyri\cyrb\cyrl\cyrii\cyro\cyrg\cyrr\cyra\cyrf\cyrii\cyrya}}%  <-- ^^d0^^91^^d0^^b8^^d0^^b1^^d0^^bb^^d1^^96^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0^^d1^^84^^d1^^96^^d1^^8f
+    \def\chaptername{{\cyr\CYRG\cyrl\cyra\cyrv\cyra}}%
+    \def\appendixname{%
+      {\cyr\CYRP\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyrii\cyre}}%
+    \@ifundefined{thechapter}%
+      {\def\contentsname{%
+        {\cyr\CYRS\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyrii\cyre}}}%
+      {\def\contentsname{%
+        {\cyr\CYRO\cyrg\cyrl\cyra\cyrv\cyrl\cyre\cyrn\cyrii\cyre}}}%
+    \let\tocname=\contentsname
+    % ^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d0^^b8^^d0^^bb^^d0^^bb^^d1^^8e^^d1^^81^^d1^^82^^d1^^80^^d0^^b0^^d1^^86^^d1^^96^^d0^^b9
+    \def\listfigurename{%
+      {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\cyrhrdsn\
+       \cyri\cyrl\cyrl\cyryu\cyrs\cyrt\cyrr\cyra\cyrc\cyrii\cyrishrt}}
+    % ^^d0^^a1^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba^^d1^^8a ^^d1^^82^^d0^^b0^^d0^^b1^^d0^^bb^^d0^^b8^^d1^^86^^d1^^8a
+    \def\listtablename{%
+      {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\cyrhrdsn\
+       \cyrt\cyra\cyrb\cyrl\cyri\cyrc\cyrhrdsn}}%
+    % ^^d0^^9f^^d1^^80^^d0^^b5^^d0^^b4^^d0^^bc^^d1^^a3^^d1^^82^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^83^^d0^^ba^^d0^^b0^^d0^^b7^^d0^^b0^^d1^^82^^d0^^b5^^d0^^bb^^d1^^8c, ^^d1^^a3 (\cyryat) in X2 encoding only
+    \def\indexname{%
+      {\cyr\CYRP\cyrr\cyre\cyrd\cyrm\cyryat\cyrt\cyrn\cyrery\cyrishrt\space
+       \cyru\cyrk\cyra\cyrz\cyra\cyrt\cyre\cyrl\cyrsftsn}}%
+    \def\authorname{%
+      {\cyr\CYRI\cyrm\cyre\cyrn\cyrn\cyro\cyrishrt\
+       \cyru\cyrk\cyra\cyrz\cyra\cyrt\cyre\cyrl\cyrsftsn}}%
+    \def\figurename{{\cyr\CYRR\cyri\cyrs.}}%
+    \def\tablename{{\cyr\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyra}}%
+    \def\partname{{\cyr\CYRCH\cyra\cyrs\cyrt\cyrsftsn}}%
+    \def\enclname{{\cyr\cyrv\cyrk\cyrl.}}%
+    \def\ccname{{\cyr\cyri\cyrs\cyrh.}}%
+    \def\headtoname{{\cyr\cyrv\cyrh.}}%
+    \def\pagename{{\cyr\cyrs.}}%
+    \def\seename{{\cyr\cyrs\cyrm.}}%
+    \def\alsoname{{\cyr\cyrs\cyrm.\ \cyrt\cyra\cyrk\cyrzh\cyre}}%
+    \def\proofname{{\cyr\CYRD\cyro\cyrk\cyra\cyrz\cyra\cyrt
+      \cyre\cyrl\cyrsftsn\cyrs\cyrt\cyrv\cyro}}%
+    \def\glossaryname{{\cyr\CYRS\cyrl\cyro\cyrv\cyra\cyrr\cyrsftsn\
+      \cyrt\cyre\cyrr\cyrm\cyri\cyrn\cyro\cyrv}}% <-- Needs translation
+    \def\acronymname{\CYRA\cyrb\cyrb\cyrr\cyre\cyrv\cyri\cyra\cyrt\cyru\cyrr\cyrery}%
+    \def\lstlistingname{\CYRL\cyri\cyrs\cyrt\cyri\cyrn\cyrg}%
+    \def\lstlistlistingname{\CYRL\cyri\cyrs\cyrt\cyri\cyrn\cyrg\cyri}%
+    \def\nomname{\CYRO\cyrb\cyro\cyrz\cyrn\cyra\cyrch\cyre\cyrn\cyrii\cyrya}%
+    \def\notesname{\CYRZ\cyra\cyrm\cyre\cyrt\cyrk\cyri}%
+  }%
+  %% =========================================
+  %% RevTeX4 & RevTeX4-1
+  \ifnum \@ifclassloaded{revtex4}{1}{\@ifclassloaded{revtex4-1}{1}{0}}>0
+    \addto\captionsrussian@ancient{%
+    \def\lofname{\listfigurename}
+    \def\lotname{\listtablename}
+    \def\figuresname{\CYRR\cyri\cyrs\cyru\cyrn\cyrk\cyri}%{Figures}%
+    \def\tablesname{\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyrery}%{Tables}%
+    \def\appendixesname{\CYRP\cyrr\cyri\cyrl\cyro\cyrzh\cyre\cyrn\cyri\cyrya}%{Appendixes}%
+    \def\acknowledgmentsname{\CYRB\cyrl\cyra\cyrg\cyro\cyrd\cyra\cyrr\cyrn\cyro\cyrs\cyrt\cyri}%{Acknowledgments}
+    \def\andname{\cyri}%{and}
+    \def\@pacs@name{PACS \cyrk\cyro\cyrd\cyrery: }%{PACS numbers: }%
+    \def\@keys@name{\CYRK\cyrl\cyryu\cyrch\cyre\cyrv\cyrery\cyre \cyrs\cyrl\cyro\cyrv\cyra: }%{Keywords: }%
+    \def\Dated@name{\CYRD\cyra\cyrt\cyra: }%{Dated: }%
+    \def\Received@name{\CYRP\cyro\cyrl\cyru\cyrch\cyre\cyrn\cyro }%{Received }%
+    \def\Revised@name{\CYRI\cyrs\cyrp\cyrr\cyra\cyrv\cyrl\cyre\cyrn\cyrn\cyra\cyrya \cyrv\cyre\cyrr\cyrs\cyri\cyrya }%{Revised }%
+    \def\Accepted@name{\CYRP\cyrr\cyri\cyrn\cyrya\cyrt\cyro }%{Accepted }%
+    \def\Published@name{\CYRO\cyrp\cyru\cyrb\cyrl\cyri\cyrk\cyro\cyrv\cyra\cyrn\cyro }%{Published }%
+    }%
+  \fi
+  %% =========================================
+\fi
+\if@uni@ode
+  \addto\daterussian{%
+   \def\today{\number\day~\ifcase\month\or
+    ^^d1^^8f^^d0^^bd^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8f\or
+    ^^d1^^84^^d0^^b5^^d0^^b2^^d1^^80^^d0^^b0^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^80^^d1^^82^^d0^^b0\or
+    ^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b5^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^8f\or
+    ^^d0^^b8^^d1^^8e^^d0^^bd^^d1^^8f\or
+    ^^d0^^b8^^d1^^8e^^d0^^bb^^d1^^8f\or
+    ^^d0^^b0^^d0^^b2^^d0^^b3^^d1^^83^^d1^^81^^d1^^82^^d0^^b0\or
+    ^^d1^^81^^d0^^b5^^d0^^bd^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^be^^d0^^ba^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^bd^^d0^^be^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^b4^^d0^^b5^^d0^^ba^^d0^^b0^^d0^^b1^^d1^^80^^d1^^8f\fi
+    \space \number\year~^^d0^^b3.}}
+  \def\daterussian@ancient{%
+   \def\today{\number\day~\ifcase\month\or%
+    ^^d1^^8f^^d0^^bd^^d0^^b2^^d0^^b0^^d1^^80^^d1^^8f\or
+    ^^d1^^84^^d0^^b5^^d0^^b2^^d1^^80^^d0^^b0^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^80^^d1^^82^^d0^^b0\or
+    ^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b5^^d0^^bb^^d1^^8f\or
+    ^^d0^^bc^^d0^^b0^^d1^^8f\or
+    ^^d1^^96^^d1^^8e^^d0^^bd^^d1^^8f\or
+    ^^d1^^96^^d1^^8e^^d0^^bb^^d1^^8f\or
+    ^^d0^^b0^^d0^^b2^^d0^^b3^^d1^^83^^d1^^81^^d1^^82^^d0^^b0\or
+    ^^d1^^81^^d0^^b5^^d0^^bd^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^be^^d0^^ba^^d1^^82^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^bd^^d0^^be^^d1^^8f^^d0^^b1^^d1^^80^^d1^^8f\or
+    ^^d0^^b4^^d0^^b5^^d0^^ba^^d0^^b0^^d0^^b1^^d1^^80^^d1^^8f\fi%
+    \space \number\year~^^d0^^b3.}}
+\else
+  \def\daterussian{%
+   \def\today{\number\day~\ifcase\month\or
+    \cyrya\cyrn\cyrv\cyra\cyrr\cyrya\or
+    \cyrf\cyre\cyrv\cyrr\cyra\cyrl\cyrya\or
+    \cyrm\cyra\cyrr\cyrt\cyra\or
+    \cyra\cyrp\cyrr\cyre\cyrl\cyrya\or
+    \cyrm\cyra\cyrya\or
+    \cyri\cyryu\cyrn\cyrya\or
+    \cyri\cyryu\cyrl\cyrya\or
+    \cyra\cyrv\cyrg\cyru\cyrs\cyrt\cyra\or
+    \cyrs\cyre\cyrn\cyrt\cyrya\cyrb\cyrr\cyrya\or
+    \cyro\cyrk\cyrt\cyrya\cyrb\cyrr\cyrya\or
+    \cyrn\cyro\cyrya\cyrb\cyrr\cyrya\or
+    \cyrd\cyre\cyrk\cyra\cyrb\cyrr\cyrya\fi
+    \space \number\year~\cyrg.}}
+  \def\daterussian@ancient{%
+   \def\today{\number\day~\ifcase\month\or
+    \cyrya\cyrn\cyrv\cyra\cyrr\cyrya\or
+    \cyrf\cyre\cyrv\cyrr\cyra\cyrl\cyrya\or
+    \cyrm\cyra\cyrr\cyrt\cyra\or
+    \cyra\cyrp\cyrr\cyre\cyrl\cyrya\or
+    \cyrm\cyra\cyrya\or
+    \cyrii\cyryu\cyrn\cyrya\or
+    \cyrii\cyryu\cyrl\cyrya\or
+    \cyra\cyrv\cyrg\cyru\cyrs\cyrt\cyra\or
+    \cyrs\cyre\cyrn\cyrt\cyrya\cyrb\cyrr\cyrya\or
+    \cyro\cyrk\cyrt\cyrya\cyrb\cyrr\cyrya\or
+    \cyrn\cyro\cyrya\cyrb\cyrr\cyrya\or
+    \cyrd\cyre\cyrk\cyra\cyrb\cyrr\cyrya\fi
+    \space \number\year~\cyrg.}}
+\fi
+\providehyphenmins{\CurrentOption}{\tw@\tw@}
+\providehyphenmins{russian}{\tw@\tw@}
+\addto\extrasrussian{\cyrillictext}
+\addto\noextrasrussian{\latintext}
+\addto\extrasrussian{\languageshorthands{russian}}
+\addto\extrasrussian{\bbl@activate{"}}
+\addto\noextrasrussian{\bbl@deactivate{"}}
+\addto\extrasrussian{\bbl@frenchspacing}
+\addto\noextrasrussian{\bbl@nonfrenchspacing}
+\def\Asbuk#1{\expandafter\russian@Alph\csname c@#1\endcsname}
+\if@uni@ode
+  \def\russian@Alph#1{\ifcase#1\or
+    ^^d0^^90\or ^^d0^^91\or ^^d0^^92\or ^^d0^^93\or ^^d0^^94\or ^^d0^^95\or ^^d0^^96\or
+    ^^d0^^97\or ^^d0^^98\or ^^d0^^9a\or ^^d0^^9b\or ^^d0^^9c\or ^^d0^^9d\or ^^d0^^9e\or
+    ^^d0^^9f\or ^^d0^^a0\or ^^d0^^a1\or ^^d0^^a2\or ^^d0^^a3\or ^^d0^^a4\or ^^d0^^a5\or
+    ^^d0^^a6\or ^^d0^^a7\or ^^d0^^a8\or ^^d0^^a9\or ^^d0^^ad\or ^^d0^^ae\or ^^d0^^af\else\@ctrerr\fi}
+\else
+  \def\russian@Alph#1{\ifcase#1\or
+    \CYRA\or\CYRB\or\CYRV\or\CYRG\or\CYRD\or\CYRE\or\CYRZH\or
+    \CYRZ\or\CYRI\or\CYRK\or\CYRL\or\CYRM\or\CYRN\or\CYRO\or
+    \CYRP\or\CYRR\or\CYRS\or\CYRT\or\CYRU\or\CYRF\or\CYRH\or
+    \CYRC\or\CYRCH\or\CYRSH\or\CYRSHCH\or\CYREREV\or\CYRYU\or
+    \CYRYA\else\@ctrerr\fi}
+\fi
+\def\asbuk#1{\expandafter\russian@alph\csname c@#1\endcsname}
+\if@uni@ode
+  \def\russian@alph#1{\ifcase#1\or
+    ^^d0^^b0\or ^^d0^^b1\or ^^d0^^b2\or ^^d0^^b3\or ^^d0^^b4\or ^^d0^^b5\or ^^d0^^b6\or
+    ^^d0^^b7\or ^^d0^^b8\or ^^d0^^ba\or ^^d0^^bb\or ^^d0^^bc\or ^^d0^^bd\or ^^d0^^be\or
+    ^^d0^^bf\or ^^d1^^80\or ^^d1^^81\or ^^d1^^82\or ^^d1^^83\or ^^d1^^84\or ^^d1^^85\or
+    ^^d1^^86\or ^^d1^^87\or ^^d1^^88\or ^^d1^^89\or ^^d1^^8d\or ^^d1^^8e\or ^^d1^^8f\else\@ctrerr\fi}
+\else
+  \def\russian@alph#1{\ifcase#1\or
+    \cyra\or\cyrb\or\cyrv\or\cyrg\or\cyrd\or\cyre\or\cyrzh\or
+    \cyrz\or\cyri\or\cyrk\or\cyrl\or\cyrm\or\cyrn\or\cyro\or
+    \cyrp\or\cyrr\or\cyrs\or\cyrt\or\cyru\or\cyrf\or\cyrh\or
+    \cyrc\or\cyrch\or\cyrsh\or\cyrshch\or\cyrerev\or\cyryu\or
+    \cyrya\else\@ctrerr\fi}
+\fi
+\bbl@declare@ttribute{russian}{ancient}{%
+ \PackageInfo{babel}{Russian attribute set to ancient}%
+ \let\captionsrussian=\captionsrussian@ancient
+ \let\daterussian=\daterussian@ancient
+}
+\@onlypreamble\captionsrussian@ancient
+\@onlypreamble\daterussian@ancient
+\AtBeginDocument{%
+  \@ifpackageloaded{amsopn}
+  {%
+    \DeclareMathOperator{\sh}{sh}%\MakeRobust\sh
+    \DeclareMathOperator{\ch}{ch}%\MakeRobust\ch
+    \DeclareMathOperator{\tg}{tg}%\MakeRobust\tg
+    \DeclareMathOperator{\ctg}{ctg}%\MakeRobust\ctg
+    \DeclareMathOperator{\arctg}{arctg}%\MakeRobust\arctg%
+    \DeclareMathOperator{\arcctg}{arcctg}%\MakeRobust\arcctg%
+    \DeclareMathOperator{\cth}{cth}%\MakeRobust\cth%
+    \DeclareMathOperator{\cosec}{cosec}%\MakeRobust\cosec%
+    \DeclareMathOperator{\math@th}{th}%
+  }{%
+    \DeclareRobustCommand\sh{\mathop{\operator@font sh}\nolimits}%\MakeRobust\sh%
+    \DeclareRobustCommand\ch{\mathop{\operator@font ch}\nolimits}%\MakeRobust\ch%
+    \DeclareRobustCommand\tg{\mathop{\operator@font tg}\nolimits}%\MakeRobust\tg%
+    \DeclareRobustCommand\ctg{\mathop{\operator@font ctg}\nolimits}%\MakeRobust\ctg%
+    \DeclareRobustCommand{\arctg}{\mathop{\operator@font arctg}\nolimits}%
+    \DeclareRobustCommand\arcctg{\mathop{\operator@font arcctg}\nolimits}%\MakeRobust\arcctg%
+    \DeclareRobustCommand\cth{\mathop{\operator@font cth}\nolimits}%\MakeRobust\cth%
+    \DeclareRobustCommand\cosec{\mathop{\operator@font cosec}\nolimits}%\MakeRobust\cosec%
+    \DeclareRobustCommand{\math@th}{\mathop{\operator@font arctg}\nolimits}%
+  }%
+  \let\text@th\th
+  \DeclareRobustCommand{\th}{\TextOrMath{\text@th}{\math@th}}
+}
+\def\Prob{\mathop{\kern\z@\mathsf{P}}\nolimits}
+\def\Variance{\mathop{\kern\z@\mathsf{D}}\nolimits}
+\if@uni@ode
+  \def\nod{\mathop{\mathrm{^^d0^^bd.^^d0^^be.^^d0^^b4.}}\nolimits}
+  \def\nok{\mathop{\mathrm{^^d0^^bd.^^d0^^be.^^d0^^ba.}}\nolimits}
+  \def\NOD{\mathop{\mathrm{^^d0^^9d^^d0^^9e^^d0^^94}}\nolimits}
+  \def\NOK{\mathop{\mathrm{^^d0^^9d^^d0^^9e^^d0^^9a}}\nolimits}
+  \def\Proj{\mathop{\mathrm{^^d0^^9f^^d1^^80}}\nolimits}
+\else
+  \def\nod{\mathop{\textnormal{\cyrn.\cyro.\cyrd.}}\nolimits}
+  \def\nok{\mathop{\textnormal{\cyrn.\cyro.\cyrk.}}\nolimits}
+  \def\NOD{\mathop{\textnormal{\CYRN\CYRO\CYRD}}\nolimits}
+  \def\NOK{\mathop{\textnormal{\CYRN\CYRO\CYRK}}\nolimits}
+  \def\Proj{\mathop{\textnormal{\CYRP\cyrr}}\nolimits}
+\fi
+\ldf@finish{russian}
+%%
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote \"    Hash (number) \#
+%%   Dollar        \$     Percent      \%    Ampersand     \&
+%%   Acute accent  \'     Left paren   \(    Right paren   \)
+%%   Asterisk      \*     Plus         \+    Comma         \,
+%%   Minus         \-     Point        \.    Solidus       \/
+%%   Colon         \:     Semicolon    \;    Less than     \<
+%%   Equals        \=     Greater than \>    Question mark \?
+%%   Commercial at \@     Left bracket \[    Backslash     \\
+%%   Right bracket \]     Circumflex   \^    Underscore    \_
+%%   Grave accent  \`     Left brace   \{    Vertical bar  \|
+%%   Right brace   \}     Tilde        \~}
+%%
+
+%% Nonunicode Cyrillic Letters
+%% \CYRA=^^d0^^90
+%% \CYRB=^^d0^^91
+%% \CYRV=^^d0^^92
+%% \CYRG=^^d0^^93
+%% \CYRGUP=^^d2^^90
+%% \CYRD=^^d0^^94
+%% \CYRE=^^d0^^95
+%% \CYRIE=^^d0^^84
+%% \CYRZH=^^d0^^96
+%% \CYRZ=^^d0^^97
+%% \CYRI=^^d0^^98
+%% \CYRII=I
+%% \CYRYI=^^d0^^87
+%% \CYRISHRT=^^d0^^99
+%% \CYRK=^^d0^^9a
+%% \CYRL=^^d0^^9b
+%% \CYRM=^^d0^^9c
+%% \CYRN=^^d0^^9d
+%% \CYRO=^^d0^^9e
+%% \CYRP=^^d0^^9f
+%% \CYRR=^^d0^^a0
+%% \CYRS=^^d0^^a1
+%% \CYRT=^^d0^^a2
+%% \CYRU=^^d0^^a3
+%% \CYRF=^^d0^^a4
+%% \CYRH=^^d0^^a5
+%% \CYRC=^^d0^^a6
+%% \CYRCH=^^d0^^a7
+%% \CYRSH=^^d0^^a8
+%% \CYRSHCH=^^d0^^a9
+%% \CYRYU=^^d0^^ae
+%% \CYRYA=^^d0^^af
+%% \CYRSFTSN=^^d0^^ac
+%%
+%% \cyra=^^d0^^b0
+%% \cyrb=^^d0^^b1
+%% \cyrv=^^d0^^b2
+%% \cyrg=^^d0^^b3
+%% \cyrgup=^^d2^^91
+%% \cyrd=^^d0^^b4
+%% \cyre=^^d0^^b5
+%% \cyrie=^^d1^^94
+%% \cyrzh=^^d0^^b6
+%% \cyrz=^^d0^^b7
+%% \cyri=^^d0^^b8
+%% \cyrii=i
+%% \cyryi=^^d1^^97
+%% \cyrishrt=^^d0^^b9
+%% \cyrk=^^d0^^ba
+%% \cyrl=^^d0^^bb
+%% \cyrm=^^d0^^bc
+%% \cyrn=^^d0^^bd
+%% \cyro=^^d0^^be
+%% \cyrp=^^d0^^bf
+%% \cyrr=^^d1^^80
+%% \cyrs=^^d1^^81
+%% \cyrt=^^d1^^82
+%% \cyru=^^d1^^83
+%% \cyrf=^^d1^^84
+%% \cyrh=^^d1^^85
+%% \cyrc=^^d1^^86
+%% \cyrch=^^d1^^87
+%% \cyrsh=^^d1^^88
+%% \cyrshch=^^d1^^89
+%% \cyryu=^^d1^^8e
+%% \cyrya=^^d1^^8f
+%% \cyrsftsn=^^d1^^8c
+%% ----------------------------------------------------------------
+%% Copyright 2011-2021 Igor A. Kotelnikov.
+%% Copyright 1995-2008 Olga G. Lapko.
+%% Copyright 1989-2012 Johannes L. Braams.
+%% 
+%% This file is a part of the Russian-Babel package.
+%% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%%    http://www.latex-project.org/lppl.txt
+%% 
+%% The package is "maintained" (as per LPPL maintenance status) by
+%% Igor A. Kotelnikov.
+%% 
+%% The package consists of the file  russianb.dtx
+%% and the derived files             russianb.ins,
+%%                                   russianb.ldf,
+%%                                   russianb.pdf,
+%%                                   README.
+%% ----------------------------------------------------------------
+%%
+%% End of file `russianb.ldf'.

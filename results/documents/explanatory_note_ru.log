@@ -1,0 +1,4059 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 22:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**explanatory_note_ru.tex
+(./explanatory_note_ru.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+Font mapping `tex-text.tec' for font `[lmroman12-regular]:mapping=tex-text;' no
+t found.
+)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2025/06/05 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen148
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen149
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count282
+\g__pdfannot_backend_int=\count283
+\g__pdfannot_backend_link_int=\count284
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_tmpa_int=\count289
+\l__fontspec_tmpb_int=\count290
+\l__fontspec_tmpc_int=\count291
+\l__fontspec_em_int=\count292
+\l__fontspec_emdef_int=\count293
+\l__fontspec_strong_int=\count294
+\l__fontspec_strongdef_int=\count295
+\l__fontspec_tmpa_dim=\dimen158
+\l__fontspec_tmpb_dim=\dimen159
+\l__fontspec_tmpc_dim=\dimen160
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+Font mapping `tex-text.tec' for font `[lmroman12-bold]:mapping=tex-text;' not f
+ound.
+))
+
+Package fontspec Info: 
+(fontspec)             Font family 'LiberationSerif(0)' created for font
+(fontspec)             'Liberation Serif' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+Package fontspec Info: 
+(fontspec)             Font family 'LiberationMono(0)' created for font
+(fontspec)             'Liberation Mono' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Liberation
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Liberation
+(fontspec)             Mono/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Liberation
+(fontspec)             Mono/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Liberation
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1)
+ on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) 
+on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) o
+n input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) o
+n input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding T
+S1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) o
+n input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1
+) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding
+ TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on
+ input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) o
+n input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) o
+n input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) 
+on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS
+1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input lin
+e 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on 
+input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on inpu
+t line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) 
+on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encod
+ing TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (enco
+ding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encodin
+g TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (enco
+ding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1)
+ on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encod
+ing TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) o
+n input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) 
+on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on in
+put line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on i
+nput line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1)
+ on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encodin
+g TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) o
+n input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding 
+TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1
+) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1)
+ on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1)
+ on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS
+1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1
+) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1
+) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1)
+ on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS
+1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS
+1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1
+) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on i
+nput line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on in
+put line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on i
+nput line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on inpu
+t line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) o
+n input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on
+ input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on inpu
+t line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) o
+n input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) o
+n input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on 
+input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) o
+n input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) 
+on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on inp
+ut line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on
+ input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on inp
+ut line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on inp
+ut line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on 
+input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1)
+ on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on
+ input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS
+1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) 
+on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) 
+on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on
+ input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on
+ input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on i
+nput line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) o
+n input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on i
+nput line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1)
+ on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on i
+nput line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on 
+input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding T
+S1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1
+) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on i
+nput line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS
+1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on inpu
+t line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on in
+put line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on 
+input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on inp
+ut line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on inp
+ut line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on i
+nput line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1)
+ on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding 
+TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on inp
+ut line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) o
+n input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding T
+S1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on 
+input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on inp
+ut line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on i
+nput line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on
+ input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) o
+n input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) 
+on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1)
+ on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on i
+nput line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on i
+nput line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on inp
+ut line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on
+ input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on
+ input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on inpu
+t line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) o
+n input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on 
+input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS
+1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) o
+n input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1)
+ on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on
+ input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on inp
+ut line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on
+ input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) 
+on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1)
+ on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on i
+nput line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input
+ line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1)
+ on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS
+1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) 
+on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input
+ line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) o
+n input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding T
+S1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS
+1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1)
+ on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1
+) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on inp
+ut line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) 
+on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on 
+input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS
+1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on inp
+ut line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on in
+put line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on inpu
+t line 194.
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen161
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count296
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count297
+\leftroot@=\count298
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count299
+\DOTSCASE@=\count300
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count301
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count302
+\dotsspace@=\muskip17
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks20
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks21
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+\g__um_fam_int=\count308
+\g__um_fonts_used_int=\count309
+\l__um_primecount_int=\count310
+\g__um_primekern_muskip=\muskip18
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(0)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[texgyretermes-math.otf]/OT:script=math;language=dfl
+t;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(1)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=12.528-},{Size=9.288-12.528,Font=texgyretermes-math.o
+tf,Style=MathScript},{Size=-9.288,Font=texgyretermes-math.otf,Style=MathScriptS
+cript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <12.528->"[texgyretermes-math.otf]/OT:script=math;langua
+ge=dflt;"<9.288-12.528>"[texgyretermes-math.otf]/OT:script=math;language=dflt;+
+ssty=0;"<-9.288>"[texgyretermes-math.otf]/OT:script=math;language=dflt;+ssty=1;
+"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/texgyretermes-math.otf(1)/m/n on inp
+ut line 9.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/texgyretermes-math.otf(1)/b/n on in
+put line 9.
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(2)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=12.528-},{Size=9.288-12.528,Font=texgyretermes-math.o
+tf,Style=MathScript},{Size=-9.288,Font=texgyretermes-math.otf,Style=MathScriptS
+cript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =9.1296pt\relax \fontdimen 9\font =6.192pt\relax
+(fontspec)             \fontdimen 10\font =6.192pt\relax \fontdimen 11\font
+(fontspec)             =8.61119pt\relax \fontdimen 12\font =3.8304pt\relax
+(fontspec)             \fontdimen 13\font =4.88159pt\relax \fontdimen 14\font
+(fontspec)             =4.88159pt\relax \fontdimen 15\font =4.0896pt\relax
+(fontspec)             \fontdimen 16\font =3.1968pt\relax \fontdimen 17\font
+(fontspec)             =3.1968pt\relax \fontdimen 18\font =3.1968pt\relax
+(fontspec)             \fontdimen 19\font =1.5984pt\relax \fontdimen 22\font
+(fontspec)             =3.6pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <12.528->s*[1.0001]"[texgyretermes-math.otf]/OT:script=m
+ath;language=dflt;"<9.288-12.528>s*[1.0001]"[texgyretermes-math.otf]/OT:script=
+math;language=dflt;+ssty=0;"<-9.288>s*[1.0001]"[texgyretermes-math.otf]/OT:scri
+pt=math;language=dflt;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/texgyretermes-math.otf(2)/m/n on in
+put line 9.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/texgyretermes-math.otf(2)/b/n on in
+put line 9.
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(3)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=12.528-},{Size=9.288-12.528,Font=texgyretermes-math.o
+tf,Style=MathScript},{Size=-9.288,Font=texgyretermes-math.otf,Style=MathScriptS
+cript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.7488pt\relax \fontdimen 9\font =1.44pt\relax
+(fontspec)             \fontdimen 10\font =1.44pt\relax \fontdimen 11\font
+(fontspec)             =1.44pt\relax \fontdimen 12\font =6.2352pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <12.528->s*[0.9999]"[texgyretermes-math.otf]/OT:script=m
+ath;language=dflt;"<9.288-12.528>s*[0.9999]"[texgyretermes-math.otf]/OT:script=
+math;language=dflt;+ssty=0;"<-9.288>s*[0.9999]"[texgyretermes-math.otf]/OT:scri
+pt=math;language=dflt;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 9
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/texgyretermes-math.otf(3)/m/n on in
+put line 9.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/texgyretermes-math.otf(3)/b/n on in
+put line 9.
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen184
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count315
+\LTcapwidth=\dimen185
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count316
+\LT@rows=\count317
+\c@LT@tables=\count318
+\c@LT@chunks=\count319
+\LT@p@ftn=\toks24
+)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen186
+\ar@mcellbox=\box60
+\extrarowheight=\dimen187
+\NC@list=\toks25
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box61
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip60
+\enit@outerparindent=\dimen188
+\enit@toks=\toks26
+\enit@inbox=\box62
+\enit@count@id=\count320
+\enitdp@description=\count321
+)
+(/home/xola/GitHub/Solial Registry/tex/ulem.sty
+\UL@box=\box63
+\UL@hyphenbox=\box64
+\UL@skip=\skip61
+\UL@hook=\toks27
+\UL@height=\dimen189
+\UL@pe=\count322
+\UL@pixel=\dimen190
+\ULC@box=\box65
+Package: ulem 2019/11/18
+\ULdepth=\dimen191
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box66
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen192
+\ttl@minus=\dimen193
+\ttl@toksa=\toks28
+\titlewidth=\dimen194
+\titlewidthlast=\dimen195
+\titlewidthfirst=\dimen196
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip64
+\f@nch@offset@elh=\skip65
+\f@nch@offset@erh=\skip66
+\f@nch@offset@olh=\skip67
+\f@nch@offset@orh=\skip68
+\f@nch@offset@elf=\skip69
+\f@nch@offset@erf=\skip70
+\f@nch@offset@olf=\skip71
+\f@nch@offset@orf=\skip72
+\f@nch@height=\skip73
+\f@nch@footalignment=\skip74
+\f@nch@widthL=\skip75
+\f@nch@widthC=\skip76
+\f@nch@widthR=\skip77
+\@temptokenb=\toks29
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count323
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count324
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count327
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count328
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen198
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count329
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+\pdfm@box=\box67
+\c@Hy@AnnotLevel=\count333
+\HyField@AnnotCount=\count334
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip78
+)
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
+\openout1 = `explanatory_note_ru.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-58.36449pt
+* \headheight=18.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/texgyretermes-math.otf(1)/m/n --> TU/LiberationSerif
+(0)/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
+ne 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
+e 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/LiberationSerif(0)/m/n on input lin
+e 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/LiberationSerif(0)/b/n on input li
+ne 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/m/n on input line
+ 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/b/n on input line
+ 40.
+Package hyperref Info: Link coloring OFF on input line 40.
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
+\@outlinefile=\write3
+\openout3 = `explanatory_note_ru.out'.
+
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+
+Underfull \hbox (badness 6047) in paragraph at lines 42--43
+\TU/LiberationSerif(0)/m/n/14.05249 Научно-техническое обоснование авторского п
+редложения о проверке
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 42--43
+\TU/LiberationSerif(0)/m/n/14.05249 дата расчётов — 30 сентября 2026 года. Осно
+вная русская редакция
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\TU/LiberationSerif(0)/m/n/14.05249 2026 года. Официальные разработчики
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\TU/LiberationSerif(0)/m/n/14.05249 Цель — повторить утверждённый расчёт на
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 47--48
+\TU/LiberationSerif(0)/m/n/14.05249 решения. Основное предложение содержит семь
+ основных пунктов и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/m/n/14.05249 устанавливают утверждение
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/m/n/14.05249 порядка, единое описание методики, воспроиз
+водимость, организацию
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]\TU/LiberationSerif(0)/m/n/14.05249 Проект относится
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\TU/LiberationSerif(0)/m/n/14.05249 Действующие
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 59--60
+[]\TU/LiberationSerif(0)/m/n/14.05249 Паспорта критериев и датированные версии 
+нужны потому, что
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/14.05249 не означает одинаковый вход. Раздельные сос
+тояния качества нужны,
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/14.05249 чтобы отсутствие записи не превращалось в п
+одтверждённый нулевой
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/14.05249 компенсироваться в итоговой сумме. Индивиду
+альное объяснение и
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/14.05249 Внутренняя форма паспорта, протокола и журн
+ала может определяться
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/14.05249 Если разработчик предъявляет действующее ра
+вноценное требование и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 механизмов и административных полномочий. П
+оручение УП-193
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 обязанность или полномочие, требующее компе
+тентного нормативного
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 Действующие механизмы включают пункты 45–50
+ приложения 1 к
+ []
+
+[2]
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Принять публичный минимум;
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 70--71
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Критерии требуют компетентного утвержден
+ия; описание не
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 74--75
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Дополнительные задачи, покрытие и реальн
+ые средства; нет
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 78--79
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Категория отделена от условий помощи; от
+раслевые нормы
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 79--80
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Детали паспорта и источников переносятся
+ во внутренний
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Публичные критерии разрешают равенство и
+ приоритет;
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 81--82
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Версии и правовые даты обеспечивают восс
+тановление по
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 82--83
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Утверждающий акт и законное описание на 
+существующем
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Отсутствие данных не новое неблагоприятн
+ое основание;
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 85--86
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Компетентное уточнение, сроки и отсутств
+ие нового отказа;
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 87--88
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Независимые контроли, охват и сверка сос
+тава исполняют
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 88--89
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Предварительный план управляет трактовко
+й результатов, не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Доступные основания сохраняются; формат 
+технической
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Действующее объяснение согласуется; дост
+упный расчёт
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 96--97
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Действующие основания обработки и специа
+льные условия;
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 99--100
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Существующий надзор; нет нового органа и
+ли основания
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Действующая запись выпуска; внешние обяз
+ательные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Законное хранение и уничтожение; расписа
+ние категорий
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [3]
+Underfull \hbox (badness 3168) in paragraph at lines 106--106
+|\TU/LiberationSerif(0)/b/n/14.05249 Необходимость нормативного содержания и гр
+аницы технического
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 107--108
+\TU/LiberationSerif(0)/b/n/14.05249 Предмет необходимости. \TU/LiberationSerif(
+0)/m/n/14.05249 Пункты 13–14 []PF-193[] устанавливают новое
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 107--108
+\TU/LiberationSerif(0)/m/n/14.05249 или всех 28 авторских пунктов. Предлагается
+ включить необходимое
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 107--108
+\TU/LiberationSerif(0)/m/n/14.05249 материала 1 достаточно как формы предложени
+я. Правила баллов,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\TU/LiberationSerif(0)/m/n/14.05249 вывод автора из указанных норм, а не утверж
+дение,
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]\TU/LiberationSerif(0)/b/n/14.05249 Разграничение документов.
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 111--112
+\TU/LiberationSerif(0)/m/n/14.05249 организаций вне системы принявшего органа. 
+Пункт 96(b) исключает
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 111--112
+\TU/LiberationSerif(0)/m/n/14.05249 название «техническое требование» само по с
+ебе не решает правовую
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 111--112
+\TU/LiberationSerif(0)/m/n/14.05249 природу содержания. Обратное тоже верно: по
+длинно технический
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 111--112
+\TU/LiberationSerif(0)/m/n/14.05249 условием президентского или правительственн
+ого акта. Проверена
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]\TU/LiberationSerif(0)/b/n/14.05249 Два независимых условия
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/b/n/14.05249 эквивалентности. \TU/LiberationSerif(0)/m/n
+/14.05249 Для правового покрытия указываются конкретный
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/m/n/14.05249 пункт, компетентный орган, юридическая сила
+, область семей/случаев,
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/m/n/14.05249 даты применения и обязательное последствие,
+ а для ведомственной
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/m/n/14.05249 формы — применимая регистрация и публикация
+. Для технического
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 113--114
+\TU/LiberationSerif(0)/m/n/14.05249 ответ, версия и выполненный результат. Охва
+т всех авторских тестов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]\TU/LiberationSerif(0)/b/n/14.05249 Как разрешается ограничение области
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 115--116
+\TU/LiberationSerif(0)/m/n/14.05249 документированная область исходных данных м
+огут снять конкретный
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 115--116
+\TU/LiberationSerif(0)/m/n/14.05249 этой областью. Текущее программное отбрасыв
+ание значения само
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 115--116
+\TU/LiberationSerif(0)/m/n/14.05249 по себе не доказывает, что семья юридически
+ не вправе представить
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 115--116
+\TU/LiberationSerif(0)/m/n/14.05249 не может менять, дополнять или исправлять а
+кт. Выясненный смысл
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 115--116
+\TU/LiberationSerif(0)/m/n/14.05249 правового условия — компетентного изменения
+. Закрытый вопрос не
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[]\TU/LiberationSerif(0)/b/n/14.05249 Прямо существующее
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 117--118
+\TU/LiberationSerif(0)/m/n/14.05249 изменения алгоритма требует новый акт. Крат
+кий пункт 4 и полный
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 117--118
+\TU/LiberationSerif(0)/m/n/14.05249 пункт 11 сохраняют это полномочие и предлаг
+ают прослеживаемость
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 117--118
+\TU/LiberationSerif(0)/m/n/14.05249 его конкретного применения. Объём его распр
+остранения на новую
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 117--118
+\TU/LiberationSerif(0)/m/n/14.05249 достаточным правовым определением всей пост
+оянной системы баллов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]\TU/LiberationSerif(0)/b/n/14.05249 Стоимость и порядок выбора. \TU/Liberatio
+nSerif(0)/m/n/14.05249 Сначала в
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 119--120
+\TU/LiberationSerif(0)/m/n/14.05249 всё же требуют времени; ни отсутствие отдел
+ьного ассигнования, ни
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 119--120
+\TU/LiberationSerif(0)/m/n/14.05249 обещание внутреннего исполнения не доказыва
+ет нулевой стоимости.
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 119--120
+\TU/LiberationSerif(0)/m/n/14.05249 Неизвестные часы, договорное покрытие, мощн
+ость и финансирование
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 121--122
+[]\TU/LiberationSerif(0)/b/n/14.05249 Критерий принятого решения. \TU/Liberatio
+nSerif(0)/m/n/14.05249 Допускаются другой порядок
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\TU/LiberationSerif(0)/m/n/14.05249 каждой
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 121--122
+\TU/LiberationSerif(0)/m/n/14.05249 источник, даты и компетенция; для техническ
+ой — исполнитель и
+ []
+
+[6]
+Underfull \hbox (badness 7558) in paragraph at lines 126--126
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Действующий контроль
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Применимая норма и независимо
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/LiberationSerif(0)/m/n/11.04124 обоснованные выполненные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Повторный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\TU/LiberationSerif(0)/m/n/11.04124 подтверждённом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Контрпример
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 127--127
+\TU/LiberationSerif(0)/m/n/11.04124 вне области либо уже
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\TU/LiberationSerif(0)/m/n/11.04124 или компетентное толкование,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Случай ограничивается
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\TU/LiberationSerif(0)/m/n/11.04124 или снимается; новое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\TU/LiberationSerif(0)/m/n/11.04124 правовое ограничение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\TU/LiberationSerif(0)/m/n/11.04124 требует компетентного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Объём технической
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+\TU/LiberationSerif(0)/m/n/11.04124 интеграции
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 128--129
+\TU/LiberationSerif(0)/m/n/11.04124 соразмеряется; правовое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+\TU/LiberationSerif(0)/m/n/11.04124 условие не заменяется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Та же компетенция,
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 129--129
+\TU/LiberationSerif(0)/m/n/11.04124 обязательное последствие, область,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Краткая или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\TU/LiberationSerif(0)/m/n/11.04124 эквивалентная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\TU/LiberationSerif(0)/m/n/11.04124 нормативная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\TU/LiberationSerif(0)/m/n/11.04124 результат;
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 129--130
+\TU/LiberationSerif(0)/m/n/11.04124 точный авторский текст
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 132--133
+\TU/LiberationSerif(0)/m/n/14.05249 необходимые правовые условия и специфичные 
+для оценки гарантии;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\TU/LiberationSerif(0)/m/n/14.05249 материал 1
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 132--133
+\TU/LiberationSerif(0)/m/n/14.05249 тесты и подробные формы используют существу
+ющие полномочия и
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 132--133
+\TU/LiberationSerif(0)/m/n/14.05249 либо отсылка допустимы при сохранении компе
+тенции, обязательного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Выполненное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Согласовать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+\TU/LiberationSerif(0)/m/n/11.04124 или преимущество
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+\TU/LiberationSerif(0)/m/n/11.04124 включающей политики
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\TU/LiberationSerif(0)/m/n/11.04124 620 отрицательных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Подтвердить геометрию и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\TU/LiberationSerif(0)/m/n/11.04124 область, решить правовую
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 139--139
+\TU/LiberationSerif(0)/m/n/11.04124 формулу до программирования;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\TU/LiberationSerif(0)/m/n/11.04124 выгода нулевого
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Официальный пример:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Проверить единицы, делитель
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 140--140
+\TU/LiberationSerif(0)/m/n/11.04124 семьи и период по правовому
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Общая правильность
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 141--141
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Контроли налога, скота и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сохранить
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Реализация Агентства,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+\TU/LiberationSerif(0)/m/n/11.04124 полная спецификация
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 141--142
+\TU/LiberationSerif(0)/m/n/11.04124 2027 года или качество
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\TU/LiberationSerif(0)/m/n/11.04124 37 регрессионных тестов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Воспроизводимый инструмент
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 142--142
+\TU/LiberationSerif(0)/m/n/11.04124 без пропуска или дублирования
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Приёмка системы,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+\TU/LiberationSerif(0)/m/n/11.04124 доступные работники
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+\TU/LiberationSerif(0)/m/n/14.05249 дополнительную пользу относительно реализац
+ии
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 144--145
+\TU/LiberationSerif(0)/m/n/14.05249 Агентства. Сопоставляются спецификация, нез
+ависимо обоснованные
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 144--145
+\TU/LiberationSerif(0)/m/n/14.05249 только выявленная непокрытая задача. Данные
+ семей не выходят из
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 147--148
+\TU/LiberationSerif(0)/m/n/14.05249 а не дополнительный публичный критерий, обя
+занность заявителя или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]\TU/LiberationSerif(0)/b/n/14.05249 Паспорта критерия и источника.
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 149--150
+\TU/LiberationSerif(0)/m/n/14.05249 точность. Перевод и порог имеют один период
+ и единицу; состав
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\TU/LiberationSerif(0)/b/n/14.05249 Реестр контроля. \TU/LiberationSerif(0)/m
+/n/14.05249 Каждое применимое
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 151--152
+\TU/LiberationSerif(0)/m/n/14.05249 связываются со случаями. Для случая указыва
+ются идентификатор,
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 151--152
+\TU/LiberationSerif(0)/m/n/14.05249 и неприменимость объясняются. Пустой состав
+ и неопределённый
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 151--152
+\TU/LiberationSerif(0)/m/n/14.05249 области влияния проверяется вся применимая 
+цепочка. Общий вывод
+ []
+
+[8]
+Underfull \hbox (badness 1275) in paragraph at lines 153--154
+[]\TU/LiberationSerif(0)/b/n/14.05249 Протокол и исправление. \TU/LiberationSer
+if(0)/m/n/14.05249 Отдельно сохраняются идентичность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\TU/LiberationSerif(0)/m/n/14.05249 реестр,
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 153--154
+\TU/LiberationSerif(0)/m/n/14.05249 ожидаемые и фактические компоненты, исполне
+нные и исключённые
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 153--154
+\TU/LiberationSerif(0)/m/n/14.05249 тест. Отделяются соответствие правилу, каче
+ство данных и полнота
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 158--159
+[]\TU/LiberationSerif(0)/m/n/14.05249 Поданный нормативный текст не содержит ре
+зервного перехода
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 Президента с сохранением методики 2026 года
+, включающей границей
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 границы земельной
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 что программа устраняет отсутствие нормы: р
+азработчики завершают
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 законную таблицу решений и разрешают отсутс
+твие или противоречие
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 официальное толкование объясняет подзаконну
+ю норму, но не вносит
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 158--159
+\TU/LiberationSerif(0)/m/n/14.05249 принимающий орган. Назначенная помощь, ожид
+ающие заявления и
+ []
+
+[9]
+Underfull \hbox (badness 1502) in paragraph at lines 160--160
+|\TU/LiberationSerif(0)/b/n/14.05249 Действующие контроли, операционные сведени
+я и дополнительная
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 161--163
+\TU/LiberationSerif(0)/m/n/14.05249 либо мероприятия. Полного реестра проверок 
+программного выпуска
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Официальное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Постановление № 35,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/LiberationSerif(0)/m/n/11.04124 за систему и источники,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Используются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+\TU/LiberationSerif(0)/m/n/11.04124 Наличие независимого
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+\TU/LiberationSerif(0)/m/n/11.04124 ожидаемого ответа
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 16
+6.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.04242pt on input line 166.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.72966pt on input line 166.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.5212pt on input line 166.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.04005pt on input line 166.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.728pt on input line 166.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.52002pt on input line 166.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Постановление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Обязательные
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 166--166
+\TU/LiberationSerif(0)/m/n/11.04124 положительные технические и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/LiberationSerif(0)/m/n/11.04124 защитные заключения до
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/LiberationSerif(0)/m/n/11.04124 внедрения; совместные
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 166--166
+\TU/LiberationSerif(0)/m/n/11.04124 тесты подключения; доступ к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Проверка правила и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 ожидаемого ответа
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 включается в применимые
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 технические требования и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 приёмку. Успех
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 арифметику категории;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/m/n/11.04124 требуемые внешние
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Постановление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Функция IT-аудита
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\TU/LiberationSerif(0)/m/n/11.04124 Министерства цифровых
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 167--167
+\TU/LiberationSerif(0)/m/n/11.04124 инфраструктуры и управления
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\TU/LiberationSerif(0)/m/n/11.04124 результаты аудита, не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\TU/LiberationSerif(0)/m/n/11.04124 создаётся повторная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\TU/LiberationSerif(0)/m/n/11.04124 инспекция. Результат
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\TU/LiberationSerif(0)/m/n/11.04124 конкретного
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 167--168
+\TU/LiberationSerif(0)/m/n/11.04124 аудита скоринга Агентства
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Официальный портал,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+\TU/LiberationSerif(0)/m/n/11.04124 и результата, отсутствие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+\TU/LiberationSerif(0)/m/n/11.04124 требуемых документов,
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 168--168
+\TU/LiberationSerif(0)/m/n/11.04124 бесплатность, указанный срок
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Используется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 существующий канал.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 Просмотренная
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 страница показывает всего
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 ожидающих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 поступление, число
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/11.04124 просрочек или доступная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Сообщение Правительства
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сообщено
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 169--169
+\TU/LiberationSerif(0)/m/n/11.04124 в 184 махаллях за месяц и
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 169--169
+\TU/LiberationSerif(0)/m/n/11.04124 росте обращений Президенту
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\TU/LiberationSerif(0)/m/n/11.04124 поручен прокурорский
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Обосновывает
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 169--170
+\TU/LiberationSerif(0)/m/n/11.04124 доступ к основаниям дела
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+\TU/LiberationSerif(0)/m/n/11.04124 причине. Программная
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 169--170
+\TU/LiberationSerif(0)/m/n/11.04124 и эффект предложения не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Сообщение хокимията
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Проведён практический
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+\TU/LiberationSerif(0)/m/n/11.04124 семинар о законном
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+\TU/LiberationSerif(0)/m/n/11.04124 включении/исключении и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]|\TU/LiberationSerif(0)/m/n/11.04124 При
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 170--171
+\TU/LiberationSerif(0)/m/n/11.04124 пригодности используются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+\TU/LiberationSerif(0)/m/n/11.04124 существующие
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 170--171
+\TU/LiberationSerif(0)/m/n/11.04124 каналы обучения; местное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+\TU/LiberationSerif(0)/m/n/11.04124 общереспубликанскую
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+\TU/LiberationSerif(0)/m/n/11.04124 свободное время
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [10]
+Underfull \hbox (badness 4467) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/14.05249 выводы и контрольные случаи с независимо об
+основанным ответом,
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/14.05249 источник проверяется отдельно. При подтверж
+дении обоих покрытий
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/14.05249 дополнительная норма не требуется; при дока
+занно отсутствующем
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/14.05249 правовом условии необходима его компетентна
+я нормативная фиксация
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/14.05249 в основном акте или законно предусмотренном
+ инструменте. Общие
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 175--176
+\TU/LiberationSerif(0)/m/n/14.05249 и даты на существующем официальном ресурсе;
+ пункт 19 использует
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 175--176
+\TU/LiberationSerif(0)/m/n/14.05249 Отдельный публичный отчёт до выпуска или пе
+риодически больше не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+\TU/LiberationSerif(0)/m/n/14.05249 выписка использует
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+\TU/LiberationSerif(0)/m/n/14.05249 согласовать таблицу правовых решений и сопо
+ставить
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 177--178
+\TU/LiberationSerif(0)/m/n/14.05249 применения с 1 января фиксируются действующ
+ее правило, требуемые
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 177--178
+\TU/LiberationSerif(0)/m/n/14.05249 на работников «Инсон» не возлагается; обычн
+ые заявления сохраняют
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\TU/LiberationSerif(0)/m/n/14.05249 существующий договор
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 179--180
+\TU/LiberationSerif(0)/m/n/14.05249 период выгрузки, каналы, поступившие и заве
+ршённые дела, возраст
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 179--180
+\TU/LiberationSerif(0)/m/n/14.05249 ожидающих, время обработки и задержки источ
+ников; накопительный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\TU/LiberationSerif(0)/m/n/14.05249 поэтому не утверждает нулевой дополнительны
+й расход и
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 18
+4.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 14.05399pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.83772pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.027pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 14.05098pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.83563pt on input line 184.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.02548pt on input line 184.
+
+Underfull \hbox (badness 2065) in paragraph at lines 184--185
+[]\TU/LiberationSerif(0)/m/n/14.05249 Утверждённое правило в общем виде $[] [] 
+[][][][][][][] [][] [][]$: $[]$ —
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 184--185
+\TU/LiberationSerif(0)/m/n/14.05249 входы, $[]$ — качество и исключения, $[]$ —
+ версия. $[]$ не обязана
+ []
+
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+Underfull \hbox (badness 7522) in paragraph at lines 190--192
+\TU/LiberationSerif(0)/m/n/14.05249 категории. Границы требуют методического ил
+и информационного
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 190--192
+\TU/LiberationSerif(0)/m/n/14.05249 основания. При нескольких категориях сохран
+яется неопределённость;
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[]\TU/LiberationSerif(0)/m/n/14.05249 Повторение:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[] [] [][][]$\TU/LiberationSerif(0)/m/n/14.05249 . Для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\TU/LiberationSerif(0)/m/n/14.05249 чувствительности
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 197--198
+\TU/LiberationSerif(0)/m/n/14.05249 Отдельно представлены аудит опубликованных 
+правил и независимая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Официальный пример,
+ []
+
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+Underfull \hbox (badness 2310) in paragraph at lines 207--208
+\TU/LiberationSerif(0)/m/n/11.04124 май–июль; общий календарный
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 208--208
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты 32, 33(a), 39(b);
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 208--208
+[]|\TU/LiberationSerif(0)/m/n/11.04124 При $[] [] [][][] [][][]$ оба
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Новый трудоспособный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/LiberationSerif(0)/m/n/11.04124 заявитель без иных отказов,
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 208--209
+\TU/LiberationSerif(0)/m/n/11.04124 рекомендации. Операционные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/LiberationSerif(0)/m/n/11.04124 решения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\TU/LiberationSerif(0)/m/n/11.04124 такого кадастра
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+[]$ \TU/LiberationSerif(0)/m/n/11.04124 только допущение.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Коэффициенты пола,
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 211--211
+[]|$[][][][] [] [][][] [][][]$\TU/LiberationSerif(0)/m/n/11.04124 /месяц;
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 211--211
+\TU/LiberationSerif(0)/m/n/11.04124 на человека при четырёх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Различие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\TU/LiberationSerif(0)/m/n/11.04124 заработка, дискриминации
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Расширенная земельная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|$[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сконструированные количества,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сохраняются рекомендация,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 213--214
+\TU/LiberationSerif(0)/m/n/11.04124 квота, обстоятельства, оценка и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+\TU/LiberationSerif(0)/m/n/11.04124 другие требования; общий
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]|$[][][][][][][][][] [][][]$\TU/LiberationSerif(0)/m/n/11.04124 , переход
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Периоды налога и базы
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 214--215
+\TU/LiberationSerif(0)/m/n/11.04124 согласуются; коэффициент $[][][][]$
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 214--215
+\TU/LiberationSerif(0)/m/n/11.04124 и освобождение первой головы.
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [13]
+Underfull \hbox (badness 2865) in paragraph at lines 217--218
+\TU/LiberationSerif(0)/m/n/14.05249 включают равенство в обязательные тесты. Ок
+ончательное правовое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+\TU/LiberationSerif(0)/m/n/14.05249 потребительских расходов» согласуется с «до
+ход не превышает
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 225--226
+[]\TU/LiberationSerif(0)/m/n/14.05249 семьи, выведенные из категорий семьи на г
+осударственном
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 225--226
+\TU/LiberationSerif(0)/m/n/14.05249 на человека без уменьшения по тяжёлой ситуа
+ции выше
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[]\TU/LiberationSerif(0)/m/n/14.05249 семьи,
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 227--228
+\TU/LiberationSerif(0)/m/n/14.05249 включаемые по специальному порядку тяжёлой 
+жизненной
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 227--228
+\TU/LiberationSerif(0)/m/n/14.05249 минимальных потребительских расходов после 
+уменьшения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+\TU/LiberationSerif(0)/m/n/14.05249 дохода
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 227--228
+\TU/LiberationSerif(0)/m/n/14.05249 расходам либо меньший доход сами по себе не
+ являются
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 227--228
+\TU/LiberationSerif(0)/m/n/14.05249 основанием отказа. Сохраняются законодатель
+ные условия
+ []
+
+[14]
+Underfull \hbox (badness 3354) in paragraph at lines 229--230
+\TU/LiberationSerif(0)/m/n/14.05249 Второй путь согласуется с примечанием (b) п
+риложения 1 PF-258 и
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 231--232
+[]\TU/LiberationSerif(0)/m/n/14.05249 Контрпример после рецензии, не входивший 
+в первоначальный
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 235--236
+\TU/LiberationSerif(0)/m/n/14.05249 наименьшее, max — наибольшее. TEM неотрицат
+ельна;
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 237--238
+\TU/LiberationSerif(0)/m/n/14.05249 такого ограничения в программе. Налоговый к
+оэффициент и другие
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 241--242
+\TU/LiberationSerif(0)/m/n/14.05249 месячном $[]$ переход $[][] [] []$ к $[][]$
+ для перечисленных стран меняет
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 241--242
+[][]$ \TU/LiberationSerif(0)/m/n/14.05249 на $[][]$, снижение 1360000 сумов. Дл
+я трёхмесячного $[]$ меняет
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 241--242
+[][]$ \TU/LiberationSerif(0)/m/n/14.05249 на $[][][][]$, снижение $[] [][][] []
+[][][][]$. Для прочих стран снижения 0 и
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+[]\TU/LiberationSerif(0)/b/n/14.05249 1. Категория и равенство. \TU/LiberationS
+erif(0)/m/n/14.05249 Источники: пункт 3
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 250--251
+\TU/LiberationSerif(0)/m/n/14.05249 области. До внедрения оцениваются повышения
+ дохода и прежние
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 252--253
+\TU/LiberationSerif(0)/m/n/14.05249 через кабинет предоставляются версия, основ
+ные значения и периоды,
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 254--255
+[]\TU/LiberationSerif(0)/b/n/14.05249 4. Возражение и совет. \TU/LiberationSeri
+f(0)/m/n/14.05249 Пункты 26 и 31 приложения 4 №
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 254--255
+\TU/LiberationSerif(0)/m/n/14.05249 против решения только по автоматизированной
+ обработке направляется
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 254--255
+\TU/LiberationSerif(0)/m/n/14.05249 по запросу субъекта имеет отдельный трёхдне
+вный срок статьи 11, а
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 254--255
+\TU/LiberationSerif(0)/m/n/14.05249 выявленные неточные данные исправляются нем
+едленно; этот срок не
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 254--255
+\TU/LiberationSerif(0)/m/n/14.05249 требование доказательств, решение и исполне
+ние; это предложение не
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\TU/LiberationSerif(0)/m/n/14.05249 начало, условие восстановления
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 256--257
+\TU/LiberationSerif(0)/m/n/14.05249 и проверяются по применимым законным правил
+ам». Основание: не
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 258--259
+\TU/LiberationSerif(0)/m/n/14.05249 № 35 и назначение и выплаты по приложению 3
+. В поля передачи
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/b/n/14.05249 процедура. \TU/LiberationSerif(0)/m/n/14.05
+249 Пункт 46 приложения 1 к постановлению № 35 уже
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 возлагает на ответственных работников госуд
+арственного учреждения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 «Центр информационных технологий» при Агент
+стве
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 обеспечение правильной работы Реестра и YAM
+IH, совершенствование
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 и ведомств отвечают за своевременные и дост
+оверные ответы. Пункт
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 аудита Агентства и Социальную инспекцию. Пр
+едложение не создаёт
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 новую инспекцию и не передаёт их законные п
+олномочия другому
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 независимо воспроизводимые контрольные расч
+ёты, приёмку каждой
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 основания решений и допустимые к публикации
+ сводные результаты.
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 Эти два пункта сами не устанавливают такой 
+подробный протокол.
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 260--261
+\TU/LiberationSerif(0)/m/n/14.05249 эквиваленты, сохранить их полномочия и объе
+динить дублирующиеся
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+|\TU/LiberationSerif(0)/b/n/14.05249 Основное проверочное приложение: связь с д
+ействующими
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 263--265
+\TU/LiberationSerif(0)/m/n/14.05249 Сопоставление относится к обязательной част
+и материала 1. Первая
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 263--265
+\TU/LiberationSerif(0)/m/n/14.05249 графа излагает предмет конкретной действующ
+ей нормы; вторая —
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 263--265
+\TU/LiberationSerif(0)/m/n/14.05249 дополнительные способы её исполнения, предл
+оженные автором. Это
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 263--265
+\TU/LiberationSerif(0)/m/n/14.05249 постановления. Нумерация во второй графе от
+носится к приложению
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункт 46 приложения
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 1 к постановлению № 35:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 YAMIH в соответствии с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 законодательством и
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 269--269
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты 4–7, 12–17, 25–26:
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 связанное описание правил,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 независимые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+\TU/LiberationSerif(0)/m/n/11.04124 компонентов, приёмка
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Установить соответствие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/LiberationSerif(0)/m/n/11.04124 утверждённой норме на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/LiberationSerif(0)/m/n/11.04124 предъявленном
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 45–46: защита сведений и
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 своевременные достоверные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 ответы государственных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты 8–10, 21–22,
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 28: различимые состояния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 данных, компетентное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\TU/LiberationSerif(0)/m/n/11.04124 проверка предоставленного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Не превращать отсутствие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\TU/LiberationSerif(0)/m/n/11.04124 семью и не передавать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\TU/LiberationSerif(0)/m/n/11.04124 защищённые входы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 Статья
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 24 закона о персональных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 данных: объяснение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 автоматизированного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 решения и десятидневное
+ []
+
+
+Underfull \hbox (badness 6775) in paragraph at lines 273--273
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты 18–20: доступное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 объяснение расчёта,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 разделение источника,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 программы и правила,
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 сохранение первоначального
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 273--273
+\TU/LiberationSerif(0)/m/n/11.04124 обращения и компетентного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Семья может установить
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+\TU/LiberationSerif(0)/m/n/11.04124 причину и оспорить
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+\TU/LiberationSerif(0)/m/n/11.04124 исправление источника
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 273--274
+\TU/LiberationSerif(0)/m/n/11.04124 не подменяется жалобой на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункт 48: временное
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 полномочие при нарушении
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 в пределах полномочий
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 275--275
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункты 11, 17, 23–24, 27:
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 запись временного режима,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 область влияния,
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 восстановление, внутренний
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\TU/LiberationSerif(0)/m/n/11.04124 протокол и законный
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 275--276
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Временная версия остаётся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+\TU/LiberationSerif(0)/m/n/11.04124 обнаружимой; техническое
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 275--276
+\TU/LiberationSerif(0)/m/n/11.04124 уменьшения или взыскания
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 277--278
+\TU/LiberationSerif(0)/m/n/14.05249 действующая процедура сохраняется; разработ
+чик указывает её норму
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 277--278
+\TU/LiberationSerif(0)/m/n/14.05249 и объединяет дублирование. Критерии нуждаем
+ости 2027 года этим
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 280--282
+\TU/LiberationSerif(0)/m/n/14.05249 Первая графа содержит только относящуюся к 
+изменению фразу или
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 280--282
+\TU/LiberationSerif(0)/m/n/14.05249 расчётную часть; остальные условия не отмен
+яются. Это таблица
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 280--282
+\TU/LiberationSerif(0)/m/n/14.05249 выбранных норм авторского предложения, а не
+ окончательная таблица
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Соответствующая часть
+ []
+
+Font mapping `tex-text.tec' for font `Liberation Serif Italic' not found.
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]|\TU/LiberationSerif(0)/m/n/11.04124 PF-258 пункт 3(a), (b),
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 примечание (a) приложения
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 1 и постановление № 35,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 приложение
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 дохода «|   []   |   []
+ []
+
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+
+Underfull \hbox (badness 6445) in paragraph at lines 286--286
+[]|\TU/LiberationSerif(0)/m/n/11.04124 В выбранном включающем
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 только это условие на «\TU/LiberationSerif(
+0)/b/n/11.04124 не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/b/n/11.04124 превышающих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/b/n/11.04124 минимальные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 Совместно изменить все
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 указанные части на уровне
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 Президента и Кабинета
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\TU/LiberationSerif(0)/m/n/11.04124 Министров; остальные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\TU/LiberationSerif(0)/m/n/11.04124 заявителя в выбранных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\TU/LiberationSerif(0)/m/n/11.04124 условиях не совпадают
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\TU/LiberationSerif(0)/m/n/11.04124 предикаты признания и
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 286--287
+\TU/LiberationSerif(0)/m/n/11.04124 является выбором политики
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Постановление № 35,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\TU/LiberationSerif(0)/m/n/11.04124 приложение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\TU/LiberationSerif(0)/m/n/11.04124 на 25 процентов доход,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]|\TU/LiberationSerif(0)/b/n/11.04124 Разделить путь обычного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\TU/LiberationSerif(0)/b/n/11.04124 специальном пути
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\TU/LiberationSerif(0)/b/n/11.04124 основанием отказа.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\TU/LiberationSerif(0)/b/n/11.04124 Остальные законные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+[] [] []$ \TU/LiberationSerif(0)/m/n/11.04124 противоречит
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+\TU/LiberationSerif(0)/m/n/11.04124 трёх человек.
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 288--289
+\TU/LiberationSerif(0)/m/n/11.04124 Общий интервал не должен
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Алгебраическая запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/m/n/11.04124 соответствующего
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/m/n/11.04124 приложения 1 № 35:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[]|\TU/LiberationSerif(0)/m/n/11.04124 После подтверждения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/m/n/11.04124 геометрического смысла
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/m/n/11.04124 разработчиком предлагается
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/b/n/11.04124 200)}\TU/LiberationSerif(0)/m/n/11.04124 . 
+Площади относятся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\TU/LiberationSerif(0)/m/n/11.04124 единица определяются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 отрицательный
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 результат. Нулевой предел
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 может повысить вменённый
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 доход; он
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 увеличения помощи или
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 взыскания прежних выплат.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+\TU/LiberationSerif(0)/m/n/11.04124 Операционная частота
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 292--292
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Пункт 37 приложения 1 №
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/m/n/11.04124 номер направляется SMS о
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/m/n/11.04124 включении семьи в реестр
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сохранить SMS.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 в кабинете
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 и периоды, правовые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 путь возражения; не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 использующий
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 через «Инсон».
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+\TU/LiberationSerif(0)/b/n/11.04124 Защищённые сведения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сообщение результата не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 раскрывает полностью
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 Дополнение согласуется со
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 статьёй
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 24 закона о персональных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 данных и применимыми
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\TU/LiberationSerif(0)/m/n/11.04124 административными
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 296--297
+\TU/LiberationSerif(0)/m/n/14.05249 Авторское предложение не направлено государ
+ственным органам, не
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 296--297
+\TU/LiberationSerif(0)/m/n/14.05249 проходило общественного обсуждения на госуд
+арственном портале и
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+\TU/LiberationSerif(0)/m/n/14.05249 поручение
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 301--302
+\TU/LiberationSerif(0)/m/n/14.05249 исключения, даты и основания. Независимые с
+лучаи включаются
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 301--302
+\TU/LiberationSerif(0)/m/n/14.05249 в применимый технический процесс и выпуск; 
+равноценные тесты
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+[]\TU/LiberationSerif(0)/m/n/14.05249 Компетентный собственник или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Методика и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Агентство с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\TU/LiberationSerif(0)/m/n/11.04124 Министерством;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\TU/LiberationSerif(0)/m/n/11.04124 методическое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\TU/LiberationSerif(0)/m/n/11.04124 подразделение и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Паспорта правил и
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 311--312
+\TU/LiberationSerif(0)/m/n/11.04124 согласованы; отсутствующее правило не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Источники и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Ответственные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 работники Центра
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 информационных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 технологий;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 руководители
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 предоставляющих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/LiberationSerif(0)/m/n/11.04124 сведения ведомств в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+\TU/LiberationSerif(0)/m/n/11.04124 период,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Контрольная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Системное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\TU/LiberationSerif(0)/m/n/11.04124 подразделение и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\TU/LiberationSerif(0)/m/n/11.04124 проверяющий
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\TU/LiberationSerif(0)/m/n/11.04124 контрольные ответы,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\TU/LiberationSerif(0)/m/n/11.04124 отличный от
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\TU/LiberationSerif(0)/m/n/11.04124 ответственного за
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Реестр правил и случаев,
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 315--316
+\TU/LiberationSerif(0)/m/n/11.04124 точные контрольные ответы и протокол.
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 315--316
+\TU/LiberationSerif(0)/m/n/11.04124 все влияющие расхождения устранены и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Объяснение и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Уполномоченный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+\TU/LiberationSerif(0)/m/n/11.04124 работник «Инсон»,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+\TU/LiberationSerif(0)/m/n/11.04124 собственник
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 317--317
+\TU/LiberationSerif(0)/m/n/11.04124 или оператор данных,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Образец доступного объяснения и
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 317--318
+\TU/LiberationSerif(0)/m/n/11.04124 срок и результат установлены; проверка
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Сбой и
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 319--319
+\TU/LiberationSerif(0)/m/n/11.04124 восстановление; 11,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Уполномоченный и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+\TU/LiberationSerif(0)/m/n/11.04124 восстановленных расчётов; решения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+\TU/LiberationSerif(0)/m/n/11.04124 выявляются,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 321--321
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Ресурсы и приёмка;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Агентство с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\TU/LiberationSerif(0)/m/n/11.04124 Министерством;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\TU/LiberationSerif(0)/m/n/11.04124 руководитель или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\TU/LiberationSerif(0)/m/n/11.04124 уполномоченный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Запись выпуска, внешние заключения,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+\TU/LiberationSerif(0)/m/n/11.04124 тесты, реальные дополнительные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Оператор, защита и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+\TU/LiberationSerif(0)/m/n/11.04124 проверка обязательного/разрешённого
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[]\TU/LiberationSerif(0)/m/n/14.05249 До внесения основного проекта 1
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 326--327
+\TU/LiberationSerif(0)/m/n/14.05249 затронутого правила с 1 января 2027 года фи
+ксируются компетентное
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 326--327
+\TU/LiberationSerif(0)/m/n/14.05249 график и не полномочие отложить начало. Пре
+дварительные случаи
+ []
+
+[21]
+Underfull \hbox (badness 4168) in paragraph at lines 331--332
+\TU/LiberationSerif(0)/m/n/14.05249 установленном законном правиле. Равноценные
+ проверки и каналы
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 333--334
+\TU/LiberationSerif(0)/m/n/14.05249 выбрать пять кратких пунктов материала 1, р
+авноценную редакцию
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 333--334
+\TU/LiberationSerif(0)/m/n/14.05249 либо сохранённую применимую норму; A1 обесп
+ечивает техническое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+\TU/LiberationSerif(0)/m/n/14.05249 согласование, недостающие случаи, затронуты
+е изменения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+\TU/LiberationSerif(0)/m/n/14.05249 учёта. Агентство предоставляет объёмы,
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 337--338
+[]\TU/LiberationSerif(0)/m/n/14.05249 Эмпирическая нуждаемость требует отдельно
+го исследования на
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 337--338
+\TU/LiberationSerif(0)/m/n/14.05249 соответствия; незавершённое исследование не
+ доказывает правильную
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 340--341
+\TU/LiberationSerif(0)/m/n/14.05249 Приложение проверки может приниматься отдел
+ьно от необязательных
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 340--341
+\TU/LiberationSerif(0)/m/n/14.05249 ответов и компонентного сравнения. Нельзя п
+ропустить применимое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+\TU/LiberationSerif(0)/m/n/14.05249 исключение и затем удостоверить полноту соб
+ственного списка.
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 340--341
+\TU/LiberationSerif(0)/m/n/14.05249 Отсутствующие или повторные случаи, неразре
+шённые компонентные
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 340--341
+\TU/LiberationSerif(0)/m/n/14.05249 различия и нулевые знаменатели раскрываются
+. Совпадение сумм не
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+[]\TU/LiberationSerif(0)/m/n/14.05249 Выполненная работа предоставляет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+[]\TU/LiberationSerif(0)/m/n/14.05249 Протокол готовности разработчика указывае
+т методическое
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 344--345
+\TU/LiberationSerif(0)/m/n/14.05249 мощность и финансирование интеграции, контр
+оля, хранения, доступа,
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 344--345
+\TU/LiberationSerif(0)/m/n/14.05249 дважды. Итог бюджета либо экономия не выдум
+аны. Последующее
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 346--347
+[]\TU/LiberationSerif(0)/m/n/14.05249 Технические источники устройства контроля
+: []Barr и соавторы,
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 346--347
+\TU/LiberationSerif(0)/m/n/14.05249 2015, обзор проблемы ответа теста[] и []NIS
+T IR 8397, разделы 2.6–2.8[].
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 346--347
+\TU/LiberationSerif(0)/m/n/14.05249 Это инженерные источники, не дополнительные
+ правовые обязанности
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 349--350
+\TU/LiberationSerif(0)/m/n/14.05249 версии описанного правила, проверенного кон
+трольного комплекта и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\TU/LiberationSerif(0)/m/n/14.05249 сохранённого основания индивидуального
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 349--350
+\TU/LiberationSerif(0)/m/n/14.05249 неразрешённых расхождений компонентов, дост
+упности объяснения и
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 349--350
+\TU/LiberationSerif(0)/m/n/14.05249 соблюдению законных сроков исправления и во
+зражения. Для долей
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 349--350
+\TU/LiberationSerif(0)/m/n/14.05249 публикуются числитель, знаменатель и исключ
+ения. Эти показатели
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+[]\TU/LiberationSerif(0)/m/n/14.05249 Для
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 351--352
+\TU/LiberationSerif(0)/m/n/14.05249 семьи ожидаются доступ к использованным зна
+чениям и правовому
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 351--352
+\TU/LiberationSerif(0)/m/n/14.05249 оснований и компетентного индивидуального р
+ешения. Действующие
+ []
+
+[23]
+Underfull \hbox (badness 3612) in paragraph at lines 353--354
+\TU/LiberationSerif(0)/m/n/14.05249 ответ, неподготовленный маршрут обращения, 
+нехватка работников и
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 353--354
+\TU/LiberationSerif(0)/m/n/14.05249 раздельный статус и уточнение (8–10), незав
+исимый правовой вывод
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 353--354
+\TU/LiberationSerif(0)/m/n/14.05249 по себе не устраняет эти риски; условия зак
+рытия указаны в таблице
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+\TU/LiberationSerif(0)/m/n/14.05249 К основному проекту предлагается
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 356--357
+\TU/LiberationSerif(0)/m/n/14.05249 подготовить расчёт по следующим работам: оп
+исание и юридическое
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 356--357
+\TU/LiberationSerif(0)/m/n/14.05249 работников; отчёт и контроль раскрытия; соп
+ровождение и повторные
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 356--357
+\TU/LiberationSerif(0)/m/n/14.05249 объём, годовой объём, единица, дополнительн
+ые денежные затраты на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+\TU/LiberationSerif(0)/m/n/14.05249 Здесь $[][]$ — годовой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+\TU/LiberationSerif(0)/m/n/14.05249 законный источник и бюджетное оформление. С
+редства
+ []
+
+[24]
+Underfull \hbox (badness 2671) in paragraph at lines 363--364
+\TU/LiberationSerif(0)/m/n/14.05249 определения стоимости проектов Центра инфор
+мационных технологий
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 363--364
+\TU/LiberationSerif(0)/m/n/14.05249 Агентства за счёт Государственного фонда со
+циальной защиты либо
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+[]\TU/LiberationSerif(0)/m/n/14.05249 Для технического сопровождения и совершен
+ствования
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+\TU/LiberationSerif(0)/m/n/14.05249 MS — число
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 366--368
+\TU/LiberationSerif(0)/m/n/14.05249 расходов по проекту. Проценты применяют к у
+казанной базе и виду
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 366--368
+\TU/LiberationSerif(0)/m/n/14.05249 проекта, не без разбора ко всем задачам. Дл
+я новых проектов пункт
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 366--368
+\TU/LiberationSerif(0)/m/n/14.05249 Агентства. По пункту 12 условные штатные и 
+зарплатные параметры
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+[][]\TU/LiberationSerif(0)/m/n/14.05249 ПП-388
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+\TU/LiberationSerif(0)/m/n/14.05249 подзаконного предложения сведения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+\TU/LiberationSerif(0)/m/n/14.05249 Статья
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 374--375
+\TU/LiberationSerif(0)/m/n/14.05249 проекта на государственном языке по статье 
+21 []ЗРУ-682[]; английская
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 374--375
+\TU/LiberationSerif(0)/m/n/14.05249 является согласованной сопроводительной вер
+сией. При согласовании
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 374--375
+\TU/LiberationSerif(0)/m/n/14.05249 и полномочиям. Содержательное расхождение п
+ереводов устраняется
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 374--375
+\TU/LiberationSerif(0)/m/n/14.05249 до подачи разработчиком окончательной редак
+ции, а не разрешается
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 377--378
+\TU/LiberationSerif(0)/m/n/14.05249 Для данного проекта официальная спецификаци
+я баллов 2027 года не
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 377--378
+\TU/LiberationSerif(0)/m/n/14.05249 паспорт указывает доказанную область; реаль
+ная частота не заявлена.
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/b/n/14.05249 Имеющиеся полномочия и необходимость. \TU/L
+iberationSerif(0)/m/n/14.05249 Проверяются отдельно
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/m/n/14.05249 правовое покрытие и выполненный контроль. С
+татья 20 ЗРУ-682
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/m/n/14.05249 ограничивает инициирование указанных в ней 
+проектов, если вопрос
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/m/n/14.05249 полномочиями; PF-193 прямо поручает нормати
+вную разработку новой
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/m/n/14.05249 теста. При равноценном действующем правиле 
+оно сохраняется, а
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+\TU/LiberationSerif(0)/m/n/14.05249 техническая интеграция
+ []
+
+[26]
+Underfull \hbox (badness 1052) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 компетентным органам и требует их рассмотре
+ния в законном порядке
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 и сроки. Статьи 6, 18 и 23 []закона об обра
+щениях[] разграничивают
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 реквизиты, приём и регистрацию. Регистрация
+ производится в день
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 рабочий день; отказ в регистрации запрещён.
+ Обращение указывает
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 рассмотрения, включая анонимность или иное 
+несоблюдение закона,
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 382--383
+\TU/LiberationSerif(0)/m/n/14.05249 отзыв и установленные условия повторного об
+ращения. Неизвестные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+[]\TU/LiberationSerif(0)/b/n/14.05249 Рассмотрение и ответ.
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 Статья 22 допускает участие, но не обязывае
+т назначать. По статье
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 27 закона об обращениях рассматриваются все
+ вопросы и письменный
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 для предложения срок до месяца, кроме допол
+нительного изучения с
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 письменным уведомлением в десятидневный сро
+к. Личная просьба
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 об участии или доступе может требовать отде
+льной классификации
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 384--385
+\TU/LiberationSerif(0)/m/n/14.05249 и соответствующего срока. Объединённое пись
+мо не устанавливает
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 386--387
+[]\TU/LiberationSerif(0)/b/n/14.05249 Доказательства исполнения. \TU/Liberation
+Serif(0)/m/n/14.05249 Сохраняются поданная редакция,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+\TU/LiberationSerif(0)/m/n/14.05249 приложения, квитанция либо электронное подт
+верждение,
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 386--387
+\TU/LiberationSerif(0)/m/n/14.05249 номер регистрации и дата поступления. Сохра
+няются уведомления о
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 386--387
+\TU/LiberationSerif(0)/m/n/14.05249 ответ. Ответ сопоставляется с пятью нумеров
+анными просьбами и
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 386--387
+\TU/LiberationSerif(0)/m/n/14.05249 действующая норма либо причина непринятия. 
+Хеш исходного файла
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 предусматривают обжалование
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 незаконного отказа в приёме или рассмотрени
+и и разъяснение порядка
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 обжалования; []статья 55 Конституции[] защи
+щает судебное обжалование
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 или интересов заявителя для указанного сред
+ства защиты; суд может
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 нарушение. Несогласие с обоснованным выборо
+м политики само по
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 шестимесячный срок обращения в суд со дня, 
+когда стало известно о
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 нарушении, если законом не предусмотрен ино
+й срок; восстановление
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 388--389
+\TU/LiberationSerif(0)/m/n/14.05249 требует уважительной причины. Это отличаетс
+я от годичного срока
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+\TU/LiberationSerif(0)/m/n/14.05249 прямо разрешает отклонение
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 390--391
+\TU/LiberationSerif(0)/m/n/14.05249 включения или принятия. Статья 3 []ЗРУ-457[
+] исключает подготовку и
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 390--391
+\TU/LiberationSerif(0)/m/n/14.05249 частях пакета, не заявляются как процедурна
+я основа принуждения к
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 390--391
+\TU/LiberationSerif(0)/m/n/14.05249 гражданина и отдельные конституционные и за
+конные обязанности,
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 392--393
+\TU/LiberationSerif(0)/m/n/14.05249 об обращениях исключает обращения, порядок 
+рассмотрения которых
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 392--393
+\TU/LiberationSerif(0)/m/n/14.05249 установлен иным законодательством. Данное п
+исьмо подготовлено
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 392--393
+\TU/LiberationSerif(0)/m/n/14.05249 как инициативное предложение гражданина и л
+ичная просьба, а не
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 392--393
+\TU/LiberationSerif(0)/m/n/14.05249 его и правовое основание; обычный срок пред
+ложения не заявляется
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 392--393
+\TU/LiberationSerif(0)/m/n/14.05249 для последующего портального комментария по
+ статье 24 ЗРУ-682.
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[]\TU/LiberationSerif(0)/m/n/14.05249 При оспаривании в применимом порядке
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 394--395
+\TU/LiberationSerif(0)/m/n/14.05249 и устанавливают, что суд не оценивает целес
+ообразность решения или
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 394--395
+\TU/LiberationSerif(0)/m/n/14.05249 решение должно быть принято. Эти правила по
+ддерживают проверку
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 401--402
+[]\TU/LiberationSerif(0)/m/n/14.05249 Это авторское предложение; новые обязанно
+сти не объявлены
+ []
+
+[29]
+(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `explanatory_note_ru.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 16882 strings out of 469974
+ 311542 string characters out of 5477063
+ 879643 words of memory out of 5000000
+ 45272 multiletter control sequences out of 15000+600000
+ 632020 words of font info for 102 fonts, out of 8000000 for 9000
+ 206 hyphenation exceptions out of 8191
+ 86i,12n,107p,1398b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
+ry_note_ru.pdf (29 pages).

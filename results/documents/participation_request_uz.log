@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  30 SEP 2026 17:49
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -122,44 +122,21 @@ Package fontspec Info:
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 
 Package fontspec Info: 
-(fontspec)             Liberation Mono scale = 0.82.
-
-
-Package fontspec Info: 
-(fontspec)             Liberation Mono scale = 0.82.
-
-
-Package fontspec Info: 
-(fontspec)             Liberation Mono/B scale = 0.82.
-
-
-Package fontspec Info: 
-(fontspec)             Liberation Mono/I scale = 0.82.
-
-
-Package fontspec Info: 
-(fontspec)             Liberation Mono/BI scale = 0.82.
-
-
-Package fontspec Info: 
 (fontspec)             Font family 'LiberationMono(0)' created for font
 (fontspec)             'Liberation Mono' with options
 (fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space,Scale=0.82].
+Space].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.82]"Liberation
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Liberation
 (fontspec)             Mono/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.82]"Liberation
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Liberation
 (fontspec)             Mono/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.82]"Liberation
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Liberation
 (fontspec)             Mono/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.82]"Liberation
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Liberation
 (fontspec)             Mono/BI/OT:script=latn;language=dflt;"
 
 
@@ -981,70 +958,156 @@ ut)
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-Underfull \hbox (badness 3547) in paragraph at lines 40--41
-[]\TU/LiberationSerif(0)/b/n/14.05249 Yuborilmagan loyiha. \TU/LiberationSerif(
-0)/m/n/14.05249 Muallifning shaxsi, aloqa ma’lumotlari va
+Underfull \hbox (badness 1281) in paragraph at lines 40--41
+[]\TU/LiberationSerif(0)/b/n/14.05249 Yuborilmagan murojaat loyihasi. \TU/Liber
+ationSerif(0)/m/n/14.05249 2026-yil 1-oktabrda tahrirlangan.
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 51--52
+Underfull \hbox (badness 4739) in paragraph at lines 53--54
 \TU/LiberationSerif(0)/m/n/14.05249 Farmoni 13–14-bandlariga muvofiq ishlab chi
 qilayotgan normativ-huquqiy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-[]\TU/LiberationSerif(0)/m/n/14.05249 “Normativ-huquqiy hujjatlar to‘g‘risida”g
-i Qonunning 20 va
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/LiberationSerif(0)/m/n/14.05249 Mazmuniy qism “Jismoniy va yuridik shaxsl
+arning murojaatlari
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\TU/LiberationSerif(0)/m/n/14.05249 “Normativ-huquqiy hujjatlar to‘g‘risida”g
+i Qonunning 20, 22 va
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 60--61
 []\TU/LiberationSerif(0)/m/n/14.05249 Taklif etilgan normalarni PF-193-son Farm
 onning 14-bandi bo‘yicha
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 59--60
-\TU/LiberationSerif(0)/m/n/14.05249 koeffitsiyentlar, chegaralar, istisnolar va
- ma’lumotlar sifati qoidalarini
+Underfull \hbox (badness 3158) in paragraph at lines 63--64
+[]\TU/LiberationSerif(0)/m/n/14.05249 Joriy loyiha va sanali spetsifikatsiyani 
+tasdiqlovchi akt yoki loyiha
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 63--64
+\TU/LiberationSerif(0)/m/n/14.05249 maqomi, birlik, davr, chegara, istisno, yax
+litlash va sifat qoidalari
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 63--64
+\TU/LiberationSerif(0)/m/n/14.05249 so‘rayman. Qoplanmagan vazifa uchun mas’ul,
+ shartnoma qamrovi,
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-[]\TU/LiberationSerif(0)/m/n/14.05249 Normativ-huquqiy hujjat loyihasiga taklif
- etilayotgan normalar va
- []
-
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 71
-.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.05399pt on input line 71.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.83772pt on input line 71.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.027pt on input line 71.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.05098pt on input line 71.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.83563pt on input line 71.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.02548pt on input line 71.
-
-Underfull \hbox (badness 1264) in paragraph at lines 71--72
-[]\TU/LiberationSerif(0)/m/n/14.05249 Batafsil ilmiy maqola ($[][][][] [] [][][
-][][][][][] [] [][][][][] [] [][]$) va uning hisoblangan
+Underfull \hbox (badness 1248) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 so‘ralayotgan javob shaklidir; 24-modda bo‘
+yicha portal muhokamasi
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 jadvallar, uchta oq-qora ilmiy grafik hamda
- alohida normativ taklif
+Underfull \hbox (badness 1603) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 22-modda doirasida taklif etayotgan hissam 
+tasdiqlangan uslubiyotni takror
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 tasdiqlash vakolatini so‘ramayman. Ishchi g
+uruhga kiritish tanlanmasa,
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 22-modda doirasida ilovadagi ilmiy-texnik t
+avsiyalarni loyiha tayyorlashda
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 68--69
+\TU/LiberationSerif(0)/m/n/14.05249 mumkin. Bu variantlar vakolatli huquqiy o‘z
+gartirish hamda oqibatlarni
  []
 
 [2]
+Underfull \hbox (badness 4072) in paragraph at lines 72--73
+\TU/LiberationSerif(0)/m/n/14.05249 ro‘yxat raqamini ma’lum qilishni so‘rayman.
+ Ushbu modda ro‘yxatdan
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 72--73
+\TU/LiberationSerif(0)/m/n/14.05249 tashqari qabul qilish va ko‘rib chiqishni t
+alab qiladi. Masala oluvchining
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 72--73
+\TU/LiberationSerif(0)/m/n/14.05249 vakolatiga kirmasa, murojaatlar to‘g‘risida
+gi qonunga muvofiq besh kunlik
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 74--75
+\TU/LiberationSerif(0)/m/n/14.05249 yozma xabar berilishi belgilangan. Shaxsiy 
+ishtirok va kirish haqidagi
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 76--77
+\TU/LiberationSerif(0)/m/n/14.05249 talab qiladi. Ishchi guruh ishtiroki tanlan
+masa ham ilovadagi natijalarni
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 76--77
+\TU/LiberationSerif(0)/m/n/14.05249 modda bo‘yicha loyiha matni bilan oldindan 
+tanishtirishni so‘rayman. Bu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\TU/LiberationSerif(0)/m/n/14.05249 Haqiqiy oilalarning shaxsga
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]\TU/LiberationSerif(0)/m/n/14.05249 1-material
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 85--86
+\TU/LiberationSerif(0)/m/n/14.05249 bo‘yicha ijro asosi, hisoblangan natijalar,
+ tanlangan qiyosiy jadval,
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 88--89
+\TU/LiberationSerif(0)/m/n/14.05249 Mazmun va hisoblash xulosalarini repozitori
+yga kirmasdan ko‘rib chiqish
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 92--93
+\TU/LiberationSerif(0)/m/n/14.05249 kutilgan javoblar, misollar tarkibining mus
+taqil tekshiruvi va ko‘rsatilgan
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 92--93
+\TU/LiberationSerif(0)/m/n/14.05249 ishni tasdiqlaydi; ilmiy daraja yoki tashki
+lot vakilligi da’vo qilinmaydi.
+ []
+
+[4]
 (/home/xola/GitHub/Solial Registry/results/documents/participation_request_uz.a
 ux)
  ***********
@@ -1056,13 +1119,13 @@ d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16748 strings out of 469974
- 308874 string characters out of 5477063
- 865120 words of memory out of 5000000
- 45159 multiletter control sequences out of 15000+600000
- 630201 words of font info for 82 fonts, out of 8000000 for 9000
+ 16718 strings out of 469974
+ 307691 string characters out of 5477063
+ 866098 words of memory out of 5000000
+ 45142 multiletter control sequences out of 15000+600000
+ 628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,11n,107p,773b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,1084b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/participa
-tion_request_uz.pdf (2 pages).
+tion_request_uz.pdf (4 pages).
