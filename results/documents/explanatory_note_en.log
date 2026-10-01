@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 22:58
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,6 +631,48 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/texgyretermes-math.otf(3)/b/n on in
 put line 9.
 
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count311
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen170
+\l@unhyphenated=\language6
+
+(/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count312
+
+(/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+))
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -648,28 +690,28 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen170
-\Gin@req@width=\dimen171
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 )
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen172
-\lightrulewidth=\dimen173
-\cmidrulewidth=\dimen174
-\belowrulesep=\dimen175
-\belowbottomsep=\dimen176
-\aboverulesep=\dimen177
-\abovetopsep=\dimen178
-\cmidrulesep=\dimen179
-\cmidrulekern=\dimen180
-\defaultaddspace=\dimen181
-\@cmidla=\count311
-\@cmidlb=\count312
-\@aboverulesep=\dimen182
-\@belowrulesep=\dimen183
-\@thisruleclass=\count313
-\@lastruleclass=\count314
-\@thisrulewidth=\dimen184
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen185
 )
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
@@ -677,24 +719,24 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTright=\skip55
 \LTpre=\skip56
 \LTpost=\skip57
-\LTchunksize=\count315
-\LTcapwidth=\dimen185
+\LTchunksize=\count317
+\LTcapwidth=\dimen186
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count316
-\LT@rows=\count317
-\c@LT@tables=\count318
-\c@LT@chunks=\count319
+\LT@cols=\count318
+\LT@rows=\count319
+\c@LT@tables=\count320
+\c@LT@chunks=\count321
 \LT@p@ftn=\toks24
 )
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen186
+\col@sep=\dimen187
 \ar@mcellbox=\box60
-\extrarowheight=\dimen187
+\extrarowheight=\dimen188
 \NC@list=\toks25
 \extratabsurround=\skip58
 \backup@length=\skip59
@@ -703,42 +745,54 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip60
-\enit@outerparindent=\dimen188
+\enit@outerparindent=\dimen189
 \enit@toks=\toks26
 \enit@inbox=\box62
-\enit@count@id=\count320
-\enitdp@description=\count321
+\enit@count@id=\count322
+\enitdp@description=\count323
+)
+(/home/xola/GitHub/Solial Registry/tex/ulem.sty
+\UL@box=\box63
+\UL@hyphenbox=\box64
+\UL@skip=\skip61
+\UL@hook=\toks27
+\UL@height=\dimen190
+\UL@pe=\count324
+\UL@pixel=\dimen191
+\ULC@box=\box65
+Package: ulem 2019/11/18
+\ULdepth=\dimen192
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box63
-\beforetitleunit=\skip61
-\aftertitleunit=\skip62
-\ttl@plus=\dimen189
-\ttl@minus=\dimen190
-\ttl@toksa=\toks27
-\titlewidth=\dimen191
-\titlewidthlast=\dimen192
-\titlewidthfirst=\dimen193
+\ttl@box=\box66
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen193
+\ttl@minus=\dimen194
+\ttl@toksa=\toks28
+\titlewidth=\dimen195
+\titlewidthlast=\dimen196
+\titlewidthfirst=\dimen197
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip63
-\f@nch@offset@elh=\skip64
-\f@nch@offset@erh=\skip65
-\f@nch@offset@olh=\skip66
-\f@nch@offset@orh=\skip67
-\f@nch@offset@elf=\skip68
-\f@nch@offset@erf=\skip69
-\f@nch@offset@olf=\skip70
-\f@nch@offset@orf=\skip71
-\f@nch@height=\skip72
-\f@nch@footalignment=\skip73
-\f@nch@widthL=\skip74
-\f@nch@widthC=\skip75
-\f@nch@widthR=\skip76
-\@temptokenb=\toks28
+\f@nch@headwidth=\skip64
+\f@nch@offset@elh=\skip65
+\f@nch@offset@erh=\skip66
+\f@nch@offset@olh=\skip67
+\f@nch@offset@orh=\skip68
+\f@nch@offset@elf=\skip69
+\f@nch@offset@erf=\skip70
+\f@nch@offset@olf=\skip71
+\f@nch@offset@orf=\skip72
+\f@nch@height=\skip73
+\f@nch@footalignment=\skip74
+\f@nch@widthL=\skip75
+\f@nch@widthC=\skip76
+\f@nch@widthR=\skip77
+\@temptokenb=\toks29
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -781,19 +835,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count322
+\c@section@level=\count325
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count323
+\etb@tempcnta=\count326
 )
 (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen194
-\Hy@linkcounter=\count324
-\Hy@pagecounter=\count325
+\@linkdim=\dimen198
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
@@ -801,7 +855,7 @@ File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count326
+\Hy@SavedSpaceFactor=\count329
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
@@ -814,14 +868,14 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count327
+\c@Hy@tempcnt=\count330
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen195
+\XeTeXLinkMargin=\dimen199
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -830,9 +884,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count328
-\Field@Width=\dimen196
-\Fld@charsize=\dimen197
+\Fld@menulength=\count331
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -840,19 +894,19 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count329
-\c@Item=\count330
-\c@Hfootnote=\count331
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
-\pdfm@box=\box64
-\c@Hy@AnnotLevel=\count332
-\HyField@AnnotCount=\count333
-\Fld@listcount=\count334
-\c@bookmark@seq@number=\count335
+\pdfm@box=\box67
+\c@Hy@AnnotLevel=\count335
+\HyField@AnnotCount=\count336
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -863,45 +917,33 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip77
+\Hy@SectionHShift=\skip78
 )
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 
-(/home/xola/GitHub/Solial Registry/tex/ulem.sty
-\UL@box=\box65
-\UL@hyphenbox=\box66
-\UL@skip=\skip78
-\UL@hook=\toks29
-\UL@height=\dimen198
-\UL@pe=\count336
-\UL@pixel=\dimen199
-\ULC@box=\box67
-Package: ulem 2019/11/18
-\ULdepth=\dimen256
-)
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_en.aux)
 \openout1 = `explanatory_note_en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -939,1274 +981,113 @@ LaTeX Font Info:    ... okay on input line 38.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/texgyretermes-math.otf(1)/m/n --> TU/LiberationSerif
-(0)/m/n on input line 38.
+(0)/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
-ne 38.
+ne 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
-e 38.
+e 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LiberationSerif(0)/m/n on input lin
-e 38.
+e 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LiberationSerif(0)/b/n on input li
-ne 38.
+ne 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/m/n on input line
- 38.
+ 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/b/n on input line
- 38.
-Package hyperref Info: Link coloring OFF on input line 38.
+ 36.
+Package hyperref Info: Link coloring OFF on input line 36.
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_en.out)
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_en.out)
 \@outlinefile=\write3
 \openout3 = `explanatory_note_en.out'.
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-Underfull \hbox (badness 2856) in paragraph at lines 42--43
-\TU/LiberationSerif(0)/m/n/14.05249 1 January 2027 and submission of the releva
-nt draft to the Presidential
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 48--49
-\TU/LiberationSerif(0)/m/n/14.05249 1–3); descriptions and versions (4–7); data
- quality and outages (8–11);
- []
+Font mapping `tex-text.tec' for font `Liberation Serif Italic' not found.
 
 [1
 
 ]
-Underfull \hbox (badness 1584) in paragraph at lines 53--54
-\TU/LiberationSerif(0)/m/n/14.05249 procedure makes their execution checkable: 
-a particular version identifies
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 60--61
-\TU/LiberationSerif(0)/m/n/14.05249 Article 20 of O‘RQ-682 requires testing whe
-ther existing mechanisms and
- []
-
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-
-Underfull \hbox (badness 1132) in paragraph at lines 78--79
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Link the published approving act and law
-ful description on the
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 84--85
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Prespecification controls interpretation
- of results; it creates no
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 89--90
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Preserve accessible decision grounds; te
-chnical trace format is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Preserve statutory objection and correct
-ion periods; add no
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 92--93
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Existing lawful processing and special-d
-ata conditions; research
- []
-
-
-Underfull \hbox (badness 1838) in paragraph at lines 94--95
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Internal protocol and existing lawful di
-sclosure/access; no new
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 95--96
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Use existing oversight powers; no new in
-spection body or
- []
-
-
-Underfull \hbox (badness 2096) in paragraph at lines 99--100
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Apply lawful retention and destruction; 
-category schedules are
- []
-
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.04628pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.43236pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.02313pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 12.0437pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.43054pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.02184pt on input line 61.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Italic' not found.
 
 ignored: Infinite glue shrinkage found in box being split [2]
 ignored: Infinite glue shrinkage fou
-nd in box being split [3]
-Underfull \hbox (badness 1199) in paragraph at lines 107--108
-\TU/LiberationSerif(0)/m/n/14.05249 including Ministry of Justice classificatio
-n of other documents. Calling a
- []
-
-[4]
-Underfull \hbox (badness 1112) in paragraph at lines 111--112
-\TU/LiberationSerif(0)/m/n/14.05249 of an existing condition or documented sour
-ce-data domain may resolve a
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 113--114
-\TU/LiberationSerif(0)/m/n/14.05249 systems until full restoration and change t
-he automatic category algorithm.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Applicable norm and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Omit duplicate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Counterexample outside
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 123--123
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Authoritative restriction or competent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-\TU/LiberationSerif(0)/m/n/11.04124 new
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Specific uncovered task, hours,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-\TU/LiberationSerif(0)/m/n/11.04124 proportionate; do not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Same competence, binding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Accept compact or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-\TU/LiberationSerif(0)/m/n/11.04124 equivalent normative
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-\TU/LiberationSerif(0)/m/n/11.04124 wording as uptake;
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Reconcile equality, exception
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 134--135
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Frequency of inconsistent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\TU/LiberationSerif(0)/m/n/11.04124 production decisions or
- []
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 135--135
-[]|\TU/LiberationSerif(0)/m/n/11.04124 620 negative land results in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Confirm authoritative
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 135--135
-\TU/LiberationSerif(0)/m/n/11.04124 geometry/domain and decide the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-[]|\TU/LiberationSerif(0)/m/n/11.04124 620 affected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Official income example:
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 136--136
-\TU/LiberationSerif(0)/m/n/11.04124 reference period against the legal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-[]|\TU/LiberationSerif(0)/m/n/11.04124 The Agency’s
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 137--138
-\TU/LiberationSerif(0)/m/n/11.04124 implementation, full 2027
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-\TU/LiberationSerif(0)/m/n/11.04124 specification or real-data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|\TU/LiberationSerif(0)/m/n/11.04124 37 regression tests and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Supply a reproducible control
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Production acceptance,
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 138--139
-\TU/LiberationSerif(0)/m/n/11.04124 available Agency staff or
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [6]
-Underfull \hbox (badness 1484) in paragraph at lines 140--141
-\TU/LiberationSerif(0)/m/n/14.05249 measured additional benefit over the Agency
-’s implementation. Necessity
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 140--141
-\TU/LiberationSerif(0)/m/n/14.05249 is assessed against its rule specification,
- independently justified expected
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 140--141
-\TU/LiberationSerif(0)/m/n/14.05249 uncovered task is additional. No household 
-data need leave the Agency.
- []
-
-
-Underfull \hbox (badness 4254) in paragraph at lines 145--146
-\TU/LiberationSerif(0)/m/n/14.05249 treatment, conflict selection, lawful imput
-ation, order of operations and
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 147--148
-\TU/LiberationSerif(0)/m/n/14.05249 precedence rule and reachable interaction t
-o cases. Each case records its
- []
-
-
-Underfull \hbox (badness 5189) in paragraph at lines 149--150
-[]\TU/LiberationSerif(0)/b/n/14.05249 Protocol and remediation. \TU/LiberationS
-erif(0)/m/n/14.05249 Preserve methodology, software and
- []
-
-[7]
-Underfull \hbox (badness 3049) in paragraph at lines 152--153
-\TU/LiberationSerif(0)/m/n/14.05249 Paragraph 26 now concerns repair, retesting
- and lawful software release
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Protected data, assigned
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-\TU/LiberationSerif(0)/m/n/11.04124 system/source responsibilities,
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 161--161
-\TU/LiberationSerif(0)/m/n/11.04124 limited outage power, oversight
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Reuse these actors
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-\TU/LiberationSerif(0)/m/n/11.04124 answer exists for every
- []
-
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 16
+nd in box being split [3] [4]
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 11
 2.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 162.
+(Font)              scaled to size 14.05399pt on input line 112.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 162.
+(Font)              scaled to size 9.83772pt on input line 112.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 162.
+(Font)              scaled to size 7.027pt on input line 112.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 162.
+(Font)              scaled to size 14.05098pt on input line 112.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 162.
+(Font)              scaled to size 9.83563pt on input line 112.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 162.
+(Font)              scaled to size 7.02548pt on input line 112.
+ [5] [6]
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-[]|[]\TU/LiberationSerif(0)/m/n/11.04124 Resolution No. 516[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Required positive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-\TU/LiberationSerif(0)/m/n/11.04124 technical/security conclusions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-\TU/LiberationSerif(0)/m/n/11.04124 before implementation; joint
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Incorporate rule-to-answer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-\TU/LiberationSerif(0)/m/n/11.04124 checks into applicable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-\TU/LiberationSerif(0)/m/n/11.04124 technical requirements
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 162--163
-\TU/LiberationSerif(0)/m/n/11.04124 correct category arithmetic.
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 163--163
-\TU/LiberationSerif(0)/m/n/11.04124 2026[], operative paragraph 1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
-\TU/LiberationSerif(0)/m/n/11.04124 IT-audit function,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Reuse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Existing application/result
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 164--164
-\TU/LiberationSerif(0)/m/n/11.04124 free service, stated one-month
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-\TU/LiberationSerif(0)/m/n/11.04124 total, including 16564
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-\TU/LiberationSerif(0)/m/n/11.04124 window, decision-age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-\TU/LiberationSerif(0)/m/n/11.04124 are stated.
- []
-
-
-Underfull \hbox (badness 4779) in paragraph at lines 164--165
-\TU/LiberationSerif(0)/m/n/11.04124 a deadline-breach count or
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 165--165
-\TU/LiberationSerif(0)/m/n/11.04124 in 184 mahallas in one month
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 165--165
-\TU/LiberationSerif(0)/m/n/11.04124 and registry-related Presidential
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 165--165
-\TU/LiberationSerif(0)/m/n/11.04124 appeals rising from 30000 to
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 165--165
-\TU/LiberationSerif(0)/m/n/11.04124 46000. Prosecutorial oversight
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Supports
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 165--166
-\TU/LiberationSerif(0)/m/n/11.04124 access to case grounds and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-\TU/LiberationSerif(0)/m/n/11.04124 not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/LiberationSerif(0)/m/n/11.04124 A practical seminar on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-\TU/LiberationSerif(0)/m/n/11.04124 proves neither nationwide
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [8]
+ignored: Infinite glue shrinkage found in box being split [7] [8]
 Underfull \hbox (badness 2310) in paragraph at lines 173--174
-[]\TU/LiberationSerif(0)/b/n/14.05249 Resources and delivery. \TU/LiberationSer
-if(0)/m/n/14.05249 Before the 1 December submission, the
+[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
+Chile), División de Focalización. Ori-
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 173--174
-\TU/LiberationSerif(0)/m/n/14.05249 technical/security approvals and completed 
-affected-path controls must be
+Underfull \hbox (badness 2726) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/12.045 entaciones para el cálculo de la Calificación
+ Socioeconómica. June 2024, pp. 4,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+\TU/LiberationSerif(0)/m/n/12.045 18. []$[][][][][] [] [] [] [][][] [] [][][][]
+[][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][
+] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
 [9]
-Underfull \hbox (badness 1509) in paragraph at lines 175--176
-\TU/LiberationSerif(0)/m/n/14.05249 existing contract or unit, deliverable, inc
-remental hours, lawful funds and
- []
-
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 18
-0.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.05399pt on input line 180.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.83772pt on input line 180.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.027pt on input line 180.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.05098pt on input line 180.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.83563pt on input line 180.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.02548pt on input line 180.
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-[10]
-Underfull \hbox (badness 2809) in paragraph at lines 193--195
-\TU/LiberationSerif(0)/m/n/14.05249 The report states the scenario, numerator, 
-denominator, and excluded or
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 198--199
-\TU/LiberationSerif(0)/m/n/14.05249 published rules and constructed cases; it d
-oes not represent real-household
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Legal implication and
- []
-
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|$[] [][][] [][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-[]|\TU/LiberationSerif(0)/m/n/11.04124 The example’s arithmetic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-\TU/LiberationSerif(0)/m/n/11.04124 application is preserved;
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 205--206
-\TU/LiberationSerif(0)/m/n/11.04124 the calendar interpretation of
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 206--206
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraphs 32, 33(a), 39(b):
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-[]|\TU/LiberationSerif(0)/m/n/11.04124 For a new able-to-work
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 206--207
-\TU/LiberationSerif(0)/m/n/11.04124 ground, no removal from a
- []
-
-
-Underfull \hbox (badness 2626) in paragraph at lines 206--207
-\TU/LiberationSerif(0)/m/n/11.04124 no hardship recommendation,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-\TU/LiberationSerif(0)/m/n/11.04124 paragraph
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 206--207
-\TU/LiberationSerif(0)/m/n/11.04124 were not checked. PF-258
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraph
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-[]|\TU/LiberationSerif(0)/m/n/11.04124 The
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 208--208
-[]|\TU/LiberationSerif(0)/m/n/11.04124 One-month normative income
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-\TU/LiberationSerif(0)/m/n/11.04124 September
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Male/female coefficients in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Difference in each of
- []
-
-
-Underfull \hbox (badness 6927) in paragraph at lines 209--209
-\TU/LiberationSerif(0)/m/n/11.04124 per-person contribution in a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-[]|\TU/LiberationSerif(0)/m/n/11.04124 This is a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-\TU/LiberationSerif(0)/m/n/11.04124 or incorrect
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]|\TU/LiberationSerif(0)/m/n/11.04124 For $[][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[][][][] [][][][][] [][][][][] [][][][]$
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 210--211
-[]|\TU/LiberationSerif(0)/m/n/11.04124 These are constructed counts,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-\TU/LiberationSerif(0)/m/n/11.04124 not
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 210--211
-[][] [] [][][][]$\TU/LiberationSerif(0)/m/n/11.04124 , it requires
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
-[]|\TU/LiberationSerif(0)/m/n/11.04124 The income
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Recommendation, quota,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-\TU/LiberationSerif(0)/m/n/11.04124 qualifying family
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-\TU/LiberationSerif(0)/m/n/11.04124 circumstances, reassessment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-[]$ \TU/LiberationSerif(0)/m/n/11.04124 or reduced
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraph 24 tax-based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\TU/LiberationSerif(0)/m/n/11.04124 monthly
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 212--212
-\TU/LiberationSerif(0)/m/n/11.04124 base $[][]$: $[][][][][][][][][] [][][]$,
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 212--212
-\TU/LiberationSerif(0)/m/n/11.04124 crossover $[] [] [][][][][]$; 14
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 212--212
-\TU/LiberationSerif(0)/m/n/11.04124 goats: $[]$, 15 goats: $[][] [][][]$
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 212--213
-\TU/LiberationSerif(0)/m/n/11.04124 and operational rounding are
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [11]
-ignored: Infinite glue shrinkage fo
-und in box being split [12]
-Underfull \hbox (badness 1472) in paragraph at lines 216--217
-\TU/LiberationSerif(0)/m/n/14.05249 annex 1 note (a) is likewise changed to “\T
-U/LiberationSerif(0)/b/n/14.05249 when not exceeding minimum
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 222--223
-\TU/LiberationSerif(0)/m/n/14.05249 calculated without the hardship reduction c
-oefficient, is above
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-[]\TU/LiberationSerif(0)/m/n/14.05249 families
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 224--225
-\TU/LiberationSerif(0)/m/n/14.05249 not itself constitute grounds for refusing 
-inclusion. Statutory
- []
-
-[13]
-Underfull \hbox (badness 1472) in paragraph at lines 240--241
-\TU/LiberationSerif(0)/m/n/14.05249 If $[]$ is interpreted as a three-month tot
-al, the same conditional change is
- []
-
-[14] [15] [16]
-Underfull \hbox (badness 1226) in paragraph at lines 262--264
-\TU/LiberationSerif(0)/m/n/14.05249 author’s proposed additional means of perfo
-rmance. This is an analytical
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 268--268
-\TU/LiberationSerif(0)/m/n/11.04124 of the Registry and YAMIH
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-\TU/LiberationSerif(0)/m/n/11.04124 linked rules, independent
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 268--268
-\TU/LiberationSerif(0)/m/n/11.04124 expected answers, component
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 268--268
-\TU/LiberationSerif(0)/m/n/11.04124 checks and acceptance of an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Establish conformity
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 268--269
-\TU/LiberationSerif(0)/m/n/11.04124 to the approved rule on the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraphs 45–46: data
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 270--270
-\TU/LiberationSerif(0)/m/n/11.04124 protection and timely reliable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraphs 8–10,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-\TU/LiberationSerif(0)/m/n/11.04124 authorization, supplied-code
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-\TU/LiberationSerif(0)/m/n/11.04124 zero;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Paragraph
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 272--272
-\TU/LiberationSerif(0)/m/n/11.04124 law Article 24: explanation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-\TU/LiberationSerif(0)/m/n/11.04124 rule, original receipt and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-[]|\TU/LiberationSerif(0)/m/n/11.04124 A family can identify and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-\TU/LiberationSerif(0)/m/n/11.04124 challenge the relevant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-\TU/LiberationSerif(0)/m/n/11.04124 during disrupted exchanges.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-\TU/LiberationSerif(0)/m/n/11.04124 temporary-version record,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-\TU/LiberationSerif(0)/m/n/11.04124 affected scope, restoration,
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 274--274
-\TU/LiberationSerif(0)/m/n/11.04124 internal protocol and lawful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-\TU/LiberationSerif(0)/m/n/11.04124 identifiable;
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Relevant part of current
- []
-
-Font mapping `tex-text.tec' for font `Liberation Serif Italic' not found.
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]|\TU/LiberationSerif(0)/m/n/11.04124 PF-258
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 paragraph 3(a), (b), annex 1
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 note (a), and Resolution No.
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 35 annex 1 paragraph 39(a),
- []
-
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]|\TU/LiberationSerif(0)/m/n/11.04124 For the selected
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 inclusive option, replace that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 income phrase
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/b/n/11.04124 consumption
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 Presidential and Cabinet-level
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 285--285
-\TU/LiberationSerif(0)/m/n/11.04124 parts together; preserve other
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-\TU/LiberationSerif(0)/m/n/11.04124 application under the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-\TU/LiberationSerif(0)/m/n/11.04124 and principal-category
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-\TU/LiberationSerif(0)/m/n/11.04124 cost and implementation
- []
-
-
-Underfull \hbox (badness 7433) in paragraph at lines 287--287
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Resolution No. 35 annex
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 287--287
-\TU/LiberationSerif(0)/m/n/11.04124 1 paragraph 35(b): income
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]|\TU/LiberationSerif(0)/b/n/11.04124 Distinguish ordinary
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 287--287
-\TU/LiberationSerif(0)/b/n/11.04124 and special reduced-income
- []
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 289--289
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Proposed calculation, subject
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 289--289
-\TU/LiberationSerif(0)/m/n/11.04124 to the developer confirming
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 289--289
-\TU/LiberationSerif(0)/m/n/11.04124 the geometric meaning: \TU/LiberationSerif(
-0)/b/n/11.04124 L =
- []
-
-
-Underfull \hbox (badness 3514) in paragraph at lines 289--289
-\TU/LiberationSerif(0)/b/n/11.04124 max{0, U − B − min(U/5,
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 289--289
-\TU/LiberationSerif(0)/b/n/11.04124 200)}\TU/LiberationSerif(0)/m/n/11.04124 . 
-Areas must belong
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 289--289
-\TU/LiberationSerif(0)/m/n/11.04124 normative rule must establish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Negative results
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 289--290
-\TU/LiberationSerif(0)/m/n/11.04124 exist in the algebraic domain
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-\TU/LiberationSerif(0)/m/n/11.04124 increasing assistance or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-\TU/LiberationSerif(0)/m/n/11.04124 recovering
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 291--291
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Resolution No. 35 annex 1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-\TU/LiberationSerif(0)/m/n/11.04124 telephone
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 291--291
-\TU/LiberationSerif(0)/m/n/11.04124 the family in the Registry or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-\TU/LiberationSerif(0)/b/n/11.04124 Together
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-\TU/LiberationSerif(0)/m/n/11.04124 fully disclose calculation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-\TU/LiberationSerif(0)/m/n/11.04124 grounds and
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 291--292
-\TU/LiberationSerif(0)/m/n/11.04124 the proposal with Article 24
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 291--292
-\TU/LiberationSerif(0)/m/n/11.04124 of the personal-data law and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-\TU/LiberationSerif(0)/m/n/11.04124 applicable administrative
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 294--295
-\TU/LiberationSerif(0)/m/n/14.05249 approval or opposition; the responses to ob
-jections address possible issues
- []
-
-[18]
-Underfull \hbox (badness 1681) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/14.05249 equivalent completed tests are referenced r
-ather than repeated. Technical
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/14.05249 acceptance under paragraphs 25–26 does not 
-replace mandatory external
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Methodology and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Agency with Ministry;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-\TU/LiberationSerif(0)/m/n/11.04124 methodology unit and
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 307--308
-\TU/LiberationSerif(0)/m/n/11.04124 dates, precedence and applicable paths are
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 309--309
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Sources and quality;
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 309--309
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Responsible Information
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-\TU/LiberationSerif(0)/m/n/11.04124 Technologies Centre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-\TU/LiberationSerif(0)/m/n/11.04124 staff; source-agency
- []
-
-
-Underfull \hbox (badness 5970) in paragraph at lines 309--309
-\TU/LiberationSerif(0)/m/n/11.04124 heads within paragraph
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Control
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-\TU/LiberationSerif(0)/m/n/11.04124 implementation;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\TU/LiberationSerif(0)/m/n/11.04124 System
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-\TU/LiberationSerif(0)/m/n/11.04124 protocol. Executed coverage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Explanation and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-\TU/LiberationSerif(0)/m/n/11.04124 data owner/operator
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 313--314
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Accessible explanation example and linke
-d
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Outage and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Authorized officer and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Existing temporary-version record
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-\TU/LiberationSerif(0)/m/n/11.04124 are identified and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Resources and
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 317--317
-\TU/LiberationSerif(0)/m/n/11.04124 acceptance; operative
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Agency with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-\TU/LiberationSerif(0)/m/n/11.04124 test links and incremental task/funding
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 319--319
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Retention and lawful
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Authorized
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-\TU/LiberationSerif(0)/m/n/11.04124 protocol. Any required or
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [19] [20]
-Underfull \hbox (badness 1019) in paragraph at lines 333--334
-[]\TU/LiberationSerif(0)/m/n/14.05249 Empirical verification of actual need req
-uires separate research using
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 333--334
-\TU/LiberationSerif(0)/m/n/14.05249 lawful data. Its cost and results can be di
-stinguished from the principal
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 335--336
-\TU/LiberationSerif(0)/m/n/14.05249 A test list may not omit an applicable exce
-ption and then certify its own
- []
-
-[21]
-Underfull \hbox (badness 1152) in paragraph at lines 344--345
-\TU/LiberationSerif(0)/m/n/14.05249 numerator, denominator and exclusions. Thes
-e indicators check procedure
- []
-
-[22]
-Underfull \hbox (badness 1661) in paragraph at lines 361--363
-\TU/LiberationSerif(0)/m/n/14.05249 and profit; the remuneration expression is 
-therefore not the total contract
- []
-
-[23]
-Underfull \hbox (badness 1728) in paragraph at lines 367--368
-\TU/LiberationSerif(0)/m/n/14.05249 The proposal borrows no foreign legal provi
-sion and implements no new
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 367--368
-\TU/LiberationSerif(0)/m/n/14.05249 are engineering references on uncertainty a
-nd implementation checks; their
- []
-
-[24]
-Underfull \hbox (badness 1824) in paragraph at lines 378--379
-\TU/LiberationSerif(0)/m/n/14.05249 and scientific recommendations. Article 22 
-allows participation but does
- []
-
-[25]
-Underfull \hbox (badness 1152) in paragraph at lines 384--385
-\TU/LiberationSerif(0)/m/n/14.05249 proposals advisory but requires considerati
-on; Article 24 expressly permits
- []
-
-[26]
-Underfull \hbox (badness 2142) in paragraph at lines 393--394
-[]\TU/LiberationSerif(0)/m/n/14.05249 Additional sources: []PQ-5025, paragraph 
-2(b)[]; []O‘RQ-682 appendix,
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 393--394
-\TU/LiberationSerif(0)/m/n/14.05249 substitute for Times New Roman; the develop
-er must approve the official
- []
-
-[27]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_en.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `explanatory_note_en.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 0021CBED78E58D3048C5C22DDAFF3AD1;2603.
  ) 
 Here is how much of TeX's memory you used:
- 16882 strings out of 469974
- 311542 string characters out of 5477063
- 884461 words of memory out of 5000000
- 45272 multiletter control sequences out of 15000+600000
- 632020 words of font info for 102 fonts, out of 8000000 for 9000
+ 18013 strings out of 469974
+ 332463 string characters out of 5477063
+ 911017 words of memory out of 5000000
+ 46385 multiletter control sequences out of 15000+600000
+ 632026 words of font info for 103 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,1390b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,107p,852b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_en.pdf (27 pages).
+ry_note_en.pdf (9 pages).

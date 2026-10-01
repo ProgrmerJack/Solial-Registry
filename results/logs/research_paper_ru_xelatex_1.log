@@ -214,154 +214,69 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper_ru.out)
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper_ru.out)
-[1] [2] [3] [4]
-Underfull \hbox (badness 1748) in paragraph at lines 118--119
-\TU/LiberationSerif(0)/m/n/12 арифметическая проверка контролирует зафиксирован
-ный состав случаев. Рецензия
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+[1]
+
+LaTeX Warning: Citation `ref32' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Reference `sec:agency' on page 2 undefined on input line 70.
+
+[2] [3]
+Underfull \hbox (badness 4303) in paragraph at lines 118--118
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Минимум $[][][]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 []|\TU/LiberationSerif(0)/m/n/11.04124 Максимум
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 \TU/LiberationSerif(0)/m/n/11.04124 изменения
-[7]
-Underfull \hbox (badness 5802) in paragraph at lines 199--199
+[4]
+Underfull \hbox (badness 5802) in paragraph at lines 156--156
 []|\TU/LiberationSerif(0)/m/n/11.04124 Снижение за месяц
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
 
-Underfull \hbox (badness 1400) in paragraph at lines 245--245
+Underfull \hbox (badness 1400) in paragraph at lines 199--199
 []|\TU/LiberationSerif(0)/m/n/11.04124 Нукус / област-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Необязательная поправка
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+[]\TU/LiberationSerif(0)/m/n/12.045 Guven M., Yeachuri A., Almenfi M. Global In
+sights on Social Registries:
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-\TU/LiberationSerif(0)/m/n/11.04124 категории; обязательное
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\TU/LiberationSerif(0)/m/n/12.045 Coverage and Beyond. World Bank, June 2025, p
+p. 3, 13, 25–26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-\TU/LiberationSerif(0)/m/n/11.04124 определение законных
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+[]$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][] [] 
+[][][][][][][] [] [][] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
 
 Underfull \hbox (badness 10000) in paragraph at lines 273--274
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Необязательная поправка
+[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
+Chile), División de Focalización.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-\TU/LiberationSerif(0)/m/n/11.04124 формулы; обязательный
+Underfull \hbox (badness 2142) in paragraph at lines 273--274
+\TU/LiberationSerif(0)/m/n/12.045 Orientaciones para el cálculo de la Calificac
+ión Socioeconómica. Junio de 2024,
+[9] (/home/xola/GitHub/Solial Registry/results/documents/research_paper_ru.aux)
 
-Underfull \hbox (badness 1292) in paragraph at lines 275--276
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Временная версия и про-
+LaTeX Warning: There were undefined references.
 
-Underfull \hbox (badness 2521) in paragraph at lines 277--277
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Основания и пере-
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Персональные данные;
-[10] [11]
-Underfull \hbox (badness 2401) in paragraph at lines 314--315
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Условия ситуации, законная
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
-\TU/LiberationSerif(0)/m/n/11.04124 рекомендация, квота, пере-
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Геометрия одного участка
+Package rerunfilecheck Warning: File `research_paper_ru.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Underfull \hbox (badness 1028) in paragraph at lines 315--316
-\TU/LiberationSerif(0)/m/n/11.04124 из полномочного источника,
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-\TU/LiberationSerif(0)/m/n/11.04124 дробные площади, мест-
-
-Underfull \hbox (badness 5077) in paragraph at lines 315--316
-\TU/LiberationSerif(0)/m/n/11.04124 ный коэффициент по дате,
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-\TU/LiberationSerif(0)/m/n/11.04124 ограничения источника и
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[]|\TU/LiberationSerif(0)/m/n/11.04124 24 строки пересечения
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-\TU/LiberationSerif(0)/m/n/11.04124 восьми территориаль-
-
-Underfull \hbox (badness 3407) in paragraph at lines 317--318
-\TU/LiberationSerif(0)/m/n/11.04124 валютное преобразование и
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Официальная формула,
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-\TU/LiberationSerif(0)/m/n/11.04124 область/зависимости, ис-
-
-Underfull \hbox (badness 2368) in paragraph at lines 319--320
-\TU/LiberationSerif(0)/m/n/11.04124 Демонстрация не проверяет
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-\TU/LiberationSerif(0)/m/n/11.04124 неизвестную нелинейную
- [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
-[]\TU/LiberationSerif(0)/m/n/12 Связывание проверяет уникальность идентификатор
-а, отношения один-ко-
-[16] [17] [18] [19] [20]
-Underfull \hbox (badness 2285) in paragraph at lines 455--456
-[]\TU/LiberationSerif(0)/m/n/12 President of Uzbekistan. \TU/LiberationSerif(0)
-/b/n/12 PF-193\TU/LiberationSerif(0)/m/n/12 , 11 September 2026, paragraphs 13–
-14. []Official
-
-Underfull \hbox (badness 3240) in paragraph at lines 457--458
-[]\TU/LiberationSerif(0)/m/n/12 Cabinet of Ministers of Uzbekistan. \TU/Liberat
-ionSerif(0)/b/n/12 Resolution 35\TU/LiberationSerif(0)/m/n/12 , 29 January 2026
-, Annex 1
-
-Underfull \hbox (badness 1406) in paragraph at lines 461--462
-[]\TU/LiberationSerif(0)/m/n/12 President of Uzbekistan. \TU/LiberationSerif(0)
-/b/n/12 PF-115\TU/LiberationSerif(0)/m/n/12 , 23 June 2026, minimum-remuneratio
-n provisions
-[21]
-Underfull \hbox (badness 1867) in paragraph at lines 465--466
-[]\TU/LiberationSerif(0)/m/n/12 National Statistics Committee. \TU/LiberationSe
-rif(0)/b/n/12 Poverty rate, SIAT 3495\TU/LiberationSerif(0)/m/n/12 , 2021–2025 
-observations
-
-Underfull \hbox (badness 1072) in paragraph at lines 473--474
-[]\TU/LiberationSerif(0)/m/n/12 World Bank. \TU/LiberationSerif(0)/b/n/12 Uzbek
-istan Poverty and Equity Assessment: Rising to Prosperity:
-
-Underfull \hbox (badness 1796) in paragraph at lines 479--480
-\TU/LiberationSerif(0)/m/n/12 Kenichi, editors. \TU/LiberationSerif(0)/b/n/12 S
-ourcebook on the Foundations of Social Protection Delivery
-
-Underfull \hbox (badness 1688) in paragraph at lines 483--484
-[]\TU/LiberationSerif(0)/m/n/12 Alatas, Vivi; Banerjee, Abhijit; Hanna, Rema; O
-lken, Benjamin A.; Tobias, Julia.
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
-[]\TU/LiberationSerif(0)/m/n/12 President of Uzbekistan. \TU/LiberationSerif(0)
-/b/n/12 PP-5025, On further improving regulatory impact
-
-Underfull \hbox (badness 1360) in paragraph at lines 493--494
-\TU/LiberationSerif(0)/b/n/12 assessment\TU/LiberationSerif(0)/m/n/12 , 15 Marc
-h 2021, current paragraph 2(b). []Official consolidated Russian
-[22]
-Underfull \hbox (badness 2384) in paragraph at lines 512--513
-[]\TU/LiberationSerif(0)/m/n/12 Government portal. \TU/LiberationSerif(0)/b/n/1
-2 Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar
-
-Underfull \hbox (badness 1448) in paragraph at lines 518--519
-\TU/LiberationSerif(0)/m/n/12 registered as No. 3943 on 17 September 2026, chec
-ked 1 October 2026. []Official
-[23]
-Underfull \hbox (badness 1990) in paragraph at lines 539--540
-\TU/LiberationSerif(0)/m/n/12 Markdown, Beautiful Soup и pypdf для публикации. 
-Полученные графики сохране-
-[24] (/home/xola/GitHub/Solial Registry/results/documents/research_paper_ru.aux
-) )
+ )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
-paper_ru.pdf (24 pages).
+paper_ru.pdf (9 pages).
 Transcript written on /home/xola/GitHub/Solial Registry/results/documents/resea
 rch_paper_ru.log.

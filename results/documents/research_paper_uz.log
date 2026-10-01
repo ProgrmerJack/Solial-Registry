@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 22:58
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,26 +1241,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
 \openout1 = `research_paper_uz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1298,29 +1298,29 @@ LaTeX Font Info:    ... okay on input line 34.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/texgyretermes-math.otf(1)/m/n --> TU/LiberationSerif
-(0)/m/n on input line 34.
+(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
-ne 34.
+ne 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
-e 34.
+e 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LiberationSerif(0)/m/n on input lin
-e 34.
+e 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LiberationSerif(0)/b/n on input li
-ne 34.
+ne 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/m/n on input line
- 34.
+ 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/b/n on input line
- 34.
+ 37.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 37.
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.out)
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.out)
 \@outlinefile=\write4
@@ -1328,392 +1328,291 @@ Package hyperref Info: Link coloring OFF on input line 34.
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-Underfull \hbox (badness 1303) in paragraph at lines 50--51
-[]\TU/LiberationSerif(0)/m/n/12 2026-yil 29-yanvardagi 35-son qaror reyestr, da
-romad hisoblash, qayta baholash,
+Underfull \hbox (badness 5105) in paragraph at lines 48--49
+\TU/LiberationSerif(0)/m/n/12 Iqtisodiyot va moliya vazirligi bilan birgalikda 
+hujjat loyihasini 2026-yil 1-dekabrga
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 48--49
+\TU/LiberationSerif(0)/m/n/12 nizomning (Vazirlar Mahkamasining 2026-yil 29-yan
+vardagi 35-son qaroriga 1-ilova)
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 50--51
+\TU/LiberationSerif(0)/m/n/12 24-moddasi avtomatlashtirilgan qaror qabul qilish
+ tartibi va uning yuridik oqibatlarini
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 52--53
+[]\TU/LiberationSerif(0)/m/n/12 Tadqiqot savoli rad etilishi mumkin boʻlgan tar
+zda shakllantirilgan: \TU/LiberationSerif(0)/b/n/12 daromad
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/b/n/12 va toifani hisoblashning eʼlon qilingan qoidalari
+ chegaraviy qiymatlarda va kirish
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/b/n/12 qiymatlarining belgilangan butun sohasida yagona,
+ ichki muvofiq natija beradimi?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 2026-yil 30-sentabr — 1-oktabr holatiga lex.uz da
+gi hujjatlarning rasmiy matnlari
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 bilan), PF-258-son Farmon, “Normativ-huquqiy hujj
+atlar toʻgʻrisida”, “Shaxsga doir
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 maʼlumotlar toʻgʻrisida” va “Jismoniy va yuridik 
+shaxslarning murojaatlari toʻgʻrisida”gi
+ []
+
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 57.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.88095pt on input line 57.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.60071pt on input line 57.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 57.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.87904pt on input line 57.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.59929pt on input line 57.
+
+Underfull \hbox (badness 2165) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/12 qashshoqlik va tenglik baholashida manzillilik fo
+rmulasi 2026-yil boshida qayta koʻrib
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/12 oila vazirligi ijtimoiy-iqtisodiy malakani hisobl
+ash tartibini amaliy misollar, “teng yoki
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/12 katta” shaklidagi chegaralar va bir nechta tekshi
+ruv ishga tushganda ustuvorlik qoidasi
  []
 
 [1
 
-] [2]
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 93.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.88095pt on input line 93.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.60071pt on input line 93.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 93.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.87904pt on input line 93.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.59929pt on input line 93.
- [3]
+]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
- [4]
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
- [5]
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 15
-0.
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif' not found.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 150.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 150.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 150.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 150.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 150.
-LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 150.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 1005) in paragraph at lines 81--82
+[]\TU/LiberationSerif(0)/m/n/12 Pul oʻtkazmalari (26-band): oʻtkazmalar miqdori
+ aniqlanmasa yoki $[][]$ dan kam
+ []
+
+[2]
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 11
+2.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.04242pt on input line 112.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.72966pt on input line 112.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.5212pt on input line 112.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.04005pt on input line 112.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.728pt on input line 112.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.52002pt on input line 112.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []|\TU/LiberationSerif(0)/m/n/11.04124 Butun qiymatli
  []
 
-[6]
-Underfull \hbox (badness 1087) in paragraph at lines 202--202
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng kam $[][][]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng koʻp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+\TU/LiberationSerif(0)/m/n/11.04124 oʻzgarish
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 135--136
+\TU/LiberationSerif(0)/m/n/12 jismonan manfiy boʻlolmasa-da, manfiy ulush oilan
+ing hisobga olinadigan daromadini
+ []
+
+[4]
+Underfull \hbox (badness 1087) in paragraph at lines 162--162
 []|\TU/LiberationSerif(0)/m/n/11.04124 Oylik ulush pasayishi
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 202--203
-[]|\TU/LiberationSerif(0)/m/n/11.04124 4 a’zoda jon boshiga
+Underfull \hbox (badness 1460) in paragraph at lines 162--163
+[]|\TU/LiberationSerif(0)/m/n/11.04124 4 aʼzoda jon boshiga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ro‘yxatdagi mam-
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ro‘yxatdagi mam-
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
  []
 
-[7]
-Underfull \hbox (badness 6252) in paragraph at lines 249--249
+
+Underfull \hbox (badness 1997) in paragraph at lines 193--194
+\TU/LiberationSerif(0)/m/n/12 daromad. Uzluksiz gorizontal qismlar — 6-ilovadag
+i mamlakatlar, shtrixli — boshqa
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 195--196
+[]\TU/LiberationSerif(0)/m/n/12 Taklif etilayotgan tahrir (1-material, II boʻli
+m, 1-band) oʻtkazmalarning bir oylik
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 207--207
 []|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
  []
 
-[8]
-Underfull \hbox (badness 5359) in paragraph at lines 274--274
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Audit topilmasi yoki
+[5]
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+
+Underfull \hbox (badness 1077) in paragraph at lines 237--238
+\TU/LiberationSerif(0)/m/n/12 taʼsirlangan oilalar soni xatoning mavjudligini e
+mas, koʻlamini belgilaydi. Agentlik bu
+ []
+
+[6]
+Underfull \hbox (badness 1810) in paragraph at lines 244--245
+\TU/LiberationSerif(0)/m/n/12 Har bir guruh uchun dastur amaldagi va taklif eti
+layotgan qoida natijasini solishtiradi.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Muvofiqlashtiriladigan
+Underfull \hbox (badness 6188) in paragraph at lines 249--250
+[]\TU/LiberationSerif(0)/m/n/12 Toʻrtta normada nomuvofiqliklar isbotlangan: da
+romad $[]$ ga teng boʻlganda
+ []
+
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 270.
+
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif' not found.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.04628pt on input line 270.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.43236pt on input line 270.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.02313pt on input line 270.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 12.0437pt on input line 270.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.43054pt on input line 270.
+LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.02184pt on input line 270.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[]\TU/LiberationSerif(0)/m/n/12.045 Milliy statistika qoʻmitasi. 2026-yil uchun
+ minimal isteʼmol xarajatlari haqida
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 277--277
-[]|\TU/LiberationSerif(0)/m/n/11.04124 PF-258 3-band va 1-
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\TU/LiberationSerif(0)/m/n/12.045 xabar, 2026-yil 4-mart. []$[][][][][] [] [] [
+] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][
+][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 277--277
-\TU/LiberationSerif(0)/m/n/11.04124 qaror 32–35, 39, 42-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ixtiyoriy toifa tuza-
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2019-yil 2-iyu
+ldagi OʻRQ-547-son “Shaxsga doir
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ixtiyoriy formula
+[]\TU/LiberationSerif(0)/m/n/12.045 Guven M., Yeachuri A., Almenfi M. Global In
+sights on Social Registries:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\TU/LiberationSerif(0)/m/n/11.04124 tuzatishi; zarur ge-
+\TU/LiberationSerif(0)/m/n/12.045 Coverage and Beyond. World Bank, June 2025, p
+p. 3, 13, 25–26.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tayanch davr va
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 35-son qaror 18–19,
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 279--280
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Aniq birlik, davr va
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Kuzatiladigan vaqt-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-\TU/LiberationSerif(0)/m/n/11.04124 inchalik versiya va
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 281--281
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Reyestr, qayta baho-
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[]$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][] [] 
+[][][][][][][] [] [][] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Oldindan belgilangan
+[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
+Chili), División de Focalización.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-\TU/LiberationSerif(0)/m/n/11.04124 tekshiruv, alohida
+Underfull \hbox (badness 1939) in paragraph at lines 281--282
+\TU/LiberationSerif(0)/m/n/12.045 18-betlar. []$[][][][][] [] [] [] [][][] [] [
+][][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][]
+[][][][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Asoslar, tuzatish va
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 SMS/qayta baholash
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Qonuniy jarayonda
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Himoyalangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-\TU/LiberationSerif(0)/m/n/11.04124 tadqiqot va umum-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Shaxsga doir
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-\TU/LiberationSerif(0)/m/n/11.04124 ma’lumotlar qonuni;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tasdiqlangan uslu-
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 284--284
-\TU/LiberationSerif(0)/m/n/11.04124 biyot, amal sanalari,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-\TU/LiberationSerif(0)/m/n/11.04124 to‘lov va saqlash
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Siyosat vakolatini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-\TU/LiberationSerif(0)/m/n/11.04124 bermasdan yozma
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [9]
-Underfull \hbox (badness 1472) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/12 Agentlik Vazirlik bilan tasdiqlanadigan spetsifik
-atsiyani tayyorlashi, birinchi qo‘llash va
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/12 qabulni Agentlik rahbari yoki qonuniy vakolatlang
-an o‘rinbosariga yuklaydi. Bu taklif,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-[]\TU/LiberationSerif(0)/m/n/12 35-son qaror 48-bandi axborot almashinuvi uzilg
-anda vaqtinchalik algoritmni
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Agentlikdan talab etiladigan
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 322--322
-\TU/LiberationSerif(0)/m/n/11.04124 toifa nazorati; mehnatga lay-
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 323--323
-[]|\TU/LiberationSerif(0)/m/n/11.04124 12 chegara qatori va alohida
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tegishli vaziyat, qonuniy
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 324--325
-\TU/LiberationSerif(0)/m/n/11.04124 ometriyasi, kasrli maydonlar,
- []
-
-
-Underfull \hbox (badness 7168) in paragraph at lines 324--325
-\TU/LiberationSerif(0)/m/n/11.04124 sanali mahalliy koeffitsiyent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Bitta qonuniy aniqlan-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-\TU/LiberationSerif(0)/m/n/11.04124 gan qiyoslash davri,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-\TU/LiberationSerif(0)/m/n/11.04124 jo‘natuvchilarni jamlash,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Boshqa tur, aralash chorva,
- []
-
-
-Underfull \hbox (badness 3049) in paragraph at lines 327--328
-\TU/LiberationSerif(0)/m/n/11.04124 istisno, davr va tasdiqlangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Yetti sun’iy holat; belgilab
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 328--328
-\TU/LiberationSerif(0)/m/n/11.04124 berilgan toifalar bilan to‘rtta
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Rasmiy formula, kirish so-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 hasi/bog‘liqlik, istisno va
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 qonuniy kirishlar. Namuna
- []
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 noma’lum nochiziqli modelni
- []
-
-
-ignored: Infinite glue shrinkage found in box being split [11]
-Underfull \hbox (badness 1762) in paragraph at lines 334--335
-\TU/LiberationSerif(0)/m/n/12 qoldirilgan hissa va xato qo‘shimcha hissa jamida
- bir-birini qoplashi mumkin. Nazo-
- []
-
-[12] [13] [14]
-Underfull \hbox (badness 2111) in paragraph at lines 372--373
-[]\TU/LiberationSerif(0)/m/n/12 Bog‘lash identifikator yagonaligi, birga-ko‘p a
-loqalar, a’zolik sanasi va takroriy
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 383--384
-[]\TU/LiberationSerif(0)/m/n/12 OECD/JRC tarkibiy natijaning o‘zgaruvchi tanlas
-h, normallashtirish, hisobiy qiy-
- []
-
-[15] [16] [17]
-Underfull \hbox (badness 1038) in paragraph at lines 432--433
-[]\TU/LiberationSerif(0)/m/n/12 Vakolatli ma’lumot sohasi muayyan algebraik kir
-ishni chiqarishi mumkin; xulosa
- []
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 439--440
-[]\TU/LiberationSerif(0)/m/n/12 Qo‘shimcha hissa — mustaqil asoslangan javob, s
-ana va chiqarilish natijasiga
- []
-
-[18]
-Underfull \hbox (badness 1466) in paragraph at lines 453--454
-\TU/LiberationSerif(0)/m/n/12 Audit butun yordam tizimini emas, tanlangan formu
-lalar va shartlarni qamraydi. Oila
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 453--454
-\TU/LiberationSerif(0)/m/n/12 mikroma’lumoti, amaldagi dastur, mahalliy koeffit
-siyentlar, qat’iy yaxlitlash va 2027-yil
- []
-
-[19] [20]
-Underfull \hbox (badness 2173) in paragraph at lines 518--519
-[]\TU/LiberationSerif(0)/m/n/12 Government portal. \TU/LiberationSerif(0)/b/n/1
-2 Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 529--530
-[][][][][] [] [][][][][] [] [][][][][][][][][][][][][] [] [][][][]$\TU/Liberati
-onSerif(0)/m/n/12 da; sun’iy additiv namuna $[][][][] [] [][][][][][][][] [] []
-[][][][][][][] [] [][][][] [] [][][][]$da.
- []
-
-[21] [22]
-(/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
+[8] (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `research_paper_uz.out' has not changed.
-(rerunfilecheck)             Checksum: F3FD85E2F92206FAA4B145C72C92EBA5;11169.
+(rerunfilecheck)             Checksum: 311A1FF78137C8DFE99DA93429CEEC97;3931.
  ) 
 Here is how much of TeX's memory you used:
- 37960 strings out of 469974
- 894933 string characters out of 5477063
- 1564484 words of memory out of 5000000
- 65995 multiletter control sequences out of 15000+600000
- 631844 words of font info for 100 fonts, out of 8000000 for 9000
+ 37983 strings out of 469974
+ 896725 string characters out of 5477063
+ 1566817 words of memory out of 5000000
+ 66000 multiletter control sequences out of 15000+600000
+ 633571 words of font info for 121 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,12n,118p,981b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,118p,962b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
-paper_uz.pdf (22 pages).
+paper_uz.pdf (8 pages).

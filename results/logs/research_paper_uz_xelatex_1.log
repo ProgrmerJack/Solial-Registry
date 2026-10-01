@@ -200,400 +200,158 @@ calc.code.tex)) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-No file research_paper_uz.aux.
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.out)
+(/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.out)
+Underfull \hbox (badness 5105) in paragraph at lines 48--49
+\TU/LiberationSerif(0)/m/n/12 Iqtisodiyot va moliya vazirligi bilan birgalikda 
+hujjat loyihasini 2026-yil 1-dekabrga
 
-Package hyperref Warning: Rerun to get /PageLabels entry.
+Underfull \hbox (badness 6876) in paragraph at lines 48--49
+\TU/LiberationSerif(0)/m/n/12 nizomning (Vazirlar Mahkamasining 2026-yil 29-yan
+vardagi 35-son qaroriga 1-ilova)
+
+Underfull \hbox (badness 3219) in paragraph at lines 50--51
+\TU/LiberationSerif(0)/m/n/12 24-moddasi avtomatlashtirilgan qaror qabul qilish
+ tartibi va uning yuridik oqibatlarini
+
+Underfull \hbox (badness 3590) in paragraph at lines 52--53
+[]\TU/LiberationSerif(0)/m/n/12 Tadqiqot savoli rad etilishi mumkin boʻlgan tar
+zda shakllantirilgan: \TU/LiberationSerif(0)/b/n/12 daromad
+
+Underfull \hbox (badness 2027) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/b/n/12 va toifani hisoblashning eʼlon qilingan qoidalari
+ chegaraviy qiymatlarda va kirish
+
+Underfull \hbox (badness 1442) in paragraph at lines 52--53
+\TU/LiberationSerif(0)/b/n/12 qiymatlarining belgilangan butun sohasida yagona,
+ ichki muvofiq natija beradimi?
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 2026-yil 30-sentabr — 1-oktabr holatiga lex.uz da
+gi hujjatlarning rasmiy matnlari
+
+Underfull \hbox (badness 7631) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 bilan), PF-258-son Farmon, “Normativ-huquqiy hujj
+atlar toʻgʻrisida”, “Shaxsga doir
+
+Underfull \hbox (badness 1097) in paragraph at lines 55--56
+\TU/LiberationSerif(0)/m/n/12 maʼlumotlar toʻgʻrisida” va “Jismoniy va yuridik 
+shaxslarning murojaatlari toʻgʻrisida”gi
+
+Underfull \hbox (badness 2165) in paragraph at lines 59--60
+\TU/LiberationSerif(0)/m/n/12 qashshoqlik va tenglik baholashida manzillilik fo
+rmulasi 2026-yil boshida qayta koʻrib
+
+LaTeX Warning: Citation `ref32' on page 1 undefined on input line 61.
 
 
-LaTeX Warning: Citation `ref7' on page 1 undefined on input line 44.
+Underfull \hbox (badness 1910) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/12 oila vazirligi ijtimoiy-iqtisodiy malakani hisobl
+ash tartibini amaliy misollar, “teng yoki
 
-
-LaTeX Warning: Citation `ref1' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Citation `ref2' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Citation `ref3' on page 1 undefined on input line 50.
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 50--51
-[]\TU/LiberationSerif(0)/m/n/12 2026-yil 29-yanvardagi 35-son qaror reyestr, da
-romad hisoblash, qayta baholash,
-
-LaTeX Warning: Citation `ref1' on page 1 undefined on input line 52.
-
+Underfull \hbox (badness 1803) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/12 katta” shaklidagi chegaralar va bir nechta tekshi
+ruv ishga tushganda ustuvorlik qoidasi
 [1]
 
-LaTeX Warning: Citation `ref7' on page 2 undefined on input line 56.
+LaTeX Warning: Reference `sec:agency' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation `ref6' on page 2 undefined on input line 65.
-
-
-LaTeX Warning: Citation `ref11' on page 2 undefined on input line 67.
-
-
-LaTeX Warning: Citation `ref28' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation `ref29' on page 2 undefined on input line 72.
-
-
-LaTeX Warning: Citation `ref30' on page 2 undefined on input line 72.
-
-[2]
-
-LaTeX Warning: Citation `ref12' on page 3 undefined on input line 77.
-
-
-LaTeX Warning: Citation `ref13' on page 3 undefined on input line 79.
-
-
-LaTeX Warning: Citation `ref14' on page 3 undefined on input line 81.
-
-
-LaTeX Warning: Citation `ref15' on page 3 undefined on input line 83.
-
-
-LaTeX Warning: Citation `ref16' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Citation `ref17' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Citation `ref5' on page 3 undefined on input line 91.
-
-
-LaTeX Warning: Citation `ref4' on page 3 undefined on input line 91.
-
-[3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 1005) in paragraph at lines 81--82
+[]\TU/LiberationSerif(0)/m/n/12 Pul oʻtkazmalari (26-band): oʻtkazmalar miqdori
+ aniqlanmasa yoki $[][]$ dan kam
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []|\TU/LiberationSerif(0)/m/n/11.04124 Butun qiymatli
-[6]
-Underfull \hbox (badness 1087) in paragraph at lines 202--202
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng kam $[][][]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng koʻp
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+\TU/LiberationSerif(0)/m/n/11.04124 oʻzgarish
+
+Underfull \hbox (badness 3281) in paragraph at lines 135--136
+\TU/LiberationSerif(0)/m/n/12 jismonan manfiy boʻlolmasa-da, manfiy ulush oilan
+ing hisobga olinadigan daromadini
+[4]
+Underfull \hbox (badness 1087) in paragraph at lines 162--162
 []|\TU/LiberationSerif(0)/m/n/11.04124 Oylik ulush pasayishi
 
-Underfull \hbox (badness 1460) in paragraph at lines 202--203
-[]|\TU/LiberationSerif(0)/m/n/11.04124 4 a’zoda jon boshiga
+Underfull \hbox (badness 1460) in paragraph at lines 162--163
+[]|\TU/LiberationSerif(0)/m/n/11.04124 4 aʼzoda jon boshiga
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ro‘yxatdagi mam-
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ro‘yxatdagi mam-
-[7]
-Underfull \hbox (badness 6252) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
+
+Underfull \hbox (badness 1997) in paragraph at lines 193--194
+\TU/LiberationSerif(0)/m/n/12 daromad. Uzluksiz gorizontal qismlar — 6-ilovadag
+i mamlakatlar, shtrixli — boshqa
+
+Underfull \hbox (badness 1033) in paragraph at lines 195--196
+[]\TU/LiberationSerif(0)/m/n/12 Taklif etilayotgan tahrir (1-material, II boʻli
+m, 1-band) oʻtkazmalarning bir oylik
+
+Underfull \hbox (badness 6252) in paragraph at lines 207--207
 []|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
-[8]
+[5]
+Underfull \hbox (badness 1077) in paragraph at lines 237--238
+\TU/LiberationSerif(0)/m/n/12 taʼsirlangan oilalar soni xatoning mavjudligini e
+mas, koʻlamini belgilaydi. Agentlik bu
+[6]
+Underfull \hbox (badness 1810) in paragraph at lines 244--245
+\TU/LiberationSerif(0)/m/n/12 Har bir guruh uchun dastur amaldagi va taklif eti
+layotgan qoida natijasini solishtiradi.
 
-LaTeX Warning: Citation `ref7' on page 9 undefined on input line 268.
+Underfull \hbox (badness 6188) in paragraph at lines 249--250
+[]\TU/LiberationSerif(0)/m/n/12 Toʻrtta normada nomuvofiqliklar isbotlangan: da
+romad $[]$ ga teng boʻlganda
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[]\TU/LiberationSerif(0)/m/n/12.045 Milliy statistika qoʻmitasi. 2026-yil uchun
+ minimal isteʼmol xarajatlari haqida
 
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\TU/LiberationSerif(0)/m/n/12.045 xabar, 2026-yil 4-mart. []$[][][][][] [] [] [
+] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][
+][][][][][][][][][][][][][][] []
 
-Underfull \hbox (badness 5359) in paragraph at lines 274--274
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Audit topilmasi yoki
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Muvofiqlashtiriladigan
-
-Underfull \hbox (badness 1735) in paragraph at lines 277--277
-[]|\TU/LiberationSerif(0)/m/n/11.04124 PF-258 3-band va 1-
-
-Underfull \hbox (badness 1292) in paragraph at lines 277--277
-\TU/LiberationSerif(0)/m/n/11.04124 qaror 32–35, 39, 42-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ixtiyoriy toifa tuza-
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2019-yil 2-iyu
+ldagi OʻRQ-547-son “Shaxsga doir
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Ixtiyoriy formula
+[]\TU/LiberationSerif(0)/m/n/12.045 Guven M., Yeachuri A., Almenfi M. Global In
+sights on Social Registries:
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\TU/LiberationSerif(0)/m/n/11.04124 tuzatishi; zarur ge-
+\TU/LiberationSerif(0)/m/n/12.045 Coverage and Beyond. World Bank, June 2025, p
+p. 3, 13, 25–26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tayanch davr va
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\TU/LiberationSerif(0)/m/n/11.04124 35-son qaror 18–19,
-
-Underfull \hbox (badness 3536) in paragraph at lines 279--280
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Aniq birlik, davr va
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Kuzatiladigan vaqt-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-\TU/LiberationSerif(0)/m/n/11.04124 inchalik versiya va
-
-Underfull \hbox (badness 4673) in paragraph at lines 281--281
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Reyestr, qayta baho-
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[]$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][] [] 
+[][][][][][][] [] [][] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Oldindan belgilangan
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-\TU/LiberationSerif(0)/m/n/11.04124 tekshiruv, alohida
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Asoslar, tuzatish va
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\TU/LiberationSerif(0)/m/n/11.04124 SMS/qayta baholash
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Qonuniy jarayonda
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Himoyalangan
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-\TU/LiberationSerif(0)/m/n/11.04124 tadqiqot va umum-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Shaxsga doir
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-\TU/LiberationSerif(0)/m/n/11.04124 ma’lumotlar qonuni;
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tasdiqlangan uslu-
-
-Underfull \hbox (badness 6173) in paragraph at lines 284--284
-\TU/LiberationSerif(0)/m/n/11.04124 biyot, amal sanalari,
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-\TU/LiberationSerif(0)/m/n/11.04124 to‘lov va saqlash
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Siyosat vakolatini
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-\TU/LiberationSerif(0)/m/n/11.04124 bermasdan yozma
- [9]
-Underfull \hbox (badness 1472) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/12 Agentlik Vazirlik bilan tasdiqlanadigan spetsifik
-atsiyani tayyorlashi, birinchi qo‘llash va
-
-Underfull \hbox (badness 1038) in paragraph at lines 298--299
-\TU/LiberationSerif(0)/m/n/12 qabulni Agentlik rahbari yoki qonuniy vakolatlang
-an o‘rinbosariga yuklaydi. Bu taklif,
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-[]\TU/LiberationSerif(0)/m/n/12 35-son qaror 48-bandi axborot almashinuvi uzilg
-anda vaqtinchalik algoritmni
-[10]
-
-LaTeX Warning: Citation `ref10' on page 11 undefined on input line 308.
-
-
-LaTeX Warning: Citation `ref21' on page 11 undefined on input line 311.
-
-
-LaTeX Warning: Citation `ref22' on page 11 undefined on input line 311.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Agentlikdan talab etiladigan
-
-Underfull \hbox (badness 1742) in paragraph at lines 322--322
-\TU/LiberationSerif(0)/m/n/11.04124 toifa nazorati; mehnatga lay-
-
-Underfull \hbox (badness 1874) in paragraph at lines 323--323
-[]|\TU/LiberationSerif(0)/m/n/11.04124 12 chegara qatori va alohida
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Tegishli vaziyat, qonuniy
-
-Underfull \hbox (badness 4193) in paragraph at lines 324--325
-\TU/LiberationSerif(0)/m/n/11.04124 ometriyasi, kasrli maydonlar,
-
-Underfull \hbox (badness 7168) in paragraph at lines 324--325
-\TU/LiberationSerif(0)/m/n/11.04124 sanali mahalliy koeffitsiyent,
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Bitta qonuniy aniqlan-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-\TU/LiberationSerif(0)/m/n/11.04124 gan qiyoslash davri,
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-\TU/LiberationSerif(0)/m/n/11.04124 jo‘natuvchilarni jamlash,
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Boshqa tur, aralash chorva,
-
-Underfull \hbox (badness 3049) in paragraph at lines 327--328
-\TU/LiberationSerif(0)/m/n/11.04124 istisno, davr va tasdiqlangan
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Yetti sun’iy holat; belgilab
-
-Underfull \hbox (badness 4156) in paragraph at lines 328--328
-\TU/LiberationSerif(0)/m/n/11.04124 berilgan toifalar bilan to‘rtta
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-[]|\TU/LiberationSerif(0)/m/n/11.04124 Rasmiy formula, kirish so-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 hasi/bog‘liqlik, istisno va
-
-Underfull \hbox (badness 5316) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 qonuniy kirishlar. Namuna
-
-Underfull \hbox (badness 2913) in paragraph at lines 328--329
-\TU/LiberationSerif(0)/m/n/11.04124 noma’lum nochiziqli modelni
- [11]
-Underfull \hbox (badness 1762) in paragraph at lines 334--335
-\TU/LiberationSerif(0)/m/n/12 qoldirilgan hissa va xato qo‘shimcha hissa jamida
- bir-birini qoplashi mumkin. Nazo-
-
-LaTeX Warning: Citation `ref2' on page 12 undefined on input line 339.
-
-[12]
-
-LaTeX Warning: Citation `ref9' on page 13 undefined on input line 341.
-
-
-LaTeX Warning: Citation `ref10' on page 13 undefined on input line 346.
-
-
-LaTeX Warning: Citation `ref9' on page 13 undefined on input line 348.
-
-
-LaTeX Warning: Citation `ref1' on page 13 undefined on input line 351.
-
-
-LaTeX Warning: Citation `ref7' on page 13 undefined on input line 351.
-
-
-LaTeX Warning: Citation `ref7' on page 13 undefined on input line 353.
-
-[13]
-
-LaTeX Warning: Citation `ref7' on page 14 undefined on input line 357.
-
-
-LaTeX Warning: Citation `ref7' on page 14 undefined on input line 360.
-
-
-LaTeX Warning: Citation `ref18' on page 14 undefined on input line 362.
-
-
-LaTeX Warning: Citation `ref9' on page 14 undefined on input line 366.
-
-
-LaTeX Warning: Citation `ref9' on page 14 undefined on input line 368.
-
-[14]
-Underfull \hbox (badness 2111) in paragraph at lines 372--373
-[]\TU/LiberationSerif(0)/m/n/12 Bog‘lash identifikator yagonaligi, birga-ko‘p a
-loqalar, a’zolik sanasi va takroriy
-
-LaTeX Warning: Citation `ref23' on page 15 undefined on input line 383.
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 383--384
-[]\TU/LiberationSerif(0)/m/n/12 OECD/JRC tarkibiy natijaning o‘zgaruvchi tanlas
-h, normallashtirish, hisobiy qiy-
-[15]
-
-LaTeX Warning: Citation `ref20' on page 16 undefined on input line 402.
-
-
-LaTeX Warning: Citation `ref7' on page 16 undefined on input line 402.
-
-
-LaTeX Warning: Citation `ref1' on page 16 undefined on input line 405.
-
-
-LaTeX Warning: Citation `ref7' on page 16 undefined on input line 405.
-
-
-LaTeX Warning: Citation `ref2' on page 16 undefined on input line 405.
-
-
-LaTeX Warning: Citation `ref9' on page 16 undefined on input line 405.
-
-
-LaTeX Warning: Citation `ref19' on page 16 undefined on input line 407.
-
-
-LaTeX Warning: Citation `ref7' on page 16 undefined on input line 407.
-
-[16]
-
-LaTeX Warning: Citation `ref24' on page 17 undefined on input line 420.
-
-
-LaTeX Warning: Citation `ref25' on page 17 undefined on input line 420.
-
-
-LaTeX Warning: Citation `ref1' on page 17 undefined on input line 426.
-
-
-LaTeX Warning: Citation `ref7' on page 17 undefined on input line 428.
-
-
-LaTeX Warning: Citation `ref31' on page 17 undefined on input line 428.
-
-[17]
-
-LaTeX Warning: Citation `ref2' on page 18 undefined on input line 432.
-
-
-LaTeX Warning: Citation `ref7' on page 18 undefined on input line 432.
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 432--433
-[]\TU/LiberationSerif(0)/m/n/12 Vakolatli ma’lumot sohasi muayyan algebraik kir
-ishni chiqarishi mumkin; xulosa
-
-LaTeX Warning: Citation `ref2' on page 18 undefined on input line 437.
-
-
-LaTeX Warning: Citation `ref26' on page 18 undefined on input line 437.
-
-
-LaTeX Warning: Citation `ref27' on page 18 undefined on input line 437.
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 439--440
-[]\TU/LiberationSerif(0)/m/n/12 Qo‘shimcha hissa — mustaqil asoslangan javob, s
-ana va chiqarilish natijasiga
-
-LaTeX Warning: Citation `ref1' on page 18 undefined on input line 443.
-
-
-LaTeX Warning: Citation `ref2' on page 18 undefined on input line 443.
-
-
-LaTeX Warning: Citation `ref7' on page 18 undefined on input line 443.
-
-[18]
-Underfull \hbox (badness 1466) in paragraph at lines 453--454
-\TU/LiberationSerif(0)/m/n/12 Audit butun yordam tizimini emas, tanlangan formu
-lalar va shartlarni qamraydi. Oila
-
-Underfull \hbox (badness 1137) in paragraph at lines 453--454
-\TU/LiberationSerif(0)/m/n/12 mikroma’lumoti, amaldagi dastur, mahalliy koeffit
-siyentlar, qat’iy yaxlitlash va 2027-yil
-[19] [20]
-Underfull \hbox (badness 2173) in paragraph at lines 518--519
-[]\TU/LiberationSerif(0)/m/n/12 Government portal. \TU/LiberationSerif(0)/b/n/1
-2 Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar
-
-Underfull \hbox (badness 1102) in paragraph at lines 529--530
-[][][][][] [] [][][][][] [] [][][][][][][][][][][][][] [] [][][][]$\TU/Liberati
-onSerif(0)/m/n/12 da; sun’iy additiv namuna $[][][][] [] [][][][][][][][] [] []
-[][][][][][][] [] [][][][] [] [][][][]$da.
-[21] [22]
-(/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
+[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
+Chili), División de Focalización.
+
+Underfull \hbox (badness 1939) in paragraph at lines 281--282
+\TU/LiberationSerif(0)/m/n/12.045 18-betlar. []$[][][][][] [] [] [] [][][] [] [
+][][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][]
+[][][][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
+[8] (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -608,6 +366,6 @@ Package rerunfilecheck Warning: File `research_paper_uz.out' has changed.
  )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
-paper_uz.pdf (22 pages).
+paper_uz.pdf (8 pages).
 Transcript written on /home/xola/GitHub/Solial Registry/results/documents/resea
 rch_paper_uz.log.

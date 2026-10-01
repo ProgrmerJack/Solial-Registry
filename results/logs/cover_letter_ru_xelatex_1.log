@@ -1,7 +1,7 @@
 This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(./explanatory_note_ru.tex
+(./cover_letter_ru.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -72,51 +72,25 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
+No file cover_letter_ru.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
-Underfull \hbox (badness 1087) in paragraph at lines 44--45
-\TU/LiberationSerif(0)/m/it/14.05249 финансового положения \TU/LiberationSerif(
-0)/m/n/14.05249 семьи хронические заболевания, инвалидность,
 
-Underfull \hbox (badness 2057) in paragraph at lines 44--45
-\TU/LiberationSerif(0)/m/n/14.05249 том 14 Национальному агентству социальной з
-ащиты при Президенте
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
-Underfull \hbox (badness 2057) in paragraph at lines 50--51
-\TU/LiberationSerif(0)/m/n/14.05249 и (или) оператора разъяснить субъекту поряд
-ок принятия решения на
-[1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 Предложение подготовлено гражданином Ашурал
-иевым Абдухоликом
+[1]
+Underfull \hbox (badness 2326) in paragraph at lines 76--77
+[]\TU/LiberationSerif(0)/m/n/14.05249 Материал 1. Предложения для включения в п
+роект нормативно-
+[2] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux)
 
-Underfull \hbox (badness 1742) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 Агентство совместно с Министерством экономи
-ки и финансов. Статья
+Package rerunfilecheck Warning: File `cover_letter_ru.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Underfull \hbox (badness 2452) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 чать результаты научных исследований и обра
-щения физических лиц,
-[3] [4]
-Underfull \hbox (badness 1137) in paragraph at lines 114--115
-[]\TU/LiberationSerif(0)/m/n/14.05249 если интервал применяется к обычному дохо
-ду, семья с доходом
-[5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
-Chile), División de Focalización.
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-\TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
-][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
-[][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
-[9]
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux) )
+ )
 (see the transcript file for additional information)
-Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (9 pages).
-Transcript written on /home/xola/GitHub/Solial Registry/results/documents/expla
-natory_note_ru.log.
+Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
+ter_ru.pdf (2 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/cover
+_letter_ru.log.

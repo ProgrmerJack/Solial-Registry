@@ -95,11 +95,11 @@ def export_tex_tables(audit):
 
 DOCUMENT_NAMES = (
     "normative_act_draft_ru", "explanatory_note_ru", "research_paper_ru",
-    "participation_request_ru",
+    "cover_letter_ru",
     "normative_act_draft_uz", "explanatory_note_uz", "research_paper_uz",
-    "participation_request_uz",
+    "cover_letter_uz",
     "normative_act_draft_en", "explanatory_note_en", "research_paper",
-    "participation_request_en",
+    "cover_letter_en",
 )
 
 

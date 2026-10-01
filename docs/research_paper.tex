@@ -30,113 +30,71 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancyhead[C]{\ifnum\value{page}>1\thepage\fi}
-% Liberation Serif is a disclosed Times-compatible substitute, not Times New Roman.
 % Current statutory geometry/size baseline: O‘RQ-682 appendix §§43–51.
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \begin{document}
+\begin{flushright}Material 3\end{flushright}
 \begin{center}
 \textbf{SCIENTIFIC AND LEGAL JUSTIFICATION}\par
-Proposed verification provisions for the Social Registry implementing act under PF-193\par
+\textbf{of the proposals for inclusion in the draft normative legal act being prepared to implement paragraph 14 of Decree of the President of the Republic of Uzbekistan No. PF-193 of 11 September 2026}\par
 \medskip
-Revised 1 October 2026; calculation reference date: 30 September 2026\par
-Abduxoliq Akmal ugli Ashuraliyev\par
-Independent research contribution; no institutional affiliation claimed
+Abduxoliq Akmal ugli Ashuraliyev, independent researcher (ORCID 0009-0003-5482-5526)\par
+Edition of 1 October 2026; calculations use the legal texts in force on 30 September 2026. English companion translation; the Russian edition is primary.
 \end{center}
-\section{Legal mandate, responsible developers and purpose}
-This supporting analytical material accompanies the citizen proposal by Abduxoliq Akmal ugli Ashuraliyev. It is prepared for the National Agency for Social Protection under the President of the Republic of Uzbekistan and the Ministry of Economy and Finance of the Republic of Uzbekistan to consider in the mandated draft. The author is not presenting an explanatory note on behalf of those official developers. The purpose is to justify the proposed seven operative provisions and twenty-eight-clause verification annex; the primary Russian explanatory note and its Uzbek and English companion translations organize the submission information under paragraphs 83–85 of the unified drafting methodology. \cite{ref7}.
 
-The immediate legislative opportunity is specific. Paragraphs 13–14 of PF-193, dated 11 September 2026, introduce multidimensional assessment from 1 January 2027 and direct the National Agency for Social Protection and Ministry of Economy and Finance to submit the implementing draft to the Presidential Administration by 1 December 2026. Paragraph 14 does not identify the final instrument’s legal form. Accordingly, this paper proposes an insertion module and consequential amendments for the competent developer to integrate, rather than claim that a completed Cabinet resolution alone fulfils the mandate. \cite{ref1}.
+\section{Subject, legal basis and research question}
+Subparagraph “a” of paragraph 13 of Decree PF-193 introduces from 1 January 2027 a multidimensional assessment that takes into account, in addition to the family’s financial condition, chronic illness, disability, external labour migration and large family size; subparagraph “b” provides for point-based scoring and assignment of families to categories; paragraph 14 instructs the National Agency for Social Protection under the President of the Republic of Uzbekistan (hereinafter, the Agency), jointly with the Ministry of Economy and Finance, to submit the draft act to the Presidential Administration by 1 December 2026\cite{ref1}. Financial condition remains one dimension of the assessment, so the income calculation rules of the Regulation on the Procedure for Maintaining the Social Registry (Annex 1 to Cabinet of Ministers Resolution No. 35 of 29 January 2026) continue to determine the result until replaced\cite{ref2}.
 
-Household classification has at least three distinct meanings: a calculation produces a score or income measure; a legally specified process assigns a registry category; and a particular programme determines entitlement and payment. Combining these stages into a single opaque output makes it difficult to identify whether a disputed result arose from source data, arithmetic, an exception, a category rule or a separate programme condition. A reproducible system must preserve those distinctions even where the same information system executes them.
+Decisions on Registry inclusion and category are made by the information module “automatically” (stage 6 of Annex 1 to the Regulation)\cite{ref2}. In such a system a family’s result is determined by how the software executes each threshold, equality to it, exceptions, units and periods. Article 24 of the Law “On Personal Data” requires the data subject to be told how an automated decision is made and its legal consequences, and an objection to be considered within ten days\cite{ref9}.
 
-Existing law supplies an operational baseline. Cabinet Resolution 35 of 29 January 2026 establishes registry rules, income calculations, reassessment, information exchange and appeal arrangements. The consolidated text retrieved on the working date includes amendments made during 2026. PF-258 of 26 December 2025 supplies higher-ranking category provisions and hardship conditions. These instruments remain material to implementation unless the new act lawfully amends them. A new scoring model does not, by itself, repeal existing refusal grounds or grant a programmer authority to reconcile inconsistent legal text. \cite{ref2}; \cite{ref3}.
+The research question is stated so that it can be refuted: \textbf{do the published income and category rules give a single, internally consistent result at the thresholds and throughout the declared input domain?} The finding is refuted by an error in transcribing a rule, an omitted applicable exception, a narrower lawful input domain or a disagreement with independent arithmetic.
 
-PF-193 paragraph 13 confirms financial circumstances, chronic illness, disability, external labour migration and multiple children as assessment dimensions, with scoring-based category assignment from 1 January 2027. Paragraphs 13–14 of that decree do not specify numerical weights, transformations, rounding or category thresholds; they mandate development of the implementing act. The primary decree, the Agency consultation listing and public indexed searches were checked on 1 October 2026 without obtaining a complete 2027 numerical specification. This records the scope and result of retrieval, not proof that no internal or public specification exists. The Article 22 request asks for the dated specification and its approval or draft status. \cite{ref1}.
+\section{Sources and data}
+Official texts of the acts on lex.uz as of 30 September — 1 October 2026 were used: Decree PF-193, Resolution No. 35 (consolidated with amendments of 22 May and 21 July 2026), Decree PF-258, and the Laws “On Normative Legal Acts”, “On Personal Data” and “On Appeals of Individuals and Legal Entities”\cite{ref1,ref2,ref3,ref7,ref9,ref20}. Resolution No. 35 and Decree PF-193 are officially published in the state language; amendment wording follows the Uzbek text.
 
-The research question is therefore deliberately falsifiable: \textbf{do the selected published rules produce reproducible, internally coherent income and category predicates across their stated boundaries and declared input domains?} A transcription error, an applicable omitted exception, a legally narrower domain or disagreement with independent arithmetic would defeat a corresponding finding. The question does not ask whether a newly fitted model predicts poverty well. No 2027 weights or Agency household records were supplied, so that second question cannot be answered here.
+Monthly minimum consumption expenditure per person in 2026 is $P=715{,}000$ soum\cite{ref5}; the minimum wage from 1 September 2026 is $M=1{,}360{,}000$ soum\cite{ref4}.
 
-The proposed participation route is Article 22 of O‘RQ-682. It permits consenting citizens with relevant knowledge and experience to participate in drafting groups; participation is discretionary and qualification must be evidenced. Article 20 supports submission of proposals. Article 24 governs consultation and justification of rejected proposals. \cite{ref7}.
+Two sources describe practice. On 17 July 2026 the Government portal reported that in 184 mahallas all 2,000 applications received in one month were refused without grounds, that appeals to the President on Registry inclusion rose from 30,000 to 46,000, and that the Prosecutor General’s Office was instructed to exercise strict oversight\cite{ref28}. The World Bank’s 2026 poverty and equity assessment states that the targeting formula was revised in early 2026 and that an assessment of its effectiveness is not yet available\cite{ref11}.
 
-\section{Existing regulatory practice and relevant evidence}
-\subsection{Retrieval and currency}
-This is a targeted narrative review of primary documents, not a systematic review. Official consolidated legislation, official statistics, publisher pages, author-hosted published research and World Bank reports were retrieved during the project. Relevant provisions, abstracts and selected full-text sections were inspected. Sources that could not be retrieved beyond a search snippet were excluded from the substantive synthesis. Direct retrieval was used because the research-lookup provider was not configured. Searches for later corrections and current official instruments were checks on currency; they do not prove that no correction, unpublished draft or unindexed amendment exists.
+International experience supports the chosen mechanisms. Chile’s Ministry of Social Development and Family publishes the procedure for calculating the socio-economic rating with worked examples, “equal to or greater than” thresholds and a precedence rule when several checks are triggered\cite{ref32}. The World Bank notes that outdated registry data lead to inclusion and exclusion errors and that grievance redress mechanisms enhance transparency and accountability\cite{ref12}.
 
-Legal texts are cited by instrument and provision. For large reports, printed pages are distinguished from PDF page numbers. The 2026 Uzbekistan assessment’s printed page 40 is PDF page 42; the delivery-systems sourcebook’s printed page 141 is PDF page 171. The source selection is sufficient to motivate the proposed verification architecture, but it cannot establish that this architecture is uniquely optimal. Foreign evidence is used to identify questions and mechanisms, not to import coefficients or expected Uzbek effects.
+\section{Method}
+\subsection{Objects and units}
+Let $Y$ be the family’s counted income over three months and $N$ the counted number of members; monthly income per person is $D=Y/(3N)$ (point 18 of the Regulation). The formulas for individual income contributions and the category conditions are checked; full aggregation of $Y$ from administrative data is not reproduced. The September 2026 value of $M$ is used only in dated single-month calculations.
 
-\subsection{Contemporary Uzbekistan evidence}
-Official SIAT statistics report national poverty rates of 17.0, 14.1, 11.0, 8.9 and 5.8 percent for 2021–2025. These published aggregates provide context; they are not observations used to calibrate this audit or evidence that a particular registry algorithm caused the decline. Regional poverty rates cannot validate individual household classifications. \cite{ref6}.
+Calculations are performed by the reference program (electronic supplement). Numbers are entered as integers or strings of decimal and rational numbers; exact rational arithmetic is used, so equality comparisons are not distorted by binary rounding. Floating-point numbers, invalid divisors and incomplete data are rejected.
 
-The World Bank’s Uzbekistan poverty and equity assessment, published on 18 September 2026, discusses coverage and targeting of low-income family assistance. Its printed page 40 notes that effectiveness evidence for the formula revised in early 2026 was not yet available. Its technical annex describes the income-based statistical welfare aggregate. That aggregate should not be treated as identical to the administrative measure, which includes legally imputed income and specific inclusions and exclusions. The report supports an empirical research need; it does not validate the 2027 scoring specification not obtained for this project or demonstrate operational incidence of this paper’s counterexamples. \cite{ref11}.
+\subsection{Prespecified plan and case selection}
+The list of checks and the case grids were fixed in the analysis plan before calculations were run. Income grid: $P$, $1.5P$, $2P$ with offsets of $-1$, $0$, $+1$ soum. Difficult life circumstances: values around $P$, $4P/3$, $1.5P$, $2P$. Land formula: all integer building areas $QM$ from $0$ to $UM$ for $UM=100$, $1{,}000$, $1{,}001$, $2{,}000$ m² (4,105 cases in total). Remittances: an unknown value and values around $2M$ for both country groups under two possible comparison periods. Tax base, self-employment and goats: prespecified points.
 
-\subsection{Observed service evidence and what it can establish}
-The Government's report of 17 July 2026 records 2\,000 unjustified refusals in 184 mahallas in one month, and registry-related Presidential appeals rising from 30\,000 to 46\,000. It directs prosecutorial oversight. This documents a reason to examine decision grounds; it supplies no software-cause attribution, national denominator, present incidence or estimate of the proposed control's effect. The cause cannot be inferred from a formula counterexample. \cite{ref28}.
+The grids are constructed domains, not a sample of families. The number of violating cases in a grid characterises the formula’s domain, not the share of families in Uzbekistan; shares of families can be determined only on the Agency’s data (Section~\ref{sec:agency}).
 
-The official service 587 page, observed on 1 October 2026, describes an application/result channel, free service, no required documents and a stated one-month period. It displays 640\,876 total statuses including 16\,564 in process. No accumulation window, pending-age distribution, handling times, extraction date or staff availability is given. These counters are not annual demand, a count of overdue decisions or capacity. A February 19 Urganch report documents local practical training on Resolution No. 35, lawful inclusion/removal and data reliability; it does not prove national staffing readiness. Existing channels and training processes can be reused, but their incremental workload needs actual operational records. \cite{ref29}; \cite{ref30}.
+\subsection{Legal computational conditions}
+Subpoint “a” of point 33 refuses recognition as a “state-supported family” or “poor family” where $D>P$; point 32 recognizes the family where there is no refusal ground; subpoints “a” and “b” of point 39 and point 3 of Decree PF-258 assign families with $D<P$ to these categories\cite{ref2,ref3}.
 
-Agency-specific release records, process timings, contract coverage and funded assignments were not obtained. Public financial-transparency pages and broader social-protection project documents did not establish an allocation or spare capacity for this module. The proposal therefore makes no queue forecast, staffing estimate or delivery-time guarantee. If integration changes application handling, the Agency must use dated arrivals/completions, pending ages, source delays and processing times in an authorized capacity check before committing that change; aggregate budgets or posts cannot substitute for those observations.
+For difficult life circumstances $A=3D/4$. Points 34–35 of the Regulation allow inclusion in the “family at the poverty boundary” category where $D>P$ and $A\le1.5P$; subpoint “v” of point 39 and subpoint “v” of point 3 of Decree PF-258 describe this category by the interval from $P$ to $1.5P$. Both readings of the interval were checked: by ordinary and by reduced income.
 
-\subsection{What international evidence contributes}
-The 2025 World Bank review of social registries discusses dynamic updating, on-demand access, interoperability and administrative capacity. Its discussion supports treating a registry as part of a delivery process: database coverage and programme eligibility are different objects. It supplies no transferable Uzbek acceptance threshold. \cite{ref12}.
+Household plot area (point 27): $TEM=UM-QM-\min(0.2\,UM;\,200)$ m² over the domain $0\le QM\le UM$; monthly normative income $TEM\cdot0.035\,M\cdot k/100$, where 100 m² is one sotix and $k$ the mahalla land-tax coefficient. The calculations take $k=1$ because actual mahalla coefficients were not used; for another $k$ the amounts are multiplied by $k$.
 
-The Indonesia data-quality assessment emphasizes common standards, freshness, audit and local implementation capacity. These considerations motivate a variable passport and explicit correction pathway here. The mechanism that could transfer is improved traceability of source values; the size of any benefit depends on Uzbek source systems and staffing, which were not observed. \cite{ref13}.
+Remittances (point 26): if the amount of transfers is not determined or is less than $2M$, normative income $cM$ applies, where $c=3$ for countries listed in Annex 6 and $c=2$ for other countries. Because the comparison period is not stated, both readings were calculated: comparison of a monthly amount $q$ and of a three-month total.
 
-The delivery-systems sourcebook separates assessment from eligibility, enrolment, notification and benefit provision. Its grievance discussion includes errors arising at different delivery stages. This distinction supports retaining calculation records and routing a correction to the responsible process rather than equating a score with payment. Historical country examples in the book are not presented as current institutional facts. \cite{ref14}.
+\subsection{Verification of results}
+Results were verified in four ways: reproduction of the official example in point 30; manual inequalities; a separate checking program that does not use the calculation module and recomputes all 4,105 land cases, 12 hardship cases, 24 tax cases, 16 remittance cases and 6 goat cases with integer expressions; and automated tests. All 39 tests pass (29 checks of calculation rules and 10 provenance checks that reject an outdated, altered or incomplete result).
 
-The 2022 targeting synthesis places policy objectives, programme design, targeting choice and implementation in a hierarchy. It also cautions that the payoff from more complex models depends on data and context. That supports first specifying what “correct” means before optimizing a score. \cite{ref15}.
+\section{Results}
+\subsection{Official example and equality to the threshold}
+The example in point 30 of the Regulation gives $6{,}480{,}000/(5\cdot3)=\mathbf{432{,}000}$ soum per person per month; the difference from the published answer is zero.
 
-Two primary studies illustrate why welfare validation needs a declared comparator. Alatas and colleagues’ randomized Indonesian study compared proxy-means, community and hybrid targeting in 640 villages: ranking against consumption and participant satisfaction did not identify an identical preferred method. This is evidence from one setting, not an estimate for Uzbekistan. Aiken and colleagues’ Togo study found that performance of phone-data targeting depended on whether the comparison was geographical targeting or a hypothetical comprehensive registry. Neither study supports treating an old administrative decision as an unquestionable welfare label. \cite{ref16}; \cite{ref17}.
+At $D=P=715{,}000$ both conditions $D>P$ and $D<P$ are false. The refusal ground of subpoint “a” of point 33 does not apply and, absent other refusal grounds, the family is recognized under point 32, but it does not satisfy the condition of categories “a” and “b” of point 39. A first-time applicant without a “mahalla seven” recommendation is assigned to no category. The control case of a family previously removed from a primary category falls, at $D=P$, within the interval of subpoint “v” of point 39, confirming that the cases are correctly separated.
 
-Together these sources support a separation of \textbf{rule conformance}, \textbf{data quality}, \textbf{welfare validity} and \textbf{delivery outcomes}. The completed analysis establishes selected conformance properties. The other dimensions remain a proposed Agency research programme.
+The proposed amendment of subpoint “a” of point 33 (“equal to or higher” instead of “higher”) closes this case without amending Decree PF-258: the refusal condition becomes the exact complement of the category condition $D<P$ in point 3 of the Decree.
 
-\section{Inputs and method of the supporting calculation}
-\subsection{Data objects and units}
-The inputs are published legal constants and constructed cases. The 2026 monthly minimum consumption expenditure per person is denoted P = 715,000 soum. Monthly minimum remuneration is M = 1,360,000 soum from 1 September 2026. The former is taken from the National Statistics Committee’s 4 March 2026 announcement; the latter from PF-115. M is used only for dated September single-month diagnostics. It is not substituted retrospectively into every month of a three-month income history. \cite{ref5}; \cite{ref4}.
-
-Let Y be included household income over the selected three months and N be the legally relevant number of members. The monthly per-person measure is $D=Y/(3N)$. This paper does not reconstruct the complete Y aggregation from administrative data. It audits selected contribution formulas and category predicates. Contributions described as monthly must be converted to period totals once, before division by three; a second division or omission of the period conversion changes the meaning of D.
-
-The reference implementation is \nolinkurl{scripts/run_analysis.py}. Numeric inputs are integers or rational/decimal strings and calculations use Python’s exact Fraction type. Floating-point inputs, invalid divisors, malformed values, duplicate fields and unsupported configuration fields are rejected. Exact arithmetic prevents an accidental binary approximation from deciding an equality test. Production rounding still requires an authoritative rule: this study does not invent a rounding convention and attribute it to the Agency.
-
-\subsection{Prespecification and selection}
-The original audit was specified in the supplied prespecified analysis plan before execution, following exploratory reading of the provisions. Its candidates were therefore known in advance; it is a formal diagnostic, not a blinded confirmatory population study. The later extension retained the approved method and froze its cases before execution. A counterexample arising from the first independent review was explicitly labelled post-hoc and retained as a regression check.
-
-The original income grid uses P, 1.5P and 2P with offsets of minus one, zero and plus one soum, plus a former-category control at P. The extension examines hardship values around P, 4P/3, 1.5P and 2P. It enumerates every integer building area B from zero through total plot area U for U equal to 100, 1,000, 1,001 and 2,000 square metres. It examines missing remittances and values around 2M for both country groups under two explicitly conditional time-unit readings. Tax-floor cases use the algebraic crossover plus the same one-soum offsets in all eight regional/sex cells. Informal-income calculations cover those cells, and livestock cases contain 0, 1, 14, 15, 20 and 100 goats.
-
-These grids have no sampling weights or population frame. Counting their failures is a software/domain diagnostic. A confidence interval for the prevalence of affected Uzbek households would be meaningless because no such households were sampled. The grid is exhaustive only within its declared constructed domain, not across every legally or operationally possible state.
-
-\subsection{Legal-computational predicates}
-For a new able-to-work applicant without other refusal grounds, former-category status or hardship recommendation, paragraph 33(a) refuses primary recognition on income when D > P. Paragraph 32 recognizes primary status in the absence of paragraph 33 grounds. Paragraph 39(b), however, describes primary-category income as D < P. The audit evaluates these predicates separately; it does not pretend to encode the complete application decision.
-
-For a hardship applicant, define $A=\frac{3}{4}D$. Subject to qualifying circumstances, a valid recommendation, available quota, reassessment and absence of other applicable grounds, paragraphs 34–35 give the income path D > P and A \ensuremath{\leq} 1.5P. The general paragraph 39 wording gives the interval from P to 1.5P. Because its relationship to hardship adjustment is not explicit in that wording, the audit checks both an ordinary-income reading and an adjusted-income reading. A legally applied special-rule priority may resolve the issue. The calculation identifies what that priority must protect.
-
-For land, the literal derived area is $L=U-B-\min\{U/5,200\}$, using square metres. The declared algebraic domain is 0 \ensuremath{\leq} B \ensuremath{\leq} U. Monthly normative land income is L \ensuremath{\times} 0.035M \ensuremath{\times} k / 100, where 100 square metres is one sotix and k is the applicable local tax coefficient. The diagnostic assumes k = 1 openly because actual mahalla coefficients were unavailable. The proposed floor max(0,L) is calculated separately from the literal rule.
-
-For remittances, paragraph 26 applies imputed monthly income cM where transfers are unknown or below 2M; c is three for the listed-country group and two for other countries. The comparison period was not supplied. Conditional model A treats the reported comparison quantity q as monthly. Conditional model B treats it as a three-month total and converts accepted actual transfers to q/3 per month. Both apply the stated imputed monthly contribution. These models expose the need to settle the time unit; neither is claimed to be the operational Agency algorithm.
-
-For entrepreneur income, paragraph 24 gives $E=\max\{5T/6,B_0\}$, where T is the tax total over three months and B\textsubscript{0} is the paragraph 23 monthly base. Paragraph 25 gives 1.05B\textsubscript{0} for persons satisfying its informal-work conditions. Under paragraph 28, a goat contributes 0.07 equivalent cattle heads; the first equivalent head is exempt. The goat-only expression is $G=\max\{0.07g-1,0\}M/2$. Other animal coefficients from Resolution 689 were not transcribed or executed here.
-
-\subsection{Verification strategy}
-Verification combines the official published example, hand-derived inequalities, independent integer arithmetic and executable regression tests. The separate \nolinkurl{scripts/verify_results.py} imports no rule engine; it checks all 4,105 land cases, twelve hardship cases, twenty-four tax cases, sixteen conditional remittance cases and six goat cases using equivalent piecewise or integer expressions. The completed scientific regression suite contains 27 tests; ten provenance and independent-check regression tests reject stale, modified or incomplete output. Together, the suite contains 37 tests, covering equality, both sides of thresholds, missing versus zero, negative-weight intervals, invalid input, legal formulas, grid counts and conditional interpretations. A prior fresh-context review found two defects in the initial amendment proposal: a blanket marginal lower bound would exclude a valid hardship case, and a decree-annex provision had been omitted. Both were corrected and the counterexample is retained.
-
-The computational materials have undergone independent workspace review and executable verification. The current suite contains 37 regression tests; the separate arithmetic checker verifies the frozen case inventory. The review supports the stated computational results within their scope. It does not establish that the Agency’s production system implements the same rules or that the official 2027 model not obtained for this project has been validated.
-
-\section{Results of the executed rule audit}
-\subsection{Official example and equality}
-Paragraph 30’s published example yields 6,480,000/(5 \ensuremath{\times} 3) = \textbf{432,000 soum per person per month}. The difference from the published answer is zero. This establishes the arithmetic convention of that example. The example specifies May–July income for a September 2025 application; the precise reference-month lag should be retained in a formal specification rather than guessed from a general phrase.
-
-At D = P = 715,000, the statement D > P is false and D < P is also false. Under the constructed applicant conditions, primary recognition under paragraph 32 is not refused by the income predicate, but paragraph 39(b) does not provide the corresponding category. The mismatch occurs at equality, not throughout a neighbourhood. The former-primary control at P satisfies the ordinary marginal-income interval, demonstrating why prior status cannot be omitted from a complete decision specification.
-
-PF-258 paragraph 3 also uses a strict below-P condition for primary categories. Consequently, a Cabinet-only change of “below” to “not exceeding” would not fully reconcile the hierarchy. The proposed inclusive-equality option requires coordinated changes to PF-258 paragraph 3(a)–(b), its Annex 1 note (a), and Resolution 35 paragraph 39(a)–(b). It also requires revising the ordinary marginal branch while preserving the special hardship branch. The audit does not establish which equality policy government must choose; it establishes that the adopted choice must be explicit and coherent.
-
-\subsection{Hardship intervals: proof and counterexample}
-The special-route income conditions simplify exactly:
-
+\subsection{Difficult life circumstances: inconsistency under either reading}
+The conditions of the special procedure simplify exactly:
 \begin{equation}
- D>P,\quad\frac34D\leq\frac32P\quad\Longleftrightarrow\quad P<D\leq2P.
+D>P,\quad\frac34D\le\frac32P\quad\Longleftrightarrow\quad P<D\le2P.
 \end{equation}
-If the general interval uses ordinary income, its intersection with that route is P < D \ensuremath{\leq} 1.5P. It excludes the special-route interval \textbf{1.5P < D \ensuremath{\leq} 2P}. If the general interval instead uses adjusted income, its lower bound A \ensuremath{\geq} P is equivalent to D \ensuremath{\geq} 4P/3. That reading excludes the special-route interval \textbf{P < D < 4P/3}. Therefore, neither simple substitution of D nor of A into a common interval reproduces the entire special route. An explicit exception or branch precedence is necessary in a machine-executable description. This is an interpretation problem to resolve with the developer, not proof that actual officials are refusing those households.
-
-For P = 715,000, the relevant landmarks are 4P/3 = 2,860,000/3, 1.5P = 1,072,500 and 2P = 1,430,000 soum per person per month. The implementation evaluates twelve constructed values around these boundaries. Their rational representation is retained even when a display rounds a plotted coordinate.
-
-The post-hoc reviewer counterexample has three members and three-month income of 8,580,000 soum. Its ordinary D is 2,860,000/3 and adjusted A is exactly 715,000. Assuming all statutory hardship conditions hold, paragraph 35(b)’s upper bound is satisfied. The abandoned proposal requiring adjusted income strictly above P would exclude it. The corrected draft separates the former-primary ordinary-income branch from the hardship branch and adds no invented lower bound to adjusted hardship income.
+If the interval of subpoint “v” of point 39 applies to ordinary income, families with $1.5P<D\le2P$ fall outside the special procedure; example: $D=1{,}287{,}000$ soum ($1.8P$). If the interval applies to reduced income, the condition $A\ge P$ is equivalent to $D\ge4P/3$, and families with $P<D<4P/3$ fall outside; example: $D=858{,}000$ soum ($1.2P$), reduced income $643{,}500<P$. Neither reading reproduces point 35 in full (Figure 1). At $P=715{,}000$: $4P/3=2{,}860{,}000/3$, $1.5P=1{,}072{,}500$, $2P=1{,}430{,}000$ soum.
 
 \begin{center}
 \begin{tikzpicture}
@@ -146,20 +104,20 @@ The post-hoc reviewer counterexample has three members and three-month income of
 \addplot[black,line width=3pt,dotted] coordinates {(1.333333333,1)(2,1)};
 \addplot[only marks,mark=*,mark size=3pt] coordinates {(2,3)(1.5,2)(1.333333333,1)(2,1)};
 \addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(1,3)(1,2)};
-\node[anchor=west] at (axis cs:.88,3.28) {Special hardship income route};
-\node[anchor=west] at (axis cs:.88,2.28) {Intersection: ordinary-income reading};
-\node[anchor=west] at (axis cs:.88,1.28) {Intersection: adjusted-income reading};
+\node[anchor=west] at (axis cs:.88,3.28) {Points 34–35};
+\node[anchor=west] at (axis cs:.88,2.28) {Point 39(v), ordinary income};
+\node[anchor=west] at (axis cs:.88,1.28) {Point 39(v), reduced income};
 \end{axis}\end{tikzpicture}
 \end{center}
-\textbf{Figure 1.} Income is normalized by P. Filled endpoints are inclusive and open endpoints are exclusive. The special route additionally requires qualifying circumstances, recommendation, quota and other statutory conditions. The plotted intersections show interpretation differences, not observed refusals.
+\textbf{Figure 1.} Income normalised by $P$. A filled endpoint is included, an open one excluded. The top line shows the income conditions of points 34–35; the middle and bottom lines their intersection with the interval of subpoint “v” of point 39 under the two readings. The special procedure also requires the relevant circumstances, a recommendation and compliance with the quota.
 
-\subsection{Land-domain audit}
-For U \ensuremath{\leq} 1,000, the literal formula is L = 4U/5 − B, so L < 0 precisely when B > 4U/5. For U > 1,000 it is L = U − B − 200, so L < 0 precisely when B > U − 200. These inequalities provide a separate check of the enumeration. Within 0 \ensuremath{\leq} B \ensuremath{\leq} U, L is bounded below by −min(U/5,200). A physical area cannot be negative, although the existence of operational cadastral restrictions could remove these constructed inputs from admissible records.
+\subsection{Negative area in the land formula}
+For $UM\le1{,}000$ the formula equals $TEM=0.8\,UM-QM$ and is negative exactly when $QM>0.8\,UM$; for $UM>1{,}000$ it equals $TEM=UM-QM-200$, negative when $QM>UM-200$. The smallest value over $0\le QM\le UM$ is $-\min(0.2\,UM;200)$ m². Enumeration of 4,105 integer cases confirms the inequalities: 620 cases give a negative area (Table 1, Figure 2).
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
 \toprule
-Plot U (m²) & Integer test cases & Negative cases & Minimum L (m²) & Maximum floor change (soum/month) \\
+Plot $UM$ (m²) & Integer test cases & Negative cases & Minimum $TEM$ (m²) & Maximum floor change (soum/month) \\
 \midrule
 \endhead
 100 & 101 & 20 & -20 & 9,520 \\
@@ -170,34 +128,31 @@ Total constructed grid & 4,105 & 620 & — & — \\
 \bottomrule
 \end{longtable}
 \endgroup
+\textbf{Table 1.} Calculation at $M=1{,}360{,}000$ and $k=1$. Counts refer to the constructed grid. The last column is the largest change in the family’s monthly normative income when the zero floor is introduced.
 
-\textbf{Table 1.} Computed using September M = 1,360,000 and the assumed diagnostic coefficient k = 1. Counts are properties of the constructed grid. The final column is a change in imputed monthly household income, not a payment reduction or fiscal estimate.
-
-At U = 100 and B = 90, L is −10 m² and literal monthly income is −4,760 soum. The proposed floor produces zero. Across the declared domain, applying that floor can increase the monthly normative contribution by at most 95,200k at September’s M; division by N gives the corresponding per-person income contribution. This direction matters: correcting a negative contribution can raise calculated income. It cannot be described as automatically increasing assistance. Actual category and payment effects require lawful before/after replay and the relevant benefit rules.
-
-The zero-floor amendment is a defensible mathematical proposal, but it is not a substitute for defining the geometry. The cadastral source must establish whether B represents a footprint, which objects are included, whether deductible areas overlap, and whether U and B come from the same parcel and date. A valid non-overlapping area construction may be preferable if the 20-percent deduction represents specific land uses. The developer must settle that meaning; the audit supplies no invented cadastral facts.
+Example: $UM=100$, $QM=90$ gives $TEM=-10$ m² and $-4{,}760$ soum of monthly normative income; a fully built-up 1,000 m² plot gives $-200$ m² and $-95{,}200$ soum. The negative contribution reduces the family’s counted income, although an area cannot physically be negative. The proposed zero floor gives $TEM=0$ and does not change the result where $TEM\ge0$.
 
 \begin{center}
 \begin{tikzpicture}
-\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.4cm,vertical sep=1.8cm},width=.44\linewidth,height=5cm,xlabel={$B$ (m²)},ylabel={$L$ (m²)},scaled ticks=false]
-\nextgroupplot[title={$U=100$; 20 negative cases},xmin=0,xmax=100]
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.4cm,vertical sep=1.8cm},width=.44\linewidth,height=5cm,xlabel={$QM$ (m²)},ylabel={$TEM$ (m²)},scaled ticks=false]
+\nextgroupplot[title={$UM=100$; 20 negative cases},xmin=0,xmax=100]
 \addplot[black,thick] coordinates {(0,80)(100,-20)};
 \addplot[black,dashed,thick] coordinates {(0,80)(80,0)(100,0)};
-\nextgroupplot[title={$U=1000$; 200 negative cases},xmin=0,xmax=1000]
+\nextgroupplot[title={$UM=1000$; 200 negative cases},xmin=0,xmax=1000]
 \addplot[black,thick] coordinates {(0,800)(1000,-200)};
 \addplot[black,dashed,thick] coordinates {(0,800)(800,0)(1000,0)};
-\nextgroupplot[title={$U=1001$; 200 negative cases},xmin=0,xmax=1001]
+\nextgroupplot[title={$UM=1001$; 200 negative cases},xmin=0,xmax=1001]
 \addplot[black,thick] coordinates {(0,801)(1001,-200)};
 \addplot[black,dashed,thick] coordinates {(0,801)(801,0)(1001,0)};
-\nextgroupplot[title={$U=2000$; 200 negative cases},xmin=0,xmax=2000]
+\nextgroupplot[title={$UM=2000$; 200 negative cases},xmin=0,xmax=2000]
 \addplot[black,thick] coordinates {(0,1800)(2000,-200)};
 \addplot[black,dashed,thick] coordinates {(0,1800)(1800,0)(2000,0)};
 \end{groupplot}\end{tikzpicture}
 \end{center}
-\textbf{Figure 2.} Each panel uses one prespecified U and every integer B from zero to U. The vertical axis is derived area in square metres. The negative region follows the literal formula; the dashed proposed floor is drawn separately. Plotting does not add administrative observations.
+\textbf{Figure 2.} Solid line: current formula; dashed line: with the zero floor; for each $UM$ all integer $QM$ from $0$ to $UM$ are considered.
 
-\subsection{Remittance units and conditional discontinuities}
-The equality q = 2M does not satisfy the below-threshold imputation condition. Under the monthly reading, the listed-country contribution changes from 3M immediately below the comparison threshold to 2M at it: a monthly drop of M = 1,360,000 soum. The other-country reading changes from 2M to 2M and is continuous at that boundary. Under the three-month-total reading, accepted actual income at equality is 2M/3 per month, generating different drops. The sixteen constructed cases preserve both readings, both groups and the missing-value branch.
+\subsection{Remittances: counted income falls as the transfer rises}
+Equality $q=2M$ does not satisfy “less than $2M$”. Under the monthly reading, for countries in Annex 6 counted income falls from $3M$ just below the threshold to $2M$ at the threshold: a transfer of $2{,}719{,}999$ soum is counted as $4{,}080{,}000$, a transfer of $2{,}720{,}000$ as $2{,}720{,}000$. A one-soum rise in the transfer reduces counted income by $1{,}360{,}000$ soum. For other countries the monthly reading is continuous. Under the three-month-total reading, jumps arise for both groups (Table 2, Figure 3).
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{longtable}{p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax}}
@@ -212,12 +167,7 @@ Three-month total & Other countries & 5,440,000/3 & 1,360,000/3 \\
 \bottomrule
 \end{longtable}
 \endgroup
-
-\textbf{Table 2.} Exact conditional arithmetic in soum. The comparison period remains unresolved; neither row set is an official implementation finding. The numerical change is in the income contribution, not the benefit amount.
-
-The listed-country monthly rule is non-monotone at the switch from imputation to actual income: a larger reported comparison value can generate a smaller calculated contribution. That is not necessarily a drafting mistake. A fallback estimate and an observed value can intentionally differ. It does, however, require a scientific and legal explanation, reproducible source treatment and evaluation of resulting category changes. A programmer must not silently replace the rule with max(actual, imputed), which would materially change its operation.
-
-Missing and recorded zero must remain separate states even if the current legal branch gives them the same imputed amount. Their causes, evidence and possible corrections differ. The source-record time period, aggregation across senders, exchange-rate timestamp and fallback reason must be retained. Selecting a time unit or adding a floor solely because it makes a smoother graph would constitute an unsupported policy choice.
+\textbf{Table 2.} Fall in counted monthly income at the threshold, soum. Rows correspond to the two possible readings of the rule.
 
 \begin{center}
 \begin{tikzpicture}
@@ -238,10 +188,12 @@ Missing and recorded zero must remain separate states even if the current legal 
 \addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(2,3)(2,2)};
 \end{groupplot}\end{tikzpicture}
 \end{center}
-\textbf{Figure 3.} Horizontal values are the reported comparison quantity q divided by M. Vertical values are monthly contributions divided by M. Solid horizontal segments denote listed countries and dashed horizontal segments other countries; the actual-value branch coincides for both. Separate panels preserve the two period interpretations. Dashed lines mark the comparison threshold. The missing-value branch is reported in the audit JSON and is not represented as a numerical point.
+\textbf{Figure 3.} Horizontal axis: $q/M$; vertical axis: counted monthly income relative to $M$. Solid horizontal segments: countries in Annex 6; dashed: other countries; vertical line: threshold.
 
-\subsection{Coefficients, tax floor and fractional livestock}
-Paragraph 23 contains eight monthly self-employment coefficients across four geographic classes and two sex categories. At September’s M, the male–female difference is 0.4M = 544,000 soum in every class. In a constructed four-member household, one affected member contributes a per-person difference of 136,000 soum. This is a normative-income sensitivity. It does not measure actual earnings, discrimination, unequal entitlement or an error rate. Empirical justification of coefficients and legal equality questions require separate evidence and examination.
+The proposed wording (Material 1, Section II, point 1) applies normative income where the monthly average of transfers is below the applicable normative income. Counted income equals $\max(q;\,cM)$ and does not decrease as $q$ rises; this is checked by an automated test on a 1,000-soum grid for both country groups. For other countries ($c=2$) the result coincides with the current monthly reading. Under both readings of the current rule, the proposed wording reduces no family’s counted income.
+
+\subsection{Self-employment coefficients, tax base and livestock}
+Point 23 sets eight coefficients of monthly normative income for the self-employed: four territory types and two sexes. The difference between the male and female coefficient in each territory equals $0.4M=544{,}000$ soum per month (Table 3). The calculation reflects normative income, not actual earnings.
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
@@ -256,299 +208,73 @@ Other units & 2,448,000 & 1,904,000 & 2,570,400 & 1,999,200 \\
 \bottomrule
 \end{longtable}
 \endgroup
+\textbf{Table 3.} Monthly normative contributions at $M=1{,}360{,}000$; the informal contribution multiplies the base by 1.05 under the conditions of point 25.
 
-\textbf{Table 3.} Direct computed contributions using M = 1,360,000. Informal contributions multiply the relevant base by 1.05 only where paragraph 25’s conditions apply. No actual household composition is inferred.
+Under point 24 the tax base equals the minimum at a three-month tax of $T=6B_0/5$; below it $B_0$ applies, above it the base rises with slope $5/6$. The rule is continuous and monotone; all 24 cases agree with the piecewise expression. Under point 28, 14 goats give zero ($14\cdot0.07=0.98$ equivalent head), 15 give 34,000 soum per month, 20 give 272,000 and 100 give 4,080,000. The Regulation sets no rounding rule for fractional equivalent heads; the methodology must determine it (Material 1, Section I, point 2).
 
-For paragraph 24, the tax-based expression equals the base where T = 3B\textsubscript{0}/2.5 = 6B\textsubscript{0}/5. Below that crossover, the result is B\textsubscript{0}; above it, the result increases with slope 5/6 with respect to a three-month tax total. All twenty-four prespecified crossover checks agree with this piecewise expression. The floor is continuous and monotone, unlike the listed-country remittance switch. These different results show why a single generic “threshold sensitivity” statistic cannot describe every rule.
+\subsection{Specification questions}
+The calendar offset of the three-month period in point 18 is confirmed by the example in point 30 (application in September — income for May–July) and should be recorded in the methodology as a rule. Foreign currency is converted at the rate on the date YAMIH receives the information (point 19); this date must be retained with the result so the calculation can be reproduced (Material 1, Section I, point 12).
 
-The goat-only calculation is zero for fourteen goats because fourteen times 0.07 is 0.98 equivalent heads. Fifteen goats give 1.05 equivalent heads, leaving 0.05 chargeable heads and a monthly contribution of 34,000 soum. Twenty give 272,000 and one hundred give 4,080,000. Rounding equivalent heads down before applying the exemption would change these results and is not the rule encoded here. An official operational rounding specification must resolve the treatment of fractional equivalents. This audit leaves other species and mixed herds unimplemented.
-
-\subsection{Specification questions not reduced to a number}
-Two documentary issues require clarification without selecting a preferred numerical answer. First, reference-month inclusivity and lag must reconcile paragraph 18 with the paragraph 30 example. Second, paragraph 20’s general subsidy exclusions and paragraph 29’s explicit inclusion of the renewable-electricity sale subsidy QP require an inclusion/exclusion precedence record. A special inclusion may legally govern the general exclusion. The paper does not claim that the QP term is unlawful or that the actual system double-counts it. Neither issue was converted into an arbitrary software assumption.
-
-\section{Proposed provisions and their legal justification}
-\subsection{Instrument design and hierarchy}
-The normative draft in Material 1 contains seven proposed operative clauses and a twenty-eight-clause annex. Its central obligation is to verify that consequential calculations conform to an approved methodology, preserve their basis, and expose unresolved cases without manufacturing a new refusal ground. The revision adds a named technical acceptance authority, explicit acceptance conditions, effective-date controls and a lawful retention schedule. It supplements the existing system. The competent developer must choose the final instrument form, appropriation arrangements and coordinated consequential amendments.
-
-The equality option is presented as a coordinated Presidential and Cabinet amendment. The land floor is presented as an amendment to Resolution 35’s formula. Other provisions define verification and traceability duties. These have different adoption requirements and should not be disguised as equally simple software settings. Article 18 of O‘RQ-682 makes hierarchy relevant to reconciliation. \cite{ref7}.
-
-\begingroup
-\fontsize{11bp}{13.2bp}\selectfont
-\begin{longtable}{p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax}}
+\section{From results to the proposed norms}
+\begingroup\fontsize{12bp}{14.4bp}\selectfont
+\begin{longtable}{L{0.36\linewidth} L{\dimexpr0.64\linewidth-4\tabcolsep}}
 \toprule
-Audit finding or requirement & Proposed annex clauses & Existing rules requiring reconciliation & Nature of proposal \\
-\midrule
-\endhead
-Equality and hardship precedence & 5, 12, 16 & PF-258 §3 and Annex 1 notes; Resolution 35 §§32–35, 39, 42 & Optional coordinated category amendment; required lawful branch specification \\
-Negative land area & 4, 12 & Resolution 35 §27; cadastral fields & Optional formula amendment; required geometry/source definition \\
-Reference period and remittance units & 4, 8 & Resolution 35 §§18–19, 21, 26, 29–30 & Explicit unit, period and aggregation rules \\
-Source failure and temporary algorithm & 8–11, 18 & Resolution 35 §48; information-exchange annexes & Traceable emergency version and subsequent verification \\
-Independent recalculation and unresolved cases & 12–17 & Registry, reassessment and payment rules & Prespecified verification with separate denominators \\
-Reasons, corrections and review & 18–20 & SMS/reassessment provisions and existing appeal arrangements & Access to calculation basis through lawful processes \\
-Protected research and internal protocol & 21–24 & Personal-data law; existing oversight powers & Lawful internal execution and disclosure review \\
-Acceptance, correction and retention & 25–28 & Approved methodology, dated legal parameters, payment and data-retention rules & Written technical acceptance without delegation of policy powers \\
+Result & Proposed norm (Material 1)\\\midrule\endhead
+Equality to the threshold undetermined (4.1) & Section II, point 3; Section I, points 3 and 5 — category at equality and examples in the new methodology.\\\midrule
+Interval of the special procedure inconsistent (4.2) & Question for the developer’s decision (Material 2, Section 7); Section I, point 4 — a single result where exceptions apply.\\\midrule
+Negative area (4.3) & Section II, point 2; Section I, point 9 — every threshold and exception is in the control example set.\\\midrule
+Non-monotonicity and undefined period for remittances (4.4) & Section II, point 1; Section I, point 2 — source, unit and period of each criterion.\\\midrule
+Rounding and exchange rate (4.5–4.6) & Section I, points 2 and 12.\\\midrule
+Automated decision without explained grounds (Section 1) & Section II, point 4; Section I, points 12–15.\\
 \bottomrule
-\end{longtable}
-\endgroup
-\textbf{Table 4.} Traceability from the scientific result to proposed law. Clause numbers refer to the author’s annex, not existing legislation. Reconciliation remains a developer task and this table does not purport to list every downstream programme provision.
-
-\subsection{The methodology passport}
-Every consequential variable should have an approved passport identifying its legal purpose, authoritative source, household/person linkage, unit, reference period, valid range, conversion, missing/conflicting/stale treatment and effective-dated parameter. The passport must distinguish a measured value from a normative imputation. A “last updated” timestamp alone is insufficient: an old record may describe the correct reference period, while a newly received record may describe the wrong period.
-
-The category specification should be expressed as a decision table or equivalent formal rules. Each row records applicability, priority, conditions, output and legal authority. The hardship row must retain qualifying circumstances, recommendation, quota and reassessment; an income formula alone cannot grant entry. Separate outputs should record primary recognition, registry category, programme eligibility and amount. An unresolved case is a status requiring lawful resolution, not an invented fourth substantive welfare category.
-
-The proposal requires recording the model and software version, source snapshots, reference periods, applied exceptions and calculation steps. The public description should be available except for lawfully protected information. Restricted material must still be accessible to authorized verification and review personnel. This balances reproducibility with confidentiality; it does not establish a right for the external author to receive microdata.
-
-\subsection{Draftable operative requirements}
-The author proposes that the Agency prepare the approved specification with the Ministry, perform verification before first use and material changes, and retain a protocol. A material change is one capable of altering the calculation or category, including a source mapping or temporal conversion; relabelling a field may be immaterial if its semantics remain identical. Proposed annex paragraph 25 assigns technical acceptance to the Agency head or a lawfully authorized deputy, supported by methodology, information-system and legal-service conclusions. This is a proposed allocation of responsibility, not evidence of an existing appointment or power to enact scoring criteria.
-
-Paragraph 26 makes acceptance testable. Every prespecified boundary and exception case needs a legally determined expected result; comparable calculations for the same approved version and identical input values must have no score or category discrepancy after the approved rounding rule; and the data-quality, explanation-access and objection-routing functions must work. Failure requires correction and repetition of affected tests. This is a conformance criterion, not a population accuracy target. It is inappropriate to import an arbitrary 95-percent welfare accuracy requirement into the act when no welfare comparator or population sample exists. The requirement does not suspend lawful application processing or alter the mandated implementation date.
-
-The annex requires exact equality tests, exceptions, incomplete data and physically invalid derived values. It prohibits hiding unresolved cases in a successful denominator or treating synthetic checks as welfare validation. It also requires investigation of affected calculations when a software implementation violates the approved rule. The correction of an individual case, continuation of payments and review deadlines remain governed by applicable law; the proposal supplies no automatic suspension power.
-
-Resolution 35 paragraph 48 already permits temporary algorithm changes during disrupted information exchange. The proposal preserves that power while requiring a recorded legal basis, scope, start time, temporary rule and restoration condition. Calculations made under the temporary version must be identifiable for later lawful verification. This creates evidence for audit without inventing a parallel emergency institution. Paragraph 49’s existing oversight responsibilities likewise remain the starting point.
-
-The proposed explanation requirement records why a decision followed, including imputation and exception logic. A notification SMS alone does not reproduce a calculation. Articles 53–54 of the administrative-procedure law address the content and factual/legal reasons of individual administrative acts; its scope and special procedures still require checking for the relevant decision. Proposed paragraph 19 supplies an operational channel: calculation reasons with the decision through the personal electronic account, with access through an Inson centre for a person who does not use the account. This is an express proposed duty, not a finding that the current interface already offers it. \cite{ref10}.
-
-\subsection{Acceptance evidence, independent answers and coverage}
-A successful test requires an independently justified expected answer, not just two matching outputs. Barr et al. describe this test-oracle problem and distinguish specified answers from comparisons with another implementation. NIST IR 8397 distinguishes tests derived from requirements, tests derived from code structure and regression cases retained from earlier defects. These sources support the engineering design of verification; neither is a binding Uzbek eligibility standard. Their guidance does not establish that this project's fixtures exhaust the Agency's system. \cite{ref21}; \cite{ref22}.
-
-For this proposal, the methodology unit and legal service should establish the legal derivation of the expected result; a verifier other than the person responsible for the tested implementation should check it. The record should identify the source provision and version, branch preconditions, input units and periods, intermediate contributions, rounding stage and final outcome. For example, at $D=P$, copying an output from a program that implements $\leq P$ would conceal disagreement with the published strict $<P$ category predicate. Conversely, inserting a universal lower bound into the hardship route would exclude the retained $0.75D=P$ counterexample. These are different questions: whether the code follows the rule, and whether the rule needs amendment. An unresolved interpretation must be referred for a lawful determination; neither program agreement nor a majority vote resolves it.
-
-Annex paragraphs 12 and 26 now require a rule-to-case inventory rather than allowing the selected tests themselves to define completeness. Every applicable boundary, exception, precedence path and reachable interaction must have an expected result; an inapplicable path needs a justified exclusion. Before execution, freeze case identifiers and input values. Afterwards reconcile the inventory with the executed cases, including missing and duplicated identifiers. A passing result on an incomplete list is not completion of the declared test scope. Code coverage can provide additional implementation evidence, but a percentage of executed statements cannot establish coverage of omitted legal rules.
-
-\begingroup\fontsize{11bp}{13.2bp}\selectfont
-\begin{longtable}{p{\dimexpr\linewidth/3-2\tabcolsep\relax} p{\dimexpr\linewidth/3-2\tabcolsep\relax} p{\dimexpr\linewidth/3-2\tabcolsep\relax}}
-\toprule
-Rule family & Completed check and scope & Additional acceptance evidence required from the Agency\\
-\midrule\endhead
-Primary income conditions & 10 constructed rows; one former-category control; declared able-to-work applicant assumptions & Other refusal grounds, ability-to-work branches, membership dates and complete recognition/category priorities.\\
-Hardship route & 12 boundary rows plus one separately labelled post-hoc counterexample & Qualifying circumstances, valid recommendation, quota, reassessment and interactions with primary/former-category routes.\\
-Land & 4\,105 integer cases in four total-area domains; local coefficient fixed at 1 & Authoritative same-parcel geometry, valid noninteger area values, local dated coefficient, source restrictions and rounding.\\
-Tax floor & 24 crossover rows across eight territorial/sex cells & Meaning and completeness of tax total, period alignment, changing parameters and source exceptions.\\
-Remittances & 16 rows under two conditional period readings and two country groups & One lawfully settled comparison period, sender aggregation, duplicate handling, currency conversion and source-status rules.\\
-Livestock & Six goat-only cases with exact fractional conversion & Other species, mixed holdings, exemptions, period and authorized rounding; not implemented here.\\
-Additive demonstration & Seven artificial cases; four comparable stipulated categories & Official formula, domain/dependencies, exceptions and lawful inputs. The demonstration cannot validate an unspecified nonlinear model.\\
-\bottomrule
-\end{longtable}
-\endgroup
-\textbf{Table 5.} Completed scope and unresolved production prerequisites. Counts refer to constructed cases, not households. This is an acceptance-evidence inventory, not a claim that the additional work has been performed.
-
-Intermediate components must be checked even if the final score and category agree. An omitted contribution and an erroneous extra contribution can compensate in a total. The control therefore compares inclusion/exclusion reasons, source periods, conversions and rounding, as well as the final value. The record distinguishes the approved legal methodology from the software release, mapping/configuration and dated parameters, and distinguishes legal effective dates from deployment dates. A corrected build implementing an unchanged legal rule keeps that rule's identity while gaining a distinct software record. The preserved decision inputs or a lawfully retained source snapshot enable historical replay; a link to a changing live database alone does not.
-
-The revised independent checker validates the frozen case identities and multiplicities and independently checks all ten income-predicate rows. Six additional regression tests reject empty grids, a duplicate replacing a case without changing row count, an altered equality predicate and an input relabelled as another frozen case and fractional or boolean inputs coerced into case identities, and accept the unchanged report. The full suite now contains 37 tests. This repairs a demonstrated weakness in the checker: previously, empty hardship, tax, remittance and goat arrays could reach its success label. The unchanged numerical findings pass the stricter checks. No production software or household sample is thereby certified.
-
-\subsection{Review competence: a demonstrated limit of the existing council route}
-Resolution 35, Annex 4 paragraph 26, limits the appeal council's subject matter to questionnaires, conclusions and records prepared by the mahalla seven during registry applications. Paragraph 31 permits rejection of a complaint outside that subject matter. Accordingly, a purely computational dispute cannot simply be labelled a council appeal and assumed to fall within existing competence. The problem is the documented scope of this particular route; it does not demonstrate that all other administrative or judicial remedies are absent. Council review has its own fifteen-day examination period under paragraph 33. \cite{ref2}.
-
-The personal-data law supplies a distinct route. Article 24 permits solely automated consequential decisions under its stated exceptions and requires the owner or operator to explain the procedure and consequences, allow an objection and notify the subject in writing of its examination result within ten days. An objection to such a decision is different from correcting an originating record or challenging a mahalla document. Article 11 separately requires correction or supplementation on the subject’s request within three days and immediate correction of identified inaccurate data; that clock must not be replaced with the ten-day automated-decision objection clock. Proposed paragraph 20 therefore routes the automated-decision objection to the data owner or operator, source correction to the authoritative source, and council complaints within the council's lawful subject matter. It expressly preserves other lawful review routes and creates no additional mandatory pre-court stage. This narrower integration avoids the need to pretend that a generic software clause expands council jurisdiction. \cite{ref9}.
-
-The developer must reconcile complaint intake forms and forwarding rules with these distinct routes. The public notice should identify the competent recipient, subject matter and applicable deadline for each route. A complaint touching several issues should preserve the original receipt record and separately route each issue; forwarding must not reset a statutory deadline. These are proposed workflow obligations to make the existing guarantees usable, not a new general appeal entitlement invented by the researcher.
-
-\subsection{Transition, correction and lawful retention}
-Three operations must remain distinct: a new policy changes the approved rule prospectively; a software correction repairs implementation of the rule applicable to a past decision; and a source correction changes evidence about a particular period. Proposed paragraph 27 prohibits using a later-period parameter or new criterion automatically in a historical replay. A recalculation by itself is no independent recovery ground. Any recovery or adverse amendment of an individual decision still requires the relevant substantive and procedural legal basis. Articles 59–61 of the administrative-procedure law make it unsafe to promise either unconditional recovery or unconditional immunity from recovery through a technical annex. \cite{ref10}.
-
-Preserving the original calculation is necessary for a review, but it does not justify indefinite storage of all personal records. Proposed paragraph 28 requires a category-specific lawful retention basis and period, authorized access, correction history and lawful destruction or anonymisation when applicable. Article 17 of the personal-data law and relevant archival duties must be applied together. The exact schedule requires the Agency's records inventory; this paper supplies no invented statutory number of retention years. Public outputs also require cross-table disclosure review because individually innocuous aggregates may identify a small household group when linked. \cite{ref9}.
-
-\subsection{Article 22 drafting participation}
-Article 20 restricts initiating the specified drafts where existing statutory mechanisms and administrative powers suffice. The proposal contributes to the draft already mandated by PF-193 paragraph 14; the mandate does not oblige the developer to incorporate these particular clauses. Each task should therefore be mapped to an existing power or to an additional duty requiring the competent legal instrument. Internal verification instructions may use existing powers; higher-ranking criteria cannot be changed by a software setting or a lower-ranking act. The verification module and optional policy amendments remain separately decidable. \cite{ref1}; \cite{ref7}.
-
-Article 23 requires the developer to study relevant research and citizens’ submissions and to generalize and use proposals and scientific recommendations. This supplies a consideration route even if working-group appointment is declined. For an actual public or specialist discussion, participants must be acquainted with the draft in advance. Discussion proposals remain advisory and must be considered; Article 24 expressly allows rejection with reasons. Reproducible calculations strengthen the basis for consideration, but neither zero software discrepancies nor a favourable review proves a legal duty to adopt the author’s wording. The separate explanatory note identifies receipt evidence, applicable response duties and remedies for unlawful refusal to consider. \cite{ref7}.
-
-The submission should request incorporation of the clauses and consideration of the author for the computational-verification drafting group. An accurate CV and evidence of performed work support the Article 22 request. The requested access is to the current draft and nonconfidential specification, with protected execution performed by the Agency. No appointment, access entitlement or adoption is assumed.
-
-The Article 22 contribution comprises a formal rule description, control cases, legally derived expected answers and draft verification provisions. Calculation checks are assigned separately from the implementation being checked. The responsible legal service and competent developer reconcile the text with applicable legal and anti-corruption procedures. These internal controls are Article 22 drafting deliverables. \cite{ref7}.
-
-\subsection{Official drafting format and document separation}
-The current unified methodology appended to O‘RQ-682, paragraphs 43–51, specifies A4 pages, 3 cm left and 2 cm right margins, 2 cm top and bottom margins, 14-point text for nondepartmental drafts, 1.27 cm first-line indentation and single spacing. It places page numbers at the top centre from page 2 and the draft marker at the top right of the first page. For accompanying analytical material, paragraph 83 specifies 11–14-point text, 1–3 cm left and 1–2 cm other margins, 0.50–1.27 cm indentation and 1–1.2 spacing. The manuscript uses 12-point text and at least 11-point analytical tables; the normative module uses 14-point body text. These are different document classes under the guidance. It remains an insertion proposal because the final adopting instrument is unspecified. \cite{ref7}.
-
-The older Cabinet-submission guide No. 2352 specifies a 1.5 cm right margin and 1.2 line multiplier, as well as Times New Roman. These differ from the current statutory methodology. The current law supplies the baseline here; the older guide is not represented as identical. The local font environment does not contain Times New Roman, so the compiled sources explicitly use Liberation Serif as a Times-compatible substitute. This is a disclosed font substitution, not a claim of exact Times New Roman compliance. XeLaTeX is used at the author’s request; the legislation describes Word as the usual editor and does not provide an official LaTeX class. Final electronic submission requirements must be confirmed with the developer. \cite{ref18}.
-
-\section{Further verification requiring official rules and Agency data}
-\subsection{Prerequisites and data design}
-The following is a protocol for subsequent authorized work, not a completed household analysis. Before extraction, the developer and Agency must freeze the model specification, run period, cohorts, comparison questions, source fields and release rules. The legal basis for processing, necessary data volume, health-information safeguards and research anonymisation must be documented. Replacing identifiers alone does not establish anonymisation. Agency-controlled execution is a protection measure, not an independent legal basis. \cite{ref9}.
-
-Supplied code requires separate operator authorization after checking its contents, version, access rights and outbound connections; protected inputs must not reach external services or public logs. These are proposed safe-execution conditions under paragraph 22, not a claim that the Agency environment is already configured. Applicable storage and processing requirements are checked under current Article \(27^{1}\) of the personal-data law, as amended by O‘RQ-1125 of 26 March 2026. Internal execution alone authorizes neither processing nor disclosure. \cite{ref9}.
-
-The minimal logical dataset comprises an internal case key, application and decision dates, household-size basis, model version, source values and periods, extraction timestamps, data-quality status, applied imputation/exception, reference calculation, recorded category and reason code. Where authorized, corrections, reviews and changed decisions should be linkable without losing the original record. Sensitive variables should be included only where necessary for a legally defined question. Identifying free text is not needed for ordinary arithmetic replay.
-
-Data linkage requires checks of identifier uniqueness, one-to-many relations, household membership dates and duplicated transfers. A total income comparison is insufficient if a duplicate inclusion cancels an omitted subtraction. Source-component reconciliation should precede the final category comparison. The operator must preserve the exact extraction query and source snapshot hashes in protected run records; reproducibility cannot depend on a live database returning the same values later.
-
-\subsection{Four separate evaluation questions}
-\textbf{Rule conformance} compares the authorized implementation with an independently specified reference on complete comparable cases. Report score differences and category differences separately. Let R be the number of category disagreements divided by the number of comparable determinate cases. If that denominator is zero, R is undefined. A zero value demonstrates agreement on that comparison set; it does not establish that the policy measure correctly identifies need.
-
-\textbf{Input-quality robustness} asks how outputs change under prespecified corrections or uncertainty sets for missing, stale and conflicting sources. Each scenario must state which fields change, their admissible values, which cases enter and whether dependencies constrain combinations. Report the changed-category numerator, the paired determinate denominator and excluded/unresolved counts. A transition table is more informative than a single flip rate because movement direction and exception paths matter. A threshold crossing caused by an accurate correction may be intended; a nonzero sensitivity rate alone is not a defect.
-
-\textbf{Welfare validity} requires an independently justified welfare comparator and a sampling design representing the intended population. Old automated decisions and appeal outcomes are not automatically true labels. Appeals are selected by access, knowledge and capacity to contest; non-appellants can also have errors. If a later study estimates inclusion or exclusion errors, it must state the target definition, sampling frame, weights, measurement period, sample size and uncertainty. No such study has been run here.
-
-\textbf{Delivery outcomes} concern notification, resolution time, correction burden, take-up and actual benefit receipt. They should not be inferred from category accuracy alone. Reporting time or cost changes requires actual baseline and follow-up observations with comparable definitions. This manuscript makes no measured claim about savings, processing time or the causal effect of verification on poverty.
-
-OECD/JRC recommends examining how composite outputs depend on variable selection, normalization, imputation, weights and aggregation. Its handbook concerns country-comparison indicators; application to household categories here is a methodological adaptation. Our prespecified scenarios and outer bounds are not a completed variance-based analysis or evidence that any particular weight is justified. \cite{ref23}.
-
-\subsection{Bounded uncertainty without invented imputations}
-For an approved additive score only, $S=\sum_j w_jz_j$ with justified bounds a\textsubscript{j} \ensuremath{\leq} z\textsubscript{j} \ensuremath{\leq} b\textsubscript{j} implies $L=\sum_j\min(w_ja_j,w_jb_j)$ and $U=\sum_j\max(w_ja_j,w_jb_j)$. If variables can independently take every value in their declared intervals, these bounds are attainable. If inputs are discrete or linked, the interval is a conservative outer bound and may include unreachable categories. A dependency-aware calculation is then required before asserting that every category in the interval is possible.
-
-The existing synthetic demonstration implements this limited additive case with explicitly artificial variables and categories. It contains seven cases, five complete and two unresolved; four are comparable to supplied reference categories and none of those four disagree. These are software fixtures with stipulated answers. Their successful replay is not a measured Uzbek model accuracy. The demonstration cannot execute a nonlinear decision tree or the complete registry process merely by calling it a score.
-
-The legal audit’s exact fractions are also not a general solution to uncertainty. They settle arithmetic for known inputs. They do not resolve whether an administrative record is current, which legal branch has priority or whether a proxy measures hardship. Each unresolved source or normative choice must be retained rather than converted into an apparently precise number.
-
-\subsection{Release and remediation}
-Internal results should first identify whether a disagreement arises from the source, temporal conversion, legal specification, rounding, code or a deliberate policy change. Correction follows the responsible process. Software defects require a corrected version and repeated affected tests; substantive rule changes require competent legal approval. Before/after output comparisons should retain both versions so a later reviewer can reconstruct the cause.
-
-The internal protocol records scope, version, executed cases, comparable and unresolved counts, defects and remedies. Public disclosure follows existing lawful duties or authorization, rather than a new report before every release. Any extract undergoes disclosure and linkage review; small aggregates may identify a person. No arbitrary universal cell-size threshold is treated as statutory anonymity.
-
-The release decision should not turn statistical findings into automatic benefit cuts. An adverse individual consequence requires its own lawful decision and correction/review opportunity. Experimental or shadow calculations must remain distinct from consequential decisions unless a competent legal instrument authorizes their use. No live household category has been changed by this project.
-
-\section{Implementation, regulatory alternatives and resources}
-The proposed framework requires identifiable responsibility for legal specification, source integration, reference calculation, test execution, review handling and disclosure. Existing units may perform these functions; no staffing assessment was available to prove that they have spare capacity. Resource costing should include source-field changes, preserved snapshots, secure storage, reference maintenance, staff training, applicant access and re-review of affected cases. Neither “existing system” nor “open-source code” implies zero cost.
-
-The first practical step is submission to the Agency, with a copy to the Ministry, of Material 1 — the normative draft; Material 2 — the explanatory note; and Material 3 — the scientific and legal justification with its computational supplement. Russian is the primary submission version, with aligned Uzbek and English companions and an Article 22 covering request. The covering request identifies the author and contact details from the author's supplied earlier follow-up. It does not fabricate academic qualifications or an expert registration. Article 22 consideration is requested on evidence of reproducible work and a technical demonstration, without claiming appointment as of right. Petition formalities and drafting-group participation are separate matters. \cite{ref20}; \cite{ref7}.
-
-\subsection{Regulatory alternatives and resource implications}
-Current arrangements (A0) are compared with technical execution of the lawful basis (A1) and necessary normative content of the mandated act (A2). A1 and A2 are not mutually exclusive: checks use existing powers, while the legal condition is established by a competent instrument or retained through an exact applicable norm. Material 1's five compact paragraphs make the form proportionate. This is not a measured cost-effectiveness ranking; no manual reserve, new reporting programme or Presidential entitlement transition is proposed. \cite{ref1}; \cite{ref7}; \cite{ref2}; \cite{ref9}.
-
-Paragraph 2(b) of PP-5025 and Article 35 of O‘RQ-682 make regulatory-impact assessment relevant to measures affecting citizens' rights and interests. This preliminary comparison is an input for the developer, not a completed official impact-assessment report or proof of compliance with all consultation and approval stages. The explanation must identify the actual co-developers, mandate, objective, proposed mechanisms, expected outcomes, and consequential changes under appended paragraphs 84–85. \cite{ref19}; \cite{ref7}.
-
-Only uncovered incremental tasks are costed after matching existing controls, contracts and channels: legal reconciliation, independent expected-answer cases, affected integration/access changes and actual maintenance. Staff hours are separate from incremental cash; reallocated work is not free. The Agency provides quantities and operational evidence; the Ministry identifies lawful financing. A welfare study is separately scoped. No module price, savings, spare staffing or benefit-budget change is estimated.
-
-\subsection{Implementation sequence and a verifiable resource account}
-Implementation uses the existing legal, system and release functions. Before December submission, reconcile the legal decision table and compare existing acceptance evidence with the supplied cases; before first affected use from January, record the lawful rule, required approvals and conformity checks. This is a dependency sequence, not a duration estimate or tested Agency integration. No national manual reserve is prescribed. Actual incremental contract work and funds must be identified; the 2026 budget framework is not a 2027 allocation for this proposal.
-
-The financial assessment must quantify work rather than merely say that existing units will perform it. For each work item record its unit, quantity, incremental cash cost, staff hours, responsible unit, existing available capacity and funding source. Separately identify specification reconciliation, integration changes, control maintenance, protected record storage, access-channel changes, training, recurring verification and case review. An auditable accounting identity is
-\[
-K_{\rm first}=K_{\rm setup}+K_{\rm annual},\qquad
-K_{\rm annual}=K_{\rm fixed}+\sum_r Q_r k_r.
-\]
-
-The public costing basis is now identified: Resolution No. 687, Annex 3, applies to the Centre’s projects funded by the State Fund or Agency extrabudgetary resources. Paragraph 4 covers support/improvement of systems; paragraph 10 covers new projects; paragraph 12 distinguishes costing assumptions from actual staff deployment. Material 2 records the applicable formula and conditions. PP-388 supplies a programme-budget framework, without establishing this module’s price or allocated financing. These findings narrow the missing inputs to approved scope, applicable project classification, modules, duration, capacity and financing particulars. \cite{ref24}; \cite{ref25}.
-Here $Q_r$ is an annual workload in a stated unit and $k_r$ its incremental cost in soum per unit; fixed and variable costs must not duplicate each other. Staff hours and capacity are reported separately, including redeployed labour. These are accounting definitions, not calculated cost estimates: the necessary Agency quantities and rates have not been supplied.
-
-Control cases run in the authorized release environment, not as an additional manual stage in every application. Reuse demonstrably equivalent tests and required external conclusions. A change affecting processing time needs actual workload evidence and applicable capacity testing; those inputs have not been obtained. Legal periods are unchanged. Optional equality/land amendments and representative welfare research have separate entitlement, fiscal and resource requirements; constructed rows cannot price them.
-
-\subsection{Normative necessity: a test does not supply an eligibility condition}
-PF-193 paragraphs 13–14 expressly mandate a normative draft for the new multidimensional system. Necessity concerns lawful 2027 assessment content, not every author-supplied technical detail. Material 1 therefore supplies five compact alternative paragraphs for the principal act, replacing rather than supplementing the full seven provisions and annex. They establish the legal basis, implementation conformity, individual decision grounds, competent change and existing implementation process. Internal passports, cases and logs retain their technical role. \cite{ref1}.
-
-Under O‘RQ-682 Articles 3, 14, 17, 18 and 37–40, a legal condition requires the competent normative instrument with applicable form and publication. Departmental normative acts require registration where prescribed. Rules No. 3686 paragraphs 94–95 cover effects on rights and safeguards, interagency obligations and binding effects outside the adopting system; paragraph 96(b) excludes implementation without new norms and 96(v)–(j) provides technical exceptions. A technical title therefore does not remove normative content, while an existing technical document without new norms need not become an act. Paragraph 20 requires necessity and alternatives assessment. This supports narrow incorporation rather than new regulation for its own sake. \cite{ref7}; \cite{ref31}.
-
-Legal and technical coverage are assessed independently. The first identifies the exact source, competence, rank, scope, date and binding consequence; the second identifies the same inputs, dates, exceptions, independently justified answer and version result. Full technical coverage removes duplicate tests but does not establish a missing legal source for a criterion. Equivalent legal coverage removes the additional norm for that issue. If two legally possible choices yield different categories, testing alone cannot select the lawful option. If an existing norm unambiguously selects the answer, implementation and, where necessary, competent clarification are needed, not an artificial amendment.
-
-An authoritative data domain may exclude a particular algebraic input; the conclusion must then narrow. Software validation does not itself prove a legal restriction on reporting a fact. Article 55 does not permit amendment through interpretation. Resolution No. 35 annex 1 paragraph 48 expressly permits temporary algorithm changes during faults, interruptions or incomplete electronic data; this power remains and is not treated as requiring a new act for each temporary change. The proposal records its basis and scope rather than enlarging it. The existence of that mechanism does not establish determination of the entire permanent 2027 methodology. \cite{ref2}; \cite{ref7}.
-
-Shorter normative wording, reference to an applicable rule or a lawfully authorized departmental form constitute substantive adoption where the binding result, competence, scope and dates remain. Technical incorporation of cases alone does not resolve demonstrated unregulated legal content. Integration uses existing processes; actual hours, contract coverage and funds remain unobtained. Resource objections may change technical scope but do not legalize an absent criterion. Universal necessity of all five paragraphs, absence of equivalent current regulation and unique optimality of the author's form have not been established. These are testable limits of the argument, not a promise of unavoidable adoption.
-
-\subsection{Existing controls, proportionality and lawful release management}
-Resolution No. 35 already assigns system and source responsibility, protected processing, limited outage powers and oversight. Resolution No. 516 operative paragraph 6$^{1}$ requires positive technical/security conclusions before implementation; annex 1 paragraph 13 provides joint connection tests and paragraph 44 gives access to request statistics. Resolution No. 93 introduces an IT-audit framework and adds the Ministry of Digital Technologies' audit function. These are existing controls to reuse. A successful exchange test does not by itself prove the legal answer to an income/category boundary, and the legal duty to audit does not prove that an Agency-specific scoring audit was completed. No such release inventory has been obtained. \cite{ref2}; \cite{ref26}; \cite{ref27}.
-
-The incremental contribution is the completed derivations and control cases linked to an independently justified answer, date and release result. Equivalent executed checks are reused. This removes duplicate technical work but does not itself establish normative coverage: the legal source is checked separately. Where both coverages are demonstrated, no additional norm is needed; where a legal condition is demonstrably absent, competent normative determination is needed in the principal act or a lawfully available instrument. General duties and constructed cases do not establish the marginal benefit of every clause.
-
-The revised paragraphs 7 and 23 remove a separate compulsory public reporting programme. The approved description is linked on the existing official resource; verification evidence stays in existing release and oversight records. Existing lawful publication, applicant access and authorized disclosure continue. Disclosure review applies to any permitted extract, including linkage between small aggregates. Independent controls run before deployment or relevant change, rather than as a second manual calculation for every application. This avoids adding an uncosted national processing service, but does not claim zero incremental effort.
-
-The Presidential reserve has been removed from the submitted normative draft. Retention of the 2026 method after January, an inclusive income boundary and a transition-debt exemption would introduce distinct entitlement and fiscal choices; no evidence establishing their necessity or affordability was obtained. Optional equality and land-floor research alternatives remain separately labelled in Material 2 and are not conditions of adoption. Paragraph 26 now permits repair and retesting, evidence-based separation of unaffected paths, or use of another conforming software build only under the currently lawful rule. It grants no manual-entry power, expired-method continuation or debt waiver. A missing legal rule goes to the competent developer/adopter before first use; Article 55 interpretation cannot insert amendments. Removing the proposed reserve is not evidence that the official transition is already complete. \cite{ref1}; \cite{ref2}; \cite{ref7}.
-
-\subsection{Responses to substantive objections}
-The official 2027 scoring specification has not been obtained for this project. Welfare and fiscal evaluation of that model requires it; the present audit concerns the identified published rules and supports the proposed verification duty. An objection that the land inputs never arise operationally would defeat an incidence claim, which this paper does not make; authoritative geometry and domain evidence should then be incorporated into the passport and tests. An objection that hardship-specific priority already governs would resolve that interpretation issue if its precise legal and operational basis is recorded. It would not justify replacing the special path with a generic interval.
-
-An objection concerning confidentiality is addressed through lawful internal execution and aggregate disclosure review, not by asking for personal records. An objection concerning cost requires a real resource account and may justify staged empirical research; it is not answered by asserting zero cost. If an existing provision already imposes an equivalent duty, the developer should map it to the proposed clause and avoid duplicating it. These responses narrow the disputed propositions; they do not make rejection impossible or oblige the government to adopt the preferred policy.
-
-The December submission date is a deadline in the government mandate, not evidence that this citizen proposal will be included. Outcome tracking should distinguish receipt, a drafting meeting, appointment, acceptance of a clause, portal publication and final adoption. Eventual success requires matching the published act to the proposed clauses. No submission or governmental acceptance has occurred in this workspace.
-
-\section{Established findings and matters requiring finalisation}
-The audit covers selected published formulas and predicates, not the complete welfare system. No household microdata, operational software, local tax coefficient records, definitive production rounding or 2027 model weights were available. The land domain is algebraic and constructed. The remittance results depend on explicitly unresolved period interpretations. Special-rule legal interpretation may resolve hardship wording without a substantive policy amendment. Consolidated webpages can change after the working date and must be rechecked before submission.
-
-These limits do not erase the completed findings. The official example is reproduced exactly. The selected recognition/category predicates disagree at P under the declared new-applicant conditions. The hardship interval cannot be represented by either simple general-interval reading without losing a part of the special route. The literal land formula permits negative values within the declared domain, and the remittance contribution depends materially on its unspecified comparison period. Tax and livestock calculations supply additional reproducible benchmarks. None of these results proves the number of people harmed or benefited.
-
-The normative contribution is to make legally consequential computation specifiable, reproducible and reviewable: identify units and periods; preserve exceptions and versions; verify boundaries before deployment; retain unresolved cases; explain decisions; and record independent control calculations within drafting. This is a concrete contribution to formation of the mandated act. Its empirical welfare performance and adoption remain matters for authorized data analysis and competent government action.
-
-\begin{thebibliography}{99}
-\bibitem{ref1} President of Uzbekistan. \textbf{PF-193}, 11 September 2026, paragraphs 13–14. \href{https://lex.uz/docs/-8472526}{Official consolidated text}.
-
-\bibitem{ref2} Cabinet of Ministers of Uzbekistan. \textbf{Resolution 35}, 29 January 2026, Annex 1 paragraphs 18–30, 32–35, 37–42 and 48–49, and relevant administrative annexes. \href{https://lex.uz/docs/-8027513}{Official consolidated text}.
-
-\bibitem{ref3} President of Uzbekistan. \textbf{PF-258}, 26 December 2025, paragraph 3 and Annex 1 notes (a)–(b). \href{https://lex.uz/docs/-7952180}{Official consolidated text}.
-
-\bibitem{ref4} President of Uzbekistan. \textbf{PF-115}, 23 June 2026, minimum-remuneration provisions effective 1 September 2026. \href{https://lex.uz/docs/-8283656}{Official text}.
-
-\bibitem{ref5} National Statistics Committee. \textbf{Minimum consumption expenditure for 2026}, 4 March 2026. \href{https://stat.uz/uz/matbuot-markazi/qo-mita-yangiliklar/67179-minimal-istemol-kharazhatlari-ijmati-t-risida-2}{Official announcement}.
-
-\bibitem{ref6} National Statistics Committee. \textbf{Poverty rate, SIAT 3495}, 2021–2025 observations retrieved 30 September 2026. \href{https://siat.stat.uz/data/3495/}{Official data}.
-
-\bibitem{ref7} Republic of Uzbekistan. \textbf{O‘RQ-682, On Normative Legal Acts}, 20 April 2021, Articles 3, 14, 17–18, 20–24, 32, 35, 37–40 and 55 and appended drafting methodology paragraphs 11, 43–51, 83–85. \href{https://lex.uz/docs/-5378966}{Official consolidated text}.
-
-\bibitem{ref9} Republic of Uzbekistan. \textbf{O‘RQ-547, On Personal Data}, 2 July 2019, Articles 11, 16–18, 24, 27$^{1}$ and 28; special-data safeguards; Article 27$^{1}$ as amended by O‘RQ-1125 of 26 March 2026. \href{https://lex.uz/docs/-4396419}{Official consolidated text}.
-
-\bibitem{ref10} Republic of Uzbekistan. \textbf{O‘RQ-457, On Administrative Procedures}, 8 January 2018, Articles 3, 53–54 and 59–61. \href{https://lex.uz/docs/-3492199}{Official consolidated text}.
-
-\bibitem{ref11} World Bank. \textbf{Uzbekistan Poverty and Equity Assessment: Rising to Prosperity: Broadening Opportunities for All}, published 18 September 2026; printed pp. 40 and 78. \href{https://documents1.worldbank.org/curated/en/099091826081016988/pdf/P507037-a67dabb6-2302-46a0-be08-a951d35f90c3.pdf}{Report PDF}.
-
-\bibitem{ref12} World Bank. \textbf{Global Insights on Social Registries: Coverage and Beyond}, 2025; printed pp. 13–15. \href{https://documents1.worldbank.org/curated/en/099071525165029379/pdf/P177331-a772f9c1-e340-4f76-aeb0-90fd4e7a3496.pdf}{Report PDF}.
-
-\bibitem{ref13} Hadiwidjaja, Gracia; Williams, Asha; Giannozzi, Sara. \textbf{Improving Data Quality for an Effective Social Registry in Indonesia}, World Bank, 2022; printed pp. 22–23. \href{https://documents1.worldbank.org/curated/en/099515110132223290/pdf/P177341026be35061089cf0d835280eaf15.pdf}{Report PDF}.
-
-\bibitem{ref14} Lindert, Kathy; Karippacheril, Tina George; Rodríguez Caillava, Inés; Nishikawa Chávez, Kenichi, editors. \textbf{Sourcebook on the Foundations of Social Protection Delivery Systems}, World Bank, 2020. DOI: 10.1596/978-1-4648-1577-5. \href{https://documents1.worldbank.org/curated/en/519831596182628993/pdf/Sourcebook-on-the-Foundations-of-Social-Protection-Delivery-Systems.pdf}{Book PDF}.
-
-\bibitem{ref15} Grosh, Margaret; Leite, Phillippe; Wai-Poi, Matthew; Tesliuc, Emil, editors. \textbf{Revisiting Targeting in Social Assistance: A New Look at Old Dilemmas}, World Bank, 2022. \href{https://documents1.worldbank.org/curated/en/099300006162240907/pdf/P1648760df4c480270bd0b02288943f413e.pdf}{Book PDF}.
-
-\bibitem{ref16} Alatas, Vivi; Banerjee, Abhijit; Hanna, Rema; Olken, Benjamin A.; Tobias, Julia. \textbf{Targeting the Poor: Evidence from a Field Experiment in Indonesia}. American Economic Review 102(4), 1206–1240, 2012. DOI: 10.1257/aer.102.4.1206. \href{https://economics.mit.edu/sites/default/files/publications/Targeting\%20Paper\%20AER\%20--\%20Final\%20Published.pdf}{Published author-hosted paper}.
-
-\bibitem{ref17} 
-Aiken, Emily; Bellue, Suzanne; Karlan, Dean; Udry, Chris; Blumenstock, Joshua E. \textbf{Machine learning and phone data can improve targeting of humanitarian aid}. Nature 603, 864–870, 2022. DOI: 10.1038/s41586-022-04484-9. \href{https://www.nature.com/articles/s41586-022-04484-9}{Publisher paper}.
-
-
-\bibitem{ref18} 
-Ministry of Justice. \textbf{Cabinet-submission drafting guide No. 2352}, 9 April 2012, current consolidated paragraphs 45–53. \href{https://lex.uz/docs/-1999242}{Official text}.
-
-
-\bibitem{ref19} President of Uzbekistan. \textbf{PP-5025, On further improving regulatory impact assessment}, 15 March 2021, current paragraph 2(b). \href{https://lex.uz/docs/5331933}{Official consolidated Russian text}.
-
-\bibitem{ref20} Republic of Uzbekistan. \textbf{On Appeals of Individuals and Legal Entities}, revised by O‘RQ-445, 11 September 2017, Articles 6 and 29. \href{https://lex.uz/docs/-3336169}{Official consolidated text}.
-
-\bibitem{ref21} Barr, Earl T.; Harman, Mark; McMinn, Phil; Shahbaz, Muzammil; Yoo, Shin. \textbf{The Oracle Problem in Software Testing: A Survey}. IEEE Transactions on Software Engineering 41(5), 507–525, 2015; sections 2 and 5.1. DOI: 10.1109/TSE.2014.2372785. \href{https://discovery.ucl.ac.uk/id/eprint/1471263/1/06963470.pdf}{Author manuscript at UCL, retrieved 1 October 2026}.
-
-\bibitem{ref22} Black, Paul; Guttman, Barbara; Okun, Vadim. \textbf{Guidelines on Minimum Standards for Developer Verification of Software}, NIST IR 8397, October 2021; sections 2.6–2.8, printed pp. 7–8. DOI: 10.6028/NIST.IR.8397. \href{https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8397.pdf}{Official report, retrieved 1 October 2026}.
-
-\bibitem{ref23} OECD and European Commission Joint Research Centre. \textbf{Handbook on Constructing Composite Indicators: Methodology and User Guide}, OECD Publishing, 2008; section 1.7, printed pp. 34–35, and Step 7, printed pp. 117–131. DOI: 10.1787/9789264043466-en. \href{https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf}{Official handbook, retrieved 1 October 2026}.
-
-
-\bibitem{ref24} Cabinet of Ministers of Uzbekistan. \textbf{Resolution No. 687}, 28 December 2023, operative paragraph 3 and Annex 3 paragraphs 1, 3–4 and 7–12; consolidated version retrieved 1 October 2026. \href{https://lex.uz/docs/-6720230}{Official consolidated text}.
-
-\bibitem{ref25} President of Uzbekistan. \textbf{PP-388}, 26 December 2025, paragraphs 19–21 and Annex 6; consolidated version retrieved 1 October 2026. \href{https://lex.uz/docs/-7959569}{Official consolidated text}.
-
-\bibitem{ref26} Cabinet of Ministers of Uzbekistan. \textbf{Resolution No. 93}, 5 March 2026, operative paragraph 1 and annex paragraph 3: IT-audit framework and Ministry function. \href{https://lex.uz/docs/-8076376}{Official text checked 1 October 2026}.
-
-\bibitem{ref27} Cabinet of Ministers of Uzbekistan. \textbf{Resolution No. 516}, 20 September 2022, operative paragraph 6$^{1}$ and annex 1 paragraphs 13 and 44; consolidated text checked 1 October 2026. \href{https://lex.uz/docs/-6200851}{Official text}.
-
-\bibitem{ref28} Government portal. \textbf{Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar markaziga aylanishi zarur}, 17 July 2026; paragraphs on Registry refusals, appeals and oversight. \href{https://gov.uz/oz/news/view/194551}{Official report checked 1 October 2026}.
-
-\bibitem{ref29} Unified Interactive Public Services Portal. \textbf{Service 587: Ijtimoiy reyestrga kiritish yoki chiqarish uchun ariza berish}, service description and displayed status counters observed 1 October 2026. Counter accumulation period is not stated. \href{https://oldmy.gov.uz/oz/service/587}{Official service page}.
-
-\bibitem{ref30} Urganch city administration. \textbf{O‘quv-amaliy seminar tashkil etildi}, 19 February 2026; local practical training report. \href{https://gov.uz/oz/urganchshahar/news/view/134892}{Official report checked 1 October 2026}.
-
-\bibitem{ref31} Ministry of Justice of Uzbekistan. \textbf{Rules on preparation, adoption, legal examination and state registration of departmental normative legal acts}, registration No. 3686, 9 October 2025, paragraphs 4, 20 and 94–96; current version including amendments registered as No. 3943 on 17 September 2026, checked 1 October 2026. \href{https://lex.uz/docs/-7766987}{Official consolidated text}.
-
-\end{thebibliography}
+\end{longtable}\endgroup
+
+The errors were found precisely at thresholds, in exceptions and in units. Random control examples do not detect them: for instance, in an income grid with a one-soum step the equality $D=P$ is one case of three around the threshold, and in a real income distribution it is a rare value. That is why point 9 of Section I requires the example set to include each threshold, equality to it and each exception.
+
+\section{Application to the Agency’s data}\label{sec:agency}
+The inconsistencies follow from the text of the norms and exist for any data; the number of affected families determines the scale, not the existence of the error. The Agency can determine that number on its data with the attached program without transferring personal data outside the Agency:
+\begin{enumerate}[leftmargin=1.27cm]
+\item plots with $QM>0.8\,UM$ (where $UM\le1{,}000$ m²) or $QM>UM-200$ — affected by the correction of point 27;
+\item families with $D=P$ — affected by the correction of subpoint “a” of point 33;
+\item families with transfers from countries in Annex 6 between $2M$ and $3M$ per month — affected by the correction of point 26;
+\item families included under point 35 with $1.5P<D\le2P$ or $P<D<4P/3$ — affected by the question in Section 4.2.
+\end{enumerate}
+For each group the program compares the result of the current and the proposed rule. The calculation is run inside the Agency by an authorized operator; only aggregate numbers leave the Agency.
+
+\section{Conclusions}
+\begin{enumerate}[leftmargin=1.27cm]
+\item The published calculation rules are reproducible: the official example gives 432,000 soum with no difference.
+\item Inconsistencies are demonstrated in four rules: an undetermined result at income equal to $P$; an inconsistent interval of the special procedure under either reading; a negative area where buildings cover more than 80\,\% of a plot; and a fall in counted income as a transfer rises.
+\item Each inconsistency is removed by amending the text of the norm (Material 1, Section II) or by the developer’s decision (Material 2, Section 7), not by a software setting.
+\item For the new point-based methodology, the same classes of error are excluded by the requirements of Section I of Material 1: a determined category at equality, a single result where exceptions apply, mandatory control examples at every threshold, and retention of the grounds of each decision.
+\end{enumerate}
 
 \appendix
-\section{Reproduction and audit boundaries}
-The completed computations can be reproduced without network access. The dated normalized rule extraction and fixed cases are stored in \nolinkurl{data/rules/legal_specification.json}; the artificial additive fixture is stored in \nolinkurl{data/fixtures/additive_demo.json}. These are author-extracted inputs, not original household records or complete raw legislative archives. JSON output records the specification and code SHA-256 hashes, exact command, Python version, UTC execution time and deterministic generation. Built-in audit and synthetic runs also record the maintained analysis-plan path and its SHA-256 hash. No random seed is needed because no sampling occurs. Source code is organized under \nolinkurl{src/social_registry/}, executable jobs under \nolinkurl{scripts/}, regression checks under \nolinkurl{tests/}, inputs under \nolinkurl{data/}, and derived CSV tables, figures, audit results, logs and documents under \nolinkurl{results/}. The specification hash authenticates the extracted fixture, not the entire live legal webpage; verify the legal source again before use in an official submission.
+\section{Reproduction}
+The electronic supplement contains the analysis plan, a dated extraction of the rules (\nolinkurl{data/rules/legal_specification.json}), control cases, the program (\nolinkurl{src/social_registry/}), tests (\nolinkurl{tests/}), the independent check and results (\nolinkurl{results/}). No network access is needed; no random numbers are used. Each result stores SHA-256 hashes of the specification and code, the command and the run time; the checking program rejects a result if the code or inputs have changed.
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{verbatim}
 python scripts/run_analysis.py --self-test
-python scripts/run_analysis.py --legal-audit \
-  > results/audit/legal_rule_audit.json
-python scripts/run_analysis.py --demo \
-  > results/audit/synthetic_validation.json
+python scripts/run_analysis.py --legal-audit
 python scripts/verify_results.py
-python scripts/export_results.py
-.venv/bin/python scripts/render_figures.py
-.venv/bin/python scripts/build_documents.py --check-sources
+python scripts/run_project.py
 \end{verbatim}
 \endgroup
-The calculation engine uses only the Python standard library. The project-local environment provides matplotlib, Markdown, Beautiful Soup and pypdf for publication tooling. Generated scientific figures remain in the results directory. The open manuscript is standalone: its tables and bibliography are embedded and its monochrome vector diagrams reproduce the same analytic expressions in native LaTeX. The editor's built-in compiler checks this source without needing additional project files. The optional terminal publication script compiles maintained sources and no longer regenerates them from Markdown; its check-only option writes nothing. Any previously exported PDF must be regenerated or exported from the revised source before submission.
 
-The external-input option accepts only the limited additive schema already specified in the code. It has not been run on Agency input. Full remittance aggregation, household membership, mixed livestock, programme entitlements, data extraction, secure execution infrastructure and the 2027 scoring algorithm are not implemented. Output aggregates require a separate disclosure review before any administrative-data release.
-
-\section{Accompanying submission documents}
-The submission is organized as three numbered materials: 1 — “Draft normative provisions on verification of multidimensional family assessment calculations”; 2 — “Explanatory note”; 3 — “Scientific and legal justification”, including its electronic computational supplement. The covering letter requests Article 22 drafting participation. Russian is the primary submission language; Uzbek and English are aligned companion versions. Appeals-law Article 6 allows submissions in other languages; Article 21 of O‘RQ-682 governs preparation of the official draft in the state language. Each principal material contains the provisions or evidence needed to read it without access to the repository. The computational supplement supplies the analysis plan, dated rule extraction, constructed cases, implementation, independent checker and execution results. The official developer retains responsibility for the final legal wording, resources and enactment procedure.
-
+\begingroup\fontsize{12bp}{14.4bp}\selectfont
+\begin{thebibliography}{99}
+\bibitem{ref1} Decree of the President of the Republic of Uzbekistan No. PF-193 of 11 September 2026, paragraphs 13–14. \url{https://lex.uz/docs/-8472526}.
+\bibitem{ref2} Resolution of the Cabinet of Ministers No. 35 of 29 January 2026, Annex 1 (Regulation on the Procedure for Maintaining the Social Registry), points 18–39, 48 and Annex 1 to the Regulation; as amended on 22 May and 21 July 2026. \url{https://lex.uz/docs/-8027513}.
+\bibitem{ref3} Decree of the President of the Republic of Uzbekistan No. PF-258 of 26 December 2025, paragraph 3 and Annex 1. \url{https://lex.uz/docs/-7952180}.
+\bibitem{ref4} Government portal. Announcement of 23 June 2026 of the minimum wage of 1,360,000 soum from 1 September 2026. \url{https://gov.uz/oz/bv/news/view/182984}.
+\bibitem{ref5} National Statistics Committee. Announcement on minimum consumption expenditure for 2026, 4 March 2026. \url{https://stat.uz/uz/matbuot-markazi/qo-mita-yangiliklar/67179-minimal-istemol-kharazhatlari-ijmati-t-risida-2}.
+\bibitem{ref7} Law of the Republic of Uzbekistan “On Normative Legal Acts” No. O‘RQ-682 of 20 April 2021, Articles 20–24 and the appended Unified Methodology. \url{https://lex.uz/docs/-5378966}.
+\bibitem{ref9} Law of the Republic of Uzbekistan “On Personal Data” No. O‘RQ-547 of 2 July 2019, Articles 11 and 24. \url{https://lex.uz/docs/-4396419}.
+\bibitem{ref11} World Bank. Rising to Prosperity: Uzbekistan — Broadening Opportunities for All. Poverty and Equity Assessment, 2026, p. 40. \url{https://documents1.worldbank.org/curated/en/099091826081016988/pdf/P507037-a67dabb6-2302-46a0-be08-a951d35f90c3.pdf}.
+\bibitem{ref12} Guven M., Yeachuri A., Almenfi M. Global Insights on Social Registries: Coverage and Beyond. World Bank, June 2025, pp. 3, 13, 25–26. \url{https://documents1.worldbank.org/curated/en/099071525165029379/pdf/P177331-a772f9c1-e340-4f76-aeb0-90fd4e7a3496.pdf}.
+\bibitem{ref20} Law of the Republic of Uzbekistan “On Appeals of Individuals and Legal Entities”, Articles 3, 6, 27–28. \url{https://lex.uz/docs/-3336169}.
+\bibitem{ref28} Government portal. “Mahalla odamlar uchun ishonch, tayanch va imkoniyatlar markaziga aylanishi zarur”, 17 July 2026. \url{https://gov.uz/oz/news/view/194551}.
+\bibitem{ref32} Ministerio de Desarrollo Social y Familia (Chile), División de Focalización. Orientaciones para el cálculo de la Calificación Socioeconómica. June 2024, pp. 4, 18. \url{https://www.registrosocial.gob.cl/docs/Orientaciones_para_el_calculo_de_la_Calificacion_Socieconomica.pdf}.
+\end{thebibliography}\endgroup
 \end{document}

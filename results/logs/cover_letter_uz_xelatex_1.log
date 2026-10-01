@@ -1,7 +1,7 @@
 This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(./explanatory_note_ru.tex
+(./cover_letter_uz.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -31,12 +31,6 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
 (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
-(/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
-(/usr/share/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex)
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)
-(/home/xola/GitHub/Solial Registry/tex/russianb.ldf))
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
@@ -72,51 +66,85 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
+No file cover_letter_uz.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
-Underfull \hbox (badness 1087) in paragraph at lines 44--45
-\TU/LiberationSerif(0)/m/it/14.05249 финансового положения \TU/LiberationSerif(
-0)/m/n/14.05249 семьи хронические заболевания, инвалидность,
 
-Underfull \hbox (badness 2057) in paragraph at lines 44--45
-\TU/LiberationSerif(0)/m/n/14.05249 том 14 Национальному агентству социальной з
-ащиты при Президенте
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
-Underfull \hbox (badness 2057) in paragraph at lines 50--51
-\TU/LiberationSerif(0)/m/n/14.05249 и (или) оператора разъяснить субъекту поряд
-ок принятия решения на
-[1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 Предложение подготовлено гражданином Ашурал
-иевым Абдухоликом
 
-Underfull \hbox (badness 1742) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 Агентство совместно с Министерством экономи
-ки и финансов. Статья
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\TU/LiberationSerif(0)/m/n/14.05249 Oʻzbekiston Respublikasi Konstitutsiyasin
+ing 40-moddasi,
 
-Underfull \hbox (badness 2452) in paragraph at lines 71--72
-\TU/LiberationSerif(0)/m/n/14.05249 чать результаты научных исследований и обра
-щения физических лиц,
-[3] [4]
-Underfull \hbox (badness 1137) in paragraph at lines 114--115
-[]\TU/LiberationSerif(0)/m/n/14.05249 если интервал применяется к обычному дохо
-ду, семья с доходом
-[5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-[]\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
-Chile), División de Focalización.
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/LiberationSerif(0)/m/n/14.05249 “Normativ-huquqiy hujjatlar toʻgʻrisida”gi 
+Qonunning 20-moddasi va
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-\TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
-][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
-[][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
-[9]
-(/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux) )
+Underfull \hbox (badness 1412) in paragraph at lines 56--57
+\TU/LiberationSerif(0)/m/n/14.05249 koʻp oʻlchovli baholash asosida Ijtimoiy re
+yestrga kiritishning yangi tizimi
+
+Underfull \hbox (badness 3323) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 qoidalardan kelib chiqishini, asoslari bila
+n saqlanishini va “Shaxsga doir
+
+Underfull \hbox (badness 5460) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 maʼlumotlar toʻgʻrisida”gi Qonunning 24-mod
+dasi talabiga muvofiq ariza
+
+Underfull \hbox (badness 4378) in paragraph at lines 60--61
+[]\TU/LiberationSerif(0)/m/n/14.05249 Quyidagi har bir masala boʻyicha koʻrib c
+hiqib, mazmunan javob
+
+Underfull \hbox (badness 4595) in paragraph at lines 62--63
+[]\TU/LiberationSerif(0)/m/n/14.05249 1-materialning I boʻlimi qoidalarini (1–1
+6-bandlar) yoki xuddi shu
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\TU/LiberationSerif(0)/m/n/14.05249 32-bandi boʻyicha eʼtirof etilib, 39-bandda
+gi hech qaysi toifaga
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]\TU/LiberationSerif(0)/m/n/14.05249 Nizomning 27-bandidagi formulada tomorqa 
+maydonining manfiy
+
+Underfull \hbox (badness 6725) in paragraph at lines 65--66
+[]\TU/LiberationSerif(0)/m/n/14.05249 Haqiqiy pul oʻtkazmasi oshganda hisobga o
+linadigan daromadning
+[1]
+Underfull \hbox (badness 7963) in paragraph at lines 66--67
+[]\TU/LiberationSerif(0)/m/n/14.05249 “Shaxsga doir maʼlumotlar toʻgʻrisida”gi 
+Qonunning 24-moddasiga
+
+Underfull \hbox (badness 3118) in paragraph at lines 68--69
+[]\TU/LiberationSerif(0)/m/n/14.05249 Ushbu taklifni “Normativ-huquqiy hujjatla
+r toʻgʻrisida”gi Qonunning
+
+Underfull \hbox (badness 1668) in paragraph at lines 71--72
+\TU/LiberationSerif(0)/m/n/14.05249 muddatda koʻrib chiqishingizni soʻrayman. Q
+aysi qoidalar loyihaga qaysi
+
+Underfull \hbox (badness 3579) in paragraph at lines 73--74
+[]\TU/LiberationSerif(0)/m/n/14.05249 Barcha hisob-kitoblar ilova qilingan dast
+ur bilan qayta hisoblanadi.
+
+Underfull \hbox (badness 3323) in paragraph at lines 73--74
+\TU/LiberationSerif(0)/m/n/14.05249 Nazorat misollari toʻplami va dastur bepul 
+taqdim etiladi; ularni masʼul
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/LiberationSerif(0)/m/n/14.05249 3-material. Ilmiy-huquqiy asoslash va ele
+ktron ilova (nazorat
+[2] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_uz.aux)
+
+Package rerunfilecheck Warning: File `cover_letter_uz.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
 (see the transcript file for additional information)
-Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (9 pages).
-Transcript written on /home/xola/GitHub/Solial Registry/results/documents/expla
-natory_note_ru.log.
+Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
+ter_uz.pdf (2 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/cover
+_letter_uz.log.

@@ -1,7 +1,7 @@
 This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(./participation_request_en.tex
+(./cover_letter_en.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -31,6 +31,10 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
 (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+(/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
+(/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf))
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
@@ -40,6 +44,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
 (/usr/share/texmf-dist/tex/latex/tools/array.sty)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/home/xola/GitHub/Solial Registry/tex/ulem.sty)
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -65,78 +70,15 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/home/xola/GitHub/Solial Registry/results/documents/participation_request_en.a
-ux)
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_en.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
-
-(/home/xola/GitHub/Solial Registry/results/documents/participation_request_en.o
-ut)
-(/home/xola/GitHub/Solial Registry/results/documents/participation_request_en.o
-ut)
-Underfull \hbox (badness 5431) in paragraph at lines 51--52
-\TU/LiberationSerif(0)/m/n/14.05249 assessment calculations, data quality, reco
-rding calculation versions and
-
-Underfull \hbox (badness 1983) in paragraph at lines 59--60
-[]\TU/LiberationSerif(0)/m/n/14.05249 Consider including me in the working grou
-p on verification of the
-
-Underfull \hbox (badness 1314) in paragraph at lines 60--61
-\TU/LiberationSerif(0)/m/n/14.05249 boundaries, exceptions, rounding and qualit
-y rules. Where lawfully
-[1]
-Underfull \hbox (badness 1924) in paragraph at lines 63--64
-\TU/LiberationSerif(0)/m/n/14.05249 methodology into a reproducible rule descri
-ption, preparing boundary and
-
-Underfull \hbox (badness 2020) in paragraph at lines 65--66
-[]\TU/LiberationSerif(0)/m/n/14.05249 The principal verification annex may be c
-onsidered separately from
-
-Underfull \hbox (badness 1152) in paragraph at lines 65--66
-\TU/LiberationSerif(0)/m/n/14.05249 the optional category-equality and land-for
-mula amendments set out in the
-
-Underfull \hbox (badness 7186) in paragraph at lines 67--68
-[]\TU/LiberationSerif(0)/m/n/14.05249 Materials 1–2 separate necessary normativ
-e content from internal
-
-Underfull \hbox (badness 2418) in paragraph at lines 67--68
-\TU/LiberationSerif(0)/m/n/14.05249 verification. Please prioritize considerati
-on of Material 1's five compact
-
-Underfull \hbox (badness 2547) in paragraph at lines 67--68
-\TU/LiberationSerif(0)/m/n/14.05249 alternative paragraphs in the principal PF-
-193 draft, or equivalent norms
-[2]
-Underfull \hbox (badness 1205) in paragraph at lines 75--76
-\TU/LiberationSerif(0)/m/n/14.05249 calculation tools are proposed for use in a
-n environment controlled by an
-
-Underfull \hbox (badness 1533) in paragraph at lines 77--78
-[]\TU/LiberationSerif(0)/m/n/14.05249 I consent to drafting participation under
- Article 22. The requested
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-[]\TU/LiberationSerif(0)/m/n/14.05249 Material 1
-[3]
-Underfull \hbox (badness 2671) in paragraph at lines 82--83
-[]\TU/LiberationSerif(0)/m/n/14.05249 Material 2 — “Explanatory note”: legal ma
-ndate, clause-by-clause
-
-Underfull \hbox (badness 1895) in paragraph at lines 82--83
-\TU/LiberationSerif(0)/m/n/14.05249 table, responsibilities, resource account a
-nd consequences. Primary
-
-Underfull \hbox (badness 4353) in paragraph at lines 87--88
-\TU/LiberationSerif(0)/m/n/14.05249 income formulas, a separate arithmetic veri
-fication and automated tests.
-[4]
-(/home/xola/GitHub/Solial Registry/results/documents/participation_request_en.a
-ux) )
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_en.out)
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_en.out)
+[1] [2]
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_en.aux) )
 (see the transcript file for additional information)
-Output written on /home/xola/GitHub/Solial Registry/results/documents/participa
-tion_request_en.pdf (4 pages).
-Transcript written on /home/xola/GitHub/Solial Registry/results/documents/parti
-cipation_request_en.log.
+Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
+ter_en.pdf (2 pages).
+Transcript written on /home/xola/GitHub/Solial Registry/results/documents/cover
+_letter_en.log.

@@ -16,7 +16,7 @@
   "public_release": "Requires separate disclosure review; aggregates are not automatically anonymous.",
   "reproducibility": {
     "input_sha256": "8cf4db1849470d5a83aad53c791c4327440514e3745ad7eb752fb6896a67f1b8",
-    "code_sha256": "7801ec091b33a4dcce8cba3af1e86f286b84fc462cd83c6c46997a112428044d",
+    "code_sha256": "0f3b01f267d4ad4706c989fe76aaec5a1be07d90b7587357caeaf68217b7e17c",
     "input_source": "data/fixtures/additive_demo.json; explicitly synthetic fixture",
     "python_version": "3.14.7",
     "packages": "Python standard library only",
@@ -25,16 +25,18 @@
       "src/social_registry/additive.py": "68053995afb2d283dea77dbe66731d192b7074a4b105cb2fdf53de97b1f1b004",
       "src/social_registry/numeric.py": "0a779a3968fcea1e252a9be0eaf4df1155336ac90fa4afaa4b45191211e71071",
       "src/social_registry/provenance.py": "93dcda6e463f19398a13ac5e5959a58952261699fc6b77bcf1776c015094845a",
-      "src/social_registry/rules.py": "6d8071473a9bc8f104b0e05ad15516443e52d087c67c989eb2774885eeb1810f",
-      "scripts/run_analysis.py": "38127becfd59cc19d4d2360af7dbd4abd0eea79aff32f75e8e3869d3e0c99755"
+      "src/social_registry/rules.py": "fdb21b46ffcf1fa8f079b2b4b159dc0b4874e729f35708229fdfb3bcb952c475",
+      "scripts/run_analysis.py": "c253aabc900bf7d899710129cd3a881303ebb70934cc20d1040795b08f9128bd"
     },
     "command": [
       "python",
       "scripts/run_analysis.py",
       "--demo"
     ],
-    "run_utc": "2026-09-30T12:48:55.671930+00:00",
+    "run_utc": "2026-10-01T18:53:06.372549+00:00",
     "random_seed": null,
-    "generation": "deterministic; no random sampling"
+    "generation": "deterministic; no random sampling",
+    "analysis_plan_source": "docs/analysis_plan.md",
+    "analysis_plan_sha256": "aae136daf2ac524bce3269cea93e4db8f33cb0678ac99eed7e58f19b5a15abd1"
   }
 }
