@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  2 OCT 2026 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,46 +1080,47 @@ Underfull \hbox (badness 2452) in paragraph at lines 71--72
 щения физических лиц,
  []
 
-[3] [4]
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 11
-2.
+[3]
+ignored: Infinite glue shrinkage found in box being split [4]
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 10
+0.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.05399pt on input line 112.
+(Font)              scaled to size 14.05399pt on input line 100.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.83772pt on input line 112.
+(Font)              scaled to size 9.83772pt on input line 100.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.027pt on input line 112.
+(Font)              scaled to size 7.027pt on input line 100.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.05098pt on input line 112.
+(Font)              scaled to size 14.05098pt on input line 100.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.83563pt on input line 112.
+(Font)              scaled to size 9.83563pt on input line 100.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.02548pt on input line 112.
-
-Underfull \hbox (badness 1137) in paragraph at lines 114--115
+(Font)              scaled to size 7.02548pt on input line 100.
+ [5]
+Underfull \hbox (badness 1137) in paragraph at lines 115--116
 []\TU/LiberationSerif(0)/m/n/14.05249 если интервал применяется к обычному дохо
 ду, семья с доходом
  []
 
-[5] [6] [7]
+[6] [7]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-ignored: Infinite glue shrinkage found in box being split [8]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+ [8]
+ignored: Infinite glue shrinkage found in box being split [9]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chile), División de Focalización.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 \TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
 ][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-[9]
+[10] [11]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1129,13 +1130,13 @@ Package rerunfilecheck Info: File `explanatory_note_ru.out' has not changed.
 (rerunfilecheck)             Checksum: B118D5F83F907C0EC82DE6941F920CEF;3614.
  ) 
 Here is how much of TeX's memory you used:
- 18163 strings out of 469974
- 334551 string characters out of 5477063
- 914971 words of memory out of 5000000
- 46527 multiletter control sequences out of 15000+600000
+ 18164 strings out of 469974
+ 334559 string characters out of 5477063
+ 917001 words of memory out of 5000000
+ 46528 multiletter control sequences out of 15000+600000
  632026 words of font info for 103 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,11n,107p,804b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,107p,1125b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (9 pages).
+ry_note_ru.pdf (11 pages).

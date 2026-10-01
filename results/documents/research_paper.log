@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  2 OCT 2026 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1393,7 +1393,8 @@ Underfull \hbox (badness 1286) in paragraph at lines 160--161
 []|\TU/LiberationSerif(0)/m/n/11.04124 Per-person drop, four
  []
 
-[4] [5]
+[4]
+ignored: Infinite glue shrinkage found in box being split [5]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
  [6]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
@@ -1415,13 +1416,13 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.02184pt on input line 267.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+ [7]
 Underfull \hbox (badness 2245) in paragraph at lines 271--272
 []\TU/LiberationSerif(0)/m/n/12.045 National Statistics Committee. Announcement
  on minimum consumption expendi-
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []\TU/LiberationSerif(0)/m/n/12.045 Guven M., Yeachuri A., Almenfi M. Global In
 sights on Social Reg-
@@ -1470,7 +1471,7 @@ Package rerunfilecheck Info: File `research_paper.out' has not changed.
 Here is how much of TeX's memory you used:
  37983 strings out of 469974
  896668 string characters out of 5477063
- 1569256 words of memory out of 5000000
+ 1569254 words of memory out of 5000000
  66000 multiletter control sequences out of 15000+600000
  633571 words of font info for 121 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191

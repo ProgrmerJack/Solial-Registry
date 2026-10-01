@@ -5,8 +5,8 @@
   "documents": {
     "normative_act_draft_ru": {
       "pages": 3,
-      "pdf_sha256": "b1b4429ddccbd29f08d5b0dbb553b118d3759c2d77e9842ef8f539de46f71ed3",
-      "tex_sha256": "8153c3504dd5c1c84f32e6f6f9889fe6351ea5a3d2da291a3a03ea92b38aee43",
+      "pdf_sha256": "899bab6ae985aeaacb357fd0ae0d13d8bfe36338d865dc9f3da068c1e54c3a2f",
+      "tex_sha256": "b0d4013b36b9b057a6094f99930719c62fb5a4565467e675491f0c37cfe85829",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -17,9 +17,9 @@
       ]
     },
     "explanatory_note_ru": {
-      "pages": 9,
-      "pdf_sha256": "d0c1cc0ecea30491b3d160a46f5c7c81d5618507a5e5b286c076a567a143f239",
-      "tex_sha256": "58678b1dbafb328078d99769b14d63653d388e29e015d9fdb3c2a4b77300b17e",
+      "pages": 11,
+      "pdf_sha256": "ec9cef4fa97e0a334a839b0d67c29072dda476924f978806768cd0f5a2eedbec",
+      "tex_sha256": "659b2bd9814cc30b8d0d7fc3aaa9d77fb76f8f961b09edd96fb6373e30bf76a4",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -31,8 +31,8 @@
     },
     "research_paper_ru": {
       "pages": 9,
-      "pdf_sha256": "4a68e9505440660f09ef78ad72c70ecc7a3d37aa4084749265be59bee6c51441",
-      "tex_sha256": "704a232ff87c831d878a3d1fe9f0fbc23cce0ea9808eb79e753892c7b2db3f66",
+      "pdf_sha256": "f5b0d5becca26b375893ae1d3768a7f1caf4baeae0d75476a58367c70799e888",
+      "tex_sha256": "6e85455b1758c0ed90d3b6029c826668ee5d3c60dcb4f0b8c9a0328e85dedb3f",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -44,8 +44,8 @@
     },
     "cover_letter_ru": {
       "pages": 2,
-      "pdf_sha256": "a3405a3e809fb819897e5d19154e8be86285cf35f80c98dab4d4ebbafa702f00",
-      "tex_sha256": "3de255ff5f683f07fa3d5b3c85125e49f0e5ec02943f7b11bd358ddaa7fe5707",
+      "pdf_sha256": "20ff7684c76f8654dbeac37d6be1cc84cf6299dd317a5fc6e7debf9113134c54",
+      "tex_sha256": "93c8b481625bdac8392dbea2bd8b62acb822b6c55406861c3d4285c15f3fc1e6",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -57,8 +57,8 @@
     },
     "normative_act_draft_uz": {
       "pages": 3,
-      "pdf_sha256": "ef06badfc743a5b2e59e34f591393829c170830714f5456c2d88aca14078d8ab",
-      "tex_sha256": "aba2b1f56e9d188fab50304c0cc8ab7a62eecb773d0a8d622b03647ec62a2fa8",
+      "pdf_sha256": "16ebf6fbda42562d2b7fdb61cb6fb6fedb95c00496733968269a6d991d5c5937",
+      "tex_sha256": "89e9b110e20e6296ceb1b77b9a27380ea7bd7b8427c970f290c70de2e63fee99",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -69,9 +69,9 @@
       ]
     },
     "explanatory_note_uz": {
-      "pages": 9,
-      "pdf_sha256": "d7024c23ca890ac08110d2576e3c0073c51179742e4b9c7210b9997e875018f0",
-      "tex_sha256": "ef8c754ac49216cb1e4aa0d557e8372f14c3f77db4edcc68de1f3448b07f2914",
+      "pages": 11,
+      "pdf_sha256": "305586ecc49f8ae994f29038d1571f792d1259646fcfcc8d9b65bb69d0d3c79e",
+      "tex_sha256": "adaf08d32df5cce0e7234e2db90cd2247d977c9494266e85a2779aa3762fc564",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -83,8 +83,8 @@
     },
     "research_paper_uz": {
       "pages": 8,
-      "pdf_sha256": "75400aeff94de0631b49b329ddd97f8e94f16085a0c1754b3640f9fc1f18d6a7",
-      "tex_sha256": "4e632f5704fc6d56aa52ab25d4c7d5ebc2541358a0c64157f553289eccd57079",
+      "pdf_sha256": "eafc62b0394b22f37330044c224f1570d7f46cf689ebf565d297bfc82df4e679",
+      "tex_sha256": "b9e9b8d88f7ba819d2bb8c0a2ecabd97613fe72bf72555c45e65bbbbc6924dff",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -96,8 +96,8 @@
     },
     "cover_letter_uz": {
       "pages": 2,
-      "pdf_sha256": "92965cc9ffe0ff04bff9ed3eca91059b3540023ad7246c22d11531f77596678c",
-      "tex_sha256": "e02cd31ae57ca0239a59a9434c33bc0c9de28deaec3a1c72938f60a05fe1567e",
+      "pdf_sha256": "44e9d8748fd1351f668cd06c90c289fee8a808d94f4ee7e332d38b82e63e3247",
+      "tex_sha256": "e3ba85c6e98c2e3c1e2f7281c634b0e46711e6b5074417d43d703b4d10cecc54",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -109,8 +109,8 @@
     },
     "normative_act_draft_en": {
       "pages": 3,
-      "pdf_sha256": "a6f2a84a464cbd8416731ad68d449c9a5af8000692b5b9d5071f9ee1bc344170",
-      "tex_sha256": "2c7712c0b9cbae28bb0f965d07ab6433a2c7f1e351430be33bfa4912c3ada88e",
+      "pdf_sha256": "c7df43b97d029f37fd194ac3f781415e68f980fc59316d660a68c3940d81bf35",
+      "tex_sha256": "83eb3cf37a6aff7543800b460074cc6c6ea98ee0336896b0911d5d3f874e5360",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -121,9 +121,9 @@
       ]
     },
     "explanatory_note_en": {
-      "pages": 9,
-      "pdf_sha256": "e475877c04d85298564475b5c9c5694fb25f45bcd76cbd41ce72ddea198522f3",
-      "tex_sha256": "15e0f41780f7e84791d8002ebd4ae51f1948b5247ff39459e757ceb74975dd0f",
+      "pages": 11,
+      "pdf_sha256": "9820cf7667b76af32e16b2aa950be1a1f2da275a944c2813d94edff0c4136af4",
+      "tex_sha256": "3d1b116b2dc997ecec7f70f503ceb9e8c03a36052ef7e288f0f55ed44f47b2d1",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -135,8 +135,8 @@
     },
     "research_paper": {
       "pages": 8,
-      "pdf_sha256": "ba867b76b5de7d2d9777246dcc741de2306340bd50f73d0c3af3a0dd750332e9",
-      "tex_sha256": "685d1da5605f8aeb52117c69509fe59e2a34a1d2b89e80ebd46f8fb6f8c69599",
+      "pdf_sha256": "89bef5d42cdd66eabe3b9c4dfaa835f15c29ed356bde2b93edddd8291073eb5c",
+      "tex_sha256": "c1291ee66410eaf0487866332e99c1d2f2f7b18d8039d1f241202e40a265786f",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -148,8 +148,8 @@
     },
     "cover_letter_en": {
       "pages": 2,
-      "pdf_sha256": "465c7f48e9020b6e9ef517883279271c2584880853c091988d6ad286ca36fe43",
-      "tex_sha256": "f8b79f8b9b00984c7708b33cf9b1de8057ba23b56ec3ec4540afe50cd05e1899",
+      "pdf_sha256": "06ad829fd423c4f17e95bb77d081badde641302939db2028b84c43271d3acbdb",
+      "tex_sha256": "4d567101c36457a4b7d2da23851f78eda83eb003288052cc5b1ea55000a5708b",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",

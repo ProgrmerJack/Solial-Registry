@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  2 OCT 2026 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,6 +996,12 @@ dasi talabiga muvofiq ariza
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 tartibi toʻgʻrisidagi amaldagi nizomdagi hi
+sob-kitoblar bilan isbotlangan
+ []
+
+
 Underfull \hbox (badness 4378) in paragraph at lines 60--61
 []\TU/LiberationSerif(0)/m/n/14.05249 Quyidagi har bir masala boʻyicha koʻrib c
 hiqib, mazmunan javob
@@ -1004,7 +1010,7 @@ hiqib, mazmunan javob
 
 Underfull \hbox (badness 4595) in paragraph at lines 62--63
 []\TU/LiberationSerif(0)/m/n/14.05249 1-materialning I boʻlimi qoidalarini (1–1
-6-bandlar) yoki xuddi shu
+7-bandlar) yoki xuddi shu
  []
 
 Font mapping `tex-text.tec' for font `Liberation Serif Italic' not found.
@@ -1038,6 +1044,18 @@ Qonunning 24-moddasiga
 Underfull \hbox (badness 3118) in paragraph at lines 68--69
 []\TU/LiberationSerif(0)/m/n/14.05249 Ushbu taklifni “Normativ-huquqiy hujjatla
 r toʻgʻrisida”gi Qonunning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/LiberationSerif(0)/m/n/14.05249 23-moddasiga muvofiq loyihani tayyorlashda 
+inobatga olish va
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 68--69
+\TU/LiberationSerif(0)/m/n/14.05249 loyiha muhokamasi materiallariga kiritish; 
+loyiha ushbu Qonunning
  []
 
 
@@ -1079,7 +1097,7 @@ Here is how much of TeX's memory you used:
  45237 multiletter control sequences out of 15000+600000
  628655 words of font info for 72 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,11n,107p,659b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,107p,654b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
 ter_uz.pdf (2 pages).

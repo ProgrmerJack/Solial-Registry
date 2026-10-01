@@ -79,7 +79,7 @@ Household plot area (point 27): $TEM=UM-QM-\min(0.2\,UM;\,200)$ m² over the dom
 Remittances (point 26): if the amount of transfers is not determined or is less than $2M$, normative income $cM$ applies, where $c=3$ for countries listed in Annex 6 and $c=2$ for other countries. Because the comparison period is not stated, both readings were calculated: comparison of a monthly amount $q$ and of a three-month total.
 
 \subsection{Verification of results}
-Results were verified in four ways: reproduction of the official example in point 30; manual inequalities; a separate checking program that does not use the calculation module and recomputes all 4,105 land cases, 12 hardship cases, 24 tax cases, 16 remittance cases and 6 goat cases with integer expressions; and automated tests. All 39 tests pass (29 checks of calculation rules and 10 provenance checks that reject an outdated, altered or incomplete result).
+Results were verified in four ways: reproduction of the official example in point 30; manual inequalities; a separate checking program that does not use the calculation module and recomputes all 4,105 land cases, 12 hardship cases, 24 tax cases, 16 remittance cases and 6 goat cases with integer expressions; and automated tests. All 39 tests pass (17 checks of the Regulation’s rules, 12 checks of the synthetic scoring example and 10 provenance checks that reject an outdated, altered or incomplete result).
 
 \section{Results}
 \subsection{Official example and equality to the threshold}
@@ -190,7 +190,7 @@ Three-month total & Other countries & 5,440,000/3 & 1,360,000/3 \\
 \end{center}
 \textbf{Figure 3.} Horizontal axis: $q/M$; vertical axis: counted monthly income relative to $M$. Solid horizontal segments: countries in Annex 6; dashed: other countries; vertical line: threshold.
 
-The proposed wording (Material 1, Section II, point 1) applies normative income where the monthly average of transfers is below the applicable normative income. Counted income equals $\max(q;\,cM)$ and does not decrease as $q$ rises; this is checked by an automated test on a 1,000-soum grid for both country groups. For other countries ($c=2$) the result coincides with the current monthly reading. Under both readings of the current rule, the proposed wording reduces no family’s counted income.
+The proposed wording (Material 1, Section II, point 1) applies normative income where the monthly average of transfers from a family member abroad is below the normative income established for that member. Counted income equals $\max(q;\,cM)$ and does not decrease as $q$ rises; this is checked by an automated test on a 1,000-soum grid for both country groups. For other countries ($c=2$) the result coincides with the current monthly reading. Under both readings of the current rule, the proposed wording reduces no family’s counted income. For families with transfers from Annex 6 countries between $2M$ and $3M$ per month, counted income rises to $3M$, and some such families may lose eligibility; the alternative way of removing the non-monotonicity and its consequences are set out in Section 10 of Material 2.
 
 \subsection{Self-employment coefficients, tax base and livestock}
 Point 23 sets eight coefficients of monthly normative income for the self-employed: four territory types and two sexes. The difference between the male and female coefficient in each territory equals $0.4M=544{,}000$ soum per month (Table 3). The calculation reflects normative income, not actual earnings.
@@ -225,7 +225,7 @@ Interval of the special procedure inconsistent (4.2) & Question for the develope
 Negative area (4.3) & Section II, point 2; Section I, point 9 — every threshold and exception is in the control example set.\\\midrule
 Non-monotonicity and undefined period for remittances (4.4) & Section II, point 1; Section I, point 2 — source, unit and period of each criterion.\\\midrule
 Rounding and exchange rate (4.5–4.6) & Section I, points 2 and 12.\\\midrule
-Automated decision without explained grounds (Section 1) & Section II, point 4; Section I, points 12–15.\\
+Automated decision without explained grounds (Section 1) & Section II, point 4; Section I, points 12–16.\\
 \bottomrule
 \end{longtable}\endgroup
 
@@ -236,7 +236,7 @@ The inconsistencies follow from the text of the norms and exist for any data; th
 \begin{enumerate}[leftmargin=1.27cm]
 \item plots with $QM>0.8\,UM$ (where $UM\le1{,}000$ m²) or $QM>UM-200$ — affected by the correction of point 27;
 \item families with $D=P$ — affected by the correction of subpoint “a” of point 33;
-\item families with transfers from countries in Annex 6 between $2M$ and $3M$ per month — affected by the correction of point 26;
+\item families whose counted income differs between the current and the proposed rule: under the monthly reading, transfers from Annex 6 countries between $2M$ and $3M$ per month; under the three-month-total reading, also transfers from any country with a monthly average between $2M/3$ and $2M$ — affected by the correction of point 26;
 \item families included under point 35 with $1.5P<D\le2P$ or $P<D<4P/3$ — affected by the question in Section 4.2.
 \end{enumerate}
 For each group the program compares the result of the current and the proposed rule. The calculation is run inside the Agency by an authorized operator; only aggregate numbers leave the Agency.
@@ -244,7 +244,7 @@ For each group the program compares the result of the current and the proposed r
 \section{Conclusions}
 \begin{enumerate}[leftmargin=1.27cm]
 \item The published calculation rules are reproducible: the official example gives 432,000 soum with no difference.
-\item Inconsistencies are demonstrated in four rules: an undetermined result at income equal to $P$; an inconsistent interval of the special procedure under either reading; a negative area where buildings cover more than 80\,\% of a plot; and a fall in counted income as a transfer rises.
+\item Inconsistencies are demonstrated in four rules: an undetermined result at income equal to $P$; an inconsistent interval of the special procedure under either reading; a negative area where buildings cover more than 80\,\% of a plot of up to 1,000 m² (for larger plots, where $QM>UM-200$); and a fall in counted income as a transfer rises.
 \item Each inconsistency is removed by amending the text of the norm (Material 1, Section II) or by the developer’s decision (Material 2, Section 7), not by a software setting.
 \item For the new point-based methodology, the same classes of error are excluded by the requirements of Section I of Material 1: a determined category at equality, a single result where exceptions apply, mandatory control examples at every threshold, and retention of the grounds of each decision.
 \end{enumerate}
@@ -270,7 +270,7 @@ python scripts/run_project.py
 \bibitem{ref4} Government portal. Announcement of 23 June 2026 of the minimum wage of 1,360,000 soum from 1 September 2026. \url{https://gov.uz/oz/bv/news/view/182984}.
 \bibitem{ref5} National Statistics Committee. Announcement on minimum consumption expenditure for 2026, 4 March 2026. \url{https://stat.uz/uz/matbuot-markazi/qo-mita-yangiliklar/67179-minimal-istemol-kharazhatlari-ijmati-t-risida-2}.
 \bibitem{ref7} Law of the Republic of Uzbekistan “On Normative Legal Acts” No. O‘RQ-682 of 20 April 2021, Articles 20–24 and the appended Unified Methodology. \url{https://lex.uz/docs/-5378966}.
-\bibitem{ref9} Law of the Republic of Uzbekistan “On Personal Data” No. O‘RQ-547 of 2 July 2019, Articles 11 and 24. \url{https://lex.uz/docs/-4396419}.
+\bibitem{ref9} Law of the Republic of Uzbekistan “On Personal Data” No. O‘RQ-547 of 2 July 2019, Article 24. \url{https://lex.uz/docs/-4396419}.
 \bibitem{ref11} World Bank. Rising to Prosperity: Uzbekistan — Broadening Opportunities for All. Poverty and Equity Assessment, 2026, p. 40. \url{https://documents1.worldbank.org/curated/en/099091826081016988/pdf/P507037-a67dabb6-2302-46a0-be08-a951d35f90c3.pdf}.
 \bibitem{ref12} Guven M., Yeachuri A., Almenfi M. Global Insights on Social Registries: Coverage and Beyond. World Bank, June 2025, pp. 3, 13, 25–26. \url{https://documents1.worldbank.org/curated/en/099071525165029379/pdf/P177331-a772f9c1-e340-4f76-aeb0-90fd4e7a3496.pdf}.
 \bibitem{ref20} Law of the Republic of Uzbekistan “On Appeals of Individuals and Legal Entities”, Articles 3, 6, 27–28. \url{https://lex.uz/docs/-3336169}.

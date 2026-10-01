@@ -208,14 +208,7 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
 (/home/xola/GitHub/Solial Registry/results/documents/research_paper.out)
-
-LaTeX Warning: Citation `ref32' on page 1 undefined on input line 59.
-
-[1]
-
-LaTeX Warning: Reference `sec:agency' on page 2 undefined on input line 70.
-
-[2]
+[1] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\TU/LiberationSerif(0)/m/n/11.04124 Minimum $[][][]$
 
@@ -230,11 +223,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--160
 
 Underfull \hbox (badness 1286) in paragraph at lines 160--161
 []|\TU/LiberationSerif(0)/m/n/11.04124 Per-person drop, four
-[4] [5] [6]
+[4] [5] [6] [7]
 Underfull \hbox (badness 2245) in paragraph at lines 271--272
 []\TU/LiberationSerif(0)/m/n/12.045 National Statistics Committee. Announcement
  on minimum consumption expendi-
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []\TU/LiberationSerif(0)/m/n/12.045 Guven M., Yeachuri A., Almenfi M. Global In
 sights on Social Reg-
@@ -260,19 +253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \TU/LiberationSerif(0)/m/n/12.045 18. []$[][][][][] [] [] [] [][][] [] [][][][]
 [][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][
 ] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
-[8] (/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `research_paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
- )
+[8] (/home/xola/GitHub/Solial Registry/results/documents/research_paper.aux) )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_
 paper.pdf (8 pages).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  1 OCT 2026 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  2 OCT 2026 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1038,6 +1038,12 @@ Underfull \hbox (badness 3557) in paragraph at lines 69--70
  []
 
 
+Underfull \hbox (badness 1005) in paragraph at lines 69--70
+\TU/LiberationSerif(0)/m/n/14.05249 с контрольными расчётами, за исключением сл
+учаев, предусмотренных
+ []
+
+
 Underfull \hbox (badness 7522) in paragraph at lines 75--76
 \TU/LiberationSerif(0)/m/n/14.05249 предусмотренных установленным порядком ввод
 а в эксплуатацию и
@@ -1057,24 +1063,40 @@ Underfull \hbox (badness 5417) in paragraph at lines 81--82
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
+| \TU/LiberationSerif(0)/m/n/14.05249 15. Специальные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 \TU/LiberationSerif(0)/m/n/14.05249 с методикой многомерной оценки
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 85--86
-| \TU/LiberationSerif(0)/m/n/14.05249 16. Реализация настоящего раздела осущест
+Underfull \hbox (badness 2460) in paragraph at lines 87--88
+| \TU/LiberationSerif(0)/m/n/14.05249 17. Реализация настоящего раздела осущест
 вляется в пределах
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 5592) in paragraph at lines 93--94
+\TU/LiberationSerif(0)/m/n/14.05249 двукратного минимального размера оплаты тру
+да» заменить словами
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 | \TU/LiberationSerif(0)/m/n/14.05249 3. В подпункте «а» пункта 33 слова
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 101--102
+Underfull \hbox (badness 3568) in paragraph at lines 103--104
 \TU/LiberationSerif(0)/m/n/14.05249 социальных услуг «Инсон», предоставляются с
 ведения о данных, на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+\TU/LiberationSerif(0)/m/n/14.05249 порядке принятия решения, его возможных
  []
 
 [3]
@@ -1095,7 +1117,7 @@ Here is how much of TeX's memory you used:
  45143 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,452b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,542b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
 _act_draft_ru.pdf (3 pages).

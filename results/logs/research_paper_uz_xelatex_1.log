@@ -248,9 +248,6 @@ Underfull \hbox (badness 2165) in paragraph at lines 59--60
 \TU/LiberationSerif(0)/m/n/12 qashshoqlik va tenglik baholashida manzillilik fo
 rmulasi 2026-yil boshida qayta koʻrib
 
-LaTeX Warning: Citation `ref32' on page 1 undefined on input line 61.
-
-
 Underfull \hbox (badness 1910) in paragraph at lines 61--62
 \TU/LiberationSerif(0)/m/n/12 oila vazirligi ijtimoiy-iqtisodiy malakani hisobl
 ash tartibini amaliy misollar, “teng yoki
@@ -259,10 +256,6 @@ Underfull \hbox (badness 1803) in paragraph at lines 61--62
 \TU/LiberationSerif(0)/m/n/12 katta” shaklidagi chegaralar va bir nechta tekshi
 ruv ishga tushganda ustuvorlik qoidasi
 [1]
-
-LaTeX Warning: Reference `sec:agency' on page 2 undefined on input line 72.
-
-
 Underfull \hbox (badness 1005) in paragraph at lines 81--82
 []\TU/LiberationSerif(0)/m/n/12 Pul oʻtkazmalari (26-band): oʻtkazmalar miqdori
  aniqlanmasa yoki $[][]$ dan kam
@@ -299,17 +292,17 @@ Underfull \hbox (badness 1997) in paragraph at lines 193--194
 \TU/LiberationSerif(0)/m/n/12 daromad. Uzluksiz gorizontal qismlar — 6-ilovadag
 i mamlakatlar, shtrixli — boshqa
 
-Underfull \hbox (badness 1033) in paragraph at lines 195--196
-[]\TU/LiberationSerif(0)/m/n/12 Taklif etilayotgan tahrir (1-material, II boʻli
-m, 1-band) oʻtkazmalarning bir oylik
-
+Underfull \hbox (badness 3179) in paragraph at lines 195--196
+\TU/LiberationSerif(0)/m/n/12 gacha oshadi va bunday oilalarning bir qismi Reye
+strga kiritilish huquqini yoʻqotishi
+[5]
 Underfull \hbox (badness 6252) in paragraph at lines 207--207
 []|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
-[5]
+[6]
 Underfull \hbox (badness 1077) in paragraph at lines 237--238
 \TU/LiberationSerif(0)/m/n/12 taʼsirlangan oilalar soni xatoning mavjudligini e
 mas, koʻlamini belgilaydi. Agentlik bu
-[6]
+
 Underfull \hbox (badness 1810) in paragraph at lines 244--245
 \TU/LiberationSerif(0)/m/n/12 Har bir guruh uchun dastur amaldagi va taklif eti
 layotgan qoida natijasini solishtiradi.
@@ -317,6 +310,10 @@ layotgan qoida natijasini solishtiradi.
 Underfull \hbox (badness 6188) in paragraph at lines 249--250
 []\TU/LiberationSerif(0)/m/n/12 Toʻrtta normada nomuvofiqliklar isbotlangan: da
 romad $[]$ ga teng boʻlganda
+
+Underfull \hbox (badness 3942) in paragraph at lines 249--250
+\TU/LiberationSerif(0)/m/n/12 1000 m² gacha uchastkaning 80% dan ortigʻi qurilg
+anda (katta uchastkalarda
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 []\TU/LiberationSerif(0)/m/n/12.045 Milliy statistika qoʻmitasi. 2026-yil uchun
@@ -352,17 +349,6 @@ Underfull \hbox (badness 1939) in paragraph at lines 281--282
 ][][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][]
 [][][][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
 [8] (/home/xola/GitHub/Solial Registry/results/documents/research_paper_uz.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `research_paper_uz.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
  )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/research_

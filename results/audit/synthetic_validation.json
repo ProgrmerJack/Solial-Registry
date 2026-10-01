@@ -33,10 +33,10 @@
       "scripts/run_analysis.py",
       "--demo"
     ],
-    "run_utc": "2026-10-01T18:53:06.372549+00:00",
+    "run_utc": "2026-10-01T19:06:50.355594+00:00",
     "random_seed": null,
     "generation": "deterministic; no random sampling",
     "analysis_plan_source": "docs/analysis_plan.md",
-    "analysis_plan_sha256": "aae136daf2ac524bce3269cea93e4db8f33cb0678ac99eed7e58f19b5a15abd1"
+    "analysis_plan_sha256": "1bea73095d3f0457d024dd883a0c891fc2d091c7a190aff4f2d32637830e225c"
   }
 }

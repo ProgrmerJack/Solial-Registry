@@ -136,7 +136,7 @@ Cause: differing Russian prefixes stopped the first batch after its English save
 Correction: inspect exact maintained lines, validate all selectors and complete bounded replacements in each language.
 Prevention: retain a recoverable edit command and validate exact language-specific anchors before mutation.
 
-2026-10-01 — Could not query the national draft-consultation portal programmatically.
-Cause: regulation.gov.uz search ignores filters and its listing needs login; /uz/d/ IDs 115000–117200 are local drafts only; regulation.adliya.uz API paths guessed from its JS bundle return 404.
-Correction: stopped after three distinct approaches; relied on web search (no PF-193 implementing draft found as of 2026-10-01).
-Prevention: check the portal manually in a browser (or ask the user) before claiming a draft is or is not published.
+2026-10-01 — Spent three attempts guessing the consultation-portal API before finding it already documented.
+Cause: regulation.adliya.uz paths were guessed from its JS bundle; the working read-only endpoint /api/api/aux-jk/v1/open/project was already recorded in docs/analysis_plan.md.
+Correction: used the documented endpoint; all 40 drafts published 11 Sep–1 Oct 2026 checked, none is the PF-193 para 14 act.
+Prevention: grep the repo (plans, logs, FAILURES.md) for previously found endpoints before probing an external service.

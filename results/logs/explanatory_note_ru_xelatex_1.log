@@ -77,10 +77,6 @@ For additional information on amsmath, use the `?' option.
 *geometry* detected driver: xetex
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.out)
-
-LaTeX Warning: Citation `pf193' on page 1 undefined on input line 44.
-
-
 Underfull \hbox (badness 1087) in paragraph at lines 44--45
 \TU/LiberationSerif(0)/m/it/14.05249 финансового положения \TU/LiberationSerif(
 0)/m/n/14.05249 семьи хронические заболевания, инвалидность,
@@ -89,30 +85,10 @@ Underfull \hbox (badness 2057) in paragraph at lines 44--45
 \TU/LiberationSerif(0)/m/n/14.05249 том 14 Национальному агентству социальной з
 ащиты при Президенте
 
-LaTeX Warning: Citation `res35' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `pdlaw' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Citation `res35' on page 1 undefined on input line 50.
-
-
 Underfull \hbox (badness 2057) in paragraph at lines 50--51
 \TU/LiberationSerif(0)/m/n/14.05249 и (или) оператора разъяснить субъекту поряд
 ок принятия решения на
-
-LaTeX Warning: Citation `govuz' on page 1 undefined on input line 52.
-
-[1]
-
-LaTeX Warning: Reference `sec:q' on page 2 undefined on input line 54.
-
- [2]
-
-LaTeX Warning: Citation `orq682' on page 3 undefined on input line 71.
-
-
+[1] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 \TU/LiberationSerif(0)/m/n/14.05249 Предложение подготовлено гражданином Ашурал
 иевым Абдухоликом
@@ -124,50 +100,24 @@ Underfull \hbox (badness 1742) in paragraph at lines 71--72
 Underfull \hbox (badness 2452) in paragraph at lines 71--72
 \TU/LiberationSerif(0)/m/n/14.05249 чать результаты научных исследований и обра
 щения физических лиц,
-
-LaTeX Warning: Citation `chile' on page 3 undefined on input line 81.
-
-
-LaTeX Warning: Citation `res35' on page 3 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sec:fin' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Reference `sec:cmp' on page 3 undefined on input line 90.
-
-[3] [4]
-
-LaTeX Warning: Citation `chile' on page 5 undefined on input line 107.
-
-
-LaTeX Warning: Citation `wb2025' on page 5 undefined on input line 107.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 114--115
+[3] [4] [5]
+Underfull \hbox (badness 1137) in paragraph at lines 115--116
 []\TU/LiberationSerif(0)/m/n/14.05249 если интервал применяется к обычному дохо
 ду, семья с доходом
-[5]
-
-LaTeX Warning: Reference `sec:q' on page 6 undefined on input line 120.
-
-
-LaTeX Warning: Citation `orq682' on page 6 undefined on input line 135.
-
 [6]
 
-LaTeX Warning: Reference `sec:fin' on page 7 undefined on input line 146.
+LaTeX Warning: Citation `portal' on page 7 undefined on input line 136.
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chile), División de Focalización.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 \TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
 ][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
-[9]
+[10] [11]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
 
 LaTeX Warning: There were undefined references.
@@ -175,14 +125,9 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `explanatory_note_ru.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
  )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (9 pages).
+ry_note_ru.pdf (11 pages).
 Transcript written on /home/xola/GitHub/Solial Registry/results/documents/expla
 natory_note_ru.log.

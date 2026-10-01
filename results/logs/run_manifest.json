@@ -10,7 +10,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/legal_audit.log",
-      "log_sha256": "c8b17b5f8fcc01d10ba553e8561464108a458782414f449e723a481156b250f0"
+      "log_sha256": "9cf93e41d48b3120e5622391e9b4be8579a04632107606339bb69c100a7b2031"
     },
     {
       "stage": "synthetic_demo",
@@ -22,7 +22,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/synthetic_demo.log",
-      "log_sha256": "14868a11ff4d315497f42f42dedf2020efdaf04c37850af7c466d71ed4ccda46"
+      "log_sha256": "89abe7e7407e308c43c0e9e44147051151c8b28019ff9a6d946c20d0a0575bb9"
     },
     {
       "stage": "tests",
@@ -34,7 +34,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/tests.log",
-      "log_sha256": "bd2e0dcb5cb3e7a45812e8b6b9f9600ca428e18ef8c5d824d30e774ee6183152"
+      "log_sha256": "15347d0330ea5863af92612e43b7b1cf2bfebe3c23e01f3179a6c041439f106f"
     },
     {
       "stage": "independent_algebra",
@@ -45,7 +45,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/independent_algebra.log",
-      "log_sha256": "f9fcea41f17ef81ef314aa741cf8f05ade287dc94c4d80fabca74977e69c5699"
+      "log_sha256": "32c1a65c299b7fb5ba2273d2c9df3fc721c810cd1de6381042a26ca51fed12d6"
     },
     {
       "stage": "csv_export",
@@ -78,13 +78,13 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/latex_documents.log",
-      "log_sha256": "756004b01e5f0d889634998f1b4019dd603437e214ca23d82f4d46cbd1d5d6a3"
+      "log_sha256": "d8937e85bdaa28558b20b1f89e5c2a45b7471235a97c0f8e9ffdee2086e80c7d"
     }
   ],
   "source_sha256": {
     "data/fixtures/additive_demo.json": "574255b5e4f3bcec05a9a507108746e19aa83ac257f048f8248728bc3f349c4b",
     "data/rules/legal_specification.json": "8f724da3aabd14c2324dcedb0ace855b5d06b4dcd2e45c255a76dc9800b0cb25",
-    "docs/analysis_plan.md": "aae136daf2ac524bce3269cea93e4db8f33cb0678ac99eed7e58f19b5a15abd1",
+    "docs/analysis_plan.md": "1bea73095d3f0457d024dd883a0c891fc2d091c7a190aff4f2d32637830e225c",
     "scripts/build_documents.py": "6b42e83d24fce8e999b8d21f0c41501a8d0001a1e335e61a24728efc757a71fa",
     "scripts/export_results.py": "749bd3c8002a16dc352b4a0c6b2bb357a0ee94d2f08cece86605cfe97a0474ae",
     "scripts/render_figures.py": "b5c57cdc7acbb1e9d33ac87d90a7eb30fb9c80e90940d474fb480b130f4c80af",

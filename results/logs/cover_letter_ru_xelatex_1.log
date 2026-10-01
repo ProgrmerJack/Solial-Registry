@@ -72,23 +72,16 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-No file cover_letter_ru.aux.
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.out)
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.out)
 [1]
 Underfull \hbox (badness 2326) in paragraph at lines 76--77
 []\TU/LiberationSerif(0)/m/n/14.05249 Материал 1. Предложения для включения в п
 роект нормативно-
-[2] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux)
-
-Package rerunfilecheck Warning: File `cover_letter_ru.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
- )
+[2] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux) )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
 ter_ru.pdf (2 pages).
