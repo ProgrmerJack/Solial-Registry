@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 02:24
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 03:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1495,92 +1495,87 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 9.83563pt on input line 108.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.02548pt on input line 108.
- [6]
-Underfull \hbox (badness 1137) in paragraph at lines 123--124
-[]\TU/LiberationSerif(0)/m/n/14.05249 если интервал применяется к обычному дохо
-ду, семья с доходом
- []
-
-[7] [8] [9]
+ [6] [7] [8]
+ignored: Infinite glue shrinkage found in box being split [9]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
  [10]
-Underfull \hbox (badness 1616) in paragraph at lines 191--192
+Underfull \hbox (badness 1616) in paragraph at lines 186--187
 \TU/LiberationSerif(0)/m/n/14.05249 4105 земельных случаев, 12 случаев тяжёлой 
 ситуации, 24 налоговых
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 191--192
+Underfull \hbox (badness 2884) in paragraph at lines 186--187
 \TU/LiberationSerif(0)/m/n/14.05249 и 10 проверок происхождения результатов, от
 клоняющих устаревший,
  []
 
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 [11]
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 21
-8.
+3.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 218.
+(Font)              scaled to size 11.04242pt on input line 213.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 218.
+(Font)              scaled to size 7.72966pt on input line 213.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 218.
+(Font)              scaled to size 5.5212pt on input line 213.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 218.
+(Font)              scaled to size 11.04005pt on input line 213.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 218.
+(Font)              scaled to size 7.728pt on input line 213.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 218.
+(Font)              scaled to size 5.52002pt on input line 213.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\TU/LiberationSerif(0)/m/n/11.04124 Участок $[][]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 []|\TU/LiberationSerif(0)/m/n/11.04124 Максимум
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 \TU/LiberationSerif(0)/m/n/11.04124 изменения
  []
 
 [13]
-Underfull \hbox (badness 5802) in paragraph at lines 265--265
+Underfull \hbox (badness 5802) in paragraph at lines 260--260
 []|\TU/LiberationSerif(0)/m/n/11.04124 Снижение за месяц
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 308--308
+Underfull \hbox (badness 1400) in paragraph at lines 303--303
 []|\TU/LiberationSerif(0)/m/n/11.04124 Нукус / област-
  []
 
 [15] [16]
-Underfull \hbox (badness 2884) in paragraph at lines 349--350
+Underfull \hbox (badness 2884) in paragraph at lines 344--345
 []\TU/LiberationSerif(0)/m/n/14.05249 Опубликованные правила расчёта воспроизво
 димы: официальный
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 356--357
+Underfull \hbox (badness 2229) in paragraph at lines 351--352
 \TU/LiberationSerif(0)/m/n/14.05249 ($[][][] [] [][][][][][] [] [][][][][][][][
 ][]$), тесты ($[][][][][][]$), независимую проверку и результаты
  []
@@ -1592,20 +1587,20 @@ ignored: Infinite glue shrinkage found in box being split [18]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
  [19]
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chile), División de Focalización.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 \TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
 ][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 394--395
+Underfull \hbox (badness 1019) in paragraph at lines 389--390
 \TU/LiberationSerif(0)/m/n/12.045 ских расходах на 2026 год, 4 марта 2026 года.
  []$[][][][][] [] [] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][
 ][][] []
@@ -1618,16 +1613,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `explanatory_note_ru.out' has not changed.
-(rerunfilecheck)             Checksum: 87F42909EE91C60716171E04930C8293;9295.
+(rerunfilecheck)             Checksum: 13DE94DBC93B8C6F960AE3396B289F62;9159.
  ) 
 Here is how much of TeX's memory you used:
- 39351 strings out of 469974
- 921237 string characters out of 5477063
- 1625927 words of memory out of 5000000
- 67334 multiletter control sequences out of 15000+600000
+ 39348 strings out of 469974
+ 921156 string characters out of 5477063
+ 1625892 words of memory out of 5000000
+ 67331 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,12n,118p,1125b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1454b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
 ry_note_ru.pdf (20 pages).
