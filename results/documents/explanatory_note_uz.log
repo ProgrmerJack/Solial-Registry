@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 03:03
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 03:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1547,18 +1547,24 @@ n masala. \TU/LiberationSerif(0)/m/n/14.05249 Ogʻir hayotiy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-\TU/LiberationSerif(0)/m/n/14.05249 daromadga qoʻllanilishi koʻrsatilmagan; odd
-iy daromadga qoʻllanilsa,
+Underfull \hbox (badness 4531) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 oila 35-band boʻyicha kiritiladi, biroq Far
+mon oraligʻiga mos kelmaydi.
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 123--124
-\TU/LiberationSerif(0)/m/n/14.05249 bu oilalarga kamaytirilgan daromad qoʻllani
-lishi koʻrsatiladi. I boʻlimning
+Underfull \hbox (badness 1024) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 Bundan tashqari, Nizom 39-bandining “v” kic
+hik bandida bu oilalar uchun
  []
 
 
+Underfull \hbox (badness 1360) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 34–35-bandlarini $[] [] []$ sharti bilan to
+ʻldirish — bu hozir kiritilayotgan
+ []
+
+[7]
 Underfull \hbox (badness 2293) in paragraph at lines 126--127
 \TU/LiberationSerif(0)/m/n/14.05249 II boʻlim Vazirlar Mahkamasining 2026-yil 2
 9-yanvardagi 35-son qaroriga
@@ -1576,7 +1582,7 @@ Underfull \hbox (badness 2293) in paragraph at lines 126--127
 boʻlimdagi masala boʻyicha talab
  []
 
-[7]
+
 Underfull \hbox (badness 3635) in paragraph at lines 129--130
 \TU/LiberationSerif(0)/m/n/14.05249 boʻlimning 18, 17 va 20-bandlariga havola q
 iladi (Yagona uslubiyotning
@@ -1648,13 +1654,13 @@ Underfull \hbox (badness 1297) in paragraph at lines 136--137
 rdam oluvchilar doirasini
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \TU/LiberationSerif(0)/m/n/14.05249 boʻyicha ilova qilingan dastur yordamida, s
 haxsga doir maʼlumotlarni
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 Taklif “Normativ-huquqiy hujjatlar toʻgʻris
 ida”gi Qonunning 20-moddasi
@@ -1781,13 +1787,19 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+[12]
 Underfull \hbox (badness 2951) in paragraph at lines 218--219
 \TU/LiberationSerif(0)/m/n/14.05249 pastki chiziq — PF-258-son Farmonning kamay
 tirilgan daromad boʻyicha
  []
 
-[12]
+
+Underfull \hbox (badness 1509) in paragraph at lines 218--219
+\TU/LiberationSerif(0)/m/n/14.05249 oraligʻi; oʻrta chiziq — oddiy daromad boʻy
+icha oraliqning 34–35-bandlar
+ []
+
+
 Underfull \hbox (badness 2088) in paragraph at lines 221--222
 $[][] [] [] [][][]$ \TU/LiberationSerif(0)/m/n/14.05249 boʻlganda formula $[][]
 [] [] [][][] [][] [] [][]$ ga teng va
@@ -1969,7 +1981,7 @@ Here is how much of TeX's memory you used:
  66102 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,1607b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1847b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
 ry_note_uz.pdf (20 pages).

@@ -318,14 +318,18 @@ Underfull \hbox (badness 1360) in paragraph at lines 123--124
 []\TU/LiberationSerif(0)/b/n/14.05249 Ishlab chiquvchi hal qilishi lozim boʻlga
 n masala. \TU/LiberationSerif(0)/m/n/14.05249 Ogʻir hayotiy
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-\TU/LiberationSerif(0)/m/n/14.05249 daromadga qoʻllanilishi koʻrsatilmagan; odd
-iy daromadga qoʻllanilsa,
+Underfull \hbox (badness 4531) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 oila 35-band boʻyicha kiritiladi, biroq Far
+mon oraligʻiga mos kelmaydi.
 
-Underfull \hbox (badness 1253) in paragraph at lines 123--124
-\TU/LiberationSerif(0)/m/n/14.05249 bu oilalarga kamaytirilgan daromad qoʻllani
-lishi koʻrsatiladi. I boʻlimning
+Underfull \hbox (badness 1024) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 Bundan tashqari, Nizom 39-bandining “v” kic
+hik bandida bu oilalar uchun
 
+Underfull \hbox (badness 1360) in paragraph at lines 123--124
+\TU/LiberationSerif(0)/m/n/14.05249 34–35-bandlarini $[] [] []$ sharti bilan to
+ʻldirish — bu hozir kiritilayotgan
+[7]
 Underfull \hbox (badness 2293) in paragraph at lines 126--127
 \TU/LiberationSerif(0)/m/n/14.05249 II boʻlim Vazirlar Mahkamasining 2026-yil 2
 9-yanvardagi 35-son qaroriga
@@ -337,7 +341,7 @@ izomni PF-258-son Farmonning
 Underfull \hbox (badness 2293) in paragraph at lines 126--127
 \TU/LiberationSerif(0)/m/n/14.05249 PF-258-son Farmonga oʻzgartish faqat []7[]-
 boʻlimdagi masala boʻyicha talab
-[7]
+
 Underfull \hbox (badness 3635) in paragraph at lines 129--130
 \TU/LiberationSerif(0)/m/n/14.05249 boʻlimning 18, 17 va 20-bandlariga havola q
 iladi (Yagona uslubiyotning
@@ -385,11 +389,11 @@ masa, nomonotonlikni
 Underfull \hbox (badness 1297) in paragraph at lines 136--137
 \TU/LiberationSerif(0)/m/n/14.05249 orqali bartaraf etish mumkin; bu variant yo
 rdam oluvchilar doirasini
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \TU/LiberationSerif(0)/m/n/14.05249 boʻyicha ilova qilingan dastur yordamida, s
 haxsga doir maʼlumotlarni
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 Taklif “Normativ-huquqiy hujjatlar toʻgʻris
 ida”gi Qonunning 20-moddasi
@@ -457,11 +461,15 @@ iqdori aniqlanmasa yoki
 Underfull \hbox (badness 4967) in paragraph at lines 196--197
 \TU/LiberationSerif(0)/m/n/14.05249 oʻrniga “teng yoki yuqori”) bu holatni PF-2
 58-son Farmonga oʻzgartish
-
+[12]
 Underfull \hbox (badness 2951) in paragraph at lines 218--219
 \TU/LiberationSerif(0)/m/n/14.05249 pastki chiziq — PF-258-son Farmonning kamay
 tirilgan daromad boʻyicha
-[12]
+
+Underfull \hbox (badness 1509) in paragraph at lines 218--219
+\TU/LiberationSerif(0)/m/n/14.05249 oraligʻi; oʻrta chiziq — oddiy daromad boʻy
+icha oraliqning 34–35-bandlar
+
 Underfull \hbox (badness 2088) in paragraph at lines 221--222
 $[][] [] [] [][][]$ \TU/LiberationSerif(0)/m/n/14.05249 boʻlganda formula $[][]
 [] [] [][][] [][] [] [][]$ ga teng va
