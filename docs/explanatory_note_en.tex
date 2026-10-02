@@ -7,7 +7,9 @@
 \usepackage{unicode-math}
 \setmathfont{texgyretermes-math.otf}
 \usepackage[english]{babel}
-\usepackage{amsmath,graphicx,booktabs,longtable,array,enumitem}
+\usepackage{amsmath,graphicx,booktabs,longtable,array,enumitem,pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.17,every axis/.append style={font=\fontsize{11bp}{13.2bp}\selectfont}}
 \usepackage[normalem]{ulem}
 \usepackage{titlesec,fancyhdr}
 \usepackage[hidelinks,unicode]{hyperref}
@@ -21,6 +23,10 @@
 \widowpenalty=10000
 \titleformat{\section}{\normalfont\bfseries}{\thesection.}{0.5em}{}
 \titlespacing*{\section}{0pt}{1.1em}{0.5em}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\itshape}{\thesubsubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.3em}
 \setlist{nosep,leftmargin=1.27cm}
 \pagestyle{fancy}
 \fancyhf{}
@@ -36,11 +42,12 @@
 \begin{document}
 \begin{flushright}Material 2\end{flushright}
 \begin{center}\textbf{EXPLANATORY NOTE}\par
+\textbf{with scientific and legal justification}\par
 \textbf{to the proposals for inclusion in the draft normative legal act being prepared to implement paragraph 14 of Decree of the President of the Republic of Uzbekistan No. PF-193 of 11 September 2026}\end{center}
 
-\noindent Edition of 1 October 2026. English companion translation; the Russian edition is primary. The structure follows paragraph 84 of the Unified Methodology appended to the Law “On Normative Legal Acts”.
+\noindent Edition of 3 October 2026. English companion translation; the Russian edition is primary. The structure follows paragraph 84 of the Unified Methodology appended to the Law “On Normative Legal Acts”; the scientific and legal justification is set out in Section~\ref{sec:sci} as other information needed to justify the draft.
 
-\section{Basis for preparation and necessity}
+\section{Basis for preparation and necessity}\label{sec:basis}
 Subparagraph “a” of paragraph 13 of Decree PF-193 provides that from 1 January 2027 need is studied and families are included in the Social Registry through a multidimensional assessment system that takes into account, \textit{in addition to the family’s financial condition}, chronic illness, disability, external labour migration and large family size. Subparagraph “b” provides for a point-based scoring of socio-economic condition and assignment of families to categories by its results. Paragraph 14 instructs the National Agency for Social Protection under the President of the Republic of Uzbekistan (hereinafter, the Agency), jointly with the Ministry of Economy and Finance, to submit the draft normative legal act to the Presidential Administration by 1 December 2026\cite{pf193}.
 
 The need for the proposed norms is supported by the following.
@@ -49,7 +56,7 @@ The need for the proposed norms is supported by the following.
 
 \textbf{Second, the law requires an automated decision to be explained.} Article 24 of the Law “On Personal Data” obliges the owner and/or operator to explain to the data subject the procedure for a decision based solely on automated processing and its possible legal consequences, to give the opportunity to object, and to notify the result of considering the objection in writing within ten days\cite{pdlaw}. Point 37 of the Regulation provides only an SMS about inclusion or refusal\cite{res35}.
 
-\textbf{Third, practice shows unjustified refusals.} The Government portal reported on 17 July 2026 that in 184 mahallas all 2,000 applications received in one month were refused without grounds; appeals to the President on Registry inclusion rose one and a half times since the start of the year, from 30,000 to 46,000; and the Prosecutor General’s Office was instructed to strictly oversee proper maintenance of the Registry\cite{govuz}. Such decisions can be detected and corrected only if the grounds of each decision are retained and reproducible.
+\textbf{Third, practice shows unjustified refusals.} The Government portal reported on 17 July 2026 that in 184 mahallas all 2,000 applications received in one month were refused without grounds; appeals to the President on Registry inclusion rose one and a half times since the start of the year, from 30,000 to 46,000; and the Prosecutor General’s Office was instructed to strictly oversee proper maintenance of the Registry\cite{govuz}. Such decisions can be detected and corrected only if the grounds of each decision are retained and reproducible. The World Bank’s 2026 poverty and equity assessment states that the targeting formula was revised in early 2026 and that an assessment of its effectiveness is not yet available\cite{wb2026}.
 
 \textbf{Fourth, four inconsistencies have been demonstrated in the current calculation rules.} Three of them (points 26, 27 and 33 of the Regulation) are removed by the amendments in Section II of Material 1 (Table 1); the fourth, concerning families in difficult life circumstances, requires the developer’s decision and is set out in Section~\ref{sec:q}. In addition, point 37 of the Regulation does not secure the requirements of Article 24 of the Law “On Personal Data”. Because the family’s financial condition remains a criterion from 1 January 2027, the income calculation rules continue to determine the assessment result until replaced.
 
@@ -65,7 +72,7 @@ Point 37 & Only an SMS about inclusion or refusal is provided; explanation of th
 \bottomrule
 \end{longtable}\endgroup
 
-All figures in the table are reproduced by the program in the electronic supplement to Material 3 (39 automated checks pass; independent arithmetic control of 4,105 constructed cases of the area formula, of which 620 give a negative area).
+All figures in the table are reproduced by the program in the electronic supplement; the method and full results are in Section~\ref{sec:sci} (39 automated checks pass; independent arithmetic control of 4,105 constructed cases of the area formula, of which 620 give a negative area).
 
 \section{Author of the proposal}
 The proposal was prepared by citizen Abduxoliq Akmal ugli Ashuraliyev, independent researcher (ORCID 0009-0003-5482-5526). The official developers of the draft under paragraph 14 of Decree PF-193 are the Agency jointly with the Ministry of Economy and Finance. Article 23 of the Law “On Normative Legal Acts” requires the developer to study results of scientific research and appeals of individuals, and to generalize and use proposals of citizens and recommendations of scientists and specialists\cite{orq682}.
@@ -74,21 +81,22 @@ The proposal was prepared by citizen Abduxoliq Akmal ugli Ashuraliyev, independe
 The purpose is to ensure that each family’s assessment result follows only from approved rules, can be reproduced from retained data and is explained to the applicant. The tasks are: remove uncertainty at threshold values; check software before changes are applied; retain the grounds of each result; and eliminate the four demonstrated inconsistencies in the current Regulation.
 
 \begingroup\tsize
-\begin{longtable}{L{0.17\linewidth} L{0.40\linewidth} L{\dimexpr0.43\linewidth-6\tabcolsep}}
+\begin{longtable}{L{0.15\linewidth} L{0.38\linewidth} L{\dimexpr0.47\linewidth-6\tabcolsep}}
 \toprule
 Points of Material 1 & Content & Justification\\\midrule\endhead
-Section I, point 1 & Terms & Methodology paragraph 8: repeatedly used terms are defined at the beginning.\\
-Points 2–5 & Source, unit, period and scoring of each criterion; category at equality; order of exceptions; calculation examples & Without these elements the same income can be counted differently (Table 1, point 26). The current Regulation already contains a calculation example (point 30); Chile’s published methodology states thresholds as “equal to or greater than” and gives a precedence rule when several checks are triggered\cite{chile}.\\
-Point 6 & Software applies only established conditions & A new refusal ground is established only by a normative act, not by a software setting.\\
-Point 7 & Non-receipt of a reply is not absence of income or property & Separates a technical failure from a fact; current point 48 of the Regulation already allows a temporary algorithm change during failures\cite{res35}.\\
-Points 8–11 & Comparison with control calculations before changes are applied; mandatory content of the example set; documentation within existing commissioning documents & The errors in Table 1 lie precisely at thresholds and in exceptions. Agreement of totals on random examples does not detect them.\\
-Point 12 & Retention of methodology and software versions, values, score and threshold & Allows every decision affected by an error to be found and an objection to be answered on the merits.\\
-Point 13 & Marking and review of results under a temporary algorithm & A temporary algorithm change does not become a hidden permanent rule.\\
-Point 14 & Decision grounds and legal consequences provided to the applicant & Implements Article 24, part three, of the Law “On Personal Data”; the ten-day period for answering an objection is set by part four of that Article and is not repeated.\\
-Point 15 & Special data of other family members only as the fact that a criterion applied & Health and conviction data are special personal data (Article 25 of the Law “On Personal Data”); other family members are separate data subjects.\\
-Point 16 & Review of all affected decisions & An error is corrected for all families, not only for those who complained.\\
-Point 17 & Financing & Section~\ref{sec:fin} of this note.\\
-Section II, points 1–4 & Amendments to points 26, 27, 33 and 37 of the Regulation & Table 1 and Section~\ref{sec:cmp}.\\
+Section I, point 1 & Terms: methodology, assessment result, calculation version, control example, control calculation, unconfirmed data & Methodology paragraph 8: repeatedly used terms are defined at the beginning.\\\midrule
+Point 2 & Responsibility of Information Technologies Centre staff for conformity of calculations to the methodology & Point 46 of the Regulation already makes the Centre’s responsible staff responsible for correct operation of the YAMIH system; the norm defines the subject of that responsibility — conformity of calculations to the approved methodology.\\\midrule
+Points 3–7 & For each criterion: source, unit, period, scoring, rounding, value for unconfirmed data; category at equality; order of exceptions; calculation examples; date of application & Without these elements the same income is counted differently (Table 1; Subsection~\ref{res:rem}). The current Regulation already contains a calculation example (point 30); Chile’s methodology states thresholds as “equal to or greater than” and gives a precedence rule when several checks apply\cite{chile}.\\\midrule
+Point 8 & Software applies only established conditions & A new refusal ground is established by a normative act, not by a software setting.\\\midrule
+Points 9–10 & Non-receipt of a reply is not absence of income; unconfirmed data are marked and the applicant is told what to clarify and where & Separates a technical failure from a fact (point 48 of the Regulation allows a temporary algorithm change during failures\cite{res35}); the applicant can use the right to have personal data corrected within three days (Article 11 of the Law “On Personal Data”\cite{pdlaw}).\\\midrule
+Points 11–12 & Mandatory content of the control example set; expected results determined without the software developer & The errors in Table 1 lie at thresholds, next to them and in exceptions. An expected result produced by the same software does not reveal a software error.\\\midrule
+Points 13–16 & Comparison before changes are applied; no application while a difference remains; protocol with mandatory content; set supplemented & Uses the existing commissioning procedure; the protocol records who checked what. A temporary algorithm change during failures (point 22) is not delayed.\\\midrule
+Point 17 & Information retained for each result & Allows the calculation to be reproduced, an objection to be answered on the merits and all decisions affected by an error to be found.\\\midrule
+Points 18–19 & Information to the applicant; special data of other family members only as the fact a criterion applied & Article 24, part three, of the Law “On Personal Data”: explanation of the decision procedure, its legal consequences, objection and rights-protection procedure; Article 25: health and conviction data are special data\cite{pdlaw}.\\\midrule
+Points 20–21 & The Centre identifies affected results within ten days; they are reviewed & The ten-day period matches the period for considering an objection (Article 24, part four, of the Law “On Personal Data”): an error revealed by one objection is checked for all families within the same period.\\\midrule
+Point 22 & Marking and review of results under a temporary algorithm & A temporary algorithm change does not become a hidden permanent rule.\\\midrule
+Point 23 & Financing & Section~\ref{sec:fin}.\\\midrule
+Section II, points 1–4 & Amendments to points 26, 27, 33 and 37 of the Regulation & Table 1, Section~\ref{sec:sci} and Section~\ref{sec:cmp}.\\
 \bottomrule
 \end{longtable}\endgroup
 
@@ -100,7 +108,7 @@ The proposals relate to the subordinate act mandated by paragraph 14 of Decree P
 \item No household-plot area calculation gives a negative value (at present this occurs where $QM>0.8\,UM$ for plots up to 1,000 m² and where $QM>UM-200$ for plots over 1,000 m²).
 \item For each threshold of the methodology the category at equality is determined; a family with income equal to minimum consumption expenditure receives a determinate result.
 \item A family’s counted income does not fall when its actual remittance increases.
-\item Each assessment result can be reproduced from retained data; when an error is found, all affected decisions are identified.
+\item Each assessment result can be reproduced from retained data; when an error is found, all affected decisions are identified within ten days.
 \item The applicant receives the grounds of the automated decision, information on its legal consequences and the objection and rights-protection procedure, as required by Article 24, part three, of the Law “On Personal Data”.
 \end{enumerate}
 
@@ -108,7 +116,7 @@ The proposals relate to the subordinate act mandated by paragraph 14 of Decree P
 Chile’s Ministry of Social Development and Family publishes the procedure for calculating the socio-economic rating of the Social Household Registry, approved by Resolution No. 082 of 15 November 2023, with worked calculation examples, thresholds stated as “equal to or greater than” and an explicit precedence rule when several checks are triggered for a household\cite{chile}. The World Bank notes that outdated registry data lead to both inclusion and exclusion errors, and that grievance redress mechanisms enhance transparency and accountability\cite{wb2025}.
 
 \section{Description of content and a question for the developer’s decision}\label{sec:q}
-Section I of Material 1 (17 points, each containing one legal norm in accordance with Methodology paragraph 22) is included in the act being prepared. Section II (4 points) amends the current Regulation; if the new act replaces the Regulation, the same rules are included in its norms.
+Section I of Material 1 (23 points, each containing one legal norm in accordance with Methodology paragraph 22) is included in the act being prepared. Section II (4 points) amends the current Regulation; if the new act replaces the Regulation, the same rules are included in its norms.
 
 \textbf{Question for the developer’s decision.} For families in difficult life circumstances, points 34–35 of the Regulation allow inclusion in the “family at the poverty boundary” category where income exceeds minimum consumption expenditure $P$ and income reduced by 25\,\% does not exceed $1.5P$, that is, where $P<D\le2P$. Subpoint “v” of point 39 of the Regulation and subpoint “v” of point 3 of Decree PF-258 describe the same category by the interval from $P$ to $1.5P$. Under either reading of the interval, some families included under point 35 fall outside it:
 \begin{itemize}[leftmargin=1.27cm]
@@ -121,13 +129,13 @@ Resolving this requires choosing which income and which interval apply to this p
 Section II amends the Regulation on the Procedure for Maintaining the Social Registry (Annex 1 to Cabinet of Ministers Resolution No. 35 of 29 January 2026). The amendment of point 33 aligns the Regulation with point 3 of Decree PF-258 and does not require amending the Decree. Amendment of Decree PF-258 may be needed only for the question in Section~\ref{sec:q}.
 
 \section{Justification of references}
-Points 9, 15 and 16 of Section I refer to points 8, 14 and 12 of the same Section to avoid repeating their text (Methodology paragraph 13). Point 8 refers to point 13 so that the comparison does not delay a temporary algorithm change during data-exchange failures. Point 11 of Section I refers to the established procedure for commissioning and changing information systems without naming a specific act: references to specific acts of lower legal force are not permitted (Methodology paragraph 11), and the type of the act being prepared is determined by the developer. Section II names the amended act and its points (Methodology paragraph 69).
+Points 19, 20 and 21 of Section I refer to points 18, 17 and 20 of the same Section to avoid repeating their text (Methodology paragraph 13). Point 13 refers to point 22 so that the comparison does not delay a temporary algorithm change during data-exchange failures. Point 15 of Section I refers to the established procedure for commissioning and changing information systems without naming a specific act: references to specific acts of lower legal force are not permitted (Methodology paragraph 11), and the type of the act being prepared is determined by the developer. Section II names the amended act and its points (Methodology paragraph 69).
 
 \section{Financial and economic justification}\label{sec:fin}
 Implementation of the proposals \textbf{requires no additional expenditure from the State budget}:
 \begin{enumerate}[leftmargin=1.27cm]
 \item Section I uses the existing YAMIH system, the existing commissioning procedure and existing channels — the personal account on the Unified Portal of Interactive Public Services and Inson centres. No new bodies, posts, information systems or application stages are created.
-\item The set of control examples and the program calculating them have already been prepared by the author and are provided free of charge with Material 3.
+\item The set of control examples and the program calculating them have already been prepared by the author and are provided free of charge with these materials.
 \item The amendments to points 26, 27 and 33 do not widen the circle of assistance recipients: a family’s counted income does not fall, and a case for which no category is established is removed. The amendment to point 26 raises to $3M$ the counted income of families with transfers from Annex 6 countries between $2M$ and $3M$ per month, as smaller transfers are already counted today; some such families may lose eligibility. If the developer considers this undesirable, the non-monotonicity can be removed differently — by setting a normative income of $2M$ for these countries; that option widens the circle of recipients and requires a cost estimate. The amendment to point 37 uses existing channels.
 \end{enumerate}
 The exact number of families affected by each amendment can be determined only by the Agency on its data using the attached program, without transferring personal data outside the Agency.
@@ -148,6 +156,219 @@ Costs & Section~\ref{sec:fin}: no additional budget expenditure is required.\\\m
 Disclosure of information & Only information about the applicant’s own family is disclosed; special personal data of other family members are shown only as the fact that a criterion applied (Article 25 of the Law “On Personal Data”); source code and security information are not disclosed.\\
 \bottomrule
 \end{longtable}\endgroup
+
+\section{Scientific and legal justification}\label{sec:sci}
+This Section contains other information needed to justify the draft (Methodology paragraph 84): the research question, input data, method, results, their link to the proposed norms and the procedure for reproducing the calculations.
+
+\subsection{Research question and input data}
+The research question is stated so that it can be refuted: \textbf{do the published income and category rules give a single, internally consistent result at the thresholds and throughout the declared input domain?} The finding is refuted by an error in transcribing a rule, an omitted applicable exception, a narrower lawful input domain or a disagreement with independent arithmetic.
+
+Official texts of the acts on lex.uz as of 30 September — 1 October 2026 were used: Decree PF-193, Resolution No. 35 (consolidated with amendments of 22 May and 21 July 2026), Decree PF-258, and the Laws “On Normative Legal Acts”, “On Personal Data” and “On Appeals of Individuals and Legal Entities”\cite{pf193,res35,pf258,orq682,pdlaw,appeals}. Resolution No. 35 and Decree PF-193 are officially published in the state language; amendment wording follows the Uzbek text.
+
+Monthly minimum consumption expenditure per person in 2026 is $P=715{,}000$ soum\cite{mpr}; the minimum wage from 1 September 2026 is $M=1{,}360{,}000$ soum\cite{mrot}.
+
+\subsection{Method}
+\subsubsection{Objects and units}
+Let $Y$ be the family’s counted income over three months and $N$ the counted number of members; monthly income per person is $D=Y/(3N)$ (point 18 of the Regulation). The formulas for individual income contributions and the category conditions are checked; full aggregation of $Y$ from administrative data is not reproduced. The September 2026 value of $M$ is used only in dated single-month calculations.
+
+Calculations are performed by the reference program (electronic supplement). Numbers are entered as integers or strings of decimal and rational numbers; exact rational arithmetic is used, so equality comparisons are not distorted by binary rounding. Floating-point numbers, invalid divisors and incomplete data are rejected.
+
+\subsubsection{Prespecified plan and case selection}
+The list of checks and the case grids were fixed in the analysis plan before calculations were run. Income grid: $P$, $1.5P$, $2P$ with offsets of $-1$, $0$, $+1$ soum. Difficult life circumstances: values around $P$, $4P/3$, $1.5P$, $2P$. Land formula: all integer building areas $QM$ from $0$ to $UM$ for $UM=100$, $1{,}000$, $1{,}001$, $2{,}000$ m² (4,105 cases in total). Remittances: an unknown value and values around $2M$ for both country groups under two possible comparison periods. Tax base, self-employment and goats: prespecified points.
+
+The grids are constructed domains, not a sample of families. The number of violating cases in a grid characterises the formula’s domain, not the share of families in Uzbekistan; shares of families can be determined only on the Agency’s data (Section~\ref{sec:agency}).
+
+\subsubsection{Legal computational conditions}
+Subpoint “a” of point 33 refuses recognition as a “state-supported family” or “poor family” where $D>P$; point 32 recognizes the family where there is no refusal ground; subpoints “a” and “b” of point 39 and point 3 of Decree PF-258 assign families with $D<P$ to these categories\cite{res35,pf258}.
+
+For difficult life circumstances $A=3D/4$. Points 34–35 of the Regulation allow inclusion in the “family at the poverty boundary” category where $D>P$ and $A\le1.5P$; subpoint “v” of point 39 and subpoint “v” of point 3 of Decree PF-258 describe this category by the interval from $P$ to $1.5P$. Both readings of the interval were checked: by ordinary and by reduced income.
+
+Household plot area (point 27): $TEM=UM-QM-\min(0.2\,UM;\,200)$ m² over the domain $0\le QM\le UM$; monthly normative income $TEM\cdot0.035\,M\cdot k/100$, where 100 m² is one sotix and $k$ the mahalla land-tax coefficient. The calculations take $k=1$ because actual mahalla coefficients were not used; for another $k$ the amounts are multiplied by $k$.
+
+Remittances (point 26): if the amount of transfers is not determined or is less than $2M$, normative income $cM$ applies, where $c=3$ for countries listed in Annex 6 and $c=2$ for other countries. Because the comparison period is not stated, both readings were calculated: comparison of a monthly amount $q$ and of a three-month total.
+
+\subsubsection{Verification of results}
+Results were verified in four ways: reproduction of the official example in point 30; manual inequalities; a separate checking program that does not use the calculation module and recomputes all 4,105 land cases, 12 hardship cases, 24 tax cases, 16 remittance cases and 6 goat cases with integer expressions; and automated tests. All 39 tests pass (17 checks of the Regulation’s rules, 12 checks of the synthetic scoring example and 10 provenance checks that reject an outdated, altered or incomplete result).
+
+\subsection{Results}
+\subsubsection{Official example and equality to the threshold}\label{res:eq}
+The example in point 30 of the Regulation gives $6{,}480{,}000/(5\cdot3)=\mathbf{432{,}000}$ soum per person per month; the difference from the published answer is zero.
+
+At $D=P=715{,}000$ both conditions $D>P$ and $D<P$ are false. The refusal ground of subpoint “a” of point 33 does not apply and, absent other refusal grounds, the family is recognized under point 32, but it does not satisfy the condition of categories “a” and “b” of point 39. A first-time applicant without a “mahalla seven” recommendation is assigned to no category. The control case of a family previously removed from a primary category falls, at $D=P$, within the interval of subpoint “v” of point 39, confirming that the cases are correctly separated.
+
+The proposed amendment of subpoint “a” of point 33 (“equal to or higher” instead of “higher”) closes this case without amending Decree PF-258: the refusal condition becomes the exact complement of the category condition $D<P$ in point 3 of the Decree.
+
+\subsubsection{Difficult life circumstances: inconsistency under either reading}\label{res:hard}
+The conditions of the special procedure simplify exactly:
+\begin{equation}
+D>P,\quad\frac34D\le\frac32P\quad\Longleftrightarrow\quad P<D\le2P.
+\end{equation}
+If the interval of subpoint “v” of point 39 applies to ordinary income, families with $1.5P<D\le2P$ fall outside the special procedure; example: $D=1{,}287{,}000$ soum ($1.8P$). If the interval applies to reduced income, the condition $A\ge P$ is equivalent to $D\ge4P/3$, and families with $P<D<4P/3$ fall outside; example: $D=858{,}000$ soum ($1.2P$), reduced income $643{,}500<P$. Neither reading reproduces point 35 in full (Figure 1). At $P=715{,}000$: $4P/3=2{,}860{,}000/3$, $1.5P=1{,}072{,}500$, $2P=1{,}430{,}000$ soum.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[width=.94\linewidth,height=6cm,xmin=.85,xmax=2.1,ymin=.5,ymax=3.65,xtick={1,1.333333333,1.5,2},xticklabels={1,$4/3$,$3/2$,2},ytick=\empty,axis y line=none,axis x line=bottom,xlabel={Ordinary monthly per-person income / $P$}]
+\addplot[black,line width=3pt] coordinates {(1,3)(2,3)};
+\addplot[black,line width=3pt,dashed] coordinates {(1,2)(1.5,2)};
+\addplot[black,line width=3pt,dotted] coordinates {(1.333333333,1)(2,1)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,3)(1.5,2)(1.333333333,1)(2,1)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(1,3)(1,2)};
+\node[anchor=west] at (axis cs:.88,3.28) {Points 34–35};
+\node[anchor=west] at (axis cs:.88,2.28) {Point 39(v), ordinary income};
+\node[anchor=west] at (axis cs:.88,1.28) {Point 39(v), reduced income};
+\end{axis}\end{tikzpicture}
+\end{center}
+\textbf{Figure 1.} Income normalised by $P$. A filled endpoint is included, an open one excluded. The top line shows the income conditions of points 34–35; the middle and bottom lines their intersection with the interval of subpoint “v” of point 39 under the two readings. The special procedure also requires the relevant circumstances, a recommendation and compliance with the quota.
+
+\subsubsection{Negative area in the land formula}\label{res:land}
+For $UM\le1{,}000$ the formula equals $TEM=0.8\,UM-QM$ and is negative exactly when $QM>0.8\,UM$; for $UM>1{,}000$ it equals $TEM=UM-QM-200$, negative when $QM>UM-200$. The smallest value over $0\le QM\le UM$ is $-\min(0.2\,UM;200)$ m². Enumeration of 4,105 integer cases confirms the inequalities: 620 cases give a negative area (Table 2, Figure 2).
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
+\toprule
+Plot $UM$ (m²) & Integer test cases & Negative cases & Minimum $TEM$ (m²) & Maximum floor change (soum/month) \\
+\midrule
+\endhead
+100 & 101 & 20 & -20 & 9,520 \\
+1,000 & 1,001 & 200 & -200 & 95,200 \\
+1,001 & 1,002 & 200 & -200 & 95,200 \\
+2,000 & 2,001 & 200 & -200 & 95,200 \\
+Total constructed grid & 4,105 & 620 & — & — \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{Table 2.} Calculation at $M=1{,}360{,}000$ and $k=1$. Counts refer to the constructed grid. The last column is the largest change in the family’s monthly normative income when the zero floor is introduced.
+
+Example: $UM=100$, $QM=90$ gives $TEM=-10$ m² and $-4{,}760$ soum of monthly normative income; a fully built-up 1,000 m² plot gives $-200$ m² and $-95{,}200$ soum. The negative contribution reduces the family’s counted income, although an area cannot physically be negative. The proposed zero floor gives $TEM=0$ and does not change the result where $TEM\ge0$.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.4cm,vertical sep=1.8cm},width=.44\linewidth,height=5cm,xlabel={$QM$ (m²)},ylabel={$TEM$ (m²)},scaled ticks=false]
+\nextgroupplot[title={$UM=100$; 20 negative cases},xmin=0,xmax=100]
+\addplot[black,thick] coordinates {(0,80)(100,-20)};
+\addplot[black,dashed,thick] coordinates {(0,80)(80,0)(100,0)};
+\nextgroupplot[title={$UM=1000$; 200 negative cases},xmin=0,xmax=1000]
+\addplot[black,thick] coordinates {(0,800)(1000,-200)};
+\addplot[black,dashed,thick] coordinates {(0,800)(800,0)(1000,0)};
+\nextgroupplot[title={$UM=1001$; 200 negative cases},xmin=0,xmax=1001]
+\addplot[black,thick] coordinates {(0,801)(1001,-200)};
+\addplot[black,dashed,thick] coordinates {(0,801)(801,0)(1001,0)};
+\nextgroupplot[title={$UM=2000$; 200 negative cases},xmin=0,xmax=2000]
+\addplot[black,thick] coordinates {(0,1800)(2000,-200)};
+\addplot[black,dashed,thick] coordinates {(0,1800)(1800,0)(2000,0)};
+\end{groupplot}\end{tikzpicture}
+\end{center}
+\textbf{Figure 2.} Solid line: current formula; dashed line: with the zero floor; for each $UM$ all integer $QM$ from $0$ to $UM$ are considered.
+
+\subsubsection{Remittances: counted income falls as the transfer rises}\label{res:rem}
+Equality $q=2M$ does not satisfy “less than $2M$”. Under the monthly reading, for countries in Annex 6 counted income falls from $3M$ just below the threshold to $2M$ at the threshold: a transfer of $2{,}719{,}999$ soum is counted as $4{,}080{,}000$, a transfer of $2{,}720{,}000$ as $2{,}720{,}000$. A one-soum rise in the transfer reduces counted income by $1{,}360{,}000$ soum. For other countries the monthly reading is continuous. Under the three-month-total reading, jumps arise for both groups (Table 3, Figure 3).
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax}}
+\toprule
+Conditional period & Country group & Monthly contribution drop (soum) & Per-person drop, four members (soum) \\
+\midrule
+\endhead
+Monthly & Listed countries & 1,360,000 & 340,000 \\
+Monthly & Other countries & 0 & 0 \\
+Three-month total & Listed countries & 9,520,000/3 & 2,380,000/3 \\
+Three-month total & Other countries & 5,440,000/3 & 1,360,000/3 \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{Table 3.} Fall in counted monthly income at the threshold, soum. Rows correspond to the two possible readings of the rule.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.5cm},width=.44\linewidth,height=6cm,xmin=1,xmax=3,ymin=.5,ymax=3.3,xtick={1,2,3},ytick={1,2,3},xlabel={$q/M$},ylabel={Monthly contribution / $M$}]
+\nextgroupplot[title={Monthly comparison}]
+\addplot[black,thick] coordinates {(1,3)(2,3)};
+\addplot[black,dashed,thick] coordinates {(1,2)(2,2)};
+\addplot[black,dashed] coordinates {(2,.5)(2,3.3)};
+\addplot[black,thick] coordinates {(2,2)(3,3)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,2)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(2,3)};
+\nextgroupplot[title={Three-month comparison}]
+\addplot[black,thick] coordinates {(1,3)(2,3)};
+\addplot[black,dashed,thick] coordinates {(1,2)(2,2)};
+\addplot[black,dashed] coordinates {(2,.5)(2,3.3)};
+\addplot[black,thick] coordinates {(2,.666666667)(3,1)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,.666666667)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(2,3)(2,2)};
+\end{groupplot}\end{tikzpicture}
+\end{center}
+\textbf{Figure 3.} Horizontal axis: $q/M$; vertical axis: counted monthly income relative to $M$. Solid horizontal segments: countries in Annex 6; dashed: other countries; vertical line: threshold.
+
+The proposed wording (Material 1, Section II, point 1) applies normative income where the monthly average of transfers from a family member abroad is below the normative income established for that member. Counted income equals $\max(q;\,cM)$ and does not decrease as $q$ rises; this is checked by an automated test on a 1,000-soum grid for both country groups. For other countries ($c=2$) the result coincides with the current monthly reading. Under both readings of the current rule, the proposed wording reduces no family’s counted income. For families with transfers from Annex 6 countries between $2M$ and $3M$ per month, counted income rises to $3M$, and some such families may lose eligibility; the alternative way of removing the non-monotonicity and its consequences are set out in Section~\ref{sec:fin}.
+
+\subsubsection{Self-employment coefficients, tax base and livestock}\label{res:coef}
+Point 23 sets eight coefficients of monthly normative income for the self-employed: four territory types and two sexes. The difference between the male and female coefficient in each territory equals $0.4M=544{,}000$ soum per month (Table 4). The calculation reflects normative income, not actual earnings.
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
+\toprule
+Geographic class & Male base & Female base & Informal male & Informal female \\
+\midrule
+\endhead
+Tashkent & 3,672,000 & 3,128,000 & 3,855,600 & 3,284,400 \\
+Nukus / regional centres & 3,264,000 & 2,720,000 & 3,427,200 & 2,856,000 \\
+Other cities & 2,856,000 & 2,312,000 & 2,998,800 & 2,427,600 \\
+Other units & 2,448,000 & 1,904,000 & 2,570,400 & 1,999,200 \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{Table 4.} Monthly normative contributions at $M=1{,}360{,}000$; the informal contribution multiplies the base by 1.05 under the conditions of point 25.
+
+Under point 24 the tax base equals the minimum at a three-month tax of $T=6B_0/5$; below it $B_0$ applies, above it the base rises with slope $5/6$. The rule is continuous and monotone; all 24 cases agree with the piecewise expression. Under point 28, 14 goats give zero ($14\cdot0.07=0.98$ equivalent head), 15 give 34,000 soum per month, 20 give 272,000 and 100 give 4,080,000. The Regulation sets no rounding rule for fractional equivalent heads; the methodology must determine it (Material 1, Section I, point 3).
+
+\subsubsection{Specification questions}\label{res:spec}
+The calendar offset of the three-month period in point 18 is confirmed by the example in point 30 (application in September — income for May–July) and should be recorded in the methodology as a rule. Foreign currency is converted at the rate on the date YAMIH receives the information (point 19); this date must be retained with the result so the calculation can be reproduced (Material 1, Section I, point 17).
+
+\subsection{From results to the proposed norms}
+\begingroup\fontsize{12bp}{14.4bp}\selectfont
+\begin{longtable}{L{0.36\linewidth} L{\dimexpr0.64\linewidth-4\tabcolsep}}
+\toprule
+Result & Proposed norm (Material 1)\\\midrule\endhead
+Equality to the threshold undetermined (\ref{res:eq}) & Section II, point 3; Section I, points 4 and 6 — category at equality and examples in the new methodology.\\\midrule
+Interval of the special procedure inconsistent (\ref{res:hard}) & Question for the developer’s decision (Section~\ref{sec:q}); Section I, point 5 — a single result where exceptions apply.\\\midrule
+Negative area (\ref{res:land}) & Section II, point 2; Section I, point 11 — every threshold and exception is in the control example set.\\\midrule
+Non-monotonicity and undefined period for remittances (\ref{res:rem}) & Section II, point 1; Section I, point 3 — source, unit and period of each criterion.\\\midrule
+Rounding and exchange rate (\ref{res:coef}, \ref{res:spec}) & Section I, points 3 and 17.\\\midrule
+Automated decision without explained grounds (Section~\ref{sec:basis}) & Section II, point 4; Section I, points 17–21.\\
+\bottomrule
+\end{longtable}\endgroup
+
+The errors were found precisely at thresholds, in exceptions and in units. Random control examples do not detect them: for instance, in an income grid with a one-soum step the equality $D=P$ is one case of three around the threshold, and in a real income distribution it is a rare value. That is why point 11 of Section I of Material 1 requires the example set to include each threshold, equality to it and each exception.
+
+\subsection{Application to the Agency’s data}\label{sec:agency}
+The inconsistencies follow from the text of the norms and exist for any data; the number of affected families determines the scale, not the existence of the error. The Agency can determine that number on its data with the attached program without transferring personal data outside the Agency:
+\begin{enumerate}[leftmargin=1.27cm]
+\item plots with $QM>0.8\,UM$ (where $UM\le1{,}000$ m²) or $QM>UM-200$ — affected by the correction of point 27;
+\item families with $D=P$ — affected by the correction of subpoint “a” of point 33;
+\item families whose counted income differs between the current and the proposed rule: under the monthly reading, transfers from Annex 6 countries between $2M$ and $3M$ per month; under the three-month-total reading, also transfers from any country with a monthly average between $2M/3$ and $2M$ — affected by the correction of point 26;
+\item families included under point 35 with $1.5P<D\le2P$ or $P<D<4P/3$ — affected by the question in Subsection~\ref{res:hard}.
+\end{enumerate}
+For each group the program compares the result of the current and the proposed rule. The calculation is run inside the Agency by an authorized operator; only aggregate numbers leave the Agency.
+
+\subsection{Conclusions}
+\begin{enumerate}[leftmargin=1.27cm]
+\item The published calculation rules are reproducible: the official example gives 432,000 soum with no difference.
+\item Inconsistencies are demonstrated in four rules: an undetermined result at income equal to $P$; an inconsistent interval of the special procedure under either reading; a negative area where buildings cover more than 80\,\% of a plot of up to 1,000 m² (for larger plots, where $QM>UM-200$); and a fall in counted income as a transfer rises.
+\item Each inconsistency is removed by amending the text of the norm (Material 1, Section II) or by the developer’s decision (Section~\ref{sec:q}), not by a software setting.
+\item For the new point-based methodology, the same classes of error are excluded by the requirements of Section I of Material 1: a determined category at equality, a single result where exceptions apply, mandatory control examples at every threshold, and retention of the grounds of each decision.
+\end{enumerate}
+
+\subsection{Reproduction}
+The electronic supplement contains the analysis plan, a dated extraction of the rules (\nolinkurl{data/rules/legal_specification.json}), control cases, the program (\nolinkurl{src/social_registry/}), tests (\nolinkurl{tests/}), the independent check and results (\nolinkurl{results/}). No network access is needed; no random numbers are used. Each result stores SHA-256 hashes of the specification and code, the command and the run time; the checking program rejects a result if the code or inputs have changed.
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{verbatim}
+python scripts/run_analysis.py --self-test
+python scripts/run_analysis.py --legal-audit
+python scripts/verify_results.py
+python scripts/run_project.py
+\end{verbatim}
+\endgroup
 
 \section{Comparison table}\label{sec:cmp}
 The Regulation is officially published in the state language; therefore the current and proposed wording is given in Uzbek, with a translation of the changed words in the justification column. Changed words of the current wording are italic and underlined; new words are bold (Methodology paragraph 85).
@@ -174,5 +395,9 @@ Current wording & Proposed wording & Justification\\\midrule\endhead
 \bibitem{chile} Ministerio de Desarrollo Social y Familia (Chile), División de Focalización. Orientaciones para el cálculo de la Calificación Socioeconómica. June 2024, pp. 4, 18. \url{https://www.registrosocial.gob.cl/docs/Orientaciones_para_el_calculo_de_la_Calificacion_Socieconomica.pdf}.
 \bibitem{wb2025} Guven M., Yeachuri A., Almenfi M. Global Insights on Social Registries: Coverage and Beyond. World Bank, June 2025, pp. 3, 13, 25–26.
 \bibitem{portal} Portal for discussion of draft normative legal acts. List of drafts placed for discussion from 11 September to 1 October 2026; checked 1 October 2026. \url{https://regulation.adliya.uz}.
+\bibitem{mrot} Government portal. Announcement of 23 June 2026 of the minimum wage of 1,360,000 soum from 1 September 2026. \url{https://gov.uz/oz/bv/news/view/182984}.
+\bibitem{mpr} National Statistics Committee. Announcement on minimum consumption expenditure for 2026, 4 March 2026. \url{https://stat.uz/uz/matbuot-markazi/qo-mita-yangiliklar/67179-minimal-istemol-kharazhatlari-ijmati-t-risida-2}.
+\bibitem{wb2026} World Bank. Rising to Prosperity: Uzbekistan — Broadening Opportunities for All. Poverty and Equity Assessment, 2026, p. 40. \url{https://documents1.worldbank.org/curated/en/099091826081016988/pdf/P507037-a67dabb6-2302-46a0-be08-a951d35f90c3.pdf}.
+\bibitem{appeals} Law of the Republic of Uzbekistan “On Appeals of Individuals and Legal Entities”, Articles 3, 6, 27–28. \url{https://lex.uz/docs/-3336169}.
 \end{thebibliography}\endgroup
 \end{document}

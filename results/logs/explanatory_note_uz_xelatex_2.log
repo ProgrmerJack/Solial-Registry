@@ -40,7 +40,142 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty)
 (/usr/share/texmf-dist/tex/latex/tools/array.sty)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty)
-(/home/xola/GitHub/Solial Registry/tex/ulem.sty)
+(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+ (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
+oader.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+ext.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
+x)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
+.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-xetex.def
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-dvipdfmx.def))))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathmorphing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathreplacing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathreplacing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
+.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+plotmarks.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex))
+)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots
+.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex)) (/home/xola/GitHub/Solial Registry/tex/ulem.sty)
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty)
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -69,233 +204,375 @@ For additional information on amsmath, use the `?' option.
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
+
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.out)
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.out)
-Underfull \hbox (badness 1484) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\TU/LiberationSerif(0)/m/n/14.05249 2026-yil 3-oktabrdagi tahrir. Tuzilishi “No
+rmativ-huquqiy hujjatlar
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\TU/LiberationSerif(0)/m/n/14.05249 toʻgʻrisida”gi Qonunga ilova qilingan Yagon
+a uslubiyotning 84-bandiga
+
+Underfull \hbox (badness 1484) in paragraph at lines 53--54
 \TU/LiberationSerif(0)/m/n/14.05249 PF-193-son Farmon 13-bandining “a” kichik b
 andida 2027-yil 1-yanvardan
 
-Underfull \hbox (badness 3590) in paragraph at lines 46--47
+Underfull \hbox (badness 3590) in paragraph at lines 53--54
 \TU/LiberationSerif(0)/m/n/14.05249 Ijtimoiy reyestrga kiritish oilaning \TU/Li
 berationSerif(0)/m/it/14.05249 moliyaviy holatidan tashqari \TU/LiberationSerif
 (0)/m/n/14.05249 surunkali
+
+Underfull \hbox (badness 3281) in paragraph at lines 61--62
+\TU/LiberationSerif(0)/m/n/14.05249 formulasi 2026-yil boshida qayta koʻrib chi
+qilgani, uning samaradorligini
 [1]
-Underfull \hbox (badness 1052) in paragraph at lines 56--57
+Underfull \hbox (badness 1052) in paragraph at lines 63--64
 \TU/LiberationSerif(0)/b/n/14.05249 hisob-kitoblar bilan isbotlangan. \TU/Liber
 ationSerif(0)/m/n/14.05249 Ulardan uchtasi (Nizomning 26, 27 va
 
-Underfull \hbox (badness 1742) in paragraph at lines 56--57
+Underfull \hbox (badness 1742) in paragraph at lines 63--64
 \TU/LiberationSerif(0)/m/n/14.05249 (1-jadval); ogʻir hayotiy vaziyatga tushgan
  oilalarga oid toʻrtinchisi ishlab
 
-Underfull \hbox (badness 4279) in paragraph at lines 56--57
+Underfull \hbox (badness 4279) in paragraph at lines 63--64
 \TU/LiberationSerif(0)/m/n/14.05249 Nizomning 37-bandi “Shaxsga doir maʼlumotla
 r toʻgʻrisida”gi Qonunning
 
-Underfull \hbox (badness 2042) in paragraph at lines 56--57
+Underfull \hbox (badness 2042) in paragraph at lines 63--64
 \TU/LiberationSerif(0)/m/n/14.05249 24-moddasi talablarini taʼminlamaydi. Oilan
 ing moliyaviy holati 2027-yil
  [2]
-Underfull \hbox (badness 1460) in paragraph at lines 70--71
-[]\TU/LiberationSerif(0)/m/n/14.05249 Jadvaldagi barcha raqamlar 3-materialning
- elektron ilovasidagi dastur
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]\TU/LiberationSerif(0)/m/n/14.05249 Jadvaldagi barcha raqamlar elektron ilova
+dagi dastur bilan qayta
 
-Underfull \hbox (badness 1748) in paragraph at lines 70--71
-\TU/LiberationSerif(0)/m/n/14.05249 formulasi boʻyicha 4105 ta tuzilgan holatni
-ng mustaqil arifmetik nazorati,
-
-Underfull \hbox (badness 4543) in paragraph at lines 73--74
+Underfull \hbox (badness 1701) in paragraph at lines 77--78
+\TU/LiberationSerif(0)/m/n/14.05249 hisoblanadi; usul va toʻliq natijalar []13[
+]-boʻlimda (39 ta avtomatlashtirilgan
+[3]
+Underfull \hbox (badness 4543) in paragraph at lines 80--81
 \TU/LiberationSerif(0)/m/n/14.05249 0009-0003-5482-5526) tomonidan tayyorlangan
 . PF-193-son Farmonning
 
-Underfull \hbox (badness 3386) in paragraph at lines 73--74
+Underfull \hbox (badness 3386) in paragraph at lines 80--81
 \TU/LiberationSerif(0)/m/n/14.05249 14-bandi boʻyicha loyihaning rasmiy ishlab 
 chiquvchilari — Agentlik va
 
-Underfull \hbox (badness 1694) in paragraph at lines 73--74
+Underfull \hbox (badness 1694) in paragraph at lines 80--81
 \TU/LiberationSerif(0)/m/n/14.05249 Iqtisodiyot va moliya vazirligi. “Normativ-
 huquqiy hujjatlar toʻgʻrisida”gi
 
-Underfull \hbox (badness 2134) in paragraph at lines 73--74
+Underfull \hbox (badness 2134) in paragraph at lines 80--81
 \TU/LiberationSerif(0)/m/n/14.05249 Qonunning 23-moddasi ishlab chiquvchiga ilm
 iy tadqiqotlar natijalarini va
 
-Underfull \hbox (badness 6125) in paragraph at lines 73--74
+Underfull \hbox (badness 6125) in paragraph at lines 80--81
 \TU/LiberationSerif(0)/m/n/14.05249 va mutaxassislarning tavsiyalarini umumlash
 tirish va ulardan foydalanish
-[3]
-Underfull \hbox (badness 1259) in paragraph at lines 76--77
+
+Underfull \hbox (badness 1259) in paragraph at lines 83--84
 \TU/LiberationSerif(0)/m/n/14.05249 chiqishini, saqlangan maʼlumotlar boʻyicha 
 qayta hisoblanishi mumkinligini
 
-Underfull \hbox (badness 5667) in paragraph at lines 76--77
+Underfull \hbox (badness 5667) in paragraph at lines 83--84
 \TU/LiberationSerif(0)/m/n/14.05249 va ariza beruvchiga tushuntirilishini taʼmi
 nlash. Vazifalar: chegaraviy
 
-Underfull \hbox (badness 4819) in paragraph at lines 76--77
+Underfull \hbox (badness 4819) in paragraph at lines 83--84
 \TU/LiberationSerif(0)/m/n/14.05249 qiymatlardagi noaniqlikni bartaraf etish; o
 ʻzgartishlarni qoʻllashdan oldin
- [4]
-Underfull \hbox (badness 7832) in paragraph at lines 103--104
+ [4] [5]
+Underfull \hbox (badness 7832) in paragraph at lines 111--112
 []\TU/LiberationSerif(0)/m/n/14.05249 Uslubiyotning har bir chegaraviy qiymati 
 uchun tenglikdagi toifa
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 []\TU/LiberationSerif(0)/m/n/14.05249 Har bir baholash natijasi saqlangan maʼlu
 motlar boʻyicha qayta
 
-Underfull \hbox (badness 2197) in paragraph at lines 105--106
-\TU/LiberationSerif(0)/m/n/14.05249 hisoblanishi mumkin; xato aniqlanganda barc
-ha taʼsirlangan qarorlar
-
-Underfull \hbox (badness 3219) in paragraph at lines 106--107
+Underfull \hbox (badness 3219) in paragraph at lines 114--115
 []\TU/LiberationSerif(0)/m/n/14.05249 Ariza beruvchi “Shaxsga doir maʼlumotlar 
 toʻgʻrisida”gi Qonunning
-[5]
-Underfull \hbox (badness 1917) in paragraph at lines 110--111
+[6]
+Underfull \hbox (badness 1917) in paragraph at lines 118--119
 \TU/LiberationSerif(0)/m/n/14.05249 Chili Ijtimoiy rivojlanish va oila vazirlig
 i 2023-yil 15-noyabrdagi 082-son
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 \TU/LiberationSerif(0)/m/n/14.05249 rezolyutsiya bilan tasdiqlangan Uy xoʻjalik
 lari ijtimoiy reyestrining
 
-Underfull \hbox (badness 3612) in paragraph at lines 110--111
+Underfull \hbox (badness 3612) in paragraph at lines 118--119
 \TU/LiberationSerif(0)/m/n/14.05249 reyestrlardagi eskirgan maʼlumotlar kiritis
 h va chetda qoldirish xatolariga
 
-Underfull \hbox (badness 2469) in paragraph at lines 110--111
+Underfull \hbox (badness 2469) in paragraph at lines 118--119
 \TU/LiberationSerif(0)/m/n/14.05249 olib kelishini, shikoyatlarni koʻrib chiqis
 h mexanizmlari esa shaffoflik va
 
-Underfull \hbox (badness 1360) in paragraph at lines 115--116
+Underfull \hbox (badness 1360) in paragraph at lines 123--124
 []\TU/LiberationSerif(0)/b/n/14.05249 Ishlab chiquvchi hal qilishi lozim boʻlga
 n masala. \TU/LiberationSerif(0)/m/n/14.05249 Ogʻir hayotiy
 
-Underfull \hbox (badness 1796) in paragraph at lines 117--118
+Underfull \hbox (badness 1796) in paragraph at lines 125--126
 []\TU/LiberationSerif(0)/m/n/14.05249 oraliq oddiy daromadga qoʻllanilsa, darom
 adi $[] [][][] [][][]$ soʻm ($[][][][]$)
 
-Underfull \hbox (badness 3449) in paragraph at lines 120--121
+Underfull \hbox (badness 3449) in paragraph at lines 128--129
 \TU/LiberationSerif(0)/m/n/14.05249 Buni bartaraf etish uchun ushbu tartibga qa
 ysi daromad va qaysi oraliq
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 \TU/LiberationSerif(0)/m/n/14.05249 qoʻllanilishini tanlash, Nizomga va zarur b
 oʻlsa PF-258-son Farmonga
 
-Underfull \hbox (badness 2293) in paragraph at lines 123--124
+Underfull \hbox (badness 2293) in paragraph at lines 131--132
 \TU/LiberationSerif(0)/m/n/14.05249 II boʻlim Vazirlar Mahkamasining 2026-yil 2
 9-yanvardagi 35-son qaroriga
 
-Underfull \hbox (badness 1383) in paragraph at lines 123--124
+Underfull \hbox (badness 1383) in paragraph at lines 131--132
 \TU/LiberationSerif(0)/m/n/14.05249 oʻzgartish kiritadi. 33-bandga oʻzgartish N
 izomni PF-258-son Farmonning
 
-Underfull \hbox (badness 2293) in paragraph at lines 123--124
+Underfull \hbox (badness 2293) in paragraph at lines 131--132
 \TU/LiberationSerif(0)/m/n/14.05249 PF-258-son Farmonga oʻzgartish faqat []7[]-
 boʻlimdagi masala boʻyicha talab
-[6]
-Underfull \hbox (badness 1484) in paragraph at lines 126--127
-\TU/LiberationSerif(0)/m/n/14.05249 I boʻlimning 9, 15 va 16-bandlari matnni ta
-krorlamaslik uchun xuddi shu
+[7]
+Underfull \hbox (badness 3635) in paragraph at lines 134--135
+\TU/LiberationSerif(0)/m/n/14.05249 boʻlimning 18, 17 va 20-bandlariga havola q
+iladi (Yagona uslubiyotning
 
-Underfull \hbox (badness 5475) in paragraph at lines 126--127
-\TU/LiberationSerif(0)/m/n/14.05249 boʻlimning 8, 14 va 12-bandlariga havola qi
-ladi (Yagona uslubiyotning
+Underfull \hbox (badness 2443) in paragraph at lines 134--135
+\TU/LiberationSerif(0)/m/n/14.05249 13-bandi). 13-band maʼlumotlar almashinuvid
+agi nosozliklarda algoritmni
 
-Underfull \hbox (badness 4193) in paragraph at lines 126--127
-\TU/LiberationSerif(0)/m/n/14.05249 13-bandi). 8-band maʼlumotlar almashinuvida
-gi nosozliklarda algoritmni
-
-Underfull \hbox (badness 1424) in paragraph at lines 126--127
+Underfull \hbox (badness 1424) in paragraph at lines 134--135
 \TU/LiberationSerif(0)/m/n/14.05249 havola qiladi: pastroq yuridik kuchga ega b
 oʻlgan aniq hujjatlarga havola
 
-Underfull \hbox (badness 1546) in paragraph at lines 131--132
+Underfull \hbox (badness 1546) in paragraph at lines 139--140
 []\TU/LiberationSerif(0)/m/n/14.05249 I boʻlim mavjud “YAMIH” AT, foydalanishga
  topshirishning mavjud
 
-Underfull \hbox (badness 6078) in paragraph at lines 131--132
+Underfull \hbox (badness 6078) in paragraph at lines 139--140
 \TU/LiberationSerif(0)/m/n/14.05249 tartibi va mavjud kanallar — Yagona interak
 tiv davlat xizmatlari
 
-Underfull \hbox (badness 3323) in paragraph at lines 131--132
+Underfull \hbox (badness 3323) in paragraph at lines 139--140
 \TU/LiberationSerif(0)/m/n/14.05249 organlar, lavozimlar, axborot tizimlari yok
 i ariza berish bosqichlari
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []\TU/LiberationSerif(0)/m/n/14.05249 26, 27 va 33-bandlarga oʻzgartishlar yord
 am oluvchilar doirasini
 
-Underfull \hbox (badness 2310) in paragraph at lines 133--134
+Underfull \hbox (badness 2310) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 kengaytirmaydi: oilaning hisobga olinadigan
  daromadi kamaymaydi,
 
-Underfull \hbox (badness 1742) in paragraph at lines 133--134
+Underfull \hbox (badness 1742) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 toifa belgilanmagan holat esa bartaraf etil
 adi. 26-bandga oʻzgartish
 
-Underfull \hbox (badness 1565) in paragraph at lines 133--134
+Underfull \hbox (badness 1565) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 qismi Reyestrga kiritilish huquqini yoʻqoti
 shi mumkin. Agar ishlab
 
-Underfull \hbox (badness 2197) in paragraph at lines 133--134
+Underfull \hbox (badness 2197) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 chiquvchi buni maqsadga muvofiq deb hisobla
 masa, nomonotonlikni
 
-Underfull \hbox (badness 1297) in paragraph at lines 133--134
+Underfull \hbox (badness 1297) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 orqali bartaraf etish mumkin; bu variant yo
 rdam oluvchilar doirasini
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 \TU/LiberationSerif(0)/m/n/14.05249 boʻyicha ilova qilingan dastur yordamida, s
 haxsga doir maʼlumotlarni
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 \TU/LiberationSerif(0)/m/n/14.05249 Taklif “Normativ-huquqiy hujjatlar toʻgʻris
 ida”gi Qonunning 20-moddasi
 
-Underfull \hbox (badness 1163) in paragraph at lines 138--139
+Underfull \hbox (badness 1163) in paragraph at lines 146--147
 \TU/LiberationSerif(0)/m/n/14.05249 va “Jismoniy va yuridik shaxslarning muroja
 atlari toʻgʻrisida”gi Qonunning
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 \TU/LiberationSerif(0)/m/n/14.05249 toʻgʻrisida”gi Qonunning 23-moddasi loyiha 
 muhokamasi materiallarini
 
-Underfull \hbox (badness 1264) in paragraph at lines 138--139
+Underfull \hbox (badness 1264) in paragraph at lines 146--147
 \TU/LiberationSerif(0)/m/n/14.05249 21-moddaning ikkinchi qismi eng muhim ijtim
 oiy-iqtisodiy ahamiyatga ega
-[7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[8] [9]
+Underfull \hbox (badness 1383) in paragraph at lines 163--164
+\TU/LiberationSerif(0)/m/n/14.05249 Ushbu boʻlim loyihani asoslash uchun zarur 
+boʻlgan boshqa maʼlumotlarni
+
+Underfull \hbox (badness 1715) in paragraph at lines 166--167
+\TU/LiberationSerif(0)/b/n/14.05249 natija beradimi? \TU/LiberationSerif(0)/m/n
+/14.05249 Xulosa qoidani koʻchirishdagi xato, qoʻllanilishi lozim
+
+Underfull \hbox (badness 2846) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/14.05249 matnlari ishlatilgan: PF-193-son Farmon, 35
+-son qaror (2026-yil 22-may
+
+Underfull \hbox (badness 1067) in paragraph at lines 168--169
+\TU/LiberationSerif(0)/m/n/14.05249 va 21-iyuldagi oʻzgartishlar bilan), PF-258
+-son Farmon, “Normativ-huquqiy
+
+Underfull \hbox (badness 2443) in paragraph at lines 174--175
+\TU/LiberationSerif(0)/m/n/14.05249 (Nizomning 18-bandi). Alohida daromad turla
+rining ulushlari formulalari
+
+Underfull \hbox (badness 1052) in paragraph at lines 174--175
+\TU/LiberationSerif(0)/m/n/14.05249 va toifa shartlari tekshiriladi; $[]$ ni ma
+ʼmuriy maʼlumotlardan toʻliq yigʻish
+
+Underfull \hbox (badness 3849) in paragraph at lines 174--175
+\TU/LiberationSerif(0)/m/n/14.05249 takrorlanmaydi. 2026-yil sentabridagi $[]$ 
+qiymati faqat bir oylik sanali
+[10]
+Underfull \hbox (badness 1783) in paragraph at lines 184--185
+\TU/LiberationSerif(0)/m/n/14.05249 boʻlmaganda oilani eʼtirof etadi; 39-bandni
+ng “a”, “b” kichik bandlari va
+
+Underfull \hbox (badness 2617) in paragraph at lines 184--185
+\TU/LiberationSerif(0)/m/n/14.05249 PF-258-son Farmonning 3-bandi bu toifalarga
+ $[] [] []$ boʻlgan oilalarni
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+[]\TU/LiberationSerif(0)/m/n/14.05249 Tomorqa maydoni (27-band): $[] [] [][] []
+ [][]$ sohasida
+
+Underfull \hbox (badness 2096) in paragraph at lines 188--189
+[][][] [] [][] [] [][] [] [][][][][] [][][]  [][][][]$ \TU/LiberationSerif(0)/m
+/n/14.05249 m²; oylik normativ daromad
+
+Underfull \hbox (badness 3690) in paragraph at lines 190--191
+[]\TU/LiberationSerif(0)/m/n/14.05249 Pul oʻtkazmalari (26-band): oʻtkazmalar m
+iqdori aniqlanmasa yoki
+[11]
+Underfull \hbox (badness 4967) in paragraph at lines 201--202
+\TU/LiberationSerif(0)/m/n/14.05249 oʻrniga “teng yoki yuqori”) bu holatni PF-2
+58-son Farmonga oʻzgartish
+[12]
+Underfull \hbox (badness 2088) in paragraph at lines 226--227
+$[][] [] [] [][][]$ \TU/LiberationSerif(0)/m/n/14.05249 boʻlganda formula $[][]
+[] [] [][][] [][] [] [][]$ ga teng va
+
+Underfull \hbox (badness 4913) in paragraph at lines 226--227
+\TU/LiberationSerif(0)/m/n/14.05249 aynan $[][] [] [][][] [][]$ boʻlganda manfi
+y; $[][] [] [] [][][]$ boʻlganda
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|$[][]$ \TU/LiberationSerif(0)/m/n/11.04124 maydon
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Butun qiymatli
+
+Underfull \hbox (badness 4060) in paragraph at lines 231--231
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng kam $[][][]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Eng koʻp
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\TU/LiberationSerif(0)/m/n/11.04124 oʻzgarish
+[13]
+Underfull \hbox (badness 3623) in paragraph at lines 266--267
+\TU/LiberationSerif(0)/m/n/14.05249 sifatida, $[] [][][] [][][]$ soʻm oʻtkazma 
+esa $[] [][][] [][][]$ sifatida hisobga olinadi.
+
+Underfull \hbox (badness 1087) in paragraph at lines 271--271
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Oylik ulush pasayishi
+
+Underfull \hbox (badness 1460) in paragraph at lines 271--272
+[]|\TU/LiberationSerif(0)/m/n/11.04124 4 aʼzoda jon boshiga
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
+[14]
+Underfull \hbox (badness 1490) in paragraph at lines 304--305
+\TU/LiberationSerif(0)/m/n/14.05249 aʼzosidan kelgan oʻtkazmalarning bir oylik 
+oʻrtacha miqdori unga nisbatan
+
+Underfull \hbox (badness 5652) in paragraph at lines 304--305
+\TU/LiberationSerif(0)/m/n/14.05249 kiritilish huquqini yoʻqotishi mumkin; nomo
+notonlikni bartaraf etishning
+
+Underfull \hbox (badness 6252) in paragraph at lines 316--316
+[]|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+\TU/LiberationSerif(0)/m/n/14.05249 18-banddagi uch oylik davrning kalendar sil
+jishi 30-band misoli bilan
+
+Underfull \hbox (badness 5231) in paragraph at lines 346--347
+\TU/LiberationSerif(0)/m/n/14.05249 mavjud; taʼsirlangan oilalar soni xatoning 
+mavjudligini emas, koʻlamini
+[16]
+Underfull \hbox (badness 1400) in paragraph at lines 353--354
+\TU/LiberationSerif(0)/m/n/14.05249 Har bir guruh uchun dastur amaldagi va takl
+if etilayotgan qoida natijasini
+
+Underfull \hbox (badness 4660) in paragraph at lines 358--359
+[]\TU/LiberationSerif(0)/m/n/14.05249 Toʻrtta normada nomuvofiqliklar isbotlang
+an: daromad $[]$ ga teng
+
+Underfull \hbox (badness 1009) in paragraph at lines 358--359
+\TU/LiberationSerif(0)/m/n/14.05249 boʻlganda aniqlanmagan natija; alohida tart
+ib oraligʻining har qanday
+
+Underfull \hbox (badness 3049) in paragraph at lines 359--360
+\TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirish (1-material, II boʻlim) yoki i
+shlab chiquvchining qarori
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 []\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2019-yil 2-iyu
 ldagi OʻRQ-547-son “Shaxsga doir
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chili), División de Focalización.
 
-Underfull \hbox (badness 1371) in paragraph at lines 177--178
+Underfull \hbox (badness 1371) in paragraph at lines 398--399
 \TU/LiberationSerif(0)/m/n/12.045 Orientaciones para el cálculo de la Calificac
 ión Socioeconómica. 2024-yil iyun, 4,
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 \TU/LiberationSerif(0)/m/n/12.045 18-betlar. []$[][][][][] [] [] [] [][][] [] [
 ][][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][]
 [][][][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
-[10]
-Underfull \hbox (badness 6001) in paragraph at lines 179--180
+[19]
+Underfull \hbox (badness 6001) in paragraph at lines 400--401
 []\TU/LiberationSerif(0)/m/n/12.045 Normativ-huquqiy hujjatlar loyihalari muhok
 amasi portali. 2026-yil 11-sentabrdan
 
-Underfull \hbox (badness 4765) in paragraph at lines 179--180
+Underfull \hbox (badness 4765) in paragraph at lines 400--401
 \TU/LiberationSerif(0)/m/n/12.045 1-oktabrgacha muhokamaga joylashtirilgan loyi
 halar roʻyxati; 2026-yil 1-oktabrda
-[11]
+
+Underfull \hbox (badness 8075) in paragraph at lines 402--403
+[]\TU/LiberationSerif(0)/m/n/12.045 Milliy statistika qoʻmitasi. 2026-yil uchun
+ minimal isteʼmol xarajatlari haqida
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\TU/LiberationSerif(0)/m/n/12.045 xabar, 2026-yil 4-mart. []$[][][][][] [] [] [
+] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][
+][][][][][][][][][][][][][][] []
+[20]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux) )
 (see the transcript file for additional information)
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_uz.pdf (11 pages).
+ry_note_uz.pdf (20 pages).
 Transcript written on /home/xola/GitHub/Solial Registry/results/documents/expla
 natory_note_uz.log.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  2 OCT 2026 00:06
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 02:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,26 +871,26 @@ Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 )
 \openout1 = `normative_act_draft_uz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -928,26 +928,26 @@ LaTeX Font Info:    ... okay on input line 38.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/texgyretermes-math.otf(1)/m/n --> TU/LiberationSerif
-(0)/m/n on input line 38.
+(0)/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
-ne 38.
+ne 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
-e 38.
+e 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LiberationSerif(0)/m/n on input lin
-e 38.
+e 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LiberationSerif(0)/b/n on input li
-ne 38.
+ne 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/m/n on input line
- 38.
+ 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(0)/b/n on input line
- 38.
-Package hyperref Info: Link coloring OFF on input line 38.
+ 39.
+Package hyperref Info: Link coloring OFF on input line 39.
 
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_uz.out
 )
@@ -958,146 +958,144 @@ Package hyperref Info: Link coloring OFF on input line 38.
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-Underfull \hbox (badness 6001) in paragraph at lines 45--46
+Underfull \hbox (badness 6001) in paragraph at lines 46--47
 \TU/LiberationSerif(0)/m/n/14.05249 kiritishning yangi tizimi toʻgʻrisida ishla
 b chiqilayotgan hujjatga kiritish
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 45--46
+Underfull \hbox (badness 1789) in paragraph at lines 46--47
 \TU/LiberationSerif(0)/m/n/14.05249 uchun taklif etiladi. II boʻlim amaldagi Ij
 timoiy reyestrni yuritish tartibi
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 45--46
+Underfull \hbox (badness 1077) in paragraph at lines 46--47
 \TU/LiberationSerif(0)/m/n/14.05249 toʻgʻrisidagi nizomga oʻzgartishlarni oʻz i
 chiga oladi. Ishlab chiqilayotgan
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\TU/LiberationSerif(0)/m/n/14.05249 hisob-kitob versiyasi —
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 60--61
 []\TU/LiberationSerif(0)/m/n/14.05249 nazorat hisob-kitobi — baholash natijasin
 i tekshirilayotgan dasturiy
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 55--56
+Underfull \hbox (badness 6477) in paragraph at lines 60--61
 \TU/LiberationSerif(0)/m/n/14.05249 taʼminotdan foydalanmasdan koʻp oʻlchovli b
 aholash uslubiyoti boʻyicha
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 67--68
-| \TU/LiberationSerif(0)/m/n/14.05249 7. “YAMIH” ATning elektron soʻroviga javo
-b kelib tushmaganligi
+Underfull \hbox (badness 1852) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 — “YAMIH” AT) hisob-kitoblarining koʻp oʻlc
+hovli baholash uslubiyotiga
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 67--68
-\TU/LiberationSerif(0)/m/n/14.05249 oilada maʼlumotlari soʻralgan daromad yoki 
-mol-mulk mavjud emasligiga
+Underfull \hbox (badness 2261) in paragraph at lines 64--65
+\TU/LiberationSerif(0)/m/n/14.05249 muvofiqligi uchun Oʻzbekiston Respublikasi 
+Prezidenti huzuridagi Ijtimoiy
  []
 
 [1
 
 ]
-Underfull \hbox (badness 1496) in paragraph at lines 69--70
-\TU/LiberationSerif(0)/m/n/14.05249 qoʻllanilishidan oldin, ushbu boʻlimning 13
--bandida nazarda tutilgan hollar
+Underfull \hbox (badness 1454) in paragraph at lines 82--83
+| \TU/LiberationSerif(0)/m/n/14.05249 8. Baholash natijasi “YAMIH” ATda faqat k
+oʻp oʻlchovli baholash
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 69--70
-\TU/LiberationSerif(0)/m/n/14.05249 bundan mustasno, “YAMIH” AT natijalarini na
-zorat hisob-kitoblari bilan
+Underfull \hbox (badness 2158) in paragraph at lines 84--85
+| \TU/LiberationSerif(0)/m/n/14.05249 9. “YAMIH” ATning elektron soʻroviga javo
+b kelib tushmaganligi
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 77--78
-| \TU/LiberationSerif(0)/m/n/14.05249 12. Har bir baholash natijasi uchun “YAMI
-H” ATda koʻp oʻlchovli
+Underfull \hbox (badness 2961) in paragraph at lines 84--85
+\TU/LiberationSerif(0)/m/n/14.05249 oilada maʼlumotlari soʻralgan daromad yoki 
+mol-mulk mavjud emasligiga
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 77--78
-\TU/LiberationSerif(0)/m/n/14.05249 baholash uslubiyotining qoʻllanilgan tahrir
-i rekvizitlari, dasturiy taʼminot
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+| \TU/LiberationSerif(0)/m/n/14.05249 13. Markaz koʻp oʻlchovli
+ []
+
+[2]
+Underfull \hbox (badness 5175) in paragraph at lines 100--101
+\TU/LiberationSerif(0)/m/n/14.05249 tarkibida bayonnoma bilan rasmiylashtirilad
+i. Bayonnomada quyidagilar
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 81--82
-\TU/LiberationSerif(0)/m/n/14.05249 bir vaqtda Yagona interaktiv davlat xizmatl
-ari portalidagi shaxsiy kabinet
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 81--82
-\TU/LiberationSerif(0)/m/n/14.05249 orqali, uning murojaatiga koʻra esa “Inson”
- ijtimoiy xizmatlar markazida
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 81--82
-\TU/LiberationSerif(0)/m/n/14.05249 yuridik oqibatlari, eʼtiroz bildirish va oʻ
-z huquqlarini himoya qilish tartibi
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 83--84
+Underfull \hbox (badness 4132) in paragraph at lines 123--124
 \TU/LiberationSerif(0)/m/n/14.05249 oila aʼzolarining shaxsga doir maxsus maʼlu
 motlari faqat tegishli mezon
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 85--86
-\TU/LiberationSerif(0)/m/n/14.05249 baholash uslubiyotiga zid ekanligi aniqlang
-anda Agentlik ushbu boʻlimning
+Underfull \hbox (badness 3746) in paragraph at lines 125--126
+\TU/LiberationSerif(0)/m/n/14.05249 taʼsir qilgan barcha baholash natijalarini 
+aniqlaydi va ularning roʻyxatini
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 87--88
-| \TU/LiberationSerif(0)/m/n/14.05249 17. Ushbu boʻlimni amalga oshirish “YAMIH
+Underfull \hbox (badness 5607) in paragraph at lines 127--128
+| \TU/LiberationSerif(0)/m/n/14.05249 21. Agentlik ushbu boʻlimning 20-bandida 
+koʻrsatilgan baholash
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 131--132
+| \TU/LiberationSerif(0)/m/n/14.05249 23. Ushbu boʻlimni amalga oshirish “YAMIH
 ” ATni saqlash va
  []
 
-
-Underfull \hbox (badness 3872) in paragraph at lines 91--92
+[3]
+Underfull \hbox (badness 3872) in paragraph at lines 135--136
 | \TU/LiberationSerif(0)/m/n/14.05249 1. 26-bandning birinchi xatboshisidagi “y
 oki oʻtkazmalar miqdori
  []
 
-[2]
-Underfull \hbox (badness 2529) in paragraph at lines 97--98
+
+Underfull \hbox (badness 2529) in paragraph at lines 141--142
 | \TU/LiberationSerif(0)/m/n/14.05249 3. 33-bandning “a” kichik bandidagi “mini
 mal isteʼmol xarajatlari
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 97--98
+Underfull \hbox (badness 3158) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 miqdoridan yuqori boʻlganda” degan soʻzlar 
 “minimal isteʼmol xarajatlari
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 101--102
+Underfull \hbox (badness 5771) in paragraph at lines 145--146
 \TU/LiberationSerif(0)/m/n/14.05249 portalidagi shaxsiy kabinet orqali, uning m
 urojaatiga koʻra esa “Inson”
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 101--102
+Underfull \hbox (badness 3364) in paragraph at lines 145--146
 \TU/LiberationSerif(0)/m/n/14.05249 oqibatlari, unga eʼtiroz bildirish va oʻz h
 uquqlarini himoya qilish tartibi
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 101--102
+Underfull \hbox (badness 1308) in paragraph at lines 145--146
 \TU/LiberationSerif(0)/m/n/14.05249 toʻgʻrisidagi maʼlumotlar taqdim etiladi. B
 oshqa oila aʼzolarining shaxsga
  []
 
-[3]
+[4]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_uz.aux
 )
  ***********
@@ -1109,13 +1107,13 @@ Package rerunfilecheck Info: File `normative_act_draft_uz.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16719 strings out of 469974
- 307646 string characters out of 5477063
- 864159 words of memory out of 5000000
- 45143 multiletter control sequences out of 15000+600000
+ 16720 strings out of 469974
+ 307649 string characters out of 5477063
+ 864176 words of memory out of 5000000
+ 45144 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,597b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,597b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
-_act_draft_uz.pdf (3 pages).
+_act_draft_uz.pdf (4 pages).

@@ -53,7 +53,7 @@ Methodological source: the [OECD/JRC handbook (2008), uncertainty and sensitivit
 
 ## Deliverables and adoption sequence
 
-1. **Current preparation:** Russian normative draft, explanatory note, scientific justification and covering proposal letter, with aligned Uzbek and English companions. The executable reference demonstrates a limited verification method.
+1. **Current preparation:** Russian normative draft, explanatory note with scientific justification, and covering proposal letter, with aligned Uzbek and English companions. The executable reference demonstrates a limited verification method.
 2. **Developer engagement:** send the proposal to the Agency, with the Ministry as co-developer; request an answer on the merits on each numbered question (Law on Appeals, Article 27) and inclusion of the proposal in the draft's discussion materials (O‘RQ-682, Article 23). Do not imply an academic degree or appointment not evidenced.
 3. **Integration:** reconcile the module with Resolution 35 and the actual PF-193 draft; identify the adopting authority, expenditure, staff and information-system changes. The Agency and Ministry must assess costs; no cost saving is currently measured.
 4. **Scientific work:** the published-rule audit is implemented and run. Household-level validation still requires the official specification and lawful Agency records. Freeze the administrative extraction period, cohorts, scenarios and evaluation rules before that analysis. Run inside the authorised environment. Findings may require changing the draft; record all tested specifications and deviations.

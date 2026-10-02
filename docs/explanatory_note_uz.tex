@@ -6,7 +6,9 @@
 \setmonofont{Liberation Mono}
 \usepackage{unicode-math}
 \setmathfont{texgyretermes-math.otf}
-\usepackage{amsmath,graphicx,booktabs,longtable,array,enumitem}
+\usepackage{amsmath,graphicx,booktabs,longtable,array,enumitem,pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.17,every axis/.append style={font=\fontsize{11bp}{13.2bp}\selectfont},/pgf/number format/1000 sep={\,}}
 \usepackage[normalem]{ulem}
 \usepackage{titlesec,fancyhdr}
 \usepackage[hidelinks,unicode]{hyperref}
@@ -20,6 +22,10 @@
 \widowpenalty=10000
 \titleformat{\section}{\normalfont\bfseries}{\thesection.}{0.5em}{}
 \titlespacing*{\section}{0pt}{1.1em}{0.5em}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\itshape}{\thesubsubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.3em}
 \setlist{nosep,leftmargin=1.27cm}
 \pagestyle{fancy}
 \fancyhf{}
@@ -38,11 +44,12 @@
 \begin{document}
 \begin{flushright}2-material\end{flushright}
 \begin{center}\textbf{TUSHUNTIRISH XATI}\par
+\textbf{ilmiy-huquqiy asoslash bilan}\par
 \textbf{Oʻzbekiston Respublikasi Prezidentining 2026-yil 11-sentabrdagi PF-193-son Farmoni 14-bandi ijrosi yuzasidan ishlab chiqilayotgan normativ-huquqiy hujjat loyihasiga kiritish uchun takliflarga}\end{center}
 
-\noindent 2026-yil 1-oktabrdagi tahrir. Tuzilishi “Normativ-huquqiy hujjatlar toʻgʻrisida”gi Qonunga ilova qilingan Yagona uslubiyotning 84-bandiga muvofiq.
+\noindent 2026-yil 3-oktabrdagi tahrir. Tuzilishi “Normativ-huquqiy hujjatlar toʻgʻrisida”gi Qonunga ilova qilingan Yagona uslubiyotning 84-bandiga muvofiq; ilmiy-huquqiy asoslash loyihani asoslash uchun zarur boʻlgan boshqa maʼlumotlar sifatida \ref{sec:sci}-boʻlimda bayon etilgan.
 
-\section{Tayyorlash uchun asos va qabul qilish zarurati}
+\section{Tayyorlash uchun asos va qabul qilish zarurati}\label{sec:basis}
 PF-193-son Farmon 13-bandining “a” kichik bandida 2027-yil 1-yanvardan boshlab aholining ijtimoiy yordam va xizmatlarga muhtojligini oʻrganish hamda Ijtimoiy reyestrga kiritish oilaning \textit{moliyaviy holatidan tashqari} surunkali kasalliklar, nogironlik, tashqi mehnat migratsiyasi, oilaning koʻp bolali ekanligi kabi mezonlar asosidagi koʻp oʻlchovli baholash tizimi orqali amalga oshirilishi belgilangan. “b” kichik bandida oilalarning ijtimoiy-iqtisodiy holati balli skoring tizimi orqali baholanib, uning natijalariga koʻra toifalarga ajratilishi nazarda tutilgan. 14-band bilan Oʻzbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy himoya milliy agentligiga (keyingi oʻrinlarda — Agentlik) Iqtisodiyot va moliya vazirligi bilan birgalikda 2026-yil 1-dekabrga qadar normativ-huquqiy hujjat loyihasini Prezident Administratsiyasiga kiritish topshirilgan\cite{pf193}.
 
 Taklif etilayotgan normalar zarurati quyidagilar bilan tasdiqlanadi.
@@ -51,7 +58,7 @@ Taklif etilayotgan normalar zarurati quyidagilar bilan tasdiqlanadi.
 
 \textbf{Ikkinchidan, qonun avtomatlashtirilgan qarorni tushuntirishni talab qiladi.} “Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi mulkdor va (yoki) operatorga faqat avtomatlashtirilgan tarzda ishlov berish asosida qaror qabul qilish tartibini va uning yuridik oqibatlarini subyektga tushuntirish, eʼtiroz bildirish imkoniyatini berish hamda eʼtirozni koʻrib chiqish natijasi haqida oʻn kun ichida yozma shaklda xabar qilish majburiyatini yuklaydi\cite{pdlaw}. Nizomning 37-bandida faqat Reyestrga kiritilganlik yoki rad etilganlik haqida SMS-xabar nazarda tutilgan\cite{res35}.
 
-\textbf{Uchinchidan, amaliyotda asossiz rad etishlar uchramoqda.} Hukumat portalida 2026-yil 17-iyulda 184 ta mahallada bir oy ichida kelgan 2 ming arizaning barchasi asossiz rad qilingani, reyestrga kirish masalasida Prezidentga murojaatlar yil boshidan 1,5 barobar oshib, 30 mingdan 46 mingga koʻpaygani, Bosh prokuraturaga ijtimoiy reyestr toʻgʻri yuritilishini qatʼiy nazorat qilish topshirilgani maʼlum qilingan\cite{govuz}. Bunday qarorlarni aniqlash va tuzatish faqat har bir qaror asoslari saqlangan va qayta hisoblanishi mumkin boʻlgan taqdirda mumkin.
+\textbf{Uchinchidan, amaliyotda asossiz rad etishlar uchramoqda.} Hukumat portalida 2026-yil 17-iyulda 184 ta mahallada bir oy ichida kelgan 2 ming arizaning barchasi asossiz rad qilingani, reyestrga kirish masalasida Prezidentga murojaatlar yil boshidan 1,5 barobar oshib, 30 mingdan 46 mingga koʻpaygani, Bosh prokuraturaga ijtimoiy reyestr toʻgʻri yuritilishini qatʼiy nazorat qilish topshirilgani maʼlum qilingan\cite{govuz}. Bunday qarorlarni aniqlash va tuzatish faqat har bir qaror asoslari saqlangan va qayta hisoblanishi mumkin boʻlgan taqdirda mumkin. Jahon banki 2026-yilgi qashshoqlik va tenglik baholashida manzillilik formulasi 2026-yil boshida qayta koʻrib chiqilgani, uning samaradorligini baholash esa hali mavjud emasligini qayd etgan\cite{wb2026}.
 
 \textbf{Toʻrtinchidan, amaldagi hisob-kitob qoidalarida toʻrtta nomuvofiqlik hisob-kitoblar bilan isbotlangan.} Ulardan uchtasi (Nizomning 26, 27 va 33-bandlari) 1-materialning II boʻlimidagi oʻzgartishlar bilan bartaraf etiladi (1-jadval); ogʻir hayotiy vaziyatga tushgan oilalarga oid toʻrtinchisi ishlab chiquvchining qarorini talab qiladi va \ref{sec:q}-boʻlimda bayon etilgan. Bundan tashqari, Nizomning 37-bandi “Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi talablarini taʼminlamaydi. Oilaning moliyaviy holati 2027-yil 1-yanvardan keyin ham mezon sifatida saqlanganligi sababli daromadni hisoblash qoidalari almashtirilguniga qadar baholash natijasini belgilashda davom etadi.
 
@@ -67,7 +74,7 @@ Norma & Isbotlangan natija & Taklif etilayotgan tuzatish\\\midrule\endhead
 \bottomrule
 \end{longtable}\endgroup
 
-Jadvaldagi barcha raqamlar 3-materialning elektron ilovasidagi dastur bilan qayta hisoblanadi (39 ta avtomatlashtirilgan tekshiruvdan oʻtgan; maydon formulasi boʻyicha 4\,105 ta tuzilgan holatning mustaqil arifmetik nazorati, ulardan 620 tasida maydon manfiy).
+Jadvaldagi barcha raqamlar elektron ilovadagi dastur bilan qayta hisoblanadi; usul va toʻliq natijalar \ref{sec:sci}-boʻlimda (39 ta avtomatlashtirilgan tekshiruvdan oʻtgan; maydon formulasi boʻyicha 4\,105 ta tuzilgan holatning mustaqil arifmetik nazorati, ulardan 620 tasida maydon manfiy).
 
 \section{Taklif muallifi}
 Taklif fuqaro Ashuraliyev Abduxoliq Akmal oʻgʻli, mustaqil tadqiqotchi (ORCID 0009-0003-5482-5526) tomonidan tayyorlangan. PF-193-son Farmonning 14-bandi boʻyicha loyihaning rasmiy ishlab chiquvchilari — Agentlik va Iqtisodiyot va moliya vazirligi. “Normativ-huquqiy hujjatlar toʻgʻrisida”gi Qonunning 23-moddasi ishlab chiquvchiga ilmiy tadqiqotlar natijalarini va jismoniy shaxslarning murojaatlarini oʻrganish, fuqarolarning takliflarini, olimlar va mutaxassislarning tavsiyalarini umumlashtirish va ulardan foydalanish majburiyatini yuklaydi\cite{orq682}.
@@ -76,21 +83,22 @@ Taklif fuqaro Ashuraliyev Abduxoliq Akmal oʻgʻli, mustaqil tadqiqotchi (ORCID 
 Maqsad — har bir oilaning baholash natijasi faqat tasdiqlangan qoidalardan kelib chiqishini, saqlangan maʼlumotlar boʻyicha qayta hisoblanishi mumkinligini va ariza beruvchiga tushuntirilishini taʼminlash. Vazifalar: chegaraviy qiymatlardagi noaniqlikni bartaraf etish; oʻzgartishlarni qoʻllashdan oldin dasturni tekshirish; har bir natija asoslarini saqlash; amaldagi Nizomdagi toʻrtta isbotlangan nomuvofiqlikni bartaraf etish.
 
 \begingroup\tsize
-\begin{longtable}{L{0.17\linewidth} L{0.40\linewidth} L{\dimexpr0.43\linewidth-6\tabcolsep}}
+\begin{longtable}{L{0.19\linewidth} L{0.35\linewidth} L{\dimexpr0.46\linewidth-6\tabcolsep}}
 \toprule
 1-material bandlari & Mazmuni & Asoslanishi\\\midrule\endhead
-I boʻlim, 1-band & Tushunchalar & Yagona uslubiyotning 8-bandi: koʻp marta qoʻllaniladigan tushunchalar boshida taʼriflanadi.\\
-2–5-bandlar & Har bir mezonning manbasi, birligi, davri va ballari; tenglikdagi toifa; istisnolar navbati; hisob-kitob misollari & Bu elementlarsiz bir xil daromad turlicha hisoblanishi mumkin (1-jadval, 26-band). Amaldagi Nizomda hisob-kitob misoli mavjud (30-band); Chilida eʼlon qilingan uslubiyotda chegaralar “teng yoki katta” shaklida belgilangan va bir nechta tekshiruv ishga tushganda ustuvorlik qoidasi berilgan\cite{chile}.\\
-6-band & Dastur faqat belgilangan shartlarni qoʻllaydi & Yangi rad etish asosi dastur sozlamasi bilan emas, faqat normativ-huquqiy hujjat bilan belgilanadi.\\
-7-band & Javob kelmaganligi daromad yoki mol-mulk yoʻqligi emas & Texnik nosozlikni faktdan ajratadi; amaldagi Nizomning 48-bandi nosozliklarda algoritmni vaqtincha oʻzgartirishga yoʻl qoʻyadi\cite{res35}.\\
-8–11-bandlar & Oʻzgartishlarni qoʻllashdan oldin nazorat hisob-kitobi bilan solishtirish; misollar toʻplamining majburiy tarkibi; mavjud foydalanishga topshirish hujjatlarida rasmiylashtirish & 1-jadvaldagi xatolar aynan chegaraviy qiymatlarda va istisnolarda. Tasodifiy misollarda jami natijalarning mos kelishi ularni aniqlamaydi.\\
-12-band & Uslubiyot va dastur versiyalari, qiymatlar, ball va chegarani saqlash & Xato taʼsir qilgan barcha qarorlarni topish va eʼtirozga mazmunan javob berish imkonini beradi.\\
-13-band & Vaqtinchalik algoritm boʻyicha natijalarni belgilash va qayta koʻrib chiqish & Algoritmning vaqtinchalik oʻzgarishi yashirin doimiy qoidaga aylanmaydi.\\
-14-band & Qaror asoslari va uning yuridik oqibatlarini ariza beruvchiga taqdim etish & “Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi uchinchi qismi ijrosi; eʼtirozga javob berishning oʻn kunlik muddati shu moddaning toʻrtinchi qismida belgilangan va takrorlanmaydi.\\
-15-band & Boshqa oila aʼzolarining maxsus maʼlumotlari — faqat mezon qoʻllanilganligi fakti sifatida & Salomatlik va sudlanganlik toʻgʻrisidagi maʼlumotlar shaxsga doir maxsus maʼlumotlardir (“Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 25-moddasi); boshqa oila aʼzolari mustaqil subyektlardir.\\
-16-band & Taʼsirlangan barcha qarorlarni qayta koʻrib chiqish & Xato faqat shikoyat qilganlar uchun emas, barcha oilalar uchun tuzatiladi.\\
-17-band & Moliyalashtirish & Ushbu xatning \ref{sec:fin}-boʻlimi.\\
-II boʻlim, 1–4-bandlar & Nizomning 26, 27, 33 va 37-bandlariga oʻzgartishlar & 1-jadval va \ref{sec:cmp}-boʻlim.\\
+I boʻlim, 1-band & Tushunchalar: uslubiyot, baholash natijasi, hisob-kitob versiyasi, nazorat misoli, nazorat hisob-kitobi, tasdiqlanmagan maʼlumotlar & Yagona uslubiyotning 8-bandi: koʻp marta qoʻllaniladigan tushunchalar boshida taʼriflanadi.\\\midrule
+2-band & Hisob-kitoblarning uslubiyotga muvofiqligi uchun Axborot texnologiyalar markazi xodimlarining javobgarligi & Nizomning 46-bandi “YAMIH” ATning toʻgʻri ishlashi uchun Markazning masʼul xodimlariga javobgarlik yuklagan; norma ushbu javobgarlik predmetini — hisob-kitoblarning tasdiqlangan uslubiyotga muvofiqligini belgilaydi.\\\midrule
+3–7-bandlar & Har bir mezon uchun: manba, birlik, davr, ballar, yaxlitlash, tasdiqlanmagan maʼlumotlardagi qiymat; tenglikdagi toifa; istisnolar navbati; hisob-kitob misollari; qoʻllash sanasi & Bu elementlarsiz bir xil daromad turlicha hisoblanadi (1-jadval; \ref{res:rem}-kichik boʻlim). Amaldagi Nizomda hisob-kitob misoli mavjud (30-band); Chili uslubiyotida chegaralar “teng yoki katta” shaklida va bir nechta tekshiruvda ustuvorlik qoidasi bilan belgilangan\cite{chile}.\\\midrule
+8-band & Dastur faqat belgilangan shartlarni qoʻllaydi & Yangi rad etish asosi dastur sozlamasi bilan emas, normativ-huquqiy hujjat bilan belgilanadi.\\\midrule
+9–10-bandlar & Javob kelmaganligi daromad yoʻqligi emas; tasdiqlanmagan maʼlumotlar belgilanadi va ariza beruvchiga nimani qayerda aniqlashtirish kerakligi maʼlum qilinadi & Texnik nosozlikni faktdan ajratadi (Nizomning 48-bandi nosozliklarda algoritmni vaqtincha oʻzgartirishga yoʻl qoʻyadi\cite{res35}); ariza beruvchi oʻz maʼlumotlarini uch kun ichida tuzattirish huquqidan foydalanishi mumkin (“Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 11-moddasi\cite{pdlaw}).\\\midrule
+11–12-bandlar & Nazorat misollari toʻplamining majburiy tarkibi; kutilgan natijalar dastur ishlab chiquvchisisiz aniqlanadi & 1-jadvaldagi xatolar chegaralarda, ularning yonida va istisnolarda. Xuddi shu dastur bergan kutilgan natija dastur xatosini aniqlamaydi.\\\midrule
+13–16-bandlar & Oʻzgartishlarni qoʻllashdan oldin solishtirish; farq boʻlsa qoʻllamaslik; majburiy mazmunli bayonnoma; toʻplamni toʻldirish & Foydalanishga topshirishning mavjud tartibidan foydalaniladi; bayonnoma kim nimani tekshirganini qayd etadi. Nosozliklarda algoritmni vaqtincha oʻzgartirish (22-band) kechiktirilmaydi.\\\midrule
+17-band & Har bir natija boʻyicha saqlanadigan maʼlumotlar & Hisob-kitobni takrorlash, eʼtirozga mazmunan javob berish va xato taʼsir qilgan barcha qarorlarni topish imkonini beradi.\\\midrule
+18–19-bandlar & Ariza beruvchiga maʼlumot; boshqa oila aʼzolarining maxsus maʼlumotlari faqat mezon qoʻllanilganligi fakti sifatida & “Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi uchinchi qismi: qaror tartibi, uning yuridik oqibatlari, eʼtiroz va huquqlarni himoya qilish tartibini tushuntirish; 25-modda: salomatlik va sudlanganlik toʻgʻrisidagi maʼlumotlar maxsus maʼlumotlardir\cite{pdlaw}.\\\midrule
+20–21-bandlar & Markaz taʼsirlangan natijalarni oʻn kun ichida aniqlaydi; ular qayta koʻrib chiqiladi & Oʻn kunlik muddat eʼtirozni koʻrib chiqish muddatiga mos keladi (“Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi toʻrtinchi qismi): bitta eʼtiroz orqali aniqlangan xato barcha oilalar uchun xuddi shu muddatda tekshiriladi.\\\midrule
+22-band & Vaqtinchalik algoritm boʻyicha natijalarni belgilash va qayta koʻrib chiqish & Algoritmning vaqtinchalik oʻzgarishi yashirin doimiy qoidaga aylanmaydi.\\\midrule
+23-band & Moliyalashtirish & \ref{sec:fin}-boʻlim.\\\midrule
+II boʻlim, 1–4-bandlar & Nizomning 26, 27, 33 va 37-bandlariga oʻzgartishlar & 1-jadval, \ref{sec:sci}-boʻlim va \ref{sec:cmp}-boʻlim.\\
 \bottomrule
 \end{longtable}\endgroup
 
@@ -102,7 +110,7 @@ Takliflar PF-193-son Farmonning 14-bandi bilan topshirilgan qonunosti hujjatiga 
 \item Tomorqa maydonini hisoblashda manfiy qiymat chiqmaydi (hozir 1\,000 m² gacha uchastkalarda $QM>0{,}8\,UM$ boʻlganda va 1\,000 m² dan katta uchastkalarda $QM>UM-200$ boʻlganda chiqadi).
 \item Uslubiyotning har bir chegaraviy qiymati uchun tenglikdagi toifa belgilanadi; daromadi minimal isteʼmol xarajatlariga teng oila aniq natija oladi.
 \item Haqiqiy pul oʻtkazmasi oshganda oilaning hisobga olinadigan daromadi kamaymaydi.
-\item Har bir baholash natijasi saqlangan maʼlumotlar boʻyicha qayta hisoblanishi mumkin; xato aniqlanganda barcha taʼsirlangan qarorlar aniqlanadi.
+\item Har bir baholash natijasi saqlangan maʼlumotlar boʻyicha qayta hisoblanishi mumkin; xato aniqlanganda barcha taʼsirlangan qarorlar oʻn kun ichida aniqlanadi.
 \item Ariza beruvchi “Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 24-moddasi uchinchi qismi talabiga muvofiq avtomatlashtirilgan qaror asoslarini, uning yuridik oqibatlari haqidagi maʼlumotni, eʼtiroz bildirish va huquqlarni himoya qilish tartibini oladi.
 \end{enumerate}
 
@@ -110,7 +118,7 @@ Takliflar PF-193-son Farmonning 14-bandi bilan topshirilgan qonunosti hujjatiga 
 Chili Ijtimoiy rivojlanish va oila vazirligi 2023-yil 15-noyabrdagi 082-son rezolyutsiya bilan tasdiqlangan Uy xoʻjaliklari ijtimoiy reyestrining ijtimoiy-iqtisodiy malakasini hisoblash tartibini amaliy hisob-kitob misollari, “teng yoki katta” shaklidagi chegaralar va uy xoʻjaligida bir nechta tekshiruv ishga tushganda aniq ustuvorlik qoidasi bilan eʼlon qiladi\cite{chile}. Jahon banki reyestrlardagi eskirgan maʼlumotlar kiritish va chetda qoldirish xatolariga olib kelishini, shikoyatlarni koʻrib chiqish mexanizmlari esa shaffoflik va hisobdorlikni oshirishini qayd etadi\cite{wb2025}.
 
 \section{Loyiha mazmunining tavsifi va ishlab chiquvchi hal qilishi lozim boʻlgan masala}\label{sec:q}
-1-materialning I boʻlimi (17 band, Yagona uslubiyotning 22-bandiga muvofiq har biri bitta huquqiy normani oʻz ichiga oladi) ishlab chiqilayotgan hujjatga kiritiladi. II boʻlim (4 band) amaldagi Nizomga oʻzgartish kiritadi; yangi hujjat Nizomni almashtirsa, xuddi shu qoidalar uning normalariga kiritiladi.
+1-materialning I boʻlimi (23 band, Yagona uslubiyotning 22-bandiga muvofiq har biri bitta huquqiy normani oʻz ichiga oladi) ishlab chiqilayotgan hujjatga kiritiladi. II boʻlim (4 band) amaldagi Nizomga oʻzgartish kiritadi; yangi hujjat Nizomni almashtirsa, xuddi shu qoidalar uning normalariga kiritiladi.
 
 \textbf{Ishlab chiquvchi hal qilishi lozim boʻlgan masala.} Ogʻir hayotiy vaziyatga tushgan oilalar uchun Nizomning 34–35-bandlari daromad minimal isteʼmol xarajatlaridan $P$ yuqori, 25\,\% kamaytirilgan daromad esa $1{,}5P$ dan oshmagan hollarda, yaʼni $P<D\le2P$ boʻlganda, “kambagʻallik chegarasidagi oila” toifasiga kiritishga yoʻl qoʻyadi. Nizom 39-bandining “v” kichik bandi va PF-258-son Farmon 3-bandining “v” kichik bandi xuddi shu toifani $P$ dan $1{,}5P$ gacha boʻlgan oraliq bilan tavsiflaydi. Oraliq qanday talqin qilinmasin, 35-band boʻyicha kiritiladigan oilalarning bir qismi unga mos kelmaydi:
 \begin{itemize}[leftmargin=1.27cm]
@@ -123,13 +131,13 @@ Buni bartaraf etish uchun ushbu tartibga qaysi daromad va qaysi oraliq qoʻllani
 II boʻlim Vazirlar Mahkamasining 2026-yil 29-yanvardagi 35-son qaroriga 1-ilova bilan tasdiqlangan Ijtimoiy reyestrni yuritish tartibi toʻgʻrisidagi nizomga oʻzgartish kiritadi. 33-bandga oʻzgartish Nizomni PF-258-son Farmonning 3-bandiga muvofiqlashtiradi va Farmonga oʻzgartish kiritishni talab qilmaydi. PF-258-son Farmonga oʻzgartish faqat \ref{sec:q}-boʻlimdagi masala boʻyicha talab etilishi mumkin.
 
 \section{Havolalarning asoslanishi}
-I boʻlimning 9, 15 va 16-bandlari matnni takrorlamaslik uchun xuddi shu boʻlimning 8, 14 va 12-bandlariga havola qiladi (Yagona uslubiyotning 13-bandi). 8-band maʼlumotlar almashinuvidagi nosozliklarda algoritmni vaqtincha oʻzgartirishni solishtirish kechiktirmasligi uchun 13-bandga havola qiladi. I boʻlimning 11-bandi muayyan hujjatni koʻrsatmasdan axborot tizimlarini foydalanishga topshirish va ularga oʻzgartish kiritishning belgilangan tartibiga havola qiladi: pastroq yuridik kuchga ega boʻlgan aniq hujjatlarga havola qilishga yoʻl qoʻyilmaydi (Yagona uslubiyotning 11-bandi), ishlab chiqilayotgan hujjat turini esa ishlab chiquvchi belgilaydi. II boʻlimda oʻzgartirilayotgan hujjat va uning bandlari koʻrsatilgan (Yagona uslubiyotning 69-bandi).
+I boʻlimning 19, 20 va 21-bandlari matnni takrorlamaslik uchun xuddi shu boʻlimning 18, 17 va 20-bandlariga havola qiladi (Yagona uslubiyotning 13-bandi). 13-band maʼlumotlar almashinuvidagi nosozliklarda algoritmni vaqtincha oʻzgartirishni solishtirish kechiktirmasligi uchun 22-bandga havola qiladi. I boʻlimning 15-bandi muayyan hujjatni koʻrsatmasdan axborot tizimlarini foydalanishga topshirish va ularga oʻzgartish kiritishning belgilangan tartibiga havola qiladi: pastroq yuridik kuchga ega boʻlgan aniq hujjatlarga havola qilishga yoʻl qoʻyilmaydi (Yagona uslubiyotning 11-bandi), ishlab chiqilayotgan hujjat turini esa ishlab chiquvchi belgilaydi. II boʻlimda oʻzgartirilayotgan hujjat va uning bandlari koʻrsatilgan (Yagona uslubiyotning 69-bandi).
 
 \section{Moliyaviy-iqtisodiy asoslash}\label{sec:fin}
 Takliflarni amalga oshirish \textbf{Davlat budjetidan qoʻshimcha xarajatlarni talab etmaydi}:
 \begin{enumerate}[leftmargin=1.27cm]
 \item I boʻlim mavjud “YAMIH” AT, foydalanishga topshirishning mavjud tartibi va mavjud kanallar — Yagona interaktiv davlat xizmatlari portalidagi shaxsiy kabinet va “Inson” markazlaridan foydalanadi. Yangi organlar, lavozimlar, axborot tizimlari yoki ariza berish bosqichlari yaratilmaydi.
-\item Nazorat misollari toʻplami va ularni hisoblash dasturi muallif tomonidan tayyorlangan va 3-material bilan birga bepul taqdim etiladi.
+\item Nazorat misollari toʻplami va ularni hisoblash dasturi muallif tomonidan tayyorlangan va ushbu materiallar bilan birga bepul taqdim etiladi.
 \item 26, 27 va 33-bandlarga oʻzgartishlar yordam oluvchilar doirasini kengaytirmaydi: oilaning hisobga olinadigan daromadi kamaymaydi, toifa belgilanmagan holat esa bartaraf etiladi. 26-bandga oʻzgartish 6-ilovadagi mamlakatlardan oyiga $2M$ dan $3M$ gacha oʻtkazma oladigan oilalarning hisobga olinadigan daromadini $3M$ gacha oshiradi — kichikroq oʻtkazmalar hozir ham shunday hisobga olinadi; bunday oilalarning bir qismi Reyestrga kiritilish huquqini yoʻqotishi mumkin. Agar ishlab chiquvchi buni maqsadga muvofiq deb hisoblamasa, nomonotonlikni boshqacha — ushbu mamlakatlar uchun $2M$ normativ daromad belgilash orqali bartaraf etish mumkin; bu variant yordam oluvchilar doirasini kengaytiradi va xarajatlar hisob-kitobini talab qiladi. 37-bandga oʻzgartish mavjud kanallardan foydalanadi.
 \end{enumerate}
 Har bir oʻzgartish taʼsir qiladigan oilalar sonini faqat Agentlik oʻz maʼlumotlari boʻyicha ilova qilingan dastur yordamida, shaxsga doir maʼlumotlarni Agentlikdan tashqariga uzatmasdan aniqlashi mumkin.
@@ -150,6 +158,219 @@ Xarajatlar & \ref{sec:fin}-boʻlim: budjetdan qoʻshimcha xarajat talab etilmayd
 Maʼlumotlarni oshkor qilish & Ariza beruvchiga faqat uning oilasiga oid maʼlumotlar taqdim etiladi; boshqa oila aʼzolarining shaxsga doir maxsus maʼlumotlari faqat mezon qoʻllanilganligi fakti sifatida koʻrsatiladi (“Shaxsga doir maʼlumotlar toʻgʻrisida”gi Qonunning 25-moddasi); dastlabki kod va himoya maʼlumotlari oshkor qilinmaydi.\\
 \bottomrule
 \end{longtable}\endgroup
+
+\section{Ilmiy-huquqiy asoslash}\label{sec:sci}
+Ushbu boʻlim loyihani asoslash uchun zarur boʻlgan boshqa maʼlumotlarni (Yagona uslubiyotning 84-bandi) oʻz ichiga oladi: tadqiqot savoli, dastlabki maʼlumotlar, usul, natijalar, ularning taklif etilayotgan normalar bilan bogʻliqligi va hisob-kitoblarni takrorlash tartibi.
+
+\subsection{Tadqiqot savoli va dastlabki maʼlumotlar}
+Tadqiqot savoli rad etilishi mumkin boʻlgan tarzda shakllantirilgan: \textbf{daromad va toifani hisoblashning eʼlon qilingan qoidalari chegaraviy qiymatlarda va kirish qiymatlarining belgilangan butun sohasida yagona, ichki muvofiq natija beradimi?} Xulosa qoidani koʻchirishdagi xato, qoʻllanilishi lozim boʻlgan istisnoning tushirib qoldirilishi, kirishning torroq qonuniy sohasi yoki mustaqil arifmetika bilan farq orqali rad etiladi.
+
+2026-yil 30-sentabr — 1-oktabr holatiga lex.uz dagi hujjatlarning rasmiy matnlari ishlatilgan: PF-193-son Farmon, 35-son qaror (2026-yil 22-may va 21-iyuldagi oʻzgartishlar bilan), PF-258-son Farmon, “Normativ-huquqiy hujjatlar toʻgʻrisida”, “Shaxsga doir maʼlumotlar toʻgʻrisida” va “Jismoniy va yuridik shaxslarning murojaatlari toʻgʻrisida”gi qonunlar\cite{pf193,res35,pf258,orq682,pdlaw,appeals}.
+
+2026-yilda kishi boshiga oylik minimal isteʼmol xarajatlari $P=715\,000$ soʻm\cite{mpr}; 2026-yil 1-sentabrdan mehnatga haq toʻlashning eng kam miqdori $M=1\,360\,000$ soʻm\cite{mrot}.
+
+\subsection{Usul}
+\subsubsection{Obyektlar va birliklar}
+$Y$ — oilaning uch oy uchun hisobga olinadigan daromadi, $N$ — oila aʼzolarining hisobga olinadigan soni boʻlsin; kishi boshiga oylik daromad $D=Y/(3N)$ (Nizomning 18-bandi). Alohida daromad turlarining ulushlari formulalari va toifa shartlari tekshiriladi; $Y$ ni maʼmuriy maʼlumotlardan toʻliq yigʻish takrorlanmaydi. 2026-yil sentabridagi $M$ qiymati faqat bir oylik sanali hisob-kitoblarda ishlatiladi.
+
+Hisob-kitoblarni namunaviy dastur bajaradi (elektron ilova). Sonlar butun yoki oʻnli va ratsional sonlar satri sifatida kiritiladi; aniq ratsional arifmetika qoʻllaniladi, shu sababli tenglikni solishtirish ikkilik yaxlitlash bilan buzilmaydi. Suzuvchi nuqtali sonlar, notoʻgʻri boʻluvchilar va toʻliq boʻlmagan maʼlumotlar rad etiladi.
+
+\subsubsection{Oldindan belgilangan reja va misollarni tanlash}
+Tekshiruvlar roʻyxati va misollar toʻrlari hisob-kitoblardan oldin tahlil rejasida belgilangan. Daromad toʻri: $P$, $1{,}5P$, $2P$ va ulardan $-1$, $0$, $+1$ soʻm siljishlar. Ogʻir hayotiy vaziyat: $P$, $4P/3$, $1{,}5P$, $2P$ atrofidagi qiymatlar. Yer formulasi: $UM=100$, $1\,000$, $1\,001$, $2\,000$ m² uchun $0$ dan $UM$ gacha boʻlgan barcha butun qurilish maydonlari $QM$ (jami 4\,105 ta holat). Pul oʻtkazmalari: nomaʼlum qiymat va $2M$ atrofidagi qiymatlar ikkala mamlakat guruhi uchun ikki mumkin boʻlgan solishtirish davrida. Soliq bazasi, oʻzini oʻzi band qilish va echkilar — oldindan belgilangan nuqtalarda.
+
+Toʻrlar oilalar tanlanmasi emas, balki tuzilgan sohalardir. Toʻrdagi buzilish holatlari soni formulaning sohasini tavsiflaydi, Oʻzbekiston oilalarining ulushini emas; oilalar ulushi faqat Agentlik maʼlumotlarida aniqlanadi (\ref{sec:agency}-boʻlim).
+
+\subsubsection{Huquqiy hisoblash shartlari}
+33-bandning “a” kichik bandi $D>P$ boʻlganda oilani “davlat taʼminotidagi oila” yoki “kambagʻal oila” deb topishni rad etadi; 32-band rad etish asosi boʻlmaganda oilani eʼtirof etadi; 39-bandning “a”, “b” kichik bandlari va PF-258-son Farmonning 3-bandi bu toifalarga $D<P$ boʻlgan oilalarni kiritadi\cite{res35,pf258}.
+
+Ogʻir hayotiy vaziyat uchun $A=3D/4$. Nizomning 34–35-bandlari $D>P$ va $A\le1{,}5P$ boʻlganda “kambagʻallik chegarasidagi oila” toifasiga kiritishga yoʻl qoʻyadi; 39-bandning “v” kichik bandi va PF-258-son Farmon 3-bandining “v” kichik bandi bu toifani $P$ dan $1{,}5P$ gacha boʻlgan oraliq bilan tavsiflaydi. Oraliqning ikkala talqini tekshirilgan: oddiy va kamaytirilgan daromad boʻyicha.
+
+Tomorqa maydoni (27-band): $0\le QM\le UM$ sohasida $TEM=UM-QM-\min(0{,}2\,UM;\,200)$ m²; oylik normativ daromad $TEM\cdot0{,}035\,M\cdot k/100$, bunda 100 m² — bir sotix, $k$ — mahallaning yer soligʻi koeffitsiyenti. Hisob-kitoblarda $k=1$ qabul qilingan, chunki mahallalarning haqiqiy koeffitsiyentlari ishlatilmagan; boshqa $k$ da summalar $k$ ga koʻpaytiriladi.
+
+Pul oʻtkazmalari (26-band): oʻtkazmalar miqdori aniqlanmasa yoki $2M$ dan kam boʻlsa, $cM$ normativ daromad qoʻllaniladi, bunda 6-ilovadagi mamlakatlar uchun $c=3$, boshqa mamlakatlar uchun $c=2$. Solishtirish davri koʻrsatilmaganligi sababli ikkala talqin hisoblangan: oylik $q$ miqdorini va uch oylik summani solishtirish.
+
+\subsubsection{Natijalarni tekshirish}
+Natijalar toʻrt usulda tekshirilgan: 30-banddagi rasmiy misolni takrorlash; qoʻlda tengsizliklar; hisoblash modulidan foydalanmaydigan va barcha 4\,105 ta yer, 12 ta ogʻir vaziyat, 24 ta soliq, 16 ta oʻtkazma va 6 ta echki holatini butun sonli ifodalar bilan qayta hisoblaydigan alohida tekshiruv dasturi; avtomatlashtirilgan testlar. Barcha 39 ta testdan oʻtilgan (Nizom qoidalarining 17 ta tekshiruvi, sintetik balli hisob-kitob misolining 12 ta tekshiruvi va eskirgan, oʻzgartirilgan yoki toʻliq boʻlmagan natijani rad etadigan 10 ta kelib chiqish tekshiruvi).
+
+\subsection{Natijalar}
+\subsubsection{Rasmiy misol va chegaraga tenglik}\label{res:eq}
+Nizomning 30-bandidagi misol kishi boshiga oyiga $6\,480\,000/(5\cdot3)=\mathbf{432\,000}$ soʻm beradi; eʼlon qilingan javobdan farq nolga teng.
+
+$D=P=715\,000$ boʻlganda $D>P$ va $D<P$ shartlarining ikkalasi ham yolgʻon. 33-bandning “a” kichik bandidagi rad etish asosi qoʻllanilmaydi va boshqa rad etish asoslari boʻlmasa oila 32-band boʻyicha eʼtirof etiladi, biroq 39-bandning “a”, “b” kichik bandlaridagi toifalar shartini qanoatlantirmaydi. “Mahalla yettiligi” tavsiyasisiz birinchi marta murojaat qilgan oila hech qaysi toifaga kiritilmaydi. Ilgari asosiy toifadan chiqarilgan oilaning nazorat holati $D=P$ boʻlganda 39-bandning “v” kichik bandi oraligʻiga tushadi, bu holatlar toʻgʻri ajratilganini tasdiqlaydi.
+
+33-bandning “a” kichik bandiga taklif etilayotgan oʻzgartish (“yuqori” oʻrniga “teng yoki yuqori”) bu holatni PF-258-son Farmonga oʻzgartish kiritmasdan bartaraf etadi: rad etish sharti Farmonning 3-bandidagi $D<P$ toifa shartining aniq toʻldiruvchisiga aylanadi.
+
+\subsubsection{Ogʻir hayotiy vaziyat: har qanday talqinda nomuvofiqlik}\label{res:hard}
+Alohida tartib shartlari aniq soddalashtiriladi:
+\begin{equation}
+D>P,\quad\frac34D\le\frac32P\quad\Longleftrightarrow\quad P<D\le2P.
+\end{equation}
+Agar 39-band “v” kichik bandining oraligʻi oddiy daromadga qoʻllanilsa, $1{,}5P<D\le2P$ boʻlgan oilalar alohida tartibdan chiqib qoladi; misol — $D=1\,287\,000$ soʻm ($1{,}8P$). Agar oraliq kamaytirilgan daromadga qoʻllanilsa, $A\ge P$ sharti $D\ge4P/3$ ga teng kuchli boʻlib, $P<D<4P/3$ boʻlgan oilalar chiqib qoladi; misol — $D=858\,000$ soʻm ($1{,}2P$), kamaytirilgan daromad $643\,500<P$. Hech bir talqin 35-bandni toʻliq takrorlamaydi (1-rasm). $P=715\,000$ da: $4P/3=2\,860\,000/3$, $1{,}5P=1\,072\,500$, $2P=1\,430\,000$ soʻm.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[width=.94\linewidth,height=6cm,xmin=.85,xmax=2.1,ymin=.5,ymax=3.65,xtick={1,1.333333333,1.5,2},xticklabels={1,$4/3$,$3/2$,2},ytick=\empty,axis y line=none,axis x line=bottom,xlabel={Oddiy oylik jon boshiga daromad / $P$}]
+\addplot[black,line width=3pt] coordinates {(1,3)(2,3)};
+\addplot[black,line width=3pt,dashed] coordinates {(1,2)(1.5,2)};
+\addplot[black,line width=3pt,dotted] coordinates {(1.333333333,1)(2,1)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,3)(1.5,2)(1.333333333,1)(2,1)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(1,3)(1,2)};
+\node[anchor=west] at (axis cs:.88,3.28) {34–35-bandlar};
+\node[anchor=west] at (axis cs:.88,2.28) {39-band “v”: oddiy daromad};
+\node[anchor=west] at (axis cs:.88,1.28) {39-band “v”: kamaytirilgan daromad};
+\end{axis}\end{tikzpicture}
+\end{center}
+\textbf{1-rasm.} Daromad $P$ ga nisbatan. Toʻldirilgan chegara kiritilgan, boʻsh chegara chiqarilgan. Yuqori chiziq — 34–35-bandlarning daromad shartlari; oʻrta va pastki chiziqlar — ularning 39-band “v” kichik bandi oraligʻi bilan ikki talqindagi kesishmasi. Alohida tartib tegishli holatlar, tavsiya va kvotaga rioya qilishni ham talab qiladi.
+
+\subsubsection{Yer formulasida manfiy maydon}\label{res:land}
+$UM\le1\,000$ boʻlganda formula $TEM=0{,}8\,UM-QM$ ga teng va aynan $QM>0{,}8\,UM$ boʻlganda manfiy; $UM>1\,000$ boʻlganda $TEM=UM-QM-200$, $QM>UM-200$ boʻlganda manfiy. $0\le QM\le UM$ sohasidagi eng kichik qiymat $-\min(0{,}2\,UM;200)$ m². 4\,105 ta butun holatni sanab chiqish tengsizliklarni tasdiqlaydi: 620 ta holat manfiy maydon beradi (2-jadval, 2-rasm).
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
+\toprule
+$UM$ maydon (m²) & Butun qiymatli misollar & Manfiy misollar & Eng kam $TEM$ (m²) & Eng koʻp oʻzgarish (soʻm/oy) \\
+\midrule
+\endhead
+100 & 101 & 20 & -20 & 9,520 \\
+1,000 & 1,001 & 200 & -200 & 95,200 \\
+1,001 & 1,002 & 200 & -200 & 95,200 \\
+2,000 & 2,001 & 200 & -200 & 95,200 \\
+Tuzilgan toʻr jami & 4,105 & 620 & — & — \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{2-jadval.} $M=1\,360\,000$ va $k=1$ da hisob-kitob. Sonlar tuzilgan toʻrga tegishli. Oxirgi ustun — nol chegarasi kiritilganda oilaning oylik normativ daromadidagi eng katta oʻzgarish.
+
+Misol: $UM=100$, $QM=90$ boʻlganda $TEM=-10$ m² va oyiga $-4\,760$ soʻm normativ daromad; toʻliq qurilgan 1\,000 m² uchastka — $-200$ m² va $-95\,200$ soʻm. Maydon jismonan manfiy boʻlolmasa-da, manfiy ulush oilaning hisobga olinadigan daromadini kamaytiradi. Taklif etilayotgan nol chegarasi $TEM=0$ ni beradi va $TEM\ge0$ boʻlganda natijani oʻzgartirmaydi.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.4cm,vertical sep=1.8cm},width=.44\linewidth,height=5cm,xlabel={$QM$ (m²)},ylabel={$TEM$ (m²)},scaled ticks=false]
+\nextgroupplot[title={$UM=100$; 20 manfiy misol},xmin=0,xmax=100]
+\addplot[black,thick] coordinates {(0,80)(100,-20)};
+\addplot[black,dashed,thick] coordinates {(0,80)(80,0)(100,0)};
+\nextgroupplot[title={$UM=1000$; 200 manfiy misol},xmin=0,xmax=1000]
+\addplot[black,thick] coordinates {(0,800)(1000,-200)};
+\addplot[black,dashed,thick] coordinates {(0,800)(800,0)(1000,0)};
+\nextgroupplot[title={$UM=1001$; 200 manfiy misol},xmin=0,xmax=1001]
+\addplot[black,thick] coordinates {(0,801)(1001,-200)};
+\addplot[black,dashed,thick] coordinates {(0,801)(801,0)(1001,0)};
+\nextgroupplot[title={$UM=2000$; 200 manfiy misol},xmin=0,xmax=2000]
+\addplot[black,thick] coordinates {(0,1800)(2000,-200)};
+\addplot[black,dashed,thick] coordinates {(0,1800)(1800,0)(2000,0)};
+\end{groupplot}\end{tikzpicture}
+\end{center}
+\textbf{2-rasm.} Uzluksiz chiziq — amaldagi formula, shtrix chiziq — nol chegarasi bilan; har bir $UM$ uchun $0$ dan $UM$ gacha boʻlgan barcha butun $QM$ koʻrib chiqilgan.
+
+\subsubsection{Pul oʻtkazmalari: oʻtkazma oshganda hisobga olinadigan daromad kamayadi}\label{res:rem}
+$q=2M$ tengligi “$2M$ dan kam” shartini qanoatlantirmaydi. Oylik talqinda 6-ilovadagi mamlakatlar uchun hisobga olinadigan daromad chegaradan bevosita pastda $3M$ dan chegarada $2M$ gacha tushadi: $2\,719\,999$ soʻm oʻtkazma $4\,080\,000$ sifatida, $2\,720\,000$ soʻm oʻtkazma esa $2\,720\,000$ sifatida hisobga olinadi. Oʻtkazmaning 1 soʻmga oshishi hisobga olinadigan daromadni $1\,360\,000$ soʻmga kamaytiradi. Boshqa mamlakatlar uchun oylik talqin uzluksiz. Uch oylik summa talqinida ikkala guruh uchun ham sakrashlar yuzaga keladi (3-jadval, 3-rasm).
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax} p{\dimexpr\linewidth/4-2\tabcolsep\relax}}
+\toprule
+Shartli davr & Mamlakat guruhi & Oylik ulush pasayishi (soʻm) & 4 aʼzoda jon boshiga pasayish (soʻm) \\
+\midrule
+\endhead
+Oylik & Roʻyxatdagi mamlakatlar & 1,360,000 & 340,000 \\
+Oylik & Boshqa mamlakatlar & 0 & 0 \\
+Uch oylik yigʻindi & Roʻyxatdagi mamlakatlar & 9,520,000/3 & 2,380,000/3 \\
+Uch oylik yigʻindi & Boshqa mamlakatlar & 5,440,000/3 & 1,360,000/3 \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{3-jadval.} Chegarada hisobga olinadigan oylik daromadning pasayishi, soʻm. Qatorlar normaning ikki mumkin boʻlgan talqiniga mos keladi.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.5cm},width=.44\linewidth,height=6cm,xmin=1,xmax=3,ymin=.5,ymax=3.3,xtick={1,2,3},ytick={1,2,3},xlabel={$q/M$},ylabel={Hisobga olinadigan oylik daromad / $M$}]
+\nextgroupplot[title={Oylik qiyoslash}]
+\addplot[black,thick] coordinates {(1,3)(2,3)};
+\addplot[black,dashed,thick] coordinates {(1,2)(2,2)};
+\addplot[black,dashed] coordinates {(2,.5)(2,3.3)};
+\addplot[black,thick] coordinates {(2,2)(3,3)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,2)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(2,3)};
+\nextgroupplot[title={Uch oylik summa}]
+\addplot[black,thick] coordinates {(1,3)(2,3)};
+\addplot[black,dashed,thick] coordinates {(1,2)(2,2)};
+\addplot[black,dashed] coordinates {(2,.5)(2,3.3)};
+\addplot[black,thick] coordinates {(2,.666666667)(3,1)};
+\addplot[only marks,mark=*,mark size=3pt] coordinates {(2,.666666667)};
+\addplot[only marks,mark=o,mark size=3pt,mark options={fill=white}] coordinates {(2,3)(2,2)};
+\end{groupplot}\end{tikzpicture}
+\end{center}
+\textbf{3-rasm.} Gorizontal oʻqda $q/M$, vertikal oʻqda $M$ ga nisbatan hisobga olinadigan oylik daromad. Uzluksiz gorizontal qismlar — 6-ilovadagi mamlakatlar, shtrixli — boshqa mamlakatlar; vertikal chiziq — chegara.
+
+Taklif etilayotgan tahrir (1-material, II boʻlim, 1-band) chet eldagi oila aʼzosidan kelgan oʻtkazmalarning bir oylik oʻrtacha miqdori unga nisbatan belgilangan normativ daromaddan kam boʻlsa, normativ daromadni qoʻllaydi. Hisobga olinadigan daromad $\max(q;\,cM)$ ga teng va $q$ oshganda kamaymaydi; bu ikkala mamlakat guruhi uchun 1\,000 soʻm qadamli toʻrda avtomatlashtirilgan test bilan tekshirilgan. Boshqa mamlakatlar ($c=2$) uchun natija amaldagi oylik talqin bilan bir xil. Amaldagi normaning ikkala talqinida ham taklif etilayotgan tahrir hech bir oilaning hisobga olinadigan daromadini kamaytirmaydi. 6-ilovadagi mamlakatlardan oyiga $2M$ dan $3M$ gacha oʻtkazma oladigan oilalarning hisobga olinadigan daromadi $3M$ gacha oshadi va bunday oilalarning bir qismi Reyestrga kiritilish huquqini yoʻqotishi mumkin; nomonotonlikni bartaraf etishning muqobil usuli va uning oqibatlari \ref{sec:fin}-boʻlimda bayon etilgan.
+
+\subsubsection{Oʻzini oʻzi band qilish koeffitsiyentlari, soliq bazasi va chorva}\label{res:coef}
+23-band oʻzini oʻzi band qilganlarning oylik normativ daromadi uchun sakkizta koeffitsiyent belgilaydi: toʻrt turdagi hudud va ikki jins. Har bir hududda erkak va ayol koeffitsiyentlari orasidagi farq oyiga $0{,}4M=544\,000$ soʻmga teng (4-jadval). Hisob-kitob haqiqiy ish haqini emas, normativ daromadni aks ettiradi.
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{longtable}{p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax} p{\dimexpr\linewidth/5-2\tabcolsep\relax}}
+\toprule
+Hudud sinfi & Erkak bazasi & Ayol bazasi & Norasmiy erkak & Norasmiy ayol \\
+\midrule
+\endhead
+Toshkent & 3,672,000 & 3,128,000 & 3,855,600 & 3,284,400 \\
+Nukus / viloyat markazlari & 3,264,000 & 2,720,000 & 3,427,200 & 2,856,000 \\
+Boshqa shaharlar & 2,856,000 & 2,312,000 & 2,998,800 & 2,427,600 \\
+Boshqa birliklar & 2,448,000 & 1,904,000 & 2,570,400 & 1,999,200 \\
+\bottomrule
+\end{longtable}
+\endgroup
+\textbf{4-jadval.} $M=1\,360\,000$ da oylik normativ ulushlar; norasmiy ulush 25-band shartlarida bazani 1,05 ga koʻpaytiradi.
+
+24-band boʻyicha soliq bazasi uch oylik soliq $T=6B_0/5$ boʻlganda minimumga teng; undan past $B_0$ qoʻllaniladi, yuqorida baza $5/6$ qiyalik bilan oʻsadi. Qoida uzluksiz va monoton, barcha 24 ta holat boʻlakli ifoda bilan mos keladi. 28-band boʻyicha 14 ta echki nol beradi ($14\cdot0{,}07=0{,}98$ shartli bosh), 15 ta — oyiga 34\,000 soʻm, 20 ta — 272\,000, 100 ta — 4\,080\,000. Nizomda kasr shartli boshlarni yaxlitlash qoidasi belgilanmagan; uni uslubiyot belgilashi lozim (1-material, I boʻlim, 3-band).
+
+\subsubsection{Spetsifikatsiya masalalari}\label{res:spec}
+18-banddagi uch oylik davrning kalendar siljishi 30-band misoli bilan tasdiqlanadi (sentabrda ariza — may–iyul daromadlari) va uslubiyotda qoida sifatida qayd etilishi kerak. Xorijiy valyuta “YAMIH” AT maʼlumotni olgan kundagi kurs boʻyicha qayta hisoblanadi (19-band); hisob-kitobni takrorlash uchun bu sana natija bilan birga saqlanishi lozim (1-material, I boʻlim, 17-band).
+
+\subsection{Natijalardan taklif etilayotgan normalarga}
+\begingroup\fontsize{12bp}{14.4bp}\selectfont
+\begin{longtable}{L{0.36\linewidth} L{\dimexpr0.64\linewidth-4\tabcolsep}}
+\toprule
+Natija & Taklif etilayotgan norma (1-material)\\\midrule\endhead
+Chegaraga tenglik aniqlanmagan (\ref{res:eq}) & II boʻlim, 3-band; I boʻlim, 4 va 6-bandlar — yangi uslubiyotda tenglikdagi toifa va misollar.\\\midrule
+Alohida tartib oraligʻi muvofiq emas (\ref{res:hard}) & Ishlab chiquvchi hal qilishi lozim boʻlgan masala (\ref{sec:q}-boʻlim); I boʻlim, 5-band — istisnolarda yagona natija.\\\midrule
+Manfiy maydon (\ref{res:land}) & II boʻlim, 2-band; I boʻlim, 11-band — har bir chegara va istisno nazorat misollari toʻplamiga kiradi.\\\midrule
+Oʻtkazmalar boʻyicha nomonotonlik va aniqlanmagan davr (\ref{res:rem}) & II boʻlim, 1-band; I boʻlim, 3-band — har bir mezonning manbasi, birligi va davri.\\\midrule
+Yaxlitlash va kurs (\ref{res:coef}, \ref{res:spec}) & I boʻlim, 3 va 17-bandlar.\\\midrule
+Asoslari tushuntirilmagan avtomatik qaror (\ref{sec:basis}-boʻlim) & II boʻlim, 4-band; I boʻlim, 17–21-bandlar.\\
+\bottomrule
+\end{longtable}\endgroup
+
+Xatolar aynan chegaraviy qiymatlarda, istisnolarda va birliklarda topilgan. Tasodifiy nazorat misollari ularni aniqlamaydi: masalan, 1 soʻm qadamli daromad toʻrida $D=P$ tengligi chegara atrofidagi uchta holatdan biri, haqiqiy daromadlar taqsimotida esa kam uchraydigan qiymat. Shu sababli 1-material I boʻlimining 11-bandi misollar toʻplamiga har bir chegaraviy qiymat, unga tenglik va har bir istisnoni kiritishni talab qiladi.
+
+\subsection{Agentlik maʼlumotlarida qoʻllash}\label{sec:agency}
+Nomuvofiqliklar normalar matnidan kelib chiqadi va har qanday maʼlumotlarda mavjud; taʼsirlangan oilalar soni xatoning mavjudligini emas, koʻlamini belgilaydi. Agentlik bu sonni oʻz maʼlumotlarida ilova qilingan dastur bilan, shaxsga doir maʼlumotlarni tashqariga uzatmasdan aniqlashi mumkin:
+\begin{enumerate}[leftmargin=1.27cm]
+\item $QM>0{,}8\,UM$ ($UM\le1\,000$ m² boʻlganda) yoki $QM>UM-200$ boʻlgan uchastkalar — 27-band tuzatishi taʼsir qiladi;
+\item $D=P$ boʻlgan oilalar — 33-band “a” kichik bandi tuzatishi taʼsir qiladi;
+\item amaldagi va taklif etilayotgan qoida turli hisobga olinadigan daromad beradigan oilalar: oylik talqinda — 6-ilovadagi mamlakatlardan oyiga $2M$ dan $3M$ gacha oʻtkazmalar; uch oylik summa talqinida — shuningdek har qanday mamlakatdan bir oylik oʻrtacha miqdori $2M/3$ dan $2M$ gacha boʻlgan oʻtkazmalar — 26-band tuzatishi taʼsir qiladi;
+\item 35-band boʻyicha kiritilgan, $1{,}5P<D\le2P$ yoki $P<D<4P/3$ boʻlgan oilalar — \ref{res:hard}-kichik boʻlimdagi masala taʼsir qiladi.
+\end{enumerate}
+Har bir guruh uchun dastur amaldagi va taklif etilayotgan qoida natijasini solishtiradi. Hisob-kitob Agentlik ichida vakolatli operator tomonidan bajariladi; Agentlikdan tashqariga faqat umumlashtirilgan sonlar chiqadi.
+
+\subsection{Xulosalar}
+\begin{enumerate}[leftmargin=1.27cm]
+\item Eʼlon qilingan hisob-kitob qoidalari takrorlanadi: rasmiy misol farqsiz 432\,000 soʻm beradi.
+\item Toʻrtta normada nomuvofiqliklar isbotlangan: daromad $P$ ga teng boʻlganda aniqlanmagan natija; alohida tartib oraligʻining har qanday talqinda muvofiq emasligi; 1\,000 m² gacha uchastkaning 80\,\% dan ortigʻi qurilganda (katta uchastkalarda $QM>UM-200$ boʻlganda) manfiy maydon; oʻtkazma oshganda hisobga olinadigan daromadning kamayishi.
+\item Har bir nomuvofiqlik dastur sozlamasi bilan emas, balki norma matnini oʻzgartirish (1-material, II boʻlim) yoki ishlab chiquvchining qarori (\ref{sec:q}-boʻlim) bilan bartaraf etiladi.
+\item Yangi balli uslubiyot uchun xuddi shu turdagi xatolar 1-material I boʻlimi talablari bilan istisno qilinadi: tenglikda aniqlangan toifa, istisnolarda yagona natija, har bir chegarada majburiy nazorat misollari va har bir qaror asoslarini saqlash.
+\end{enumerate}
+
+\subsection{Takrorlash}
+Elektron ilova tahlil rejasi, qoidalarning sanali koʻchirmasi (\nolinkurl{data/rules/legal_specification.json}), nazorat holatlari, dastur (\nolinkurl{src/social_registry/}), testlar (\nolinkurl{tests/}), mustaqil tekshiruv va natijalarni (\nolinkurl{results/}) oʻz ichiga oladi. Tarmoqqa ulanish kerak emas; tasodifiy sonlar ishlatilmaydi. Har bir natija spetsifikatsiya va kodning SHA-256 xeshlarini, buyruq va bajarilish vaqtini saqlaydi; kod yoki kirishlar oʻzgarsa, tekshiruv dasturi natijani rad etadi.
+
+\begingroup\fontsize{11bp}{13.2bp}\selectfont
+\begin{verbatim}
+python scripts/run_analysis.py --self-test
+python scripts/run_analysis.py --legal-audit
+python scripts/verify_results.py
+python scripts/run_project.py
+\end{verbatim}
+\endgroup
 
 \section{Qiyosiy jadval}\label{sec:cmp}
 Oʻzgartirilayotgan soʻzlar amaldagi tahrirda kursiv va tagiga chizilgan, yangi soʻzlar “yarim qora” shriftda koʻrsatilgan (Yagona uslubiyotning 85-bandi).
@@ -177,5 +398,9 @@ Amaldagi tahrir & Taklif etilayotgan tahrir & Oʻzgartirish asosi\\\midrule\endh
 \bibitem{chile} Ministerio de Desarrollo Social y Familia (Chili), División de Focalización. Orientaciones para el cálculo de la Calificación Socioeconómica. 2024-yil iyun, 4, 18-betlar. \url{https://www.registrosocial.gob.cl/docs/Orientaciones_para_el_calculo_de_la_Calificacion_Socieconomica.pdf}.
 \bibitem{wb2025} Guven M., Yeachuri A., Almenfi M. Global Insights on Social Registries: Coverage and Beyond. Jahon banki, 2025-yil iyun, 3, 13, 25–26-betlar.
 \bibitem{portal} Normativ-huquqiy hujjatlar loyihalari muhokamasi portali. 2026-yil 11-sentabrdan 1-oktabrgacha muhokamaga joylashtirilgan loyihalar roʻyxati; 2026-yil 1-oktabrda tekshirilgan. \url{https://regulation.adliya.uz}.
+\bibitem{mrot} Hukumat portali. Mehnatga haq toʻlashning eng kam miqdori 2026-yil 1-sentabrdan 1\,360\,000 soʻm etib belgilanishi haqida 2026-yil 23-iyundagi xabar. \url{https://gov.uz/oz/bv/news/view/182984}.
+\bibitem{mpr} Milliy statistika qoʻmitasi. 2026-yil uchun minimal isteʼmol xarajatlari haqida xabar, 2026-yil 4-mart. \url{https://stat.uz/uz/matbuot-markazi/qo-mita-yangiliklar/67179-minimal-istemol-kharazhatlari-ijmati-t-risida-2}.
+\bibitem{wb2026} World Bank. Rising to Prosperity: Uzbekistan — Broadening Opportunities for All. Poverty and Equity Assessment, 2026, p. 40. \url{https://documents1.worldbank.org/curated/en/099091826081016988/pdf/P507037-a67dabb6-2302-46a0-be08-a951d35f90c3.pdf}.
+\bibitem{appeals} “Jismoniy va yuridik shaxslarning murojaatlari toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni, 3, 6, 27–28-moddalar. \url{https://lex.uz/docs/-3336169}.
 \end{thebibliography}\endgroup
 \end{document}

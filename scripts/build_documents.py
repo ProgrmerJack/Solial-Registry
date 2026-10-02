@@ -94,11 +94,11 @@ def export_tex_tables(audit):
 
 
 DOCUMENT_NAMES = (
-    "normative_act_draft_ru", "explanatory_note_ru", "research_paper_ru",
+    "normative_act_draft_ru", "explanatory_note_ru",
     "cover_letter_ru",
-    "normative_act_draft_uz", "explanatory_note_uz", "research_paper_uz",
+    "normative_act_draft_uz", "explanatory_note_uz",
     "cover_letter_uz",
-    "normative_act_draft_en", "explanatory_note_en", "research_paper",
+    "normative_act_draft_en", "explanatory_note_en",
     "cover_letter_en",
 )
 
@@ -146,8 +146,8 @@ def build():
         pdf = output/f"{name}.pdf"
         pages = PdfReader(pdf).pages
         text = "\n".join(page.extract_text() for page in pages)
-        if name == "research_paper" and not all(n in text for n in ["4,105", "620", "Results", "References"]):
-            raise ValueError("Research PDF is missing required results or sections")
+        if name == "explanatory_note_en" and not all(n in text for n in ["4,105", "620", "Results", "References"]):
+            raise ValueError("Explanatory note PDF is missing required results or sections")
         if "Missing character:" in result.stdout:
             raise ValueError(f"Missing font glyph in {name}")
         if re.search(r"Overfull \\[hv]box", result.stdout):

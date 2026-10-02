@@ -4,9 +4,9 @@
   "draft_format_basis": "O‘RQ-682 appended methodology §§43–51",
   "documents": {
     "normative_act_draft_ru": {
-      "pages": 3,
-      "pdf_sha256": "899bab6ae985aeaacb357fd0ae0d13d8bfe36338d865dc9f3da068c1e54c3a2f",
-      "tex_sha256": "b0d4013b36b9b057a6094f99930719c62fb5a4565467e675491f0c37cfe85829",
+      "pages": 4,
+      "pdf_sha256": "6ae1a9c0a262019fdb3d1ca5a3d18ec1a34d0c5b3b3059cd9c7390afa44f6bbd",
+      "tex_sha256": "d41a4329a453075fb8dfbfccaf52070fb2f4c5dd64f6975efc804ca289e05bd0",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -17,9 +17,9 @@
       ]
     },
     "explanatory_note_ru": {
-      "pages": 11,
-      "pdf_sha256": "ec9cef4fa97e0a334a839b0d67c29072dda476924f978806768cd0f5a2eedbec",
-      "tex_sha256": "659b2bd9814cc30b8d0d7fc3aaa9d77fb76f8f961b09edd96fb6373e30bf76a4",
+      "pages": 20,
+      "pdf_sha256": "d6577dd1dbd4cd07f6b3b865c2ad436fa91e5baa65a6f6f718e6ba363b6244e1",
+      "tex_sha256": "4f17c8277bacf8f36657766296427122c20cc0a77b3275531fa9a2716a064fac",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -29,23 +29,10 @@
         "explanatory_note_ru.tex"
       ]
     },
-    "research_paper_ru": {
-      "pages": 9,
-      "pdf_sha256": "f5b0d5becca26b375893ae1d3768a7f1caf4baeae0d75476a58367c70799e888",
-      "tex_sha256": "6e85455b1758c0ed90d3b6029c826668ee5d3c60dcb4f0b8c9a0328e85dedb3f",
-      "command": [
-        "xelatex",
-        "-interaction=nonstopmode",
-        "-halt-on-error",
-        "-file-line-error",
-        "-output-directory=/home/xola/GitHub/Solial Registry/results/documents",
-        "research_paper_ru.tex"
-      ]
-    },
     "cover_letter_ru": {
       "pages": 2,
-      "pdf_sha256": "20ff7684c76f8654dbeac37d6be1cc84cf6299dd317a5fc6e7debf9113134c54",
-      "tex_sha256": "93c8b481625bdac8392dbea2bd8b62acb822b6c55406861c3d4285c15f3fc1e6",
+      "pdf_sha256": "05fd4b09c11d986b11e821ff04d6109cceecd387a7b546382a121269b16aa652",
+      "tex_sha256": "80c4bdcdb54e62a5f12ec94d79bd05ddc45eb4e2012aa6d8ae7bc7b359286754",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -56,9 +43,9 @@
       ]
     },
     "normative_act_draft_uz": {
-      "pages": 3,
-      "pdf_sha256": "16ebf6fbda42562d2b7fdb61cb6fb6fedb95c00496733968269a6d991d5c5937",
-      "tex_sha256": "89e9b110e20e6296ceb1b77b9a27380ea7bd7b8427c970f290c70de2e63fee99",
+      "pages": 4,
+      "pdf_sha256": "86ed19ccfcc31d7c4067b2d7a95c2cdf23baf1be61453abf4b9a1f29105d43da",
+      "tex_sha256": "a9054888f49375bc20c8d0e7675f42ddc2b10f0eb914aabda712aec8d1cb9de7",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -69,9 +56,9 @@
       ]
     },
     "explanatory_note_uz": {
-      "pages": 11,
-      "pdf_sha256": "305586ecc49f8ae994f29038d1571f792d1259646fcfcc8d9b65bb69d0d3c79e",
-      "tex_sha256": "adaf08d32df5cce0e7234e2db90cd2247d977c9494266e85a2779aa3762fc564",
+      "pages": 20,
+      "pdf_sha256": "e266ae2075604d1752e36705c290e2cb1a18e7403cf846337a3d7938279131e4",
+      "tex_sha256": "a54d17a50c31c8251715b7b5b5bb0cc32824973eb95ed0a1a45fb3f02b298e05",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -81,23 +68,10 @@
         "explanatory_note_uz.tex"
       ]
     },
-    "research_paper_uz": {
-      "pages": 8,
-      "pdf_sha256": "eafc62b0394b22f37330044c224f1570d7f46cf689ebf565d297bfc82df4e679",
-      "tex_sha256": "b9e9b8d88f7ba819d2bb8c0a2ecabd97613fe72bf72555c45e65bbbbc6924dff",
-      "command": [
-        "xelatex",
-        "-interaction=nonstopmode",
-        "-halt-on-error",
-        "-file-line-error",
-        "-output-directory=/home/xola/GitHub/Solial Registry/results/documents",
-        "research_paper_uz.tex"
-      ]
-    },
     "cover_letter_uz": {
       "pages": 2,
-      "pdf_sha256": "44e9d8748fd1351f668cd06c90c289fee8a808d94f4ee7e332d38b82e63e3247",
-      "tex_sha256": "e3ba85c6e98c2e3c1e2f7281c634b0e46711e6b5074417d43d703b4d10cecc54",
+      "pdf_sha256": "3cdf4e7f9cb38875e83667bf5a06322099e63c60fa6efea3529d4bb50d4210a2",
+      "tex_sha256": "41a0d581052d7d597f48f2a898d9cd571c9adaffd6b6d2deb7fa4ef819e11871",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -108,9 +82,9 @@
       ]
     },
     "normative_act_draft_en": {
-      "pages": 3,
-      "pdf_sha256": "c7df43b97d029f37fd194ac3f781415e68f980fc59316d660a68c3940d81bf35",
-      "tex_sha256": "83eb3cf37a6aff7543800b460074cc6c6ea98ee0336896b0911d5d3f874e5360",
+      "pages": 4,
+      "pdf_sha256": "117a1e511c6404a313b3803021531081c152df031448fccc0614b96c18e2682a",
+      "tex_sha256": "e44512097775d2d907391ee00a1c5cbb88c503446e0e5343da7f32641de48efd",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -121,9 +95,9 @@
       ]
     },
     "explanatory_note_en": {
-      "pages": 11,
-      "pdf_sha256": "9820cf7667b76af32e16b2aa950be1a1f2da275a944c2813d94edff0c4136af4",
-      "tex_sha256": "3d1b116b2dc997ecec7f70f503ceb9e8c03a36052ef7e288f0f55ed44f47b2d1",
+      "pages": 19,
+      "pdf_sha256": "80de4488e2dcc07f45474a9934c5aaacdf1c72b00a3231c5d203e0c485a097d3",
+      "tex_sha256": "01087ee99883e066bbc0e66c3e0aa073c9e9fe00742845d4e3fc329864743dd5",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -133,23 +107,10 @@
         "explanatory_note_en.tex"
       ]
     },
-    "research_paper": {
-      "pages": 8,
-      "pdf_sha256": "89bef5d42cdd66eabe3b9c4dfaa835f15c29ed356bde2b93edddd8291073eb5c",
-      "tex_sha256": "c1291ee66410eaf0487866332e99c1d2f2f7b18d8039d1f241202e40a265786f",
-      "command": [
-        "xelatex",
-        "-interaction=nonstopmode",
-        "-halt-on-error",
-        "-file-line-error",
-        "-output-directory=/home/xola/GitHub/Solial Registry/results/documents",
-        "research_paper.tex"
-      ]
-    },
     "cover_letter_en": {
       "pages": 2,
-      "pdf_sha256": "06ad829fd423c4f17e95bb77d081badde641302939db2028b84c43271d3acbdb",
-      "tex_sha256": "4d567101c36457a4b7d2da23851f78eda83eb003288052cc5b1ea55000a5708b",
+      "pdf_sha256": "94c0514edcca61d6e91674728038033869d4344c000c97c2a69e13092de702aa",
+      "tex_sha256": "856913aabb21b47dc2e34d2a9064e65692f5b331798b3add7aad8006f09e1f02",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
