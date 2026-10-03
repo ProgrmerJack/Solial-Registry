@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 12:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -958,6 +958,12 @@ Package hyperref Info: Link coloring OFF on input line 39.
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
+Underfull \hbox (badness 1810) in paragraph at lines 54--55
+\TU/LiberationSerif(0)/m/n/14.05249 kiritishni rad etish, shuningdek qayta baho
+lash natijalari boʻyicha oilaning
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []\TU/LiberationSerif(0)/m/n/14.05249 hisob-kitob versiyasi —
  []
@@ -983,166 +989,183 @@ isobga olish tartibi, shu
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 82--83
+Underfull \hbox (badness 1454) in paragraph at lines 85--86
 | \TU/LiberationSerif(0)/m/n/14.05249 8. Baholash natijasi “YAMIH” ATda faqat k
 oʻp oʻlchovli baholash
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 84--85
+Underfull \hbox (badness 2158) in paragraph at lines 87--88
 | \TU/LiberationSerif(0)/m/n/14.05249 9. “YAMIH” ATning elektron soʻroviga javo
 b kelib tushmaganligi
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 84--85
+Underfull \hbox (badness 2961) in paragraph at lines 87--88
 \TU/LiberationSerif(0)/m/n/14.05249 oilada maʼlumotlari soʻralgan daromad yoki 
 mol-mulk mavjud emasligiga
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 89--90
+Underfull \hbox (badness 2744) in paragraph at lines 92--93
 | \TU/LiberationSerif(0)/m/n/14.05249 v) ariza beruvchiga qaysi maʼlumotlar qay
 si organ yoki tashkilotda
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 90--91
+Underfull \hbox (badness 2961) in paragraph at lines 93--94
 | \TU/LiberationSerif(0)/m/n/14.05249 g) maʼlumotlarning tasdiqlanmaganligi oʻz
 -oʻzidan Ijtimoiy reyestrga
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 90--91
+Underfull \hbox (badness 1048) in paragraph at lines 93--94
 \TU/LiberationSerif(0)/m/n/14.05249 uslubiyoti yoki qonunchilikda belgilangan a
 sos boʻyicha, ushbu asos ushbu
  []
 
-
-Underfull \hbox (badness 3219) in paragraph at lines 91--92
+[2]
+Underfull \hbox (badness 3219) in paragraph at lines 94--95
 \TU/LiberationSerif(0)/m/n/14.05249 “e” kichik bandida nazarda tutilgan tartibn
 i qoʻllagan holda yakunlanadi;
  []
 
-[2]
-Underfull \hbox (badness 2285) in paragraph at lines 99--100
-\TU/LiberationSerif(0)/m/n/14.05249 dasturiy taʼminot ishlab chiquvchisi ishtir
-okisiz nazorat hisob-kitobi orqali
+
+Underfull \hbox (badness 2050) in paragraph at lines 95--96
+| \TU/LiberationSerif(0)/m/n/14.05249 e) qayta baholashda u ushbu bandning “d” 
+kichik bandiga muvofiq
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 2443) in paragraph at lines 105--106
+\TU/LiberationSerif(0)/m/n/14.05249 baholash natijalari esa tegishli oraliqni b
+elgilagan normativ-huquqiy hujjat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 | \TU/LiberationSerif(0)/m/n/14.05249 13. Markaz koʻp oʻlchovli
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 103--104
-| \TU/LiberationSerif(0)/m/n/14.05249 14. Koʻp oʻlchovli baholash uslubiyotini 
-birinchi marta qoʻllash va
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 105--106
+Underfull \hbox (badness 5175) in paragraph at lines 111--112
 \TU/LiberationSerif(0)/m/n/14.05249 tarkibida bayonnoma bilan rasmiylashtirilad
 i. Bayonnomada quyidagilar
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 | \TU/LiberationSerif(0)/m/n/14.05249 e) hisob-kitobni qayta bajarish imkonini 
 beruvchi koʻp oʻlchovli
  []
 
-[3]
-Underfull \hbox (badness 4132) in paragraph at lines 130--131
+
+Underfull \hbox (badness 4132) in paragraph at lines 137--138
 \TU/LiberationSerif(0)/m/n/14.05249 oila aʼzolarining shaxsga doir maxsus maʼlu
 motlari faqat tegishli mezon
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 132--133
-\TU/LiberationSerif(0)/m/n/14.05249 taʼsir qilgan barcha baholash natijalarini 
-aniqlaydi va ularning roʻyxatini
+Underfull \hbox (badness 1939) in paragraph at lines 139--140
+| \TU/LiberationSerif(0)/m/n/14.05249 20. Markaz oilaga nisbatan qoʻllanilgan b
+aholash natijasining koʻp
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 134--135
+Underfull \hbox (badness 3884) in paragraph at lines 139--140
+\TU/LiberationSerif(0)/m/n/14.05249 oʻlchovli baholash uslubiyotiga zidligini, 
+ariza beruvchining eʼtirozi yoki
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 139--140
+\TU/LiberationSerif(0)/m/n/14.05249 oʻn kun ichida ushbu boʻlimning 17-bandida 
+nazarda tutilgan maʼlumotlar
+ []
+
+[4]
+Underfull \hbox (badness 1199) in paragraph at lines 141--142
 \TU/LiberationSerif(0)/m/n/14.05249 belgilanadi. Taʼsirlangan natijalarni aniql
 ash va qayta koʻrib chiqish ariza
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 136--137
+Underfull \hbox (badness 4479) in paragraph at lines 143--144
 | \TU/LiberationSerif(0)/m/n/14.05249 22. Qonunchilikda nazarda tutilgan hollar
 da algoritmni vaqtincha
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 136--137
+Underfull \hbox (badness 1466) in paragraph at lines 143--144
 \TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirish toʻgʻrisidagi qaror, uning aso
 si va qoʻllanilish davri “YAMIH”
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 136--137
+Underfull \hbox (badness 7685) in paragraph at lines 143--144
 \TU/LiberationSerif(0)/m/n/14.05249 ATda qayd etiladi; vaqtinchalik algoritm bo
 ʻyicha aniqlangan baholash
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 136--137
+Underfull \hbox (badness 1803) in paragraph at lines 143--144
 \TU/LiberationSerif(0)/m/n/14.05249 tekshiriladi; farq qiluvchi natijalar roʻyx
 atini Markaz Agentlikka yuboradi,
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 138--139
+Underfull \hbox (badness 4144) in paragraph at lines 145--146
 | \TU/LiberationSerif(0)/m/n/14.05249 23. Ushbu boʻlimni amalga oshirish “YAMIH
 ” ATni saqlash va
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 142--143
+Underfull \hbox (badness 3872) in paragraph at lines 149--150
 | \TU/LiberationSerif(0)/m/n/14.05249 1. 26-bandning birinchi xatboshisidagi “y
 oki oʻtkazmalar miqdori
  []
 
-[4]
-Underfull \hbox (badness 2529) in paragraph at lines 148--149
+
+Underfull \hbox (badness 2529) in paragraph at lines 155--156
 | \TU/LiberationSerif(0)/m/n/14.05249 3. 33-bandning “a” kichik bandidagi “mini
 mal isteʼmol xarajatlari
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 148--149
+Underfull \hbox (badness 3158) in paragraph at lines 155--156
 \TU/LiberationSerif(0)/m/n/14.05249 miqdoridan yuqori boʻlganda” degan soʻzlar 
 “minimal isteʼmol xarajatlari
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-\TU/LiberationSerif(0)/m/n/14.05249 xizmatlar markazida qaror
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+\TU/LiberationSerif(0)/m/n/14.05249 xizmatlar markazida qaror qabul
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\TU/LiberationSerif(0)/m/n/14.05249 “Bunda ariza beruvchiga
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 168--169
 | \TU/LiberationSerif(0)/m/n/14.05249 2. Oʻzgartishlar kuchga kirgunga qadar Ij
 timoiy reyestrga kiritilgan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 | \TU/LiberationSerif(0)/m/n/14.05249 a) “davlat taʼminotidagi oila” va “kambag
 ʻal
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 161--162
+Underfull \hbox (badness 2856) in paragraph at lines 172--173
 \TU/LiberationSerif(0)/m/n/14.05249 holatlari oʻzgarishining oqibatlari belgila
 ngan tartibda oʻzgartishlar kuchga
  []
 
-[5]
+[6]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_uz.aux
 )
  ***********
@@ -1160,7 +1183,7 @@ Here is how much of TeX's memory you used:
  45144 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,705b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,705b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
-_act_draft_uz.pdf (5 pages).
+_act_draft_uz.pdf (6 pages).

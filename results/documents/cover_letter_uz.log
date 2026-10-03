@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 12:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -984,21 +984,27 @@ yestrga kiritishning yangi tizimi
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 58--59
-\TU/LiberationSerif(0)/m/n/14.05249 qoidalardan kelib chiqishini, asoslari bila
-n saqlanishini va “Shaxsga doir
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 58--59
-\TU/LiberationSerif(0)/m/n/14.05249 maʼlumotlar toʻgʻrisida”gi Qonunning 24-mod
-dasi talabiga muvofiq ariza
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
-\TU/LiberationSerif(0)/m/n/14.05249 tartibi toʻgʻrisidagi amaldagi nizomdagi hi
-sob-kitoblar bilan isbotlangan
+[]\TU/LiberationSerif(0)/m/n/14.05249 2027-yil 1-yanvardan boshlab oilaning toi
+fasi balli tizim orqali
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 avtomatik tarzda belgilanadi. Takliflar har
+ bir oilaning baholash natijasi
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 tartib-taomillar toʻgʻrisida”gi Qonunning 5
+3–54-moddalari talabiga muvofiq
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 ariza beruvchiga tushuntirilishini taʼminla
+ydi, shuningdek Ijtimoiy reyestrni
  []
 
 
@@ -1035,9 +1041,21 @@ linadigan daromadning
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 66--67
+Underfull \hbox (badness 3439) in paragraph at lines 66--67
 []\TU/LiberationSerif(0)/m/n/14.05249 “Shaxsga doir maʼlumotlar toʻgʻrisida”gi 
-Qonunning 24-moddasiga
+Qonunning 24-moddasi va
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 muvofiq ariza beruvchiga kiritish, rad etis
+h, toifani oʻzgartirish yoki
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 chiqarish toʻgʻrisidagi qaror asoslari, eʼt
+iroz bildirish tartibi, shikoyat
  []
 
 
@@ -1076,7 +1094,8 @@ Underfull \hbox (badness 3323) in paragraph at lines 73--74
 taqdim etiladi; ularni masʼul
  []
 
-[2] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_uz.aux)
+[2] [3]
+(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_uz.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1091,7 +1110,7 @@ Here is how much of TeX's memory you used:
  45237 multiletter control sequences out of 15000+600000
  628655 words of font info for 72 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,11n,107p,786b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,857b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
-ter_uz.pdf (2 pages).
+ter_uz.pdf (3 pages).
