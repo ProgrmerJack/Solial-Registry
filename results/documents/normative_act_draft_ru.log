@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1056,24 +1056,36 @@ Underfull \hbox (badness 1824) in paragraph at lines 89--90
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 91--92
-| \TU/LiberationSerif(0)/m/n/14.05249 д) если ответ не поступил в течение десят
-и рабочих дней со
+Underfull \hbox (badness 5519) in paragraph at lines 90--91
+\TU/LiberationSerif(0)/m/n/14.05249 для отказа во включении; отказ допускается 
+только по основанию,
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 91--92
-\TU/LiberationSerif(0)/m/n/14.05249 дня повторного запроса, оценка завершается 
-с применением порядка,
+Underfull \hbox (badness 7203) in paragraph at lines 91--92
+\TU/LiberationSerif(0)/m/n/14.05249 рабочих дней со дня первоначального запроса
+, оценка завершается
  []
 
 
+Underfull \hbox (badness 3260) in paragraph at lines 91--92
+\TU/LiberationSerif(0)/m/n/14.05249 с применением порядка, предусмотренного под
+пунктом «е» пункта 3
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 91--92
+\TU/LiberationSerif(0)/m/n/14.05249 получения подтверждённых сведений или истеч
+ения указанных десяти
+ []
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 | \TU/LiberationSerif(0)/m/n/14.05249 11. Структурное подразделение Агентства, 
 ответственное за
  []
 
-[2]
+
 Underfull \hbox (badness 1072) in paragraph at lines 95--96
 | \TU/LiberationSerif(0)/m/n/14.05249 б) каждое исключение и особый порядок, а 
 также их сочетания,
@@ -1088,12 +1100,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \TU/LiberationSerif(0)/m/n/14.05249 также до применения каждого
- []
-
-
-Underfull \hbox (badness 5260) in paragraph at lines 103--104
-\TU/LiberationSerif(0)/m/n/14.05249 количества баллов или результата оценки с к
-онтрольным примером,
  []
 
 
@@ -1114,12 +1120,12 @@ Underfull \hbox (badness 3428) in paragraph at lines 115--116
 ка, периода и даты
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 | \TU/LiberationSerif(0)/m/n/14.05249 е)
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 | \TU/LiberationSerif(0)/m/n/14.05249 19. Специальные
  []
@@ -1132,28 +1138,34 @@ Underfull \hbox (badness 2653) in paragraph at lines 131--132
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
-\TU/LiberationSerif(0)/m/n/14.05249 предусмотренного
+\TU/LiberationSerif(0)/m/n/14.05249 указанных в нём результатов оценки в устано
+вленном
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 135--136
-| \TU/LiberationSerif(0)/m/n/14.05249 22. Решение о временном изменении алгорит
-ма в случаях,
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\TU/LiberationSerif(0)/m/n/14.05249 результатов не продлевают установленный зак
+онодательством срок
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 135--136
-\TU/LiberationSerif(0)/m/n/14.05249 фиксируются в системе YAMIH; результаты оце
-нки, определённые по
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+| \TU/LiberationSerif(0)/m/n/14.05249 22. Решение о временном
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 135--136
-\TU/LiberationSerif(0)/m/n/14.05249 временному алгоритму, отмечаются и в течени
-е десяти дней после
+Underfull \hbox (badness 3713) in paragraph at lines 135--136
+\TU/LiberationSerif(0)/m/n/14.05249 изменении алгоритма в случаях, предусмотрен
+ных законодательством,
  []
 
 
+Underfull \hbox (badness 2326) in paragraph at lines 135--136
+\TU/LiberationSerif(0)/m/n/14.05249 его основание и период применения фиксируют
+ся в системе YAMIH;
+ []
+
+[4]
 Underfull \hbox (badness 2460) in paragraph at lines 137--138
 | \TU/LiberationSerif(0)/m/n/14.05249 23. Реализация настоящего раздела осущест
 вляется в пределах
@@ -1177,7 +1189,7 @@ Underfull \hbox (badness 3668) in paragraph at lines 143--144
 ную деятельность за
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 | \TU/LiberationSerif(0)/m/n/14.05249 3. В подпункте «а» пункта 33 слова
  []
@@ -1196,10 +1208,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 | \TU/LiberationSerif(0)/m/n/14.05249 1. Изменения, предусмотренные пунктами 1–
-3 раздела
+3 раздела II,
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 160--161
+| \TU/LiberationSerif(0)/m/n/14.05249 б) к «семье, находящейся в черте бедности
+» — с окончания
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+\TU/LiberationSerif(0)/m/n/14.05249 категории семьи или
+ []
+
+[6]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_ru.aux
 )
  ***********
@@ -1217,7 +1240,7 @@ Here is how much of TeX's memory you used:
  45144 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,542b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,576b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
-_act_draft_ru.pdf (5 pages).
+_act_draft_ru.pdf (6 pages).

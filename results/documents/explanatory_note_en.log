@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1411,7 +1411,7 @@ ignored: Infinite glue shrinkage found in box being split [2] [3]
 ignored: Infinite glue shrinkage
  found in box being split [4]
 ignored: Infinite glue shrinkage found in box being split [
-5]
+5] [6]
 LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 10
 9.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
@@ -1428,8 +1428,8 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 9.83563pt on input line 109.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.02548pt on input line 109.
- [6] [7] [8]
-ignored: Infinite glue shrinkage found in box being split [9] [10]
+ [7] [8] [9]
+ignored: Infinite glue shrinkage found in box being split [10]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
  [11]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
@@ -1455,7 +1455,7 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+ [13]
 Underfull \hbox (badness 4416) in paragraph at lines 228--228
 []|\TU/LiberationSerif(0)/m/n/11.04124 Minimum $[][][]$
  []
@@ -1470,7 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 \TU/LiberationSerif(0)/m/n/11.04124 floor change
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 268--268
 []|\TU/LiberationSerif(0)/m/n/11.04124 Monthly contribution
  []
@@ -1480,16 +1480,16 @@ Underfull \hbox (badness 1286) in paragraph at lines 268--269
 []|\TU/LiberationSerif(0)/m/n/11.04124 Per-person drop, four
  []
 
-[14]
+[15]
 Underfull \hbox (badness 1097) in paragraph at lines 304--305
 \TU/LiberationSerif(0)/m/n/14.05249 Point 23 sets eight coefficients of monthly
  normative income for the self-
  []
 
-[15] [16] [17]
+[16] [17] [18]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-ignored: Infinite glue shrinkage found in box being split [18]
+ignored: Infinite glue shrinkage found in box being split [19]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
@@ -1511,7 +1511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 ] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-[19]
+[20]
 Underfull \hbox (badness 2073) in paragraph at lines 398--399
 []\TU/LiberationSerif(0)/m/n/12.045 National Statistics Committee. Announcement
  on minimum consumption expendi-
@@ -1524,7 +1524,7 @@ Underfull \hbox (badness 1817) in paragraph at lines 398--399
 [][][][][][][][][][][][][][][][][] []
  []
 
-[20]
+[21]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_en.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1540,7 +1540,7 @@ Here is how much of TeX's memory you used:
  67187 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,1848b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1947b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_en.pdf (20 pages).
+ry_note_en.pdf (21 pages).

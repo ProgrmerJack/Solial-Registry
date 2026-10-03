@@ -42161,7 +42161,7 @@
       "scripts/run_analysis.py",
       "--legal-audit"
     ],
-    "run_utc": "2026-10-03T06:46:00.059591+00:00",
+    "run_utc": "2026-10-03T07:12:11.703880+00:00",
     "random_seed": null,
     "generation": "deterministic; no random sampling",
     "analysis_plan_source": "docs/analysis_plan.md",

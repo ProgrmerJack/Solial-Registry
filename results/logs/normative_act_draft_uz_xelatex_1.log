@@ -105,13 +105,17 @@ Underfull \hbox (badness 2744) in paragraph at lines 89--90
 | \TU/LiberationSerif(0)/m/n/14.05249 v) ariza beruvchiga qaysi maʼlumotlar qay
 si organ yoki tashkilotda
 
-Underfull \hbox (badness 6125) in paragraph at lines 90--91
-| \TU/LiberationSerif(0)/m/n/14.05249 g) ushbu boʻlim 3-bandining “e” kichik ba
-ndida nazarda tutilgan
+Underfull \hbox (badness 2961) in paragraph at lines 90--91
+| \TU/LiberationSerif(0)/m/n/14.05249 g) maʼlumotlarning tasdiqlanmaganligi oʻz
+-oʻzidan Ijtimoiy reyestrga
 
-Underfull \hbox (badness 1337) in paragraph at lines 90--91
-\TU/LiberationSerif(0)/m/n/14.05249 tartib qoʻllanilgan hollar bundan mustasno,
- Ijtimoiy reyestrga kiritish faqat
+Underfull \hbox (badness 1048) in paragraph at lines 90--91
+\TU/LiberationSerif(0)/m/n/14.05249 uslubiyoti yoki qonunchilikda belgilangan a
+sos boʻyicha, ushbu asos ushbu
+
+Underfull \hbox (badness 3219) in paragraph at lines 91--92
+\TU/LiberationSerif(0)/m/n/14.05249 “e” kichik bandida nazarda tutilgan tartibn
+i qoʻllagan holda yakunlanadi;
 [2]
 Underfull \hbox (badness 2285) in paragraph at lines 99--100
 \TU/LiberationSerif(0)/m/n/14.05249 dasturiy taʼminot ishlab chiquvchisi ishtir
@@ -119,6 +123,10 @@ okisiz nazorat hisob-kitobi orqali
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 | \TU/LiberationSerif(0)/m/n/14.05249 13. Markaz koʻp oʻlchovli
+
+Underfull \hbox (badness 1297) in paragraph at lines 103--104
+| \TU/LiberationSerif(0)/m/n/14.05249 14. Koʻp oʻlchovli baholash uslubiyotini 
+birinchi marta qoʻllash va
 
 Underfull \hbox (badness 5175) in paragraph at lines 105--106
 \TU/LiberationSerif(0)/m/n/14.05249 tarkibida bayonnoma bilan rasmiylashtirilad
@@ -140,6 +148,10 @@ Underfull \hbox (badness 1635) in paragraph at lines 133--134
 | \TU/LiberationSerif(0)/m/n/14.05249 21. Agentlik ushbu boʻlimning 20-bandida 
 nazarda tutilgan roʻyxat
 
+Underfull \hbox (badness 1199) in paragraph at lines 133--134
+\TU/LiberationSerif(0)/m/n/14.05249 belgilanadi. Taʼsirlangan natijalarni aniql
+ash va qayta koʻrib chiqish ariza
+
 Underfull \hbox (badness 4479) in paragraph at lines 135--136
 | \TU/LiberationSerif(0)/m/n/14.05249 22. Qonunchilikda nazarda tutilgan hollar
 da algoritmni vaqtincha
@@ -148,9 +160,9 @@ Underfull \hbox (badness 1466) in paragraph at lines 135--136
 \TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirish toʻgʻrisidagi qaror, uning aso
 si va qoʻllanilish davri “YAMIH”
 
-Underfull \hbox (badness 1117) in paragraph at lines 135--136
-\TU/LiberationSerif(0)/m/n/14.05249 belgilanadi va maʼlumotlar almashinuvi tikl
-anganidan keyin oʻn kun ichida
+Underfull \hbox (badness 7685) in paragraph at lines 135--136
+\TU/LiberationSerif(0)/m/n/14.05249 ATda qayd etiladi; vaqtinchalik algoritm bo
+ʻyicha aniqlangan baholash
 
 Underfull \hbox (badness 4144) in paragraph at lines 137--138
 | \TU/LiberationSerif(0)/m/n/14.05249 23. Ushbu boʻlimni amalga oshirish “YAMIH
@@ -170,6 +182,18 @@ Underfull \hbox (badness 3158) in paragraph at lines 147--148
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 \TU/LiberationSerif(0)/m/n/14.05249 xizmatlar markazida qaror
+
+Underfull \hbox (badness 1515) in paragraph at lines 156--157
+| \TU/LiberationSerif(0)/m/n/14.05249 2. Oʻzgartishlar kuchga kirgunga qadar Ij
+timoiy reyestrga kiritilgan
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+| \TU/LiberationSerif(0)/m/n/14.05249 a) “davlat taʼminotidagi oila” va “kambag
+ʻal
+
+Underfull \hbox (badness 2856) in paragraph at lines 160--161
+\TU/LiberationSerif(0)/m/n/14.05249 holatlari oʻzgarishining oqibatlari belgila
+ngan tartibda oʻzgartishlar kuchga
 [5]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_uz.aux
 ) )
