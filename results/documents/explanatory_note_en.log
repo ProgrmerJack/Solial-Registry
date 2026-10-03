@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:38
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,11 +1429,12 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.02548pt on input line 109.
  [6] [7] [8]
-ignored: Infinite glue shrinkage found in box being split [9]
+ignored: Infinite glue shrinkage found in box being split [9] [10]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
- [10] [11]
+ [11]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+ [12]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 21
 8.
@@ -1454,7 +1455,7 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
- [12]
+
 Underfull \hbox (badness 4416) in paragraph at lines 228--228
 []|\TU/LiberationSerif(0)/m/n/11.04124 Minimum $[][][]$
  []
@@ -1539,7 +1540,7 @@ Here is how much of TeX's memory you used:
  67187 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,1836b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,118p,1848b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
 ry_note_en.pdf (20 pages).

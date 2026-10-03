@@ -10,7 +10,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/legal_audit.log",
-      "log_sha256": "c3a4114799a9239678f1d4b4adf4131493adefd22043680ce69384cbbc387141"
+      "log_sha256": "5c257ec861b67ff7fa252134eec07fa3436395a5f1c0d11ae8e15e5f123edbe1"
     },
     {
       "stage": "synthetic_demo",
@@ -22,7 +22,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/synthetic_demo.log",
-      "log_sha256": "921ed37aa7d2f50c42e61f15f7799381d4cf9b130de17f7bca3bcc8d37cf0bb9"
+      "log_sha256": "0dfbbede3a12969e40a0d3f3a0e02605ffe19e8c7f430062fd22ee443745d187"
     },
     {
       "stage": "tests",
@@ -34,7 +34,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/tests.log",
-      "log_sha256": "e49d5903cabbc15483b40429b533f85b54b3a4e8abda48dd47f3d2caf4304520"
+      "log_sha256": "1330a6227d514398dc41efa74391b0986c211d39ebe64a303b78b68494ce3a91"
     },
     {
       "stage": "independent_algebra",
@@ -45,7 +45,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/independent_algebra.log",
-      "log_sha256": "9f0f7da159571a82a6443ca97ca3d0b3e48106bd954404b690f6c04665c6740c"
+      "log_sha256": "f3d79bdc2b697517b4a723dbf9dee1197cdb174de1807c6e94d053c7aaeb76c2"
     },
     {
       "stage": "csv_export",
@@ -78,7 +78,7 @@
       "cwd": "/home/xola/GitHub/Solial Registry",
       "exit_code": 0,
       "log": "results/logs/latex_documents.log",
-      "log_sha256": "6a6113ed5e555df7a46c4ef3d0afb889ba2bf0be9149a6bad2b2402d78ac13d4"
+      "log_sha256": "081d7d1959b60a77792e30e5483101ef38a5632e415a27dc5dd59e21f792e642"
     }
   ],
   "source_sha256": {

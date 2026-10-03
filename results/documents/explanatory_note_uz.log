@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:38
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1608,21 +1608,33 @@ boʻlimdagi masala boʻyicha talab
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 130--131
-\TU/LiberationSerif(0)/m/n/14.05249 boʻlimning 18, 17 va 20-bandlariga havola q
-iladi (Yagona uslubiyotning
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\TU/LiberationSerif(0)/m/n/14.05249 13-band maʼlumotlar almashinuvidagi nosozli
+klarda algoritmni vaqtincha
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 130--131
+\TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirishni solishtirish kechiktirmaslig
+i uchun 22-bandga havola qiladi.
  []
 
 
 Underfull \hbox (badness 2443) in paragraph at lines 130--131
-\TU/LiberationSerif(0)/m/n/14.05249 13-bandi). 13-band maʼlumotlar almashinuvid
-agi nosozliklarda algoritmni
+\TU/LiberationSerif(0)/m/n/14.05249 I boʻlimning 15-bandi muayyan hujjatni koʻr
+satmasdan axborot tizimlarini
  []
 
 
 Underfull \hbox (badness 1424) in paragraph at lines 130--131
 \TU/LiberationSerif(0)/m/n/14.05249 havola qiladi: pastroq yuridik kuchga ega b
 oʻlgan aniq hujjatlarga havola
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 130--131
+\TU/LiberationSerif(0)/m/n/14.05249 va uning bandlari koʻrsatilgan (Yagona uslu
+biyotning 69-bandi); III boʻlim
  []
 
 [8]
@@ -1650,27 +1662,21 @@ am oluvchilar doirasini
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 139--140
-\TU/LiberationSerif(0)/m/n/14.05249 kengaytirmaydi: hisobga olinadigan daromad 
-kamaymaydi, toifasiz
- []
-
-
 Underfull \hbox (badness 2626) in paragraph at lines 139--140
 \TU/LiberationSerif(0)/m/n/14.05249 oilalarning bir qismini kiritilish huquqida
 n mahrum qilishi mumkin.
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 139--140
-\TU/LiberationSerif(0)/m/n/14.05249 26-bandga oʻzgartish 6-ilovadagi mamlakatla
-rdan oyiga $[][]$ dan $[][]$
  []
 
 [9]
 Underfull \hbox (badness 5696) in paragraph at lines 140--141
 \TU/LiberationSerif(0)/m/n/14.05249 1-materialning III boʻlimi allaqachon kirit
 ilgan oilalarning toifasini
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 140--141
+\TU/LiberationSerif(0)/m/n/14.05249 savolnoma qayta toʻldirilgunga qadar saqlay
+di (Nizom 40-bandining
  []
 
 
@@ -1709,8 +1715,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 145--146
 oiy-iqtisodiy ahamiyatga ega
  []
 
-
-ignored: Infinite glue shrinkage found in box being split [10]
+[10]
 Underfull \hbox (badness 1383) in paragraph at lines 162--163
 \TU/LiberationSerif(0)/m/n/14.05249 Ushbu boʻlim loyihani asoslash uchun zarur 
 boʻlgan boshqa maʼlumotlarni
@@ -1722,7 +1727,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 165--166
 /14.05249 Xulosa qoidani koʻchirishdagi xato, qoʻllanilishi lozim
  []
 
-
+[11]
 Underfull \hbox (badness 7012) in paragraph at lines 167--168
 []\TU/LiberationSerif(0)/m/n/14.05249 2026-yil 30-sentabr — 1-oktabr holatiga l
 ex.uz dagi hujjatlarning
@@ -1734,7 +1739,6 @@ Underfull \hbox (badness 4634) in paragraph at lines 167--168
 mon, 35-son qaror (Vazirlar
  []
 
-[11]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
 
 Underfull \hbox (badness 2443) in paragraph at lines 173--174
@@ -1766,7 +1770,7 @@ Underfull \hbox (badness 2617) in paragraph at lines 183--184
  $[] [] []$ boʻlgan oilalarni
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 187--188
 []\TU/LiberationSerif(0)/m/n/14.05249 Tomorqa maydoni (27-band): $[] [] [][] []
  [][]$ sohasida
@@ -1778,7 +1782,7 @@ Underfull \hbox (badness 2096) in paragraph at lines 187--188
 /n/14.05249 m²; oylik normativ daromad
  []
 
-[12]
+
 Underfull \hbox (badness 3690) in paragraph at lines 189--190
 []\TU/LiberationSerif(0)/m/n/14.05249 Pul oʻtkazmalari (26-band): oʻtkazmalar m
 iqdori aniqlanmasa yoki
@@ -1868,7 +1872,7 @@ Underfull \hbox (badness 3623) in paragraph at lines 265--266
 esa $[] [][][] [][][]$ sifatida hisobga olinadi.
  []
 
-
+[15]
 Underfull \hbox (badness 1087) in paragraph at lines 270--270
 []|\TU/LiberationSerif(0)/m/n/11.04124 Oylik ulush pasayishi
  []
@@ -1889,7 +1893,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--275
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [15]
 Underfull \hbox (badness 5847) in paragraph at lines 303--304
 []\TU/LiberationSerif(0)/m/n/14.05249 Taklif etilayotgan tahrir (1-material, II
  boʻlim, 1-band) chet elda
@@ -1901,18 +1904,19 @@ Underfull \hbox (badness 5652) in paragraph at lines 303--304
 notonlikni bartaraf etishning
  []
 
-
+[16]
 Underfull \hbox (badness 6252) in paragraph at lines 315--315
 []|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
 \TU/LiberationSerif(0)/m/n/14.05249 18-banddagi uch oylik davrning kalendar sil
 jishi 30-band misoli bilan
  []
 
-[17]
+
+ignored: Infinite glue shrinkage found in box being split [17]
 Underfull \hbox (badness 1400) in paragraph at lines 352--353
 \TU/LiberationSerif(0)/m/n/14.05249 Har bir guruh uchun dastur amaldagi va takl
 if etilayotgan qoida natijasini
@@ -1924,16 +1928,15 @@ Underfull \hbox (badness 4660) in paragraph at lines 357--358
 an: daromad $[]$ ga teng
  []
 
-
+[18]
 Underfull \hbox (badness 3049) in paragraph at lines 358--359
 \TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirish (1-material, II boʻlim) yoki i
 shlab chiquvchining qarori
  []
 
-[18]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-ignored: Infinite glue shrinkage found in box being split [19]
+[19]
+ignored: Infinite glue shrinkage found in box being split [20]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
@@ -1942,7 +1945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 ldagi OʻRQ-547-son “Shaxsga doir
  []
 
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 397--398
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chili), División de Focalización.
@@ -1961,7 +1964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--398
 [][][][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-
+[21]
 Underfull \hbox (badness 6001) in paragraph at lines 399--400
 []\TU/LiberationSerif(0)/m/n/12.045 Normativ-huquqiy hujjatlar loyihalari muhok
 amasi portali. 2026-yil 11-sentabrdan
@@ -1986,7 +1989,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--402
 ][][][][][][][][][][][][][][] []
  []
 
-[21]
+[22]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1998,11 +2001,11 @@ Package rerunfilecheck Info: File `explanatory_note_uz.out' has not changed.
 Here is how much of TeX's memory you used:
  38094 strings out of 469974
  898600 string characters out of 5477063
- 1563263 words of memory out of 5000000
+ 1566350 words of memory out of 5000000
  66100 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,1988b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,118p,1994b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_uz.pdf (21 pages).
+ry_note_uz.pdf (22 pages).
