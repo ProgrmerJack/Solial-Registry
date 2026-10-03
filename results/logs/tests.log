@@ -39,6 +39,6 @@ test_threshold_equality_and_both_sides (test_scoring.VerificationTests.test_thre
 test_wrong_reference_is_detected (test_scoring.VerificationTests.test_wrong_reference_is_detected) ... ok
 
 ----------------------------------------------------------------------
-Ran 39 tests in 0.400s
+Ran 39 tests in 0.426s
 
 OK

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 03:09
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,27 +969,26 @@ Underfull \hbox (badness 5578) in paragraph at lines 56--57
 e software version and the
  []
 
-
-Underfull \hbox (badness 7291) in paragraph at lines 58--59
-[]\TU/LiberationSerif(0)/m/n/14.05249 control example means a set of a family’s
- input data with an
- []
-
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-| \TU/LiberationSerif(0)/m/n/14.05249 (b) each exception and special procedure 
-provided for by the
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+| \TU/LiberationSerif(0)/m/n/14.05249 (b) each exception and
  []
 
 [2]
-Underfull \hbox (badness 3000) in paragraph at lines 104--105
+Underfull \hbox (badness 3000) in paragraph at lines 108--109
 | \TU/LiberationSerif(0)/m/n/14.05249 (d) the surnames and positions of the per
 sons who performed the
  []
 
-[3] [4]
+
+Underfull \hbox (badness 2119) in paragraph at lines 118--119
+\TU/LiberationSerif(0)/m/n/14.05249 the parameter values and the executable sof
+tware version that allows the
+ []
+
+[3] [4] [5]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_en.aux
 )
  ***********
@@ -1003,11 +1002,11 @@ Package rerunfilecheck Info: File `normative_act_draft_en.out' has not changed.
 Here is how much of TeX's memory you used:
  16720 strings out of 469974
  307649 string characters out of 5477063
- 866176 words of memory out of 5000000
+ 867176 words of memory out of 5000000
  45144 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,614b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,658b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
-_act_draft_en.pdf (4 pages).
+_act_draft_en.pdf (5 pages).
