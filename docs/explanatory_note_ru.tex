@@ -361,10 +361,11 @@ D>P,\quad\frac34D\le\frac32P\quad\Longleftrightarrow\quad P<D\le2P.
 \end{enumerate}
 
 \subsection{Воспроизведение}
-Электронное приложение содержит план анализа, датированное извлечение правил (\nolinkurl{data/rules/legal_specification.json}), контрольные случаи, программу (\nolinkurl{src/social_registry/}), тесты (\nolinkurl{tests/}), независимую проверку и результаты (\nolinkurl{results/}). Сетевой доступ не нужен; случайные числа не используются. Каждый результат хранит SHA-256 спецификации и кода, команду и время выполнения; программа проверки отклоняет результат, если код или входы изменились.
+Электронное приложение содержит план анализа, датированное извлечение правил (\nolinkurl{data/rules/legal_specification.json}), контрольные случаи, программу (\nolinkurl{src/social_registry/}), тесты (\nolinkurl{tests/}), независимую проверку и результаты (\nolinkurl{results/}). Расчёты используют только стандартную библиотеку Python, не требуют сетевого доступа и не используют случайных чисел; для рисунков и PDF однократно устанавливаются пакеты из requirements.txt. Каждый результат хранит SHA-256 спецификации и кода, команду и время выполнения; программа проверки отклоняет результат, если код или входы изменились.
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{verbatim}
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
 python scripts/run_analysis.py --self-test
 python scripts/run_analysis.py --legal-audit
 python scripts/verify_results.py

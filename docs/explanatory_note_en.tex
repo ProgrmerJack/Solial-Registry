@@ -367,10 +367,11 @@ For each group the program compares the result of the current and the proposed r
 \end{enumerate}
 
 \subsection{Reproduction}
-The electronic supplement contains the analysis plan, a dated extraction of the rules (\nolinkurl{data/rules/legal_specification.json}), control cases, the program (\nolinkurl{src/social_registry/}), tests (\nolinkurl{tests/}), the independent check and results (\nolinkurl{results/}). No network access is needed; no random numbers are used. Each result stores SHA-256 hashes of the specification and code, the command and the run time; the checking program rejects a result if the code or inputs have changed.
+The electronic supplement contains the analysis plan, a dated extraction of the rules (\nolinkurl{data/rules/legal_specification.json}), control cases, the program (\nolinkurl{src/social_registry/}), tests (\nolinkurl{tests/}), the independent check and results (\nolinkurl{results/}). The calculations use only the Python standard library, need no network access and use no random numbers; the packages in requirements.txt are installed once for figures and PDFs. Each result stores SHA-256 hashes of the specification and code, the command and the run time; the checking program rejects a result if the code or inputs have changed.
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{verbatim}
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
 python scripts/run_analysis.py --self-test
 python scripts/run_analysis.py --legal-audit
 python scripts/verify_results.py

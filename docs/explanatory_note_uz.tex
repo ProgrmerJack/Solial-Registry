@@ -369,10 +369,11 @@ Har bir guruh uchun dastur amaldagi va taklif etilayotgan qoida natijasini solis
 \end{enumerate}
 
 \subsection{Takrorlash}
-Elektron ilova tahlil rejasi, qoidalarning sanali koʻchirmasi (\nolinkurl{data/rules/legal_specification.json}), nazorat holatlari, dastur (\nolinkurl{src/social_registry/}), testlar (\nolinkurl{tests/}), mustaqil tekshiruv va natijalarni (\nolinkurl{results/}) oʻz ichiga oladi. Tarmoqqa ulanish kerak emas; tasodifiy sonlar ishlatilmaydi. Har bir natija spetsifikatsiya va kodning SHA-256 xeshlarini, buyruq va bajarilish vaqtini saqlaydi; kod yoki kirishlar oʻzgarsa, tekshiruv dasturi natijani rad etadi.
+Elektron ilova tahlil rejasi, qoidalarning sanali koʻchirmasi (\nolinkurl{data/rules/legal_specification.json}), nazorat holatlari, dastur (\nolinkurl{src/social_registry/}), testlar (\nolinkurl{tests/}), mustaqil tekshiruv va natijalarni (\nolinkurl{results/}) oʻz ichiga oladi. Hisob-kitoblar faqat Python standart kutubxonasidan foydalanadi, tarmoqqa ulanishni talab qilmaydi va tasodifiy sonlarni ishlatmaydi; rasmlar va PDF uchun requirements.txt dagi paketlar bir marta oʻrnatiladi. Har bir natija spetsifikatsiya va kodning SHA-256 xeshlarini, buyruq va bajarilish vaqtini saqlaydi; kod yoki kirishlar oʻzgarsa, tekshiruv dasturi natijani rad etadi.
 
 \begingroup\fontsize{11bp}{13.2bp}\selectfont
 \begin{verbatim}
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
 python scripts/run_analysis.py --self-test
 python scripts/run_analysis.py --legal-audit
 python scripts/verify_results.py
