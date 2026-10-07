@@ -140,3 +140,82 @@ Prevention: retain a recoverable edit command and validate exact language-specif
 Cause: regulation.adliya.uz paths were guessed from its JS bundle; the working read-only endpoint /api/api/aux-jk/v1/open/project was already recorded in docs/analysis_plan.md.
 Correction: used the documented endpoint; all 40 drafts published 11 Sep–1 Oct 2026 checked, none is the PF-193 para 14 act.
 Prevention: grep the repo (plans, logs, FAILURES.md) for previously found endpoints before probing an external service.
+
+## 2026-10-05 — Verification safeguards did not fully match operative wording
+Tried: relying on hierarchy-only reasoning, retained grounds and general coverage/confirmation clauses in the submission.
+Failed: source comparison showed omitted favourable interpretation, undisclosed legal grounds, a narrower launch condition and unbounded internal diagnosis.
+Rule: resolve the legal baseline explicitly; align disclosure and full required-case coverage; bound diagnosis while preserving complaint deadlines.
+## 2026-10-05 — Electronic supplement omitted publication sources
+Tried: supplying the full reproduction pipeline in the supplement without its maintained LaTeX sources or vendored TeX packages.
+Failed: checked_sources against the archive raised FileNotFoundError for docs/normative_act_draft_ru.tex.
+Rule: include every required source and dependency file, verify archive members against workspace hashes, and run reproduction from the extracted bundle.
+
+## 2026-10-05 — Translation converted a drafting mandate into completed submission
+Tried: translating “already mandated draft” into the Uzbek objection-response table.
+Failed: fresh-context review found “allaqachon topshirilgan loyiha”, which states that submission already occurred.
+Rule: distinguish an instruction to prepare a draft from completion or submission; verify temporal state as well as legal modality across editions.
+
+## 2026-10-05 — Page-number conditional consumed the number as part of its comparison
+Tried: rendering the shared header with \ifnum\value{page}>1\thepage\fi.
+Failed: visual review and PDF header extraction found no page numbers in any of the nine documents.
+Rule: terminate the comparison number with \relax before outputting \thepage; verify the first-page omission and later-page header values in rendered PDFs.
+
+## 2026-10-05 — PDF header check ignored the current transformation matrix
+Tried: locating headers using only pypdf visitor text-matrix coordinates.
+Failed: the first check rejected a visibly numbered PDF because the coordinates were relative to the translated current matrix.
+Rule: transform visitor coordinates to page space before comparing positions; confirm extracted header text against the rendered page.
+
+## 2026-10-06 — Missing-data pause protected the clock but not benefit commencement
+Tried: automatically pausing assessment for up to ten working days while leaving benefit-calendar rules unchanged.
+Failed: APL36–38 require lawful suspension and notices; Resolution35 Annex1(16) is shorter and Annex3(10,11,18) can defer a qualifying first applicant’s payment month.
+Rule: subordinate verification to the applicable deadline, require lawful suspension/resumption, and align all benefit-date clauses; document original eligibility before paying elapsed eligible periods.
+
+## 2026-10-06–07 — Sequential patch hunks returned to an earlier source position
+Tried: applying validated explanatory-note hunks after later-position headings or bibliography edits, including a return to the edition line on 7 October.
+Failed: the patch tool rejected the batches because its sequential search could not return to an earlier source position; no file was written by either rejected batch.
+Rule: order bounded hunks by their positions in the maintained source before applying them, then verify every target passage.
+
+## 2026-10-06 — New payment safeguard outgrew the attached program’s stated scope
+Tried: retaining the general claim that the attached program counts families affected by every amendment after adding benefit-date protection.
+Failed: the maintained program contains income-rule calculations, not the processing-date and original-eligibility review required for the new safeguard.
+Rule: distinguish computed income effects from separate administrative date and eligibility review; state when no affected-family count or payment-cost estimate is supplied.
+
+## 2026-10-06 — Source revisions did not refresh exported papers
+Tried: checking the nine revised sources in the native compiler without refreshing the saved publication package.
+Failed: the saved submission PDFs and supplement still contained the 5 October edition while the sources contained the 6 October revision.
+Rule: export all nine papers, refresh their submission copies and supplement, compare source/PDF/archive hashes, and reproduce from the extracted bundle.
+
+## 2026-10-06 — Protected payment commencement left the benefit window unresolved
+Tried: aligning benefit consideration and payment start through Annex 3 paragraphs 10, 11 and 18 alone.
+Failed: paragraph 13 and PF-258(5)(v)(i) retain a category-entry clock, while paragraphs 12, 23 and 26 use its expiry; late detection can extend the proposed window.
+Rule: align the protected entry date, single six-month window, original-request cutoff, arrears and fixed termination across both ranks, with explicit prospective scope and pre-use resource duties.
+
+## 2026-10-07 — Quotation check selected an earlier section with reused numbering
+Tried: extracting benefit amendments from the first occurrence of the paragraph-six marker.
+Failed: section numbering restarts, so the check selected Section I and counted unrelated quotations.
+Rule: anchor the section first, verify the expected quotation count, and inspect each language’s actual table labels before comparing full concatenated wording.
+
+## 2026-10-07 — Piecewise domain omitted from affected-plot selector
+Tried: describing the second negative-area branch as QM > UM − 200 without limiting it to plots larger than 1,000 m².
+Failed: the selector admits UM = 100, QM = 0 although the literal area is positive (80 m²); it disagrees with 81 of the 4,105 existing constructed cases.
+Rule: retain each piecewise branch’s domain in candidate filters and verify the combined predicate against every existing constructed case.
+
+## 2026-10-07 — Table labels separated from their content after reflow
+Tried: retaining an external Table 4 caption and an ordinary comparison-group row break while adding explanatory paragraphs.
+Failed: the Russian caption moved to page 33 after its table on page 32; Uzbek section 12 and the Annex 3 group heading were also separated from their tables by page breaks.
+Rule: keep captions inside the table, protect group-heading row breaks, reserve space before section headings that precede tables, and re-render affected pages after text revisions.
+
+## 2026-10-07 — Starred longtable row did not protect a group heading
+Tried: adding a starred row break before the booktabs rule after the Uzbek Annex 3 comparison heading.
+Failed: compilation passed but rendered page 36 still ended with the heading while its first content row began page 37.
+Rule: use an explicit table-page break before this annex group and verify the rendered heading and first row together; successful compilation does not establish pagination.
+
+## 2026-10-07 — Render comparison assumed a fixed page-number width
+Tried: finding every earlier page image with a two-digit page-number suffix.
+Failed: cover-letter renders use one-digit suffixes, so comparison stopped after the three draft PDFs; numerical page matching confirmed all cover-letter pages unchanged.
+Rule: match rendered pages by their parsed page number rather than assuming the renderer's filename padding.
+
+## 2026-10-07 — Safeguard expansion turned the proposal into a rejectable package
+Tried: adding a benefit-date module (Annex 3, PF-258 amendment), continuity/resource duties for the Ministry, an Art. 22 inclusion request and "necessity is not proven" caveats (Material 1 7→13 pages, Material 2 28→50).
+Failed: scope left the PF-193 ¶14 subject, duties fell outside the Agency's competence, and the text supplied ready-made rejection wording; Art. 22 contradicted the user's proposal-only decision.
+Rule: keep each norm within the ordered act and the addressee's competence, state limits once without conceding necessity, and check every edit against the standing submission decisions.

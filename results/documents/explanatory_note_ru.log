@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 15:20
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1501,135 +1501,135 @@ Underfull \hbox (badness 4242) in paragraph at lines 137--138
  систем и этапов
  []
 
-[14]
-ignored: Infinite glue shrinkage found in box being split [15]
-ignored: Infinite glue shrinkag
-e found in box being split [16] [17]
+[14] [15]
+ignored: Infinite glue shrinkage found in box being split [16]
+ignored: Infinite glue shr
+inkage found in box being split [17] [18]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
- [18]
-Underfull \hbox (badness 1616) in paragraph at lines 198--199
+ [19]
+Underfull \hbox (badness 1616) in paragraph at lines 199--200
 \TU/LiberationSerif(0)/m/n/14.05249 4105 земельных случаев, 12 случаев тяжёлой 
 ситуации, 24 налоговых
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 198--199
+Underfull \hbox (badness 2884) in paragraph at lines 199--200
 \TU/LiberationSerif(0)/m/n/14.05249 и 10 проверок происхождения результатов, от
 клоняющих устаревший,
  []
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-[19]
+[20]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 22
-5.
+6.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 225.
+(Font)              scaled to size 11.04242pt on input line 226.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 225.
+(Font)              scaled to size 7.72966pt on input line 226.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 225.
+(Font)              scaled to size 5.5212pt on input line 226.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 225.
+(Font)              scaled to size 11.04005pt on input line 226.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 225.
+(Font)              scaled to size 7.728pt on input line 226.
 LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 225.
+(Font)              scaled to size 5.52002pt on input line 226.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\TU/LiberationSerif(0)/m/n/11.04124 Участок $[][]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 []|\TU/LiberationSerif(0)/m/n/11.04124 Максимум
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \TU/LiberationSerif(0)/m/n/11.04124 изменения
  []
 
-[21]
-Underfull \hbox (badness 5802) in paragraph at lines 272--272
+
+ignored: Infinite glue shrinkage found in box being split [21] [22]
+Underfull \hbox (badness 5802) in paragraph at lines 273--273
 []|\TU/LiberationSerif(0)/m/n/11.04124 Снижение за месяц
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 315--315
+Underfull \hbox (badness 1400) in paragraph at lines 316--316
 []|\TU/LiberationSerif(0)/m/n/11.04124 Нукус / област-
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [23]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+ignored: Infinite glue shrinkage found in box being split [24]
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 \TU/LiberationSerif(0)/m/n/14.05249 Несогласованности возникают для указанных д
 опустимых входных
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 345--346
+Underfull \hbox (badness 1163) in paragraph at lines 346--347
 \TU/LiberationSerif(0)/m/n/14.05249 Агентство может определить это число на сво
 их данных приложенной
  []
 
-[24]
-Underfull \hbox (badness 2884) in paragraph at lines 356--357
+[25]
+Underfull \hbox (badness 2884) in paragraph at lines 357--358
 []\TU/LiberationSerif(0)/m/n/14.05249 Опубликованные правила расчёта воспроизво
 димы: официальный
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 363--364
+Underfull \hbox (badness 2229) in paragraph at lines 364--365
 \TU/LiberationSerif(0)/m/n/14.05249 ($[][][] [] [][][][][][] [] [][][][][][][][
 ][]$), тесты ($[][][][][][]$), независимую проверку и результаты
  []
 
-[25]
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
+[26]
+ignored: Infinite glue shrinkage found in box being split [27]
+ignored: Infinite glue shrinkag
+e found in box being split [28]
+Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
-ignored: Infinite glue shrinkage found in box being split [26]
-ignored: Infinite glue shrinkage fo
-und in box being split [27]
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 []\TU/LiberationSerif(0)/m/n/12.045 Ministerio de Desarrollo Social y Familia (
 Chile), División de Focalización.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 \TU/LiberationSerif(0)/m/n/12.045 4, 18. []$[][][][][] [] [] [] [][][] [] [][][
 ][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-[28]
-Underfull \hbox (badness 1019) in paragraph at lines 402--403
+[29]
+Underfull \hbox (badness 1019) in paragraph at lines 403--404
 \TU/LiberationSerif(0)/m/n/12.045 ских расходах на 2026 год, 4 марта 2026 года.
  []$[][][][][] [] [] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][
 ][][] []
  []
 
-[29]
+[30]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1641,11 +1641,11 @@ Package rerunfilecheck Info: File `explanatory_note_ru.out' has not changed.
 Here is how much of TeX's memory you used:
  39349 strings out of 469974
  921125 string characters out of 5477063
- 1612770 words of memory out of 5000000
+ 1615767 words of memory out of 5000000
  67332 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,2180b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,2267b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (29 pages).
+ry_note_ru.pdf (30 pages).

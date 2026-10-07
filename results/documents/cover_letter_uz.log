@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  3 OCT 2026 15:20
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -984,14 +984,8 @@ yestrga kiritishning yangi tizimi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]\TU/LiberationSerif(0)/m/n/14.05249 2027-yil 1-yanvardan boshlab oilaning toi
-fasi balli tizim orqali
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 58--59
-\TU/LiberationSerif(0)/m/n/14.05249 avtomatik tarzda belgilanadi. Takliflar har
+Underfull \hbox (badness 2245) in paragraph at lines 58--59
+\TU/LiberationSerif(0)/m/n/14.05249 avtomatik tarzda shakllanadi. Takliflar har
  bir oilaning baholash natijasi
  []
 
@@ -1026,15 +1020,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 gi hech qaysi toifaga
  []
 
+[1
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 []\TU/LiberationSerif(0)/m/n/14.05249 Nizomning 27-bandidagi formulada tomorqa 
 maydonining manfiy
  []
 
-[1
 
-]
 Underfull \hbox (badness 6725) in paragraph at lines 65--66
 []\TU/LiberationSerif(0)/m/n/14.05249 Haqiqiy pul oʻtkazmasi oshganda hisobga o
 linadigan daromadning
@@ -1065,15 +1059,9 @@ r toʻgʻrisida”gi Qonunning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\TU/LiberationSerif(0)/m/n/14.05249 23-moddasiga muvofiq loyihani tayyorlashda 
-inobatga olish va
- []
-
-
-Underfull \hbox (badness 3514) in paragraph at lines 68--69
-\TU/LiberationSerif(0)/m/n/14.05249 loyiha muhokamasi materiallariga kiritish; 
-loyiha ushbu Qonunning
+Underfull \hbox (badness 3668) in paragraph at lines 68--69
+\TU/LiberationSerif(0)/m/n/14.05249 ushbu Qonunning 24-moddasiga muvofiq normat
+iv-huquqiy hujjatlar
  []
 
 
@@ -1106,11 +1094,11 @@ Package rerunfilecheck Info: File `cover_letter_uz.out' has not changed.
 Here is how much of TeX's memory you used:
  16819 strings out of 469974
  308877 string characters out of 5477063
- 865311 words of memory out of 5000000
+ 865314 words of memory out of 5000000
  45237 multiletter control sequences out of 15000+600000
  628655 words of font info for 72 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,857b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,107p,943b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
 ter_uz.pdf (3 pages).

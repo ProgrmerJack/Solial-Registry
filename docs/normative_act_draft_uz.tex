@@ -24,7 +24,7 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancyhead[C]{\ifnum\value{page}>1\thepage\fi}
+\fancyhead[C]{\ifnum\value{page}>1\relax\thepage\fi}
 % Liberation Serif is a Times-compatible substitute for Times New Roman.
 % Geometry, size and pagination: O‘RQ-682 appended methodology §§43–51.
 \hyphenpenalty=10000
@@ -41,9 +41,9 @@
 \begin{center}\textbf{TAKLIFLAR}\par
 \textbf{Oʻzbekiston Respublikasi Prezidentining 2026-yil 11-sentabrdagi PF-193-son Farmoni 14-bandi ijrosi yuzasidan ishlab chiqilayotgan normativ-huquqiy hujjat loyihasiga kiritish uchun}\end{center}
 
-\noindent Kirituvchi: Ashuraliyev Abduxoliq Akmal oʻgʻli. 2026-yil 3-oktabrdagi tahrir.
+\noindent Kirituvchi: Ashuraliyev Abduxoliq Akmal oʻgʻli. 2026-yil 7-oktabrdagi tahrir.
 
-I boʻlim oilalarni koʻp oʻlchovli baholash tizimi orqali Ijtimoiy reyestrga kiritishning yangi tizimi toʻgʻrisida ishlab chiqilayotgan hujjatga kiritish uchun taklif etiladi. II boʻlim amaldagi Ijtimoiy reyestrni yuritish tartibi toʻgʻrisidagi nizomga oʻzgartishlarni, III boʻlim esa ularga oid oʻtish qoidasini oʻz ichiga oladi. Ishlab chiqilayotgan hujjat ushbu Nizomni almashtirgan taqdirda II va III boʻlimlar qoidalari yangi hujjatning tegishli normalariga kiritiladi. Yakuniy raqamlash ishlab chiquvchi tomonidan belgilanadi.
+I boʻlim oilalarni koʻp oʻlchovli baholash tizimi orqali Ijtimoiy reyestrga kiritishning yangi tizimi toʻgʻrisida ishlab chiqilayotgan hujjatga kiritish uchun taklif etiladi. II boʻlim amaldagi Ijtimoiy reyestrni yuritish tartibi toʻgʻrisidagi nizomga oʻzgartishlarni, III boʻlim esa ularga oid oʻtish qoidasini oʻz ichiga oladi. Ishlab chiqilayotgan hujjat ushbu Nizomni almashtirgan taqdirda II va III boʻlimlar qoidalari yangi hujjatning tegishli normalariga kiritiladi. Boʻlimlarga ajratish koʻrib chiqish qulayligi uchun xizmat qiladi; hujjatning tarkibiy birliklari va ularning raqamlanishini ishlab chiquvchi belgilaydi.
 
 \section*{I boʻlim. Koʻp oʻlchovli baholash hisob-kitoblarining toʻgʻriligi va tekshiriluvchanligi}
 
@@ -91,7 +91,7 @@ tasdiqlanmagan maʼlumotlar — davlat organi yoki tashkilotining axborot tizimi
 \sub{b)}Markaz bir ish kuni ichida tegishli axborot tizimiga takroriy soʻrov yuboradi;
 \sub{v)}ariza beruvchiga qaysi maʼlumotlar qaysi organ yoki tashkilotda aniqlashtirilishi lozimligi maʼlum qilinadi;
 \sub{g)}maʼlumotlarning tasdiqlanmaganligi oʻz-oʻzidan Ijtimoiy reyestrga kiritishni rad etish, oilaning toifasini oʻzgartirish yoki uni Ijtimoiy reyestrdan chiqarish uchun asos boʻlmaydi; bunday qarorga faqat koʻp oʻlchovli baholash uslubiyoti yoki qonunchilikda belgilangan asos boʻyicha, ushbu asos ushbu boʻlimning 17-bandida nazarda tutilgan maʼlumotlarda koʻrsatilgan holda yoʻl qoʻyiladi;
-\sub{d)}dastlabki soʻrov yuborilgan kundan boshlab oʻn ish kuni oʻtgandan keyin ham maʼlumotlar tasdiqlanmagan boʻlsa, baholash ushbu boʻlim 3-bandining “e” kichik bandida nazarda tutilgan tartibni qoʻllagan holda yakunlanadi; takroriy soʻrovlar bu muddatni qaytadan boshlamaydi; yakuniy baholash muddati dastlabki soʻrov yuborilgan kundan boshlab tasdiqlangan maʼlumotlar olinguncha yoki koʻrsatilgan oʻn ish kuni tugaguncha toʻxtatib turiladi;
+\sub{d)}dastlabki soʻrov yuborilgan kundan boshlab oʻn ish kuni oʻtgandan keyin yoki, agar qaror qabul qilish muddati undan oldin tugasa, ushbu muddat tugaganda ham maʼlumotlar tasdiqlanmagan boʻlsa, baholash ushbu boʻlim 3-bandining “e” kichik bandida nazarda tutilgan tartibni qoʻllagan holda yakunlanadi; takroriy soʻrovlar bu muddatlarni qaytadan boshlamaydi, javob kelmaganligi esa qaror qabul qilish muddatini toʻxtatib turmaydi;
 \sub{e)}qayta baholashda u ushbu bandning “d” kichik bandiga muvofiq yakunlanguniga qadar ushbu qayta baholash natijalari boʻyicha oilaning toifasi oʻzgartirilmaydi va oila Ijtimoiy reyestrdan chiqarilmaydi.
 
 \norm{11}Agentlikning koʻp oʻlchovli baholash uslubiyoti uchun masʼul tarkibiy boʻlinmasi quyidagilarni oʻz ichiga olgan nazorat misollari toʻplamini tasdiqlaydi:
@@ -106,16 +106,16 @@ tasdiqlanmagan maʼlumotlar — davlat organi yoki tashkilotining axborot tizimi
 
 \norm{13}Markaz koʻp oʻlchovli baholash uslubiyoti birinchi marta qoʻllanilishidan oldin, shuningdek uslubiyotga, parametrlar qiymatlariga yoki “YAMIH” AT dasturiy taʼminotiga ballar soni yoki baholash natijasiga taʼsir qiluvchi har bir oʻzgartish qoʻllanilishidan oldin, ushbu boʻlimning 22-bandida nazarda tutilgan hollar bundan mustasno, “YAMIH” AT ballari va baholash natijalarini nazorat misollarining ballari va natijalari bilan solishtirishni taʼminlaydi.
 
-\norm{14}Koʻp oʻlchovli baholash uslubiyotini birinchi marta qoʻllash va ushbu boʻlimning 13-bandida koʻrsatilgan oʻzgartish faqat “YAMIH” AT ballari soni va baholash natijalarining nazorat misollaridan farqi boʻlmaganda hamda koʻp oʻlchovli baholash uslubiyotining har bir chegaraviy qiymati, oraligʻi, istisnosi va alohida tartibi uchun nazorat misoli mavjud boʻlganda amalga oshiriladi.
+\norm{14}Koʻp oʻlchovli baholash uslubiyotini birinchi marta qoʻllash va ushbu boʻlimning 13-bandida koʻrsatilgan oʻzgartish faqat “YAMIH” AT ballari soni va baholash natijalarining nazorat misollaridan farqi boʻlmaganda hamda ushbu boʻlimning 11-bandida nazarda tutilgan barcha nazorat misollari mavjud boʻlganda amalga oshiriladi; agar qonunchilikda belgilangan qoʻllash boshlanadigan sanaga qadar ushbu shartlar bajarilmasa, oʻtish tartibini koʻp oʻlchovli baholash uslubiyotini tasdiqlagan organ belgilaydi.
 
 \norm{15}Solishtirish natijalari axborot tizimlarini foydalanishga topshirish va ularga oʻzgartish kiritishning belgilangan tartibida nazarda tutilgan hujjatlar tarkibida bayonnoma bilan rasmiylashtiriladi. Bayonnomada quyidagilar koʻrsatiladi:
 \sub{a)}hisob-kitob versiyasi: koʻp oʻlchovli baholash uslubiyoti tahriri, dasturiy taʼminot versiyasi va parametrlar qiymatlari;
 \sub{b)}solishtirilgan nazorat misollari soni;
 \sub{v)}ballar va baholash natijalarida aniqlangan farqlar hamda ularni bartaraf etish choralari;
-\sub{g)}ularni tekshiradigan nazorat misollari koʻrsatilgan holda koʻp oʻlchovli baholash uslubiyotining chegaraviy qiymatlari, oraliqlari, istisnolari va alohida tartiblari roʻyxati;
+\sub{g)}ushbu boʻlimning 11-bandidagi har bir talabning qamrab olinishi, uni tekshiradigan nazorat misollari koʻrsatilgan holda;
 \sub{d)}solishtirishni oʻtkazgan shaxslarning familiyalari va lavozimlari.
 
-\norm{16}Nazorat misollari toʻplami koʻp oʻlchovli baholash uslubiyotiga har bir oʻzgartish kiritilganda toʻldiriladi.
+\norm{16}Nazorat misollari toʻplami koʻp oʻlchovli baholash uslubiyotiga har bir oʻzgartish kiritilganda toʻldiriladi; ushbu boʻlimning 11 va 12-bandlariga mos keladigan avval tasdiqlangan nazorat misollaridan qayta foydalaniladi.
 
 \norm{17}Har bir baholash natijasi uchun “YAMIH” ATda baholash natijasi toʻgʻrisidagi maʼlumotlarni saqlash uchun qonunchilikda belgilangan muddat davomida quyidagilar saqlanadi:
 \sub{a)}hisob-kitob versiyasi;
@@ -124,7 +124,7 @@ tasdiqlanmagan maʼlumotlar — davlat organi yoki tashkilotining axborot tizimi
 \sub{g)}ballar soni va qoʻllanilgan chegaraviy qiymat;
 \sub{d)}qoʻllanilgan normativ daromadlar va ularni qoʻllash asoslari;
 \sub{e)}hisob-kitobni qayta bajarish imkonini beruvchi koʻp oʻlchovli baholash uslubiyoti tahririga, parametrlar qiymatlariga va dasturiy taʼminotning bajariladigan versiyasiga kirish imkoniyati;
-\sub{j)}Ijtimoiy reyestrga kiritish rad etilgan, oilaning toifasi oʻzgartirilgan yoki u Ijtimoiy reyestrdan chiqarilgan boʻlsa, ushbu qarorning asosi.
+\sub{j)}Ijtimoiy reyestrga kiritish rad etilgan, oilaning toifasi oʻzgartirilgan yoki u Ijtimoiy reyestrdan chiqarilgan boʻlsa, ushbu qarorning aniq haqiqiy va yuridik asoslari, shu jumladan normativ-huquqiy hujjatning qoʻllanilgan normasi.
 
 \norm{18}Ariza beruvchiga baholash natijasi toʻgʻrisidagi xabarnoma bilan bir vaqtda Yagona interaktiv davlat xizmatlari portalidagi shaxsiy kabinet orqali, uning murojaatiga koʻra esa “Inson” ijtimoiy xizmatlar markazida quyidagilar toʻgʻrisida maʼlumot taqdim etiladi:
 \sub{a)}manbalari va davrlari koʻrsatilgan holda oilasi mezonlarining qiymatlari;
@@ -132,15 +132,16 @@ tasdiqlanmagan maʼlumotlar — davlat organi yoki tashkilotining axborot tizimi
 \sub{v)}qoʻllanilgan normativ daromadlar va ularni qoʻllash asoslari;
 \sub{g)}aniqlashtirilishi lozim boʻlgan maʼlumotlar;
 \sub{d)}qarorning ehtimoldagi yuridik oqibatlari;
-\sub{e)}eʼtiroz bildirish va oʻz huquqlarini himoya qilish tartibi, qaror ustidan shikoyat qilish muddati va tartibi.
+\sub{e)}eʼtiroz bildirish va oʻz huquqlarini himoya qilish tartibi, qaror ustidan shikoyat qilish muddati va tartibi;
+\sub{j)}qarorning aniq haqiqiy va yuridik asoslari, shu jumladan normativ-huquqiy hujjatning qoʻllanilgan normasi.
 
 \norm{19}Ushbu boʻlimning 18-bandida nazarda tutilgan maʼlumotda boshqa oila aʼzolarining shaxsga doir maxsus maʼlumotlari faqat tegishli mezon qoʻllanilganligi fakti sifatida koʻrsatiladi.
 
-\norm{20}Markaz oilaga nisbatan qoʻllanilgan baholash natijasining koʻp oʻlchovli baholash uslubiyotiga zidligini, ariza beruvchining eʼtirozi yoki shikoyatida koʻrsatilgan zidlikni esa ularni koʻrib chiqish muddati doirasida nazorat hisob-kitobi orqali tekshiradi hamda zidlik tasdiqlangan kundan boshlab oʻn kun ichida ushbu boʻlimning 17-bandida nazarda tutilgan maʼlumotlar asosida ushbu nomuvofiqlik taʼsir qilgan barcha baholash natijalarini aniqlaydi va ularning roʻyxatini Agentlikka yuboradi.
+\norm{20}Markaz oilaga nisbatan qoʻllanilgan baholash natijasining koʻp oʻlchovli baholash uslubiyotiga nomuvofiqligini u aniqlangan kundan boshlab oʻn ish kuni ichida, ariza beruvchining eʼtirozi yoki shikoyatida koʻrsatilgan nomuvofiqlikni esa ularni koʻrib chiqish muddati doirasida nazorat hisob-kitobi orqali tekshiradi hamda nomuvofiqlik tasdiqlangan kundan boshlab oʻn ish kuni ichida ushbu boʻlimning 17-bandida nazarda tutilgan maʼlumotlar asosida ushbu nomuvofiqlik taʼsir qilgan barcha baholash natijalarini aniqlaydi va ularning roʻyxatini Agentlikka yuboradi.
 
 \norm{21}Agentlik ushbu boʻlimning 20 yoki 22-bandida nazarda tutilgan roʻyxat olingan kundan boshlab bir oy ichida undagi baholash natijalarining belgilangan tartibda qayta koʻrib chiqilishini va qayta koʻrib chiqish natijasi toʻgʻrisida ariza beruvchilarning shaxsiy kabinet orqali xabardor qilinishini taʼminlaydi; qayta koʻrib chiqishning tayinlangan yordam uchun oqibatlari qonunchilikka muvofiq belgilanadi. Taʼsirlangan natijalarni aniqlash va qayta koʻrib chiqish ariza beruvchining eʼtirozini koʻrib chiqish va uning natijasi haqida xabar berishning qonunchilikda belgilangan muddatini uzaytirmaydi.
 
-\norm{22}Qonunchilikda nazarda tutilgan hollarda algoritmni vaqtincha oʻzgartirish toʻgʻrisidagi qaror, uning asosi va qoʻllanilish davri “YAMIH” ATda qayd etiladi; vaqtinchalik algoritm boʻyicha aniqlangan baholash natijalari belgilanadi va maʼlumotlar almashinuvi tiklanganidan keyin oʻn kun ichida dastlabki baholashga nisbatan qoʻllaniladigan koʻp oʻlchovli baholash uslubiyotining toʻgʻri bajarilishi boʻyicha, oʻtish qoidalarini hisobga olgan holda tekshiriladi; farq qiluvchi natijalar roʻyxatini Markaz Agentlikka yuboradi, Agentlik ularning ushbu boʻlimning 21-bandida nazarda tutilgan tartibda va muddatlarda qayta koʻrib chiqilishini taʼminlaydi.
+\norm{22}Qonunchilikda nazarda tutilgan hollarda algoritmni vaqtincha oʻzgartirish toʻgʻrisidagi qaror, uning asosi va qoʻllanilish davri “YAMIH” ATda qayd etiladi; vaqtinchalik algoritm boʻyicha aniqlangan baholash natijalari belgilanadi va maʼlumotlar almashinuvi tiklanganidan keyin oʻn ish kuni ichida dastlabki baholashga nisbatan qoʻllaniladigan koʻp oʻlchovli baholash uslubiyotining toʻgʻri bajarilishi boʻyicha, oʻtish qoidalarini hisobga olgan holda tekshiriladi; farq qiluvchi natijalar roʻyxatini Markaz Agentlikka yuboradi, Agentlik ularning ushbu boʻlimning 21-bandida nazarda tutilgan tartibda va muddatlarda qayta koʻrib chiqilishini taʼminlaydi.
 
 \norm{23}Ushbu boʻlimni amalga oshirish “YAMIH” ATni saqlash va rivojlantirish uchun nazarda tutiladigan mablagʻlar doirasida amalga oshiriladi.
 
@@ -156,7 +157,7 @@ tasdiqlanmagan maʼlumotlar — davlat organi yoki tashkilotining axborot tizimi
 
 \norm{4}37-band quyidagi mazmundagi ikkinchi xatboshi bilan toʻldirilsin:
 
-“Bir vaqtning oʻzida ariza beruvchiga Yagona interaktiv davlat xizmatlari portalidagi shaxsiy kabinet orqali, uning murojaatiga koʻra esa “Inson” ijtimoiy xizmatlar markazida qaror qabul qilinishiga asos boʻlgan maʼlumotlar, qoʻllanilgan normativ daromadlar, qaror qabul qilish tartibi, qarorning ehtimoldagi yuridik oqibatlari, unga eʼtiroz bildirish va oʻz huquqlarini himoya qilish tartibi, qaror ustidan shikoyat qilish muddati va tartibi toʻgʻrisidagi maʼlumotlar taqdim etiladi. Boshqa oila aʼzolarining shaxsga doir maxsus maʼlumotlari faqat tegishli mezon qoʻllanilganligi fakti sifatida koʻrsatiladi.”.
+“Bir vaqtning oʻzida ariza beruvchiga Yagona interaktiv davlat xizmatlari portalidagi shaxsiy kabinet orqali, uning murojaatiga koʻra esa “Inson” ijtimoiy xizmatlar markazida qaror qabul qilinishiga asos boʻlgan maʼlumotlar, qarorning aniq haqiqiy va yuridik asoslari, shu jumladan normativ-huquqiy hujjatning qoʻllanilgan normasi, qoʻllanilgan normativ daromadlar, qaror qabul qilish tartibi, qarorning ehtimoldagi yuridik oqibatlari, unga eʼtiroz bildirish va oʻz huquqlarini himoya qilish tartibi, qaror ustidan shikoyat qilish muddati va tartibi toʻgʻrisidagi maʼlumotlar taqdim etiladi. Boshqa oila aʼzolarining shaxsga doir maxsus maʼlumotlari faqat tegishli mezon qoʻllanilganligi fakti sifatida koʻrsatiladi.”.
 
 \norm{5}44-band quyidagi mazmundagi ikkinchi xatboshi bilan toʻldirilsin:
 
