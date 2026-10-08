@@ -675,6 +675,14 @@ an: daromad $[]$ ga teng
 Underfull \hbox (badness 3049) in paragraph at lines 367--368
 \TU/LiberationSerif(0)/m/n/14.05249 oʻzgartirish (1-material, II boʻlim) yoki i
 shlab chiquvchining qarori
+
+Underfull \hbox (badness 2343) in paragraph at lines 372--373
+\TU/LiberationSerif(0)/m/n/14.05249 va tasodifiy sonlarni ishlatmaydi; rasmlar 
+va PDF uchun requirements.txt
+
+Underfull \hbox (badness 3078) in paragraph at lines 372--373
+\TU/LiberationSerif(0)/m/n/14.05249 dagi paketlar bir marta oʻrnatiladi; PDF yi
+gʻish uchun XeLaTeX hamda
 [26] [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2019-yil 2-iyu

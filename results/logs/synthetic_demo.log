@@ -33,7 +33,7 @@
       "scripts/run_analysis.py",
       "--demo"
     ],
-    "run_utc": "2026-10-08T03:27:24.577211+00:00",
+    "run_utc": "2026-10-08T03:44:51.871403+00:00",
     "random_seed": null,
     "generation": "deterministic; no random sampling",
     "analysis_plan_source": "docs/analysis_plan.md",
