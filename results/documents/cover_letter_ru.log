@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1055,14 +1055,13 @@ Underfull \hbox (badness 3068) in paragraph at lines 67--68
 ке проекта в соот-
  []
 
-
+[2]
 Underfull \hbox (badness 2326) in paragraph at lines 76--77
 []\TU/LiberationSerif(0)/m/n/14.05249 Материал 1. Предложения для включения в п
 роект нормативно-
  []
 
-[2] [3]
-(/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux)
+[3] (/home/xola/GitHub/Solial Registry/results/documents/cover_letter_ru.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
