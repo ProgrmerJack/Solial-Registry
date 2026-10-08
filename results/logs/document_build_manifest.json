@@ -5,8 +5,8 @@
   "documents": {
     "normative_act_draft_ru": {
       "pages": 7,
-      "pdf_sha256": "ed92b713c644e68562642c9053ea48215a0c74b68fa178e4f668fdca9eaba180",
-      "tex_sha256": "ab281f48d9f7d986e5e07b7c9eb924be08e02c4f68eea67e98894743c2f25600",
+      "pdf_sha256": "eb77ef0c57beb9ece6620983dbdf6d188bf39c831d109add89e51cb4866f134b",
+      "tex_sha256": "84f9cbd36caf92c26eeb86bebd0da71fb8f7dc4aa07bbbbc5598b147e3ce32b3",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -18,7 +18,7 @@
     },
     "explanatory_note_ru": {
       "pages": 32,
-      "pdf_sha256": "bf15374b41a8a581f9186080efd7278ca841bf0cef36a7bbd38a273d06c61512",
+      "pdf_sha256": "b5eb00003fb28ab0dab357650e71f16a280de4dbf3340096a988b2bd538d0e0c",
       "tex_sha256": "7ca2617d4bfc4c9ec636f085ee87dda2724fcc2da6f33c13c0a6d188416524e9",
       "command": [
         "xelatex",
@@ -31,7 +31,7 @@
     },
     "cover_letter_ru": {
       "pages": 3,
-      "pdf_sha256": "99793506374e204a4d94053448772cf93b046d30eec3b4b0f5473ba342c043d4",
+      "pdf_sha256": "3a38d65b9cab87b40ffad2ef6cfac2d8a7cca17c506ca30813913cb507a6b5c2",
       "tex_sha256": "fdfcf239c2b209bb91fa97d6a5efa0c848f91389dd94507771d9017608748f8b",
       "command": [
         "xelatex",
@@ -44,8 +44,8 @@
     },
     "normative_act_draft_uz": {
       "pages": 7,
-      "pdf_sha256": "9504aee4f8e40a82143bffd9a8bdc99e554c11d895f263e8951d500c92dc66e1",
-      "tex_sha256": "e40dc3cecac01568e9c61c84ae0794fb105acc4933974a8aa9c7717749facb7c",
+      "pdf_sha256": "5b1b578907594f7b3680cb0c0f072e4f4e6b969ab626439acea577c5f65fcf58",
+      "tex_sha256": "0b10c96c7f3b07b7ca6bd8a49428485b961f9ee39d463589463e22399b220726",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -57,7 +57,7 @@
     },
     "explanatory_note_uz": {
       "pages": 30,
-      "pdf_sha256": "76d860432262e6cc32a00dc00b11cc6b480e346d3045529c6156392a77e20f86",
+      "pdf_sha256": "a2bea6cd1d5fddd8b606404d8e195f677ed0a28d503450761f039d8477361476",
       "tex_sha256": "3c31bc1aa3410c5fec2902520fd3cbaa4f4e9078577759e2c9db553d7696ef0c",
       "command": [
         "xelatex",
@@ -70,7 +70,7 @@
     },
     "cover_letter_uz": {
       "pages": 3,
-      "pdf_sha256": "3c3229f54868658b917326c6ccbd30a79cc49708cd962ff09f5f407d9542bd32",
+      "pdf_sha256": "3a376bcad0a8f76a2aafc2d4822f93bad0908529636aac2c5d5ad74f5bc320c8",
       "tex_sha256": "77c4bfebf72f5f4e20cbe8c4ccf3145b607d4196265439d2f865ceac9b2e9876",
       "command": [
         "xelatex",
@@ -83,8 +83,8 @@
     },
     "normative_act_draft_en": {
       "pages": 7,
-      "pdf_sha256": "839dca09ab021bc190b4910eb18d053ae6df511532a37ea992c4f8cf98f5b8c7",
-      "tex_sha256": "9fac7cb43099b08b67fc9651e933bf46020a19a22e1f69ae46e817c5c04ed59c",
+      "pdf_sha256": "a6b96ff8dc12480a73386b3e8b1ad785a447248609421aa730c77b81f3f5ea82",
+      "tex_sha256": "0cf9e4a45dd6da17d52e31f273b20555ff0b0712394119dbcbe6d2d3f8eaa769",
       "command": [
         "xelatex",
         "-interaction=nonstopmode",
@@ -96,7 +96,7 @@
     },
     "explanatory_note_en": {
       "pages": 29,
-      "pdf_sha256": "cd5ca621024b0d3a9731dfb730c012c5f4123dad13f9f81fbee765952bf0925d",
+      "pdf_sha256": "96f9e08180047affbbe7f07c01baced05c03106b2ca82b17169d27d1c3c10514",
       "tex_sha256": "618cd8ccca628b8808b22a00d4fa7b5ad2f6b67e5a768c2452bdbba952c48198",
       "command": [
         "xelatex",
@@ -109,7 +109,7 @@
     },
     "cover_letter_en": {
       "pages": 3,
-      "pdf_sha256": "904ee4dc9ee1aa2675a0309d3c0dcf876bc6d2fe1b25f52314bd7924c63bc844",
+      "pdf_sha256": "e0bea44dd6834a21a60c0fd27c0b86789dd351dd1426518512052ac8d59fee27",
       "tex_sha256": "5f07e2f42021592b1c8a3eeb036affefc12fe6270dce1b1d30907e69619fd752",
       "command": [
         "xelatex",

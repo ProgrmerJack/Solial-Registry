@@ -14,7 +14,7 @@
   "tax_cases_checked": 24,
   "conditional_remittance_cases_checked": 16,
   "goat_cases_checked": 6,
-  "audit_sha256": "7215f23dd9270db4f5bc754b780f88d12a4d8b75c3f3a97ac68d7fd0dd034c03",
+  "audit_sha256": "27434f1ff96b8d5fa3dc02bb7f598598360184ae9e9ddd97dc2527a49a69a0be",
   "input_mode": "saved report bytes",
   "verifier_sha256": "6c7c562083d3c8536769b99c735988220ed5ec7e2d17015a0f52e189fda69938",
   "command": "python scripts/verify_results.py"
