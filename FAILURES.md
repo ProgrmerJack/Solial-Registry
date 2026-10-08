@@ -219,3 +219,8 @@ Rule: match rendered pages by their parsed page number rather than assuming the 
 Tried: adding a benefit-date module (Annex 3, PF-258 amendment), continuity/resource duties for the Ministry, an Art. 22 inclusion request and "necessity is not proven" caveats (Material 1 7→13 pages, Material 2 28→50).
 Failed: scope left the PF-193 ¶14 subject, duties fell outside the Agency's competence, and the text supplied ready-made rejection wording; Art. 22 contradicted the user's proposal-only decision.
 Rule: keep each norm within the ordered act and the addressee's competence, state limits once without conceding necessity, and check every edit against the standing submission decisions.
+
+## 2026-10-08 — Protective clause contradicted an existing recovery rule
+Tried: adding to Material 1 ¶21 that a recalculation difference is not itself a ground to recover paid assistance.
+Failed: Resolution 35 Annex 3 ¶29 already provides deduction and court recovery of technical overpayments, and APL Art 61 requires return unless a law provides otherwise.
+Rule: before adding any protective rule, search the same act and its annexes for the opposite rule; cite the existing statutory safeguard (APL Arts 16, 59) instead.

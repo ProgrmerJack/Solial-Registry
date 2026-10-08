@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1433,10 +1433,9 @@ ge found in box being split [8]
 ignored: Infinite glue shrinkage found in box being split
  [9]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
- [10] [11] [12] [13]
-ignored: Infinite glue shrinkage found in box being split [14]
-ignored: Infini
-te glue shrinkage found in box being split [15] [16]
+ [10] [11] [12] [13] [14]
+ignored: Infinite glue shrinkage found in box being split [15] 
+[16]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
  [17]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
@@ -1463,7 +1462,7 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+ [19]
 Underfull \hbox (badness 4416) in paragraph at lines 237--237
 []|\TU/LiberationSerif(0)/m/n/11.04124 Minimum $[][][]$
  []
@@ -1478,7 +1477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 \TU/LiberationSerif(0)/m/n/11.04124 floor change
  []
 
-[19] [20]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []|\TU/LiberationSerif(0)/m/n/11.04124 Monthly contribution
  []
@@ -1488,19 +1487,18 @@ Underfull \hbox (badness 1286) in paragraph at lines 277--278
 []|\TU/LiberationSerif(0)/m/n/11.04124 Per-person drop, four
  []
 
-
+[21]
 Underfull \hbox (badness 1097) in paragraph at lines 313--314
 \TU/LiberationSerif(0)/m/n/14.05249 Point 23 sets eight coefficients of monthly
  normative income for the self-
  []
 
-[21]
-ignored: Infinite glue shrinkage found in box being split [22] [23]
+[22] [23] [24]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
- [24]
+
 ignored: Infinite glue shrinkage found in box being split [25]
-ignored: Infinite glue shrinka
-ge found in box being split [26]
+ignored: Infinite glue shrinkage fo
+und in box being split [26]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
@@ -1547,7 +1545,7 @@ Package rerunfilecheck Info: File `explanatory_note_en.out' has not changed.
 Here is how much of TeX's memory you used:
  39199 strings out of 469974
  919037 string characters out of 5477063
- 1620262 words of memory out of 5000000
+ 1643905 words of memory out of 5000000
  67190 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191

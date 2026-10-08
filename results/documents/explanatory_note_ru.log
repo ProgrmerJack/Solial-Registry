@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1494,19 +1494,21 @@ ignored: Infinite glue shrinkage found in box being split [8]
 ignored: Infinite glue shrinkage fo
 und in box being split [9]
 ignored: Infinite glue shrinkage found in box being split [10]
+
+ignored: Infinite glue shrinkage found in box being split [11]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
- [11] [12] [13]
+ [12] [13] [14]
 Underfull \hbox (badness 4242) in paragraph at lines 137--138
 []\TU/LiberationSerif(0)/m/n/14.05249 Новых органов, должностей, информационных
  систем и этапов
  []
 
-[14] [15]
-ignored: Infinite glue shrinkage found in box being split [16]
+[15] [16]
+ignored: Infinite glue shrinkage found in box being split [17]
 ignored: Infinite glue shr
-inkage found in box being split [17] [18]
+inkage found in box being split [18] [19]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
- [19]
+ [20]
 Underfull \hbox (badness 1616) in paragraph at lines 199--200
 \TU/LiberationSerif(0)/m/n/14.05249 4105 земельных случаев, 12 случаев тяжёлой 
 ситуации, 24 налоговых
@@ -1520,7 +1522,7 @@ Underfull \hbox (badness 2884) in paragraph at lines 199--200
 
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-[20]
+[21]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 22
 6.
@@ -1541,7 +1543,7 @@ LaTeX Font Info:    Font shape `TU/texgyretermes-math.otf(3)/m/n' will be
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\TU/LiberationSerif(0)/m/n/11.04124 Участок $[][]$
  []
@@ -1556,13 +1558,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \TU/LiberationSerif(0)/m/n/11.04124 изменения
  []
 
-
-ignored: Infinite glue shrinkage found in box being split [21] [22]
+[23]
 Underfull \hbox (badness 5802) in paragraph at lines 273--273
 []|\TU/LiberationSerif(0)/m/n/11.04124 Снижение за месяц
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []|\TU/LiberationSerif(0)/m/n/11.04124 Неформальный:
  []
@@ -1577,43 +1578,29 @@ Underfull \hbox (badness 1400) in paragraph at lines 316--316
 []|\TU/LiberationSerif(0)/m/n/11.04124 Нукус / област-
  []
 
-
-ignored: Infinite glue shrinkage found in box being split [24]
+[25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 346--347
 \TU/LiberationSerif(0)/m/n/14.05249 Несогласованности возникают для указанных д
 опустимых входных
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 346--347
-\TU/LiberationSerif(0)/m/n/14.05249 Агентство может определить это число на сво
-их данных приложенной
- []
-
-[25]
 Underfull \hbox (badness 2884) in paragraph at lines 357--358
 []\TU/LiberationSerif(0)/m/n/14.05249 Опубликованные правила расчёта воспроизво
 димы: официальный
  []
 
-
+[27]
 Underfull \hbox (badness 2229) in paragraph at lines 364--365
 \TU/LiberationSerif(0)/m/n/14.05249 ($[][][] [] [][][][][][] [] [][][][][][][][
 ][]$), тесты ($[][][][][][]$), независимую проверку и результаты
  []
 
-
-Underfull \hbox (badness 1048) in paragraph at lines 364--365
-\TU/LiberationSerif(0)/m/n/14.05249 результат хранит SHA-256 спецификации и код
-а, команду и время вы-
- []
-
-[26]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-ignored: Infinite glue shrinkage found in box being split [27]
-ignored: Infinite glue shrinkage fo
-und in box being split [28]
+[28]
+ignored: Infinite glue shrinkage found in box being split [29]
+ignored: Infinite glue shrinkag
+e found in box being split [30]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
@@ -1629,14 +1616,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--401
 [][] [] [][][][] [] [][] [] [][][][][][][] [] [][] [] [][] []
  []
 
-[29]
+[31]
 Underfull \hbox (badness 1019) in paragraph at lines 404--405
 \TU/LiberationSerif(0)/m/n/12.045 ских расходах на 2026 год, 4 марта 2026 года.
  []$[][][][][] [] [] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][
 ][][] []
  []
 
-[30]
+[32]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_ru.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1648,11 +1635,11 @@ Package rerunfilecheck Info: File `explanatory_note_ru.out' has not changed.
 Here is how much of TeX's memory you used:
  39349 strings out of 469974
  921125 string characters out of 5477063
- 1615767 words of memory out of 5000000
+ 1639900 words of memory out of 5000000
  67332 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
  99i,12n,118p,2267b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_ru.pdf (30 pages).
+ry_note_ru.pdf (32 pages).

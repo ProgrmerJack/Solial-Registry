@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1047,9 +1047,9 @@ h, toifani oʻzgartirish yoki
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 66--67
-\TU/LiberationSerif(0)/m/n/14.05249 chiqarish toʻgʻrisidagi qaror asoslari, eʼt
-iroz bildirish tartibi, shikoyat
+Underfull \hbox (badness 1735) in paragraph at lines 66--67
+\TU/LiberationSerif(0)/m/n/14.05249 chiqarish toʻgʻrisidagi qarorning qoʻllanil
+gan norma koʻrsatilgan aniq
  []
 
 
@@ -1062,6 +1062,12 @@ r toʻgʻrisida”gi Qonunning
 Underfull \hbox (badness 3668) in paragraph at lines 68--69
 \TU/LiberationSerif(0)/m/n/14.05249 ushbu Qonunning 24-moddasiga muvofiq normat
 iv-huquqiy hujjatlar
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 68--69
+\TU/LiberationSerif(0)/m/n/14.05249 berish, shuningdek taqdim etilgan hisob-kit
+oblar boʻyicha hamkorlik
  []
 
 
@@ -1094,11 +1100,11 @@ Package rerunfilecheck Info: File `cover_letter_uz.out' has not changed.
 Here is how much of TeX's memory you used:
  16819 strings out of 469974
  308877 string characters out of 5477063
- 865314 words of memory out of 5000000
+ 865312 words of memory out of 5000000
  45237 multiletter control sequences out of 15000+600000
  628655 words of font info for 72 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,11n,107p,943b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,107p,943b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/cover_let
 ter_uz.pdf (3 pages).

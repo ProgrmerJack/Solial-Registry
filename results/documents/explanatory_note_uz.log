@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1344,7 +1344,7 @@ Package hyperref Info: Link coloring OFF on input line 44.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
-\TU/LiberationSerif(0)/m/n/14.05249 2026-yil 7-oktabrdagi tahrir. Tuzilishi “No
+\TU/LiberationSerif(0)/m/n/14.05249 2026-yil 8-oktabrdagi tahrir. Tuzilishi “No
 rmativ-huquqiy hujjatlar
  []
 
@@ -1595,7 +1595,7 @@ Underfull \hbox (badness 7832) in paragraph at lines 114--115
 uchun tenglikdagi toifa
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 []\TU/LiberationSerif(0)/m/n/14.05249 Har bir baholash natijasi saqlangan maʼlu
 motlar boʻyicha qayta
@@ -1643,7 +1643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 anasigacha bu shartlar
  []
 
-[11]
+
 Underfull \hbox (badness 1953) in paragraph at lines 119--120
 \TU/LiberationSerif(0)/m/n/14.05249 toifasini oʻzgartirish yoki chiqarishga oli
 b kelmaydi; qayta baholash
@@ -1799,7 +1799,7 @@ Underfull \hbox (badness 3601) in paragraph at lines 142--143
 an, uning 14-bandi esa
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\TU/LiberationSerif(0)/m/n/14.05249 Tomorqa yeridan olinadigan normativ darom
 adni hisoblashda
@@ -1823,7 +1823,7 @@ Underfull \hbox (badness 2626) in paragraph at lines 144--145
 n mahrum qilishi mumkin.
  []
 
-[14]
+
 Underfull \hbox (badness 1796) in paragraph at lines 145--146
 \TU/LiberationSerif(0)/m/n/14.05249 oʻtkazmani allaqachon normativ daromadga te
 ng chegara ($[][]$) bilan
@@ -1836,12 +1836,18 @@ ning aniq sonini Agentlik oʻz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-\TU/LiberationSerif(0)/m/n/14.05249 maʼlumotlari boʻyicha ilova qilingan dastur
- yordamida, shaxsga doir
+Underfull \hbox (badness 2884) in paragraph at lines 147--148
+\TU/LiberationSerif(0)/m/n/14.05249 maʼlumotlari boʻyicha aniqlaydi: ilova qili
+ngan dastur funksiyalari uning
  []
 
 
+Underfull \hbox (badness 4316) in paragraph at lines 147--148
+\TU/LiberationSerif(0)/m/n/14.05249 yozuvlariga uning tizimi ichida, shaxsga do
+ir maʼlumotlarni Agentlikdan
+ []
+
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/LiberationSerif(0)/m/n/14.05249 Taklif “Normativ-huquqiy hujjatlar toʻgʻris
 ida”gi Qonunning 20-moddasi
@@ -1865,10 +1871,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 iga 2026-yil 11-sentabrdan
  []
 
-[15]
+
 ignored: Infinite glue shrinkage found in box being split [16]
-ignored: Infinite glue shrinkag
-e found in box being split [17]
+ignored: Infinite glue shrinkage fo
+und in box being split [17]
 Underfull \hbox (badness 1383) in paragraph at lines 171--172
 \TU/LiberationSerif(0)/m/n/14.05249 Ushbu boʻlim loyihani asoslash uchun zarur 
 boʻlgan boshqa maʼlumotlarni
@@ -1892,6 +1898,13 @@ Underfull \hbox (badness 2409) in paragraph at lines 176--177
 gʻrisida”, “Jismoniy va yuridik
  []
 
+
+Underfull \hbox (badness 2970) in paragraph at lines 176--177
+\TU/LiberationSerif(0)/m/n/14.05249 7-oktabrda ushbu hujjatlarning davlat tilid
+agi rasmiy matnlari lex.uz dagi
+ []
+
+[18]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold Italic' not found.
 
 Underfull \hbox (badness 2443) in paragraph at lines 182--183
@@ -1911,7 +1924,7 @@ Underfull \hbox (badness 3849) in paragraph at lines 182--183
 qiymati faqat bir oylik sanali
  []
 
-[18]
+
 Underfull \hbox (badness 1783) in paragraph at lines 192--193
 \TU/LiberationSerif(0)/m/n/14.05249 boʻlmaganda oilani eʼtirof etadi; 39-bandni
 ng “a”, “b” kichik bandlari va
@@ -1923,7 +1936,7 @@ Underfull \hbox (badness 2617) in paragraph at lines 192--193
  $[] [] []$ boʻlgan oilalarni
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
 []\TU/LiberationSerif(0)/m/n/14.05249 Tomorqa maydoni (27-band): $[] [] [][] []
  [][]$ sohasida
@@ -1941,7 +1954,6 @@ Underfull \hbox (badness 3690) in paragraph at lines 198--199
 iqdori aniqlanmasa yoki
  []
 
-[19]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 
@@ -1950,6 +1962,7 @@ Underfull \hbox (badness 4967) in paragraph at lines 209--210
 58-son Farmonga oʻzgartish
  []
 
+[20]
 Font mapping `tex-text.tec' for font `Liberation Serif' not found.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 22
 9.
@@ -1982,7 +1995,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 231--232
 icha oraliqning 34–35-bandlar
  []
 
-[20]
+
 Underfull \hbox (badness 2088) in paragraph at lines 234--235
 $[][] [] [] [][][]$ \TU/LiberationSerif(0)/m/n/14.05249 boʻlganda formula $[][]
 [] [] [][][] [][] [] [][]$ ga teng va
@@ -2019,13 +2032,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \TU/LiberationSerif(0)/m/n/11.04124 oʻzgarish
  []
 
-[21]
+
+ignored: Infinite glue shrinkage found in box being split [21]
 Underfull \hbox (badness 3623) in paragraph at lines 274--275
 \TU/LiberationSerif(0)/m/n/14.05249 sifatida, $[] [][][] [][][]$ soʻm oʻtkazma 
 esa $[] [][][] [][][]$ sifatida hisobga olinadi.
  []
 
-
+[22]
 Underfull \hbox (badness 1087) in paragraph at lines 279--279
 []|\TU/LiberationSerif(0)/m/n/11.04124 Oylik ulush pasayishi
  []
@@ -2045,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
 []|\TU/LiberationSerif(0)/m/n/11.04124 Roʻyxatdagi
  []
 
-[22]
+
 Underfull \hbox (badness 5847) in paragraph at lines 312--313
 []\TU/LiberationSerif(0)/m/n/14.05249 Taklif etilayotgan tahrir (1-material, II
  boʻlim, 1-band) chet elda
@@ -2057,18 +2071,19 @@ Underfull \hbox (badness 5652) in paragraph at lines 312--313
 notonlikni bartaraf etishning
  []
 
-
+[23]
 Underfull \hbox (badness 6252) in paragraph at lines 324--324
 []|\TU/LiberationSerif(0)/m/n/11.04124 Nukus / viloyat
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 335--336
 \TU/LiberationSerif(0)/m/n/14.05249 18-banddagi uch oylik davrning kalendar sil
 jishi 30-band misoli bilan
  []
 
 
+ignored: Infinite glue shrinkage found in box being split [24]
 Underfull \hbox (badness 5022) in paragraph at lines 351--352
 \TU/LiberationSerif(0)/m/n/14.05249 misollar toʻplamidan oʻtish barcha xatolar 
 yoʻqligini isbotlamaydi, biroq
@@ -2092,13 +2107,13 @@ Underfull \hbox (badness 2662) in paragraph at lines 351--352
 ini uslubiyotni tasdiqlagan organ
  []
 
-[24]
+
 Underfull \hbox (badness 1400) in paragraph at lines 361--362
 \TU/LiberationSerif(0)/m/n/14.05249 Har bir guruh uchun dastur amaldagi va takl
 if etilayotgan qoida natijasini
  []
 
-
+[25]
 Underfull \hbox (badness 4660) in paragraph at lines 366--367
 []\TU/LiberationSerif(0)/m/n/14.05249 Toʻrtta normada nomuvofiqliklar isbotlang
 an: daromad $[]$ ga teng
@@ -2110,15 +2125,12 @@ Underfull \hbox (badness 3049) in paragraph at lines 367--368
 shlab chiquvchining qarori
  []
 
-[25]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
-ignored: Infinite glue shrinkage found in box being split [26]
-ignored: Infinite glue shrinkage fo
-und in box being split [27]
+[26]
+ignored: Infinite glue shrinkage found in box being split [27]
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
 Font mapping `tex-text.tec' for font `Liberation Serif Bold' not found.
-
+ [28]
 Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2019-yil 2-iyu
 ldagi OʻRQ-547-son “Shaxsga doir
@@ -2162,16 +2174,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--413
 ][][][][][][][][][][][][][][] []
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 415--416
 []\TU/LiberationSerif(0)/m/n/12.045 Oʻzbekiston Respublikasining 2018-yil 8-yan
 vardagi OʻRQ-457-son “Maʼmuriy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
+Underfull \hbox (badness 2229) in paragraph at lines 415--416
 \TU/LiberationSerif(0)/m/n/12.045 tartib-taomillar toʻgʻrisida”gi Qonuni, 2–4, 
-6, 8, 14–16, 37, 53–54-moddalar.
+6, 8, 14–16, 37, 53–54, 59-moddalar.
  []
 
 
@@ -2180,7 +2192,7 @@ Underfull \hbox (badness 1859) in paragraph at lines 416--417
 kabrdagi 560-II-son “Axborotlashtirish
  []
 
-[29]
+[29] [30]
 (/home/xola/GitHub/Solial Registry/results/documents/explanatory_note_uz.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -2192,11 +2204,11 @@ Package rerunfilecheck Info: File `explanatory_note_uz.out' has not changed.
 Here is how much of TeX's memory you used:
  38097 strings out of 469974
  898621 string characters out of 5477063
- 1601524 words of memory out of 5000000
+ 1580397 words of memory out of 5000000
  66103 multiletter control sequences out of 15000+600000
  633779 words of font info for 127 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 99i,11n,118p,2508b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,2508b,2178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/explanato
-ry_note_uz.pdf (29 pages).
+ry_note_uz.pdf (30 pages).

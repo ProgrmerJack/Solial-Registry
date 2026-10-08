@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  7 OCT 2026 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.9.2)  8 OCT 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1006,7 +1006,7 @@ Underfull \hbox (badness 1783) in paragraph at lines 173--174
  — from the end of the
  []
 
-[6]
+[6] [7]
 (/home/xola/GitHub/Solial Registry/results/documents/normative_act_draft_en.aux
 )
  ***********
@@ -1024,7 +1024,7 @@ Here is how much of TeX's memory you used:
  45144 multiletter control sequences out of 15000+600000
  628541 words of font info for 70 fonts, out of 8000000 for 9000
  206 hyphenation exceptions out of 8191
- 86i,12n,107p,788b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,828b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/xola/GitHub/Solial Registry/results/documents/normative
-_act_draft_en.pdf (6 pages).
+_act_draft_en.pdf (7 pages).
